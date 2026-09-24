@@ -933,7 +933,7 @@ h1, h2, h3, h4 {
 .cena--claro { --veu-cena: rgba(255, 252, 250, 0.74); }
 
 @media (max-width: 860px) {
-  .cena__arte img { object-position: center 22%; }
+  .cena__arte img { object-position: center top; }
   /* No celular o texto desce para o pé da arte, sobre um véu que sobe do
      rodapé: sobrepor o texto no meio taparia justamente o produto. */
   .cena__grade::before {

@@ -128,21 +128,6 @@ h1, h2, h3, h4 {
 
 .envoltorio { max-width: var(--largura); margin-inline: auto; padding-inline: var(--gutter); }
 
-/* ---------- rejunte ----------
-   As duas linhas do contêiner correm por trás da página inteira, fixas, como
-   o rejunte entre azulejos. É a malha deixando de ser desenho do topo e
-   virando estrutura da página. As faixas de cor passam por cima delas, que é
-   exatamente o que um ladrilho faz com o rejunte por baixo. */
-.rejunte {
-  position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  display: flex; justify-content: center;
-}
-.rejunte span {
-  width: calc(100% - 2 * var(--gutter));
-  max-width: calc(var(--largura) - 2 * var(--gutter));
-  border-inline: 1px solid rgba(22, 22, 26, 0.09);
-}
-
 /* ---------- medida ---------- */
 
 .medida {
@@ -328,9 +313,12 @@ h1, h2, h3, h4 {
 
 /* ---------- benefícios ---------- */
 
-.beneficios { display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid var(--linha); }
+/* Sem grade de tabela. Um fio só em cima, para encostar a faixa no banner,
+   e o resto separado por espaço. Quatro células com borda dos quatro lados é
+   planilha, não vitrine. */
+.beneficios { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--linha); }
 .beneficio { display: flex; gap: 11px; align-items: center; padding: 18px clamp(14px, 1.6vw, 24px); }
-.beneficio + .beneficio { border-left: 1px solid var(--linha); }
+
 .beneficio svg { width: 17px; height: 17px; stroke: var(--esmeralda); stroke-width: 1.4; fill: none; flex: none; margin-top: 2px; }
 .beneficio strong { display: block; font-size: 13px; font-weight: 600; letter-spacing: -0.005em; }
 .beneficio span { font-size: 12px; color: var(--tinta-fraca); }
@@ -345,11 +333,18 @@ h1, h2, h3, h4 {
 
 /* ---------- cartão de produto: moldura própria ---------- */
 
+/* A barra de rolagem nativa fica escondida na vitrine. Ela é um controle de
+   sistema, com aparência de sistema, e embaixo de uma fileira de perfume ela
+   denuncia componente inacabado. A navegação continua inteira: arrasto no
+   dedo, roda do mouse, setas e teclado. */
 .trilho {
   display: grid; grid-auto-flow: column; grid-auto-columns: minmax(208px, 1fr);
   gap: var(--gap-cartao); overflow-x: auto; scroll-snap-type: x proximity;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
+  scrollbar-width: none;
 }
+.trilho::-webkit-scrollbar, .marcas::-webkit-scrollbar { width: 0; height: 0; display: none; }
+.marcas { scrollbar-width: none; }
 .trilho > * { scroll-snap-align: start; }
 .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(208px, 1fr)); gap: var(--gap-cartao); }
 
@@ -546,8 +541,6 @@ h1, h2, h3, h4 {
 @media (max-width: 1100px) {
   .beleza-bloco { grid-template-columns: 1fr; }
   .beneficios { grid-template-columns: 1fr 1fr; }
-  .beneficio:nth-child(3) { border-left: 0; }
-  .beneficio:nth-child(n+3) { border-top: 1px solid var(--linha); }
   .rodape__grade { grid-template-columns: 1fr 1fr; }
 }
 
@@ -562,7 +555,7 @@ h1, h2, h3, h4 {
   .grade { grid-template-columns: 1fr 1fr; gap: 12px; }
   .areas { gap: 12px; }
   .beneficios { grid-template-columns: 1fr; }
-  .beneficio + .beneficio { border-left: 0; border-top: 1px solid var(--linha); }
+  .beneficio + .beneficio { border-top: 1px solid var(--linha); }
   .rodape__grade { grid-template-columns: 1fr; }
 }
 
@@ -678,15 +671,21 @@ h1, h2, h3, h4 {
 }
 .palco__seta:hover { background: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.5); }
 .palco__seta svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 1.6; fill: none; }
-.palco__seta--antes { left: clamp(10px, 1.6vw, 22px); }
-.palco__seta--depois { right: clamp(10px, 1.6vw, 22px); }
+/* Os controles descem para o canto e andam juntos. Centralizados na lateral
+   eles caíam em cima do parágrafo, e controle de carrossel cobrindo a fala da
+   campanha é o controle roubando o lugar do conteúdo. */
+.palco__seta { top: auto; bottom: 26px; translate: none; }
+.palco__seta--antes { left: auto; right: calc(var(--gutter) + 54px); }
+.palco__seta--depois { right: var(--gutter); }
 .palco:has(.cena--claro.cena--ativa) .palco__seta {
   background: rgba(22, 22, 26, 0.07); border-color: rgba(22, 22, 26, 0.22); color: var(--tinta);
 }
 
+/* Os pontos ficam alinhados com o texto, não no meio: a coluna da fala é a
+   régua da cena, e tudo que pertence a ela nasce nessa mesma margem. */
 .palco__pontos {
-  position: absolute; z-index: 3; left: 50%; translate: -50% 0; bottom: 22px;
-  display: flex; gap: 9px;
+  position: absolute; z-index: 3; left: var(--gutter); bottom: 24px;
+  display: flex; gap: 0;
 }
 /* O botão é a área de toque, 46 por 44. O fio visível é o pseudo-elemento.
    Foi preciso separar os dois porque o atalho `background` de qualquer regra
@@ -735,7 +734,7 @@ h1, h2, h3, h4 {
   .cena__titulo { font-size: clamp(27px, 7.4vw, 36px); max-width: 100%; }
   .cena__dizer p { font-size: 15.5px; margin-bottom: 24px; }
   .palco__seta { display: none; }
-  .palco__pontos { bottom: 16px; }
+  .palco__pontos { bottom: 6px; left: calc(var(--gutter) - 8px); }
 }
 
 /* ---------- banners de marca ----------
@@ -1182,7 +1181,7 @@ h1, h2, h3, h4 {
    desenho. Isso se faz com padding mais background-clip, nunca engordando
    o elemento visível. */
 @media (max-width: 860px) {
-  .palco__pontos { bottom: 0; gap: 0; }
+
 
   .ferramenta, .menu-movel__fechar { width: 44px; height: 44px; }
 
@@ -1232,12 +1231,23 @@ h1, h2, h3, h4 {
    "Preço a definir" era nota interna vazando para a vitrine. "Em breve" é
    estado de loja, e é verdade: o produto ainda não está à venda. Ele ocupa a
    mesma altura do preço para o rodapé dos cartões continuar alinhado. */
-.peca__breve {
-  display: inline-block;
-  font-family: var(--face-corpo); font-size: var(--preco);
-  font-weight: 400; letter-spacing: -0.012em; color: var(--tinta-fraca);
+/* Sem preço, o rodapé do cartão não finge um preço apagado: ele oferece o
+   que a loja realmente pode oferecer hoje. Fica na mesma altura do preço para
+   o rodapé dos vizinhos continuar alinhado, mas com peso e traço de ação, não
+   de valor desativado. */
+.peca__avisar {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--face-corpo); font-size: 13px; font-weight: 500;
+  letter-spacing: -0.004em; color: var(--esmeralda);
+  min-height: calc(var(--preco) * 1.1);
+  border-bottom: 1px solid currentColor; padding-bottom: 2px;
+  transition: color 0.3s ease;
 }
-.secao--grife .peca__breve { color: var(--tinta-fraca); }
+.peca:hover .peca__avisar { color: var(--bronze); }
+
+/* O frasco respira mais dentro do poço: produto encostado na borda pesa, e
+   peso é o oposto do que uma vitrine de perfume quer transmitir. */
+.peca__retrato img { inset: 17px; width: calc(100% - 34px); height: calc(100% - 34px); }
 
 /* ---------- âncora sob cabeçalho grudado ----------
    Sem isso, clicar em "Kits" leva à seção mas o cabeçalho cobre o título, e
@@ -1304,3 +1314,45 @@ h1, h2, h3, h4 {
     transition-delay: calc(var(--i, 0) * var(--passo, 0ms));
   }
 }
+
+/* ---------- passagem entre o papel e o verde ----------
+   A faixa escura entrava por corte seco, e corte seco entre fundos é o que
+   faz a página parecer montada por blocos empilhados. Uma passagem curta no
+   topo e no pé costura os dois, sem virar gradiente decorativo: ela existe
+   só nos 52px da emenda. */
+.secao--grife, .guia, .faixa-kit { position: relative; }
+.secao--grife::before, .guia::before, .faixa-kit::before,
+.secao--grife::after, .guia::after, .faixa-kit::after {
+  content: ''; position: absolute; left: 0; right: 0; height: 52px;
+  pointer-events: none; z-index: 1;
+}
+.secao--grife::before, .guia::before, .faixa-kit::before {
+  top: 0; background: linear-gradient(var(--papel), transparent);
+  opacity: 0.32;
+}
+.secao--grife::after, .guia::after, .faixa-kit::after {
+  bottom: 0; background: linear-gradient(transparent, var(--papel));
+  opacity: 0.22;
+}
+.secao--grife > *, .guia > *, .faixa-kit > * { position: relative; z-index: 2; }
+
+/* ---------- microinterações ----------
+   Pequenas, curtas e com função: cada uma responde a um gesto e nenhuma
+   acontece sozinha. */
+.seta, .palco__seta { transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, scale 0.25s var(--saida); }
+.seta:active, .palco__seta:active { scale: 0.94; }
+
+/* Link de seção: o traço cresce da esquerda em vez de acender inteiro. */
+.secao__cabeca a {
+  border-bottom: 0;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat; background-position: 0 100%; background-size: 100% 1px;
+  transition: background-size 0.4s var(--saida), color 0.3s ease;
+}
+.secao__cabeca a:hover { background-size: 0 1px; color: var(--bronze); }
+
+/* A ação principal responde ao toque antes de responder ao clique. */
+.acao:active { scale: 0.985; }
+
+/* O botão de compra rápida chega deslizando de baixo, não piscando. */
+.peca__rapido { transition: translate 0.42s var(--saida), background 0.3s ease; }

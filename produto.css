@@ -68,7 +68,7 @@
 .irmao[aria-current] { background: var(--areia); box-shadow: inset 0 -3px 0 var(--bronze); }
 .irmao__foto { position: relative; background: var(--areia); aspect-ratio: 1; display: grid; place-items: center; padding: 8px; margin-bottom: 7px; }
 .irmao__foto img { position: absolute; inset: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; }
-.irmao__nome { font-family: var(--face-medida); font-size: 8.5px; letter-spacing: 0.1em; text-transform: uppercase; line-height: 1.3; display: block; }
+.irmao__nome { font-family: var(--face-corpo); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; line-height: 1.3; display: block; }
 
 /* ---------- coluna de compra ---------- */
 
@@ -95,14 +95,14 @@
   align-self: stretch; display: flex; flex-direction: column; justify-content: center;
   background: var(--esmeralda); color: #fff; padding: 14px 18px; text-align: center;
 }
-.kit-aviso__valor .medida { color: rgba(255, 255, 255, 0.8); font-size: 8.5px; }
+.kit-aviso__valor .medida { color: rgba(255, 255, 255, 0.8); font-size: 11px; }
 .kit-aviso__valor strong {
-  font-family: var(--face-medida); font-size: 22px; font-weight: 700;
+  font-family: var(--face-corpo); font-size: 22px; font-weight: 700;
   font-variant-numeric: tabular-nums; letter-spacing: -0.045em; display: block; margin-top: 3px;
 }
 .kit-aviso__dizer { padding: 12px 18px 12px 0; }
 .kit-aviso__dizer p { margin: 0 0 4px; font-size: 14.5px; font-weight: 600; line-height: 1.35; }
-.kit-aviso__dizer span { display: inline-flex; align-items: center; gap: 8px; font-family: var(--face-medida); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--esmeralda); }
+.kit-aviso__dizer span { display: inline-flex; align-items: center; gap: 8px; font-family: var(--face-corpo); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--esmeralda); }
 .kit-aviso__dizer svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 1.7; fill: none; transition: transform 0.35s var(--saida); }
 .kit-aviso:hover svg { transform: translateX(5px); }
 
@@ -116,7 +116,7 @@
 .opcao__lista { display: flex; gap: 8px; flex-wrap: wrap; }
 .opcao__botao {
   border: 1px solid var(--linha-forte); background: none; color: var(--tinta);
-  font-family: var(--face-medida); font-size: 11px; font-variant-numeric: tabular-nums;
+  font-family: var(--face-corpo); font-size: 11px; font-variant-numeric: tabular-nums;
   padding: 12px 18px; cursor: pointer; transition: border-color 0.2s ease, background 0.2s ease;
 }
 .opcao__botao:hover { border-color: var(--tinta); }
@@ -126,7 +126,7 @@
 .quantidade { display: flex; align-items: center; gap: 0; border: 1px solid var(--linha-forte); width: fit-content; }
 .quantidade button { width: 42px; height: 46px; border: 0; background: none; color: var(--tinta); cursor: pointer; font-size: 18px; }
 .quantidade button:hover { background: var(--areia); }
-.quantidade span { min-width: 44px; text-align: center; font-family: var(--face-medida); font-variant-numeric: tabular-nums; font-size: 14px; }
+.quantidade span { min-width: 44px; text-align: center; font-family: var(--face-corpo); font-variant-numeric: tabular-nums; font-size: 14px; }
 
 .compra__acoes { display: grid; gap: 9px; margin-block: 24px; }
 
@@ -146,7 +146,7 @@
 /* Os três anéis ganham peso para dentro: o fundo é o mais discreto, o topo o
    mais próximo. Sem essa escada os três lêem como um polígono só, e o
    diagrama deixa de ser diagrama. */
-.olfativa path { stroke: var(--tinta); stroke-width: 1; vector-effect: non-scaling-stroke; transition: opacity 0.4s ease, stroke 0.4s ease, stroke-width 0.4s ease; }
+.olfativa path { stroke: var(--tinta); stroke-width: 1; vector-effect: non-scaling-stroke; transition: opacity 0.4s ease, stroke 0.4s ease; }
 .olfativa .anel--fundo { opacity: 0.3; }
 .olfativa .anel--coracao { opacity: 0.4; }
 .olfativa .anel--topo { opacity: 0.55; }
@@ -167,7 +167,7 @@
 
 .medidas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--linha); border: 1px solid var(--linha); }
 .medida-item { background: var(--areia); padding: 16px 14px 18px; }
-.medida-item__valor { font-family: var(--face-medida); font-size: clamp(18px, 1.9vw, 24px); font-weight: 700; font-variant-numeric: tabular-nums; display: block; margin-top: 7px; letter-spacing: -0.04em; }
+.medida-item__valor { font-family: var(--face-corpo); font-size: clamp(18px, 1.9vw, 24px); font-weight: 700; font-variant-numeric: tabular-nums; display: block; margin-top: 7px; letter-spacing: -0.04em; }
 
 /* ---------- kit ---------- */
 
@@ -181,7 +181,7 @@
 .kit__peca a:hover { border-color: var(--esmeralda); color: var(--esmeralda); }
 .kit__economia { background: var(--esmeralda); color: #fff; padding: clamp(26px, 3.2vw, 42px); display: flex; flex-direction: column; justify-content: center; gap: 4px; }
 .kit__economia .medida { color: rgba(255, 255, 255, 0.78); }
-.kit__economia strong { font-family: var(--face-medida); font-size: clamp(26px, 3vw, 36px); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
+.kit__economia strong { font-family: var(--face-corpo); font-size: clamp(26px, 3vw, 36px); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
 .kit__economia p { margin: 8px 0 0; font-size: 13px; color: rgba(255, 255, 255, 0.85); }
 
 /* ---------- acordeões ---------- */

@@ -7,7 +7,7 @@
 <meta name="description" content="Perfumaria árabe, importados de grife e beleza coreana, explicados frasco a frasco.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Spline+Sans+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="base.css">
 </head>
 <body>
@@ -62,7 +62,6 @@
 </header>
 
 <main>
-
 
   <section class="palco" aria-label="Destaques da loja" aria-roledescription="carrossel">
     <div class="palco__pista" id="palco-pista">
@@ -157,7 +156,6 @@
     </button>
     <div class="palco__pontos" role="tablist" aria-label="Escolher destaque"></div>
   </section>
-
 
   <div class="envoltorio">
     <div class="beneficios">
@@ -297,37 +295,44 @@
         <button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button>
         <button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button>
         <div class="trilho">
-        <a class="peca" href="produto.html">
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
         <span class="peca__selo">O mais procurado</span>
           <span class="peca__retrato"><img src="imagens/web/dior-sauvage-eau-de-toilette.webp" alt="Sauvage Eau de Toilette 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Dior</span>
           <h3 class="peca__nome">Sauvage Eau de Toilette 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Sauvage Eau de Toilette 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/carolina-herrera-good-girl.webp" alt="Good Girl Eau de Parfum 80ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Carolina Herrera</span>
           <h3 class="peca__nome">Good Girl Eau de Parfum 80ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Good Girl Eau de Parfum 80ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lancome-la-vie-est-belle.webp" alt="La Vie Est Belle Eau de Parfum 75ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lancôme</span>
           <h3 class="peca__nome">La Vie Est Belle Eau de Parfum 75ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar La Vie Est Belle Eau de Parfum 75ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/rabanne-olympea.webp" alt="Olympéa Eau de Parfum 80ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Paco Rabanne</span>
           <h3 class="peca__nome">Olympéa Eau de Parfum 80ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
-          <span class="peca__retrato peca__retrato--vazio"><svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg><span>Foto oficial pendente</span></span>
-          <span class="peca__marca medida">Yves Saint Laurent</span>
-          <h3 class="peca__nome">Libre Eau de Parfum 90ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
-        </a>
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Olympéa Eau de Parfum 80ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        
         </div>
       </div>
 
@@ -343,91 +348,129 @@
         <button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button>
         <button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button>
         <div class="trilho">
-        <a class="peca" href="produto.html">
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
         <span class="peca__selo">Linha Yara</span>
           <span class="peca__retrato"><img src="imagens/web/lattafa-yara.webp" alt="Yara Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Yara Eau de Parfum 100ml</h3>
           <span class="peca__rodape"><span class="preco peca__preco">R$ 280,00</span><span class="medida peca__parcela">3x de 93,33</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-yara-candy.webp" alt="Yara Candy Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Yara Candy Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Candy Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-yara-tous.webp" alt="Yara Tous Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Yara Tous Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Tous Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-yara-moi.webp" alt="Yara Moi Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Yara Moi Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Moi Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-khamrah.webp" alt="Khamrah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Khamrah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Khamrah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-asad.webp" alt="Asad Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Asad Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Asad Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
         <span class="peca__selo">Novo</span>
           <span class="peca__retrato"><img src="imagens/web/lattafa-teriaq-intense.webp" alt="Teriaq Intense Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Teriaq Intense Eau de Parfum 100ml</h3>
           <span class="peca__rodape"><span class="preco peca__preco">R$ 285,00</span><span class="medida peca__parcela">3x de 95,00</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Teriaq Intense Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-fakhar-women.webp" alt="Fakhar Women Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Fakhar Women Eau de Parfum 100ml</h3>
           <span class="peca__rodape"><span class="preco peca__preco">R$ 250,00</span><span class="medida peca__parcela">3x de 83,33</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Fakhar Women Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-emaan.webp" alt="Emaan Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Emaan Eau de Parfum 100ml</h3>
           <span class="peca__rodape"><span class="preco peca__preco">R$ 345,00</span><span class="medida peca__parcela">3x de 115,00</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Emaan Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-haya.webp" alt="Haya Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Haya Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Haya Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/badee-al-oud-for-glory.webp" alt="Oud For Glory Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Bade'e Al Oud</span>
           <h3 class="peca__nome">Oud For Glory Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Oud For Glory Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/maison-alhambra-delilah.webp" alt="Delilah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Maison Alhambra</span>
           <h3 class="peca__nome">Delilah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Delilah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/armaf-club-de-nuit-woman.webp" alt="Club de Nuit Woman Eau de Parfum 105ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Armaf</span>
           <h3 class="peca__nome">Club de Nuit Woman Eau de Parfum 105ml</h3>
           <span class="peca__rodape"><span class="preco peca__preco">R$ 209,90</span><span class="medida peca__parcela">3x de 69,97</span></span>
         </a>
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Club de Nuit Woman Eau de Parfum 105ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
         </div>
       </div>
 
   </section>
-
 
 
   <section class="guia" aria-labelledby="guia-titulo">
@@ -512,48 +555,69 @@
         <button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button>
         <button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button>
         <div class="trilho">
-        <a class="peca" href="produto.html">
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/victorias-secret-aqua-kiss.webp" alt="Aqua Kiss Fragrance Mist 250ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Victoria's Secret</span>
           <h3 class="peca__nome">Aqua Kiss Fragrance Mist 250ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Aqua Kiss Fragrance Mist 250ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/victorias-secret-love-spell.webp" alt="Love Spell Fragrance Mist 250ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Victoria's Secret</span>
           <h3 class="peca__nome">Love Spell Fragrance Mist 250ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Love Spell Fragrance Mist 250ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/aura-beauty-aurora-shine.webp" alt="Aurora Shine Manteiga Corporal" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Aura Beauty</span>
           <h3 class="peca__nome">Aurora Shine Manteiga Corporal</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Aurora Shine Manteiga Corporal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-yara-rose.webp" alt="Yara Rose Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Yara Rose Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Rose Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/lattafa-khamrah.webp" alt="Khamrah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Lattafa</span>
           <h3 class="peca__nome">Khamrah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Khamrah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/maison-alhambra-delilah.webp" alt="Delilah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Maison Alhambra</span>
           <h3 class="peca__nome">Delilah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
-        <a class="peca" href="produto.html">
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Delilah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
+        <div class="peca-caixa">
+          <a class="peca" href="produto.html">
           <span class="peca__retrato"><img src="imagens/web/dior-sauvage-eau-de-toilette.webp" alt="Sauvage Eau de Toilette 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
           <span class="peca__marca medida">Dior</span>
           <h3 class="peca__nome">Sauvage Eau de Toilette 100ml</h3>
-          <span class="peca__rodape"><span class="medida">Preço a definir</span></span>
+          <span class="peca__rodape"><span class="peca__breve">Em breve</span></span>
         </a>
+          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Sauvage Eau de Toilette 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
+        </div>
         </div>
       </div>
 
@@ -636,8 +700,7 @@
       <span class="pagamento">Site seguro</span>
     </div>
     <div class="rodape__fim">
-      <span class="medida">Protótipo de direção visual</span>
-      <span class="medida">Dados da empresa a preencher</span>
+      <span class="medida">CNPJ e endereço em breve</span>
     </div>
   </div>
 </footer>
@@ -667,7 +730,6 @@
     <li><a href="index.html#kits">Kits <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
   </ul>
 
-
   <div class="menu-movel__idioma">
     <span class="medida">Idioma</span>
     <div>
@@ -681,7 +743,6 @@
     <a href="#"><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-4.2-7.3"/><path d="M3.5 20.5l1.3-3.8"/></svg>Falar no WhatsApp</a>
   </div>
 </aside>
-
 
 <div class="convite" id="convite" hidden>
   <div class="convite__veu" data-fecha-convite></div>

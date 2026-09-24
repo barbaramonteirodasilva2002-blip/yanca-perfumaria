@@ -21,39 +21,6 @@
     ).observe(gatilho)
   }
 
-  /* 1d. o número da economia conta até o valor quando entra na tela.
-     Só no valor de economia: número que sobe em toda parte vira ruído, e aqui
-     ele existe para a pessoa ver o tamanho do desconto se formar. */
-  const contar = (el) => {
-    const alvo = parseFloat(el.textContent.replace(/[^\d,]/g, '').replace(',', '.'))
-    if (!isFinite(alvo)) return
-    const dinheiro = (v) => 'R$ ' + v.toFixed(2).replace('.', ',')
-    const duracao = 1100
-    const inicio = performance.now()
-    const passo = (agora) => {
-      const t = Math.min(1, (agora - inicio) / duracao)
-      const suave = 1 - Math.pow(1 - t, 3)
-      el.textContent = dinheiro(alvo * suave)
-      if (t < 1) requestAnimationFrame(passo)
-    }
-    requestAnimationFrame(passo)
-  }
-
-  const numeros = document.querySelectorAll('.kit-aviso__valor strong, .kit__economia strong')
-  if (numeros.length && !quieto && 'IntersectionObserver' in window) {
-    const olho = new IntersectionObserver(
-      (entradas) => {
-        entradas.forEach((e) => {
-          if (!e.isIntersecting) return
-          contar(e.target)
-          olho.unobserve(e.target)
-        })
-      },
-      { threshold: 0.9 }
-    )
-    numeros.forEach((n) => olho.observe(n))
-  }
-
   /* 1e. a sacola pula quando um item entra por compra rápida */
   const conta = document.querySelector('.sacola__conta')
   document.querySelectorAll('.peca__rapido').forEach((botao) => {
@@ -397,7 +364,28 @@
       })
     }
 
-    if (!jaViu()) setTimeout(abrirConvite, 2600)
+    /* Abrir por cima do hero é pedir o e-mail antes de a pessoa ver a loja.
+       O convite espera um sinal de interesse: um quarto da página rolada, ou
+       vinte segundos de permanência, ou o cursor indo embora pelo topo no
+       computador. O que vier primeiro, e uma vez só. */
+    if (!jaViu()) {
+      let armado = true
+      const talvezAbrir = () => {
+        if (!armado || !convite.hidden) return
+        armado = false
+        abrirConvite()
+      }
+      const porRolagem = () => {
+        const total = document.body.scrollHeight - innerHeight
+        if (total > 0 && scrollY / total > 0.25) talvezAbrir()
+      }
+      addEventListener('scroll', porRolagem, { passive: true })
+      const relogio = setTimeout(talvezAbrir, 20000)
+      document.addEventListener('mouseout', (e) => {
+        if (!e.relatedTarget && e.clientY < 12 && matchMedia('(hover: hover)').matches) talvezAbrir()
+      })
+      addEventListener('pagehide', () => clearTimeout(relogio))
+    }
   }
 
   /* 1j. idioma da loja.
@@ -524,6 +512,107 @@
       const guardado = localStorage.getItem(CHAVE_IDIOMA)
       if (guardado && guardado !== 'pt') trocarIdioma(guardado)
     } catch (e) {}
+  }
+
+  /* 1k. favoritos.
+     Guarda no navegador, porque favorito que some ao recarregar é pior do que
+     não ter favorito. Um ouvinte só, delegado no documento. */
+  const CHAVE_FAV = 'yanca:favoritos'
+  const lerFavoritos = () => {
+    try {
+      return new Set(JSON.parse(localStorage.getItem(CHAVE_FAV) || '[]'))
+    } catch (e) {
+      return new Set()
+    }
+  }
+  const favoritos = lerFavoritos()
+  document.querySelectorAll('.favorito').forEach((botao) => {
+    const nome = botao.getAttribute('aria-label') || ''
+    if (favoritos.has(nome)) botao.setAttribute('aria-pressed', 'true')
+  })
+  document.addEventListener('click', (e) => {
+    const botao = e.target.closest && e.target.closest('.favorito')
+    if (!botao) return
+    const nome = botao.getAttribute('aria-label') || ''
+    const ligado = botao.getAttribute('aria-pressed') === 'true'
+    botao.setAttribute('aria-pressed', String(!ligado))
+    if (ligado) favoritos.delete(nome)
+    else favoritos.add(nome)
+    try {
+      localStorage.setItem(CHAVE_FAV, JSON.stringify([...favoritos]))
+    } catch (err) {}
+  })
+
+  /* 1l. entrada ao rolar.
+     Um observador só para a página inteira, e três gestos diferentes em vez
+     de um só repetido: a mesma entrada em toda seção é papel de parede.
+
+     O estado escondido só existe depois que o script marca o elemento, então
+     página sem JavaScript nasce inteira visível, que é o que uma vitrine
+     precisa ser.
+
+     O atraso do irmão é limitado: escada longa demais faz a última peça
+     chegar depois que a pessoa já rolou para fora. */
+  if (!quieto && 'IntersectionObserver' in window) {
+    /* O quarto número é quantos irmãos entram na escada. Dentro de um trilho
+       horizontal, só os primeiros: o que está fora de vista na horizontal
+       nunca cruza a tela, ficaria escondido para sempre e só apareceria se a
+       pessoa arrastasse a fileira. Conteúdo que depende de um gesto para
+       existir não é animação, é defeito. */
+    const roteiro = [
+      ['.beneficio', 'sobe', 60, 99],
+      ['.vitrola', 'lado', 55, 5],
+      ['.peca-caixa', 'escala', 45, 5],
+      ['.secao__cabeca', 'sobe', 0, 99],
+      ['.guia__dizer', 'lado', 0, 99],
+      ['.guia__rotas li', 'sobe', 80, 99],
+      ['.casa__grade > *', 'sobe', 90, 99],
+      ['.beleza-bloco__painel', 'lado', 0, 99],
+      ['.area', 'sobe', 50, 99],
+      ['.faixa-kit__grade > *', 'sobe', 90, 99],
+      ['.rodape__coluna', 'sobe', 60, 99],
+    ]
+
+    const observador = new IntersectionObserver(
+      (entradas) => {
+        entradas.forEach((entrada) => {
+          if (!entrada.isIntersecting) return
+          entrada.target.classList.add('dentro')
+          observador.unobserve(entrada.target)
+        })
+      },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.02 }
+    )
+
+    roteiro.forEach(([seletor, gesto, passo, quantos]) => {
+      document.querySelectorAll(seletor).forEach((el, i) => {
+        if (el.closest('.palco')) return
+        if (i >= quantos) return
+        el.dataset.entra = gesto
+        if (passo) el.style.setProperty('--i', Math.min(i, 6))
+        el.style.setProperty('--passo', passo + 'ms')
+        observador.observe(el)
+      })
+    })
+
+    /* Rede de segurança. O observador pode não disparar por corrida de
+       layout, por elemento parado fora da rolagem, por aba aberta em segundo
+       plano. Qualquer uma dessas deixaria pedaço da vitrine invisível para
+       sempre, e vitrine invisível é venda perdida.
+
+       Três segundos depois, tudo que não entrou entra. O efeito se perde num
+       caso raro; o conteúdo, nunca. */
+    setTimeout(() => {
+      document.querySelectorAll('[data-entra]:not(.dentro)').forEach((el) => {
+        const r = el.getBoundingClientRect()
+        if (r.top < innerHeight * 1.5) el.classList.add('dentro')
+      })
+    }, 3000)
+    addEventListener('load', () => {
+      document.querySelectorAll('[data-entra]:not(.dentro)').forEach((el) => {
+        if (el.getBoundingClientRect().top < innerHeight) el.classList.add('dentro')
+      })
+    })
   }
 
   /* 2. cabeçalho */

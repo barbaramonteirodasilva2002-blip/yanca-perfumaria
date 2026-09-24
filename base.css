@@ -978,3 +978,156 @@ h1, h2, h3, h4 {
   line-height: 1.02;
 }
 .secao { padding-block: var(--ritmo-forte) var(--ritmo); }
+
+/* ==================================================================
+   VIDRO E LUZ
+   Perfume é vidro e luz, então todo efeito da loja sai desses dois
+   materiais. É o que faz um punhado de efeitos ler como um sistema em
+   vez de uma sacola de truques: a luz sempre vem do cursor, o vidro
+   sempre desbota a borda, e nada entra por opacidade solta.
+   ================================================================== */
+
+/* ---------- fio de progresso ----------
+   Um fio de bronze embaixo do cabeçalho cresce com a página. Diz onde a
+   pessoa está numa loja longa, e custa zero JavaScript. */
+.amarracao { position: sticky; }
+.amarracao::after {
+  content: ''; position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%;
+  background: linear-gradient(90deg, var(--bronze), var(--bronze-claro));
+  transform-origin: left center; scale: 0 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    .amarracao::after {
+      animation: progresso linear both;
+      animation-timeline: scroll(root block);
+    }
+  }
+}
+@keyframes progresso { to { scale: 1 1; } }
+
+/* ---------- vidro na ponta do trilho ----------
+   O trilho desbota do lado em que ainda há produto escondido. A medida vem
+   do próprio script das setas, então a borda só aparece quando é verdade. */
+.trilho, .marcas {
+  --desbota-esq: 0px; --desbota-dir: 52px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 var(--desbota-esq),
+    #000 calc(100% - var(--desbota-dir)), transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 var(--desbota-esq),
+    #000 calc(100% - var(--desbota-dir)), transparent 100%);
+  transition: -webkit-mask-image 0.4s var(--saida), mask-image 0.4s var(--saida);
+  scroll-behavior: smooth;
+}
+
+/* As setas só aparecem quando o ponteiro entra na faixa. Seta permanente
+   sobre o produto rouba o primeiro cartão a viagem inteira. */
+@media (hover: hover) {
+  .trilho-caixa .seta { opacity: 0; transition: opacity 0.3s ease, background 0.3s ease, color 0.3s ease; }
+  .trilho-caixa:hover .seta,
+  .trilho-caixa:focus-within .seta { opacity: 1; }
+  .trilho-caixa .seta:disabled { opacity: 0 !important; }
+}
+
+/* ---------- ímã no botão ----------
+   O botão principal se aproxima do cursor antes do clique. É o gesto que
+   diz "sou eu que você quer" sem precisar piscar nem crescer. */
+.acao {
+  translate: var(--ima-x, 0) var(--ima-y, 0);
+  transition: translate 0.35s var(--saida), background 0.35s var(--saida);
+}
+.acao:active { translate: var(--ima-x, 0) calc(var(--ima-y, 0px) + 1px); }
+
+/* ---------- cabeçalho de prateleira que gruda ----------
+   Enquanto o trilho passa, o nome da prateleira fica. Em loja com muita
+   fileira, é o que impede a pessoa de esquecer o que está olhando. */
+@media (min-width: 861px) {
+  /* O fundo precisa ser opaco e igual ao da seção, senão o cartão passa por
+     baixo do título enquanto rola. Na faixa escura o fundo é gradiente e não
+     tem cor chapada que sirva, então lá o título não gruda: melhor não grudar
+     do que grudar com remendo. */
+  .secao__cabeca {
+    position: sticky; top: 78px; z-index: 6;
+    background: var(--branco); padding-top: 14px;
+  }
+  .secao--areia .secao__cabeca { background: var(--areia); }
+  .secao--grife .secao__cabeca { position: static; padding-top: 0; }
+}
+
+/* ---------- o nome do produto se sublinha ---------- */
+.peca__nome { background-image: linear-gradient(var(--bronze), var(--bronze)); background-repeat: no-repeat; background-position: 0 100%; background-size: 0 1px; transition: background-size 0.45s var(--saida); }
+.peca:hover .peca__nome { background-size: 100% 1px; }
+
+/* ---------- o banner de marca se revela por cortina ----------
+   Máscara subindo, não opacidade: a arte aparece como se a vitrine
+   estivesse sendo aberta, que é o gesto da loja. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .vitrola {
+      -webkit-mask-image: linear-gradient(0deg, #000 50%, transparent 50%);
+      mask-image: linear-gradient(0deg, #000 50%, transparent 50%);
+      -webkit-mask-size: 100% 200%; mask-size: 100% 200%;
+      -webkit-mask-position: 0 0; mask-position: 0 0;
+      animation: cortina linear both;
+      animation-timeline: view(inline);
+      animation-range: entry 0% entry 86%;
+    }
+  }
+}
+@keyframes cortina {
+  from { -webkit-mask-position: 0 100%; mask-position: 0 100%; }
+  to { -webkit-mask-position: 0 0; mask-position: 0 0; }
+}
+
+/* ---------- o bloco que conversa ----------
+   A página inteira fala de produto. Este bloco fala com a pessoa, e por isso
+   ele é o único em forma de pergunta. Também quebra a monotonia de cabeçalho
+   mais fileira repetida quatro vezes, que é o que faz página de loja cansar
+   antes do rodapé. */
+.guia { background: var(--profundo); color: var(--areia); padding-block: var(--ritmo-forte); }
+.guia__grade {
+  display: grid; grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(32px, 5vw, 80px); align-items: start;
+}
+.guia__dizer h2 {
+  color: #fff; font-size: clamp(30px, 3.4vw, 46px);
+  letter-spacing: -0.042em; line-height: 1.04; margin: 0 0 18px; text-wrap: balance;
+}
+.guia__dizer p {
+  font-family: var(--face-leitura); font-optical-sizing: auto;
+  font-size: 16.5px; line-height: 1.62; margin: 0; max-width: 40ch;
+  color: rgba(243, 239, 231, 0.74);
+}
+.guia__rotas { list-style: none; margin: 0; padding: 0; display: grid; }
+.guia__rotas li + li { border-top: 1px solid rgba(243, 239, 231, 0.2); }
+.guia__rotas a {
+  display: grid; grid-template-columns: 1fr auto; align-items: center;
+  column-gap: 24px; padding: clamp(20px, 2.2vw, 30px) 0;
+  transition: padding-left 0.4s var(--saida);
+}
+.guia__pergunta {
+  grid-column: 1; display: block;
+  font-family: var(--face-display); font-weight: var(--peso-display);
+  letter-spacing: -0.03em; font-size: clamp(18px, 1.7vw, 23px); line-height: 1.2;
+}
+.guia__resposta {
+  grid-column: 1; display: block; margin-top: 8px;
+  font-family: var(--face-leitura); font-optical-sizing: auto;
+  font-size: 15px; line-height: 1.55; max-width: 52ch;
+  color: rgba(243, 239, 231, 0.66);
+}
+.guia__seta {
+  grid-column: 2; grid-row: 1 / -1; display: grid; place-items: center;
+  width: 44px; height: 44px; border: 1px solid rgba(243, 239, 231, 0.3);
+  transition: background 0.35s var(--saida), border-color 0.35s var(--saida),
+    translate 0.35s var(--saida);
+}
+.guia__seta svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.5; fill: none; }
+.guia__rotas a:hover .guia__seta { background: var(--bronze); border-color: var(--bronze); translate: 5px 0; color: #14100a; }
+.guia__rotas a:hover .guia__pergunta { color: var(--bronze-claro); }
+@media (hover: hover) { .guia__rotas a:hover { padding-left: 10px; } }
+
+@media (max-width: 860px) {
+  .guia__grade { grid-template-columns: 1fr; gap: 28px; }
+  .guia__resposta { font-size: 14.5px; }
+  .guia__seta { width: 38px; height: 38px; }
+}

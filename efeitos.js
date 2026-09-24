@@ -11,7 +11,6 @@
 (function () {
   const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches
 
-  /* 1. revelação */
   /* 1c. barra de compra fixa na página de produto */
   const barra = document.querySelector('.barra-compra')
   const gatilho = document.querySelector('.compra__acoes')
@@ -92,6 +91,23 @@
           retrato.style.setProperty('--rx', (Math.max(-1, Math.min(1, -dy)) * 3).toFixed(2) + 'deg')
         }
       }
+
+      // o botão principal se aproxima do cursor quando ele chega perto
+      document.querySelectorAll('.acao').forEach((botao) => {
+        const c = botao.getBoundingClientRect()
+        const cx = c.left + c.width / 2
+        const cy = c.top + c.height / 2
+        const dist = Math.hypot(e.clientX - cx, e.clientY - cy)
+        const alcance = c.width * 0.9
+        if (dist > alcance) {
+          botao.style.removeProperty('--ima-x')
+          botao.style.removeProperty('--ima-y')
+          return
+        }
+        const forca = 1 - dist / alcance
+        botao.style.setProperty('--ima-x', ((e.clientX - cx) * 0.22 * forca).toFixed(1) + 'px')
+        botao.style.setProperty('--ima-y', ((e.clientY - cy) * 0.28 * forca).toFixed(1) + 'px')
+      })
 
       // o cartão sob o cursor inclina e acende
       const cartao = e.target.closest && e.target.closest('.peca')
@@ -544,6 +560,11 @@
         const antes = s.dataset.rola === 'antes'
         s.disabled = antes ? pista.scrollLeft <= 2 : pista.scrollLeft >= fim
       })
+      // A mesma medida serve à máscara: o trilho desbota só do lado em que
+      // ainda há produto escondido. Borda que desbota dos dois lados o tempo
+      // todo é decoração; esta informa que dá para arrastar.
+      pista.style.setProperty('--desbota-esq', pista.scrollLeft > 2 ? '52px' : '0px')
+      pista.style.setProperty('--desbota-dir', pista.scrollLeft < fim ? '52px' : '0px')
     }
     setas.forEach((s) =>
       s.addEventListener('click', () => {

@@ -43,7 +43,7 @@
      seção inventa o próprio espaçamento e a página perde a concordância,
      que é o defeito que mais denuncia página montada por partes. */
   --ritmo: clamp(40px, 4.6vw, 64px);
-  --ritmo-forte: clamp(64px, 7.4vw, 104px);
+  --ritmo-forte: clamp(56px, 6.2vw, 88px);
   --gap-cartao: 16px;
 
   /* Uma família só, do logotipo ao preço, separada por peso e espacejamento.
@@ -451,13 +451,14 @@ h1, h2, h3, h4 {
 .beleza-bloco__painel svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.5; fill: none; transition: transform 0.4s var(--saida); }
 .beleza-bloco__painel a:hover svg { transform: translateX(6px); }
 
-.areas { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap-cartao); }
+.areas { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: var(--gap-cartao); }
 .area--larga { grid-column: span 2; }
 .area {
-  background: var(--branco); border: 1px solid var(--linha);
-  padding: 24px 20px 22px; display: flex; flex-direction: column; gap: 12px; min-height: 140px;
-  transition: background 0.4s var(--saida), border-color 0.4s var(--saida);
+  background: none; border: 0; border-bottom: 1px solid var(--linha);
+  padding: 22px 18px 20px; display: flex; flex-direction: column; gap: 10px; min-height: 126px;
+  transition: background 0.4s var(--saida);
 }
+.area:hover { background: var(--branco); }
 .area:hover { background: var(--areia); border-color: var(--bronze); }
 .area svg { width: 34px; height: 34px; stroke: var(--tinta); stroke-width: 1.1; fill: none; }
 .area strong { font-family: var(--face-display); font-size: 21px; font-weight: 500; letter-spacing: -0.012em; }
@@ -1070,36 +1071,18 @@ h1, h2, h3, h4 {
      do que grudar com remendo. */
   .secao__cabeca {
     position: sticky; top: 78px; z-index: 6;
-    background: var(--papel); padding-top: 14px;
+    background: var(--papel); padding-top: 10px;
   }
   .secao--areia .secao__cabeca { background: var(--areia); }
-  .secao--grife .secao__cabeca { position: static; padding-top: 0; }
+  /* A faixa escura não gruda e, principalmente, não herda o fundo de papel:
+     texto branco sobre papel é ilegível. */
+  .secao--grife .secao__cabeca { position: static; padding-top: 0; background: transparent; }
 }
 
 /* ---------- o nome do produto se sublinha ---------- */
 .peca__nome { background-image: linear-gradient(var(--bronze), var(--bronze)); background-repeat: no-repeat; background-position: 0 100%; background-size: 0 1px; transition: background-size 0.45s var(--saida); }
 .peca:hover .peca__nome { background-size: 100% 1px; }
 
-/* ---------- o banner de marca se revela por cortina ----------
-   Máscara subindo, não opacidade: a arte aparece como se a vitrine
-   estivesse sendo aberta, que é o gesto da loja. */
-@media (prefers-reduced-motion: no-preference) {
-  @supports (animation-timeline: view()) {
-    .vitrola {
-      -webkit-mask-image: linear-gradient(0deg, #000 50%, transparent 50%);
-      mask-image: linear-gradient(0deg, #000 50%, transparent 50%);
-      -webkit-mask-size: 100% 200%; mask-size: 100% 200%;
-      -webkit-mask-position: 0 0; mask-position: 0 0;
-      animation: cortina linear both;
-      animation-timeline: view(inline);
-      animation-range: entry 0% entry 86%;
-    }
-  }
-}
-@keyframes cortina {
-  from { -webkit-mask-position: 0 100%; mask-position: 0 100%; }
-  to { -webkit-mask-position: 0 0; mask-position: 0 0; }
-}
 
 /* ---------- o bloco que conversa ----------
    A página inteira fala de produto. Este bloco fala com a pessoa, e por isso
@@ -1109,7 +1092,7 @@ h1, h2, h3, h4 {
 .guia { background: var(--profundo); color: var(--areia); padding-block: var(--ritmo-forte); }
 .guia__grade {
   display: grid; grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-  gap: clamp(32px, 5vw, 80px); align-items: start;
+  gap: clamp(32px, 5vw, 80px); align-items: center;
 }
 .guia__dizer h2 {
   color: #fff; font-size: var(--display-2);

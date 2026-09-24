@@ -639,26 +639,57 @@
 
   /* 3b. setas dos trilhos. A seta desliga quando chega na ponta, em vez de
      continuar clicável sem fazer nada, que é o defeito da maioria das lojas. */
-  document.querySelectorAll('.trilho-caixa').forEach((caixa) => {
-    const pista = caixa.querySelector('.trilho, .marcas')
+  /* As setas saíram de dentro do trilho e foram para o cabeçalho da seção,
+     então o par deixou de ser pai e filho. Agora a ligação é pela seção: as
+     setas do cabeçalho comandam o trilho que vive na mesma seção. */
+  /* Ligação explícita: cada grupo de setas nomeia o trilho que comanda. A
+     ligação por proximidade no DOM parou de servir quando as setas saíram de
+     dentro do trilho, e ligação implícita que quebra em silêncio é pior do
+     que um atributo a mais no HTML. */
+  document.querySelectorAll('.secao__setas[data-alvo]').forEach((grupo) => {
+    const pista = document.getElementById(grupo.dataset.alvo)
     if (!pista) return
-    const setas = caixa.querySelectorAll('.seta')
+    const setas = grupo.querySelectorAll('.seta')
+
     const ajustar = () => {
       const fim = pista.scrollWidth - pista.clientWidth - 2
       setas.forEach((s) => {
         const antes = s.dataset.rola === 'antes'
         s.disabled = antes ? pista.scrollLeft <= 2 : pista.scrollLeft >= fim
       })
-      // A mesma medida serve à máscara: o trilho desbota só do lado em que
-      // ainda há produto escondido. Borda que desbota dos dois lados o tempo
-      // todo é decoração; esta informa que dá para arrastar.
       pista.style.setProperty('--desbota-esq', pista.scrollLeft > 2 ? '52px' : '0px')
       pista.style.setProperty('--desbota-dir', pista.scrollLeft < fim ? '52px' : '0px')
     }
+
+    /* A rolagem é animada aqui, e não por behavior: 'smooth'. O suave nativo
+       depende do navegador: em alguns contextos ele simplesmente não anda, e
+       aí a seta parece quebrada. Um tween curto de quadro em quadro tem o
+       mesmo resultado em todo lugar, respeita movimento reduzido e ainda
+       deixa a curva na nossa mão. */
+    const deslizar = (destino) => {
+      const inicio = pista.scrollLeft
+      const curso = destino - inicio
+      if (quieto || Math.abs(curso) < 2) {
+        pista.scrollLeft = destino
+        return
+      }
+      const duracao = 480
+      const zero = performance.now()
+      const passo = (agora) => {
+        const t = Math.min(1, (agora - zero) / duracao)
+        const e = 1 - Math.pow(1 - t, 3)
+        pista.scrollLeft = inicio + curso * e
+        if (t < 1) requestAnimationFrame(passo)
+      }
+      requestAnimationFrame(passo)
+    }
+
     setas.forEach((s) =>
       s.addEventListener('click', () => {
-        const passo = Math.round(pista.clientWidth * 0.8)
-        pista.scrollBy({ left: s.dataset.rola === 'antes' ? -passo : passo, behavior: 'smooth' })
+        const largura = Math.round(pista.clientWidth * 0.8)
+        const limite = pista.scrollWidth - pista.clientWidth
+        const alvo = pista.scrollLeft + (s.dataset.rola === 'antes' ? -largura : largura)
+        deslizar(Math.max(0, Math.min(limite, alvo)))
       })
     )
     pista.addEventListener('scroll', ajustar, { passive: true })

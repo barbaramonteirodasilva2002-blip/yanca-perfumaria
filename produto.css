@@ -1,0 +1,221 @@
+/* Página de produto, modelo "perfume". */
+
+/* Barra de compra fixa: aparece quando o botão principal sai da tela, que é o
+   momento em que a pessoa está lendo a descrição e decidindo. Entra por
+   transform, nunca por altura, para não repaginar durante a rolagem. */
+.barra-compra {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 70;
+  background: var(--branco); border-top: 1px solid var(--linha);
+  box-shadow: 0 -14px 34px -28px rgba(22, 22, 26, 0.6);
+  transform: translateY(101%);
+  transition: transform 0.5s var(--saida);
+}
+.barra-compra.visivel { transform: translateY(0); }
+.barra-compra__grade { display: flex; align-items: center; gap: 22px; padding-block: 13px; }
+.barra-compra__foto { position: relative; width: 52px; height: 52px; background: var(--areia); display: grid; place-items: center; padding: 6px; flex: none; }
+.barra-compra__foto img { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: contain; }
+.barra-compra__nome { font-size: 14px; font-weight: 600; line-height: 1.3; }
+.barra-compra__preco { margin-left: auto; font-size: 20px; white-space: nowrap; }
+.barra-compra .acao { padding-block: 15px; }
+@media (max-width: 720px) {
+  .barra-compra__foto, .barra-compra__nome { display: none; }
+  .barra-compra__preco { margin-left: 0; }
+  .barra-compra .acao { flex: 1; }
+}
+
+.trilha { display: flex; gap: 9px; align-items: center; flex-wrap: wrap; padding-block: 18px; }
+.trilha a { border-bottom: 1px solid transparent; }
+.trilha a:hover { border-color: var(--esmeralda); color: var(--esmeralda); }
+
+.produto {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 64px);
+  padding-bottom: var(--ritmo);
+  align-items: start;
+}
+
+/* ---------- retrato ---------- */
+
+/* Moldura dupla: o traço externo delimita o ladrilho, o interno é o passe-partout
+   que separa o vidro do frasco da borda. É o que faz a foto parecer montada e
+   não colada. */
+.retrato {
+  position: relative; background: var(--areia); aspect-ratio: 4 / 5;
+  display: grid; place-items: center; padding: clamp(28px, 4.4vw, 60px);
+  border: 1px solid var(--linha);
+  transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 0.7s var(--saida);
+}
+.retrato::after { content: ''; position: absolute; inset: 14px; border: 1px solid var(--linha); pointer-events: none; }
+/* Mesma correção dos cartões: altura em porcentagem contra quadro de altura
+   indefinida não resolve, e a foto volta ao tamanho natural e estoura. Aqui a
+   caixa é posicionada, então o frasco nunca aparece decepado.
+   O passe-partout fica em 14px, e a foto respeita ele. */
+.retrato img {
+  position: absolute; inset: clamp(28px, 4.4vw, 60px);
+  width: auto; height: auto;
+  max-width: calc(100% - clamp(56px, 8.8vw, 120px));
+  max-height: calc(100% - clamp(56px, 8.8vw, 120px));
+  margin: auto; object-fit: contain;
+}
+
+.irmaos { margin-top: 24px; }
+.irmaos__titulo { display: block; margin-bottom: 11px; }
+.irmaos__fila { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--linha); border: 1px solid var(--linha); }
+.irmao { background: var(--branco); padding: 10px 10px 12px; text-align: center; transition: background 0.25s ease; }
+.irmao:hover { background: var(--areia); }
+.irmao[aria-current] { background: var(--areia); box-shadow: inset 0 -3px 0 var(--bronze); }
+.irmao__foto { position: relative; background: var(--areia); aspect-ratio: 1; display: grid; place-items: center; padding: 8px; margin-bottom: 7px; }
+.irmao__foto img { position: absolute; inset: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; }
+.irmao__nome { font-family: var(--face-medida); font-size: 8.5px; letter-spacing: 0.1em; text-transform: uppercase; line-height: 1.3; display: block; }
+
+/* ---------- coluna de compra ---------- */
+
+.compra__marca { display: block; margin-bottom: 12px; }
+.compra h1 { font-size: clamp(28px, 3.2vw, 44px); margin-bottom: 14px; }
+
+.avaliacao { display: flex; align-items: center; gap: 10px; margin-bottom: 22px; }
+.estrelas { display: flex; gap: 3px; }
+.estrelas svg { width: 14px; height: 14px; fill: var(--linha-forte); stroke: none; }
+
+.compra__valor { padding-block: 20px; border-block: 1px solid var(--linha); }
+.compra__preco { font-size: 34px; font-weight: 700; display: block; letter-spacing: -0.04em; }
+.compra__valor .medida { display: block; margin-top: 6px; }
+.compra__pix { display: flex; align-items: baseline; gap: 9px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--linha); }
+.compra__pix strong { color: var(--esmeralda); font-family: var(--face-medida); font-size: 13px; font-variant-numeric: tabular-nums; }
+
+/* Aviso de kit, na coluna de compra e acima da dobra.
+   A economia é argumento de venda: enterrada no fim da página ela só é vista
+   por quem já decidiu, e quem já decidiu não precisa mais dela. */
+.kit-aviso {
+  display: grid; grid-template-columns: auto 1fr; align-items: center;
+  gap: 16px; margin-top: 20px;
+  border: 1px solid var(--esmeralda);
+  background: var(--branco);
+  transition: box-shadow 0.35s var(--saida);
+}
+.kit-aviso:hover { box-shadow: 0 14px 30px -24px rgba(12, 90, 72, 0.9); }
+.kit-aviso__valor {
+  align-self: stretch; display: flex; flex-direction: column; justify-content: center;
+  background: var(--esmeralda); color: #fff; padding: 14px 18px; text-align: center;
+}
+.kit-aviso__valor .medida { color: rgba(255, 255, 255, 0.8); font-size: 8.5px; }
+.kit-aviso__valor strong {
+  font-family: var(--face-medida); font-size: 22px; font-weight: 700;
+  font-variant-numeric: tabular-nums; letter-spacing: -0.045em; display: block; margin-top: 3px;
+}
+.kit-aviso__dizer { padding: 12px 18px 12px 0; }
+.kit-aviso__dizer p { margin: 0 0 4px; font-size: 14.5px; font-weight: 600; line-height: 1.35; }
+.kit-aviso__dizer span { display: inline-flex; align-items: center; gap: 8px; font-family: var(--face-medida); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--esmeralda); }
+.kit-aviso__dizer svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 1.7; fill: none; transition: transform 0.35s var(--saida); }
+.kit-aviso:hover svg { transform: translateX(5px); }
+
+@media (max-width: 420px) {
+  .kit-aviso { grid-template-columns: 1fr; }
+  .kit-aviso__dizer { padding: 14px 18px; }
+}
+
+.opcao { padding-block: 22px; border-bottom: 1px solid var(--linha); }
+.opcao__titulo { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+.opcao__lista { display: flex; gap: 8px; flex-wrap: wrap; }
+.opcao__botao {
+  border: 1px solid var(--linha-forte); background: none; color: var(--tinta);
+  font-family: var(--face-medida); font-size: 11px; font-variant-numeric: tabular-nums;
+  padding: 12px 18px; cursor: pointer; transition: border-color 0.2s ease, background 0.2s ease;
+}
+.opcao__botao:hover { border-color: var(--tinta); }
+.opcao__botao[aria-pressed="true"] { background: var(--tinta); color: var(--areia); border-color: var(--tinta); }
+.opcao__botao[disabled] { color: var(--tinta-fraca); border-style: dashed; cursor: not-allowed; text-decoration: line-through; }
+
+.quantidade { display: flex; align-items: center; gap: 0; border: 1px solid var(--linha-forte); width: fit-content; }
+.quantidade button { width: 42px; height: 46px; border: 0; background: none; color: var(--tinta); cursor: pointer; font-size: 18px; }
+.quantidade button:hover { background: var(--areia); }
+.quantidade span { min-width: 44px; text-align: center; font-family: var(--face-medida); font-variant-numeric: tabular-nums; font-size: 14px; }
+
+.compra__acoes { display: grid; gap: 9px; margin-block: 24px; }
+
+.estoque { display: flex; align-items: center; gap: 9px; margin-bottom: 4px; }
+.estoque::before { content: ''; width: 7px; height: 7px; background: var(--esmeralda); border-radius: 50%; flex: none; }
+
+.garantias { display: grid; gap: 11px; padding-top: 20px; border-top: 1px solid var(--linha); }
+.garantia { display: flex; gap: 12px; align-items: flex-start; }
+.garantia svg { width: 17px; height: 17px; stroke: var(--esmeralda); stroke-width: 1.4; fill: none; flex: none; margin-top: 2px; }
+.garantia p { margin: 0; font-family: var(--face-leitura); font-optical-sizing: auto; font-size: 15px; line-height: 1.5; color: var(--tinta-fraca); }
+.garantia strong { color: var(--tinta); font-weight: 600; }
+
+/* ---------- a roseta olfativa ---------- */
+
+.olfato { background: var(--areia); padding-block: var(--ritmo); }
+.olfato__grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 4.5vw, 64px); align-items: center; }
+.olfato__desenho { position: relative; aspect-ratio: 1; max-width: 480px; width: 100%; margin-inline: auto; }
+.olfativa { position: absolute; inset: 0; width: 100%; height: 100%; }
+/* Os três anéis ganham peso para dentro: o fundo é o mais discreto, o topo o
+   mais próximo. Sem essa escada os três lêem como um polígono só, e o
+   diagrama deixa de ser diagrama. */
+.olfativa path { stroke: var(--tinta); stroke-width: 1; vector-effect: non-scaling-stroke; transition: opacity 0.4s ease, stroke 0.4s ease, stroke-width 0.4s ease; }
+.olfativa .anel--fundo { opacity: 0.3; }
+.olfativa .anel--coracao { opacity: 0.4; }
+.olfativa .anel--topo { opacity: 0.55; }
+.olfativa .olfativa__estrela { opacity: 0.16; }
+.olfativa__raios path { opacity: 0.14; }
+.olfativa .aceso { stroke: var(--bronze); opacity: 1; stroke-width: 2.4; }
+
+.olfato__centro { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; pointer-events: none; }
+.olfato__centro strong { font-family: var(--face-display); font-size: clamp(24px, 2.6vw, 34px); font-weight: 500; letter-spacing: -0.012em; display: block; margin-top: 6px; }
+
+.olfato h2 { font-size: clamp(22px, 2.3vw, 32px); margin-bottom: 20px; }
+.andares { list-style: none; margin: 0 0 26px; padding: 0; }
+.andar { display: grid; grid-template-columns: 90px 1fr; gap: 18px; align-items: baseline; padding-block: 16px; border-bottom: 1px solid var(--linha); }
+.andar:first-child { border-top: 1px solid var(--linha); }
+.andar__rotulo { transition: color 0.25s ease; }
+.andar:hover .andar__rotulo, .andar:focus-within .andar__rotulo { color: var(--bronze); }
+.andar__notas { font-family: var(--face-leitura); font-optical-sizing: auto; font-size: 18px; margin: 0; }
+
+.medidas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--linha); border: 1px solid var(--linha); }
+.medida-item { background: var(--areia); padding: 16px 14px 18px; }
+.medida-item__valor { font-family: var(--face-medida); font-size: clamp(18px, 1.9vw, 24px); font-weight: 700; font-variant-numeric: tabular-nums; display: block; margin-top: 7px; letter-spacing: -0.04em; }
+
+/* ---------- kit ---------- */
+
+.kit { padding-block: var(--ritmo); }
+.kit__caixa { border: 1px solid var(--linha); display: grid; grid-template-columns: minmax(0, 1fr) 300px; }
+.kit__dizer { padding: clamp(26px, 3.2vw, 42px); }
+.kit__dizer h2 { font-size: clamp(21px, 2.1vw, 29px); margin-bottom: 16px; }
+.kit__pecas { list-style: none; margin: 0 0 24px; padding: 0; }
+.kit__peca { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding-block: 12px; border-bottom: 1px solid var(--linha); font-size: 15px; }
+.kit__peca a { border-bottom: 1px solid var(--linha-forte); }
+.kit__peca a:hover { border-color: var(--esmeralda); color: var(--esmeralda); }
+.kit__economia { background: var(--esmeralda); color: #fff; padding: clamp(26px, 3.2vw, 42px); display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.kit__economia .medida { color: rgba(255, 255, 255, 0.78); }
+.kit__economia strong { font-family: var(--face-medida); font-size: clamp(26px, 3vw, 36px); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
+.kit__economia p { margin: 8px 0 0; font-size: 13px; color: rgba(255, 255, 255, 0.85); }
+
+/* ---------- acordeões ---------- */
+
+.saber { padding-block: var(--ritmo); border-top: 1px solid var(--linha); }
+.gaveta { border-bottom: 1px solid var(--linha); }
+.gaveta summary {
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding-block: 22px; cursor: pointer; list-style: none;
+  font-family: var(--face-display); font-size: clamp(18px, 1.8vw, 23px); font-weight: 600; letter-spacing: -0.025em;
+}
+.gaveta summary::-webkit-details-marker { display: none; }
+.gaveta summary::after { content: ''; width: 13px; height: 13px; border-right: 1.5px solid var(--tinta); border-bottom: 1.5px solid var(--tinta); rotate: 45deg; flex: none; transition: rotate 0.3s ease; margin-bottom: 4px; }
+.gaveta[open] summary::after { rotate: -135deg; margin-bottom: -4px; }
+.gaveta__corpo { padding-bottom: 26px; }
+.gaveta__corpo p { margin: 0 0 16px; color: var(--tinta-fraca); }
+.gaveta__corpo p:first-child { color: var(--tinta); }
+.gaveta__corpo ol { margin: 0; padding-left: 20px; color: var(--tinta-fraca); }
+.gaveta__corpo li { margin-bottom: 8px; }
+
+@media (max-width: 1100px) {
+  .produto, .olfato__grade { grid-template-columns: 1fr; }
+  .kit__caixa { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .medidas { grid-template-columns: 1fr 1fr; }
+  .andar { grid-template-columns: 1fr; gap: 4px; }
+  .compra h1 { font-size: 27px; }
+}

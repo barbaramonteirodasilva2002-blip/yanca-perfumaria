@@ -12,30 +12,6 @@
   const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches
 
   /* 1. revelação */
-  if (!quieto && 'IntersectionObserver' in window) {
-    const alvos = document.querySelectorAll(
-      '.secao__cabeca, .peca, .marca-cartao, .area, .frente, .beneficio, .faixa-kit__grade > *, .kit__caixa, .gaveta, .olfato__desenho, .olfato__grade > div, .irmaos, .medidas'
-    )
-    if (alvos.length) {
-      document.documentElement.classList.add('revelando')
-      alvos.forEach((el) => el.classList.add('revelar'))
-      const olho = new IntersectionObserver(
-        (entradas) => {
-          entradas.forEach((e) => {
-            if (!e.isIntersecting) return
-            e.target.classList.add('visivel')
-            olho.unobserve(e.target)
-          })
-        },
-        { rootMargin: '0px 0px -8% 0px', threshold: 0.06 }
-      )
-      alvos.forEach((el) => olho.observe(el))
-
-      // Rede de segurança: se algo não for observado a tempo, revela tudo.
-      setTimeout(() => alvos.forEach((el) => el.classList.add('visivel')), 4000)
-    }
-  }
-
   /* 1c. barra de compra fixa na página de produto */
   const barra = document.querySelector('.barra-compra')
   const gatilho = document.querySelector('.compra__acoes')

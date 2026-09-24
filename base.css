@@ -139,25 +139,6 @@ h1, h2, h3, h4 {
   max-width: 68ch;
 } .frente p, .faixa-kit p { font-family: var(--face-leitura); font-optical-sizing: auto; line-height: 1.62; }
 
-/* ---------- revelação ao rolar ----------
-   O estado escondido só existe quando o script confirma que pode revelar.
-   Sem JS, ou com movimento reduzido, tudo nasce visível. */
-/* A revelação usa `translate`, não `transform`. São propriedades separadas no
-   CSS moderno, e é o que permite o cartão ter inclinação 3D em `transform` sem
-   que a revelação apague a inclinação ao terminar. */
-@media (prefers-reduced-motion: no-preference) {
-  html.revelando .revelar { opacity: 0; translate: 0 18px; }
-  html.revelando .revelar.visivel {
-    opacity: 1; translate: 0 0;
-    transition: opacity 0.9s var(--saida), translate 0.9s var(--saida);
-  }
-  html.revelando .revelar.visivel:nth-child(2) { transition-delay: 0.06s }
-  html.revelando .revelar.visivel:nth-child(3) { transition-delay: 0.12s }
-  html.revelando .revelar.visivel:nth-child(4) { transition-delay: 0.18s }
-  html.revelando .revelar.visivel:nth-child(5) { transition-delay: 0.24s }
-  html.revelando .revelar.visivel:nth-child(6) { transition-delay: 0.3s }
-}
-
 /* ---------- amarração ---------- */
 
 .amarracao { position: sticky; top: 0; z-index: 60; background: var(--branco); }
@@ -651,7 +632,6 @@ h1, h2, h3, h4 {
   align-items: center;
   padding-block: clamp(40px, 5.5vw, 72px);
 }
-.cena__olho { display: block; color: var(--brasa); margin-bottom: 18px; }
 .cena__titulo {
   font-size: clamp(32px, 4.3vw, 60px); margin: 0 0 20px; max-width: 15ch; color: inherit;
 }
@@ -697,7 +677,6 @@ h1, h2, h3, h4 {
   
   
   .cena--ativa .cena__dizer > * { animation: subir-cena 0.9s var(--saida) backwards; }
-  .cena--ativa .cena__olho { animation-delay: 0.05s; }
   .cena--ativa .cena__titulo { animation-delay: 0.14s; }
   .cena--ativa .cena__dizer p { animation-delay: 0.26s; }
   .cena--ativa .cena__dizer .acao { animation-delay: 0.38s; }
@@ -719,7 +698,6 @@ h1, h2, h3, h4 {
   
   
   
-  .cena__olho { margin-bottom: 12px; }
   .cena__titulo { font-size: clamp(27px, 7.4vw, 36px); max-width: 100%; }
   .cena__dizer p { font-size: 15.5px; margin-bottom: 24px; }
   .palco__seta { display: none; }
@@ -752,7 +730,7 @@ h1, h2, h3, h4 {
   position: absolute; z-index: 1; left: 50%; translate: -50% 0; bottom: 34%;
   height: 54%; width: auto; object-fit: contain; object-position: bottom;
   filter: drop-shadow(0 18px 22px rgba(0, 0, 0, 0.42));
-  transition: translate 0.5s var(--saida), height 0.5s var(--saida);
+  transition: translate 0.5s var(--saida);
 }
 .vitrola:hover .vitrola__frasco { translate: -50% -8px; }
 .vitrola--sem-foto .vitrola__selo { inset: -14% -22% 6% -22%; opacity: 0.26; }
@@ -792,7 +770,6 @@ h1, h2, h3, h4 {
   padding-block: calc(var(--ritmo) * 1.12);
 }
 .secao--grife h2 { color: #fff; font-size: clamp(32px, 3.4vw, 48px); }
-.secao__olho { display: block; color: var(--bronze-claro); margin-bottom: 12px; }
 .secao__linha {
   font-family: var(--face-leitura); font-optical-sizing: auto;
   font-size: 16.5px; line-height: 1.6; margin: 14px 0 0; max-width: 54ch;
@@ -854,7 +831,6 @@ h1, h2, h3, h4 {
   display: grid; place-items: center; background: none; border: 0; cursor: pointer; color: var(--tinta);
 }
 .convite__fechar svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.6; fill: none; }
-.convite__olho { display: block; color: var(--bronze); margin-bottom: 14px; }
 .convite__dizer h2 { font-size: clamp(26px, 2.6vw, 36px); margin: 0 0 14px; }
 .convite__dizer > p {
   font-family: var(--face-leitura); font-optical-sizing: auto; line-height: 1.6;
@@ -899,13 +875,6 @@ h1, h2, h3, h4 {
 @media (max-width: 860px) { .idioma__sigla { display: none; } }
 .convite__pronto { margin: 0; font-family: var(--face-leitura); font-size: 16.5px; line-height: 1.6; color: var(--esmeralda); }
 
-/* A palavra de cima ganha um traço, que é o que dá hierarquia sem precisar de
-   mais um peso de fonte disputando com o título. */
-.cena__olho { display: flex; align-items: center; gap: 12px; }
-.cena__olho::after {
-  content: ''; height: 1px; width: clamp(28px, 4vw, 64px);
-  background: currentColor; opacity: 0.45;
-}
 .cena__titulo { text-wrap: balance; }
 
 /* Marca sem foto ainda não é marca vazia: o nome sobe para o meio e ocupa o
@@ -962,3 +931,76 @@ h1, h2, h3, h4 {
   font-family: var(--face-corpo); font-size: 14px;
 }
 .menu-movel__idioma button[aria-current='true'] { border-color: var(--esmeralda); color: var(--esmeralda); font-weight: 600; }
+
+/* ---------- rastro ----------
+   O único momento com autoria da página, e ele vem do produto: perfume deixa
+   rastro. Ao rolar, a arte do banner não sai junto com a página. Ela demora,
+   deriva mais devagar que a fala e escurece, do jeito que um rastro se
+   dissipa atrás de quem passou. A fala sobe mais rápido e some antes, e é
+   essa diferença de velocidade entre as duas camadas que dá a profundidade.
+
+   Tudo por linha do tempo de rolagem do próprio CSS: nenhum ouvinte de
+   scroll, nenhum quadro calculado em JavaScript, e o navegador resolve na
+   composição. Onde a linha do tempo não existe, a página fica parada e
+   inteira, que é o estado correto para uma vitrine. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    /* A linha do tempo é nomeada no palco e usada lá de dentro. Pedir view()
+       direto na arte não funciona: a cena e o palco têm overflow hidden, e
+       isso os torna contêineres de rolagem, então a medição passaria a ser
+       contra um elemento que não rola e a animação ficaria parada no zero. */
+    .palco { view-timeline: --palco block; }
+    .cena__arte img {
+      animation: rastro linear both;
+      animation-timeline: --palco;
+      animation-range: exit 0% exit 100%;
+    }
+    .cena--claro .cena__arte img { animation-name: rastro-claro; }
+    .cena__dizer {
+      animation: rastro-fala linear both;
+      animation-timeline: --palco;
+      animation-range: exit 0% exit 72%;
+    }
+
+    /* A régua da seção se desenha quando a seção chega. É estrutura ganhando
+       forma, não um enfeite entrando: por isso cresce a partir da margem, no
+       sentido da leitura, e não aparece por opacidade. */
+    /* A linha do tempo é nomeada no cabeçalho e usada pelo pseudo-elemento.
+       Medir contra o próprio ::after não serve: ele tem 1px de altura, e
+       misturar fases diferentes numa faixa só a inverte, o que trava a
+       animação no estado inicial e deixa a régua invisível para sempre. */
+    .secao__cabeca { view-timeline: --cabeca block; }
+    .secao__cabeca::after {
+      scale: 0 1;
+      animation: tracar linear both;
+      animation-timeline: --cabeca;
+      animation-range: entry 15% entry 95%;
+    }
+  }
+}
+@keyframes rastro {
+  to { translate: 0 11%; scale: 1.07; filter: brightness(0.46) saturate(0.7); }
+}
+@keyframes rastro-claro {
+  to { translate: 0 11%; scale: 1.07; filter: brightness(1.1) saturate(0.55) opacity(0.5); }
+}
+@keyframes rastro-fala { to { translate: 0 -24%; opacity: 0; } }
+@keyframes tracar { to { scale: 1 1; } }
+
+/* A régua existe sempre, mesmo sem linha do tempo de rolagem. */
+.secao__cabeca { position: relative; padding-bottom: 22px; }
+.secao__cabeca::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 1px;
+  background: currentColor; opacity: 0.2; transform-origin: left center;
+}
+
+/* ---------- escala do título de seção ----------
+   Sem o rótulo por cima, o título precisa carregar sozinho, e para isso ele
+   cresce e aperta. Mais ar acima do que abaixo, que é o que separa uma seção
+   da anterior sem precisar de moldura. */
+.secao__cabeca h2 {
+  font-size: clamp(30px, 3.7vw, 52px);
+  letter-spacing: -0.042em;
+  line-height: 1.02;
+}
+.secao { padding-block: calc(var(--ritmo) * 1.15) var(--ritmo); }

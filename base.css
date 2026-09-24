@@ -4,13 +4,17 @@
    como única brasa. Display em didone de verdade, interface em grotesca. */
 
 :root {
-  --branco: #ffffff;
-  --areia: #f3efe7;        /* o ladrilho vidrado, onde o produto se assenta */
-  --areia-funda: #e9e3d7;
+  /* Branco de tela é o fundo mais barato que existe. A página inteira é
+     papel quente, e o cartão é branco puro por cima dele: esse contraste de
+     um degrau só é o que dá sensação de impresso em vez de monitor. */
+  --papel: #faf8f5;        /* o fundo da loja */
+  --branco: #ffffff;       /* o cartão, e só ele */
+  --areia: #f4f1ec;        /* o poço da foto, onde o frasco se assenta */
+  --areia-funda: #e9e4da;
   --tinta: #16161a;        /* quase preto, quente: tipografia e traço */
-  --tinta-fraca: #6b6b74;
-  --linha: rgba(22, 22, 26, 0.13);
-  --linha-forte: rgba(22, 22, 26, 0.3);
+  --tinta-fraca: #6a6560;
+  --linha: rgba(22, 22, 26, 0.1);
+  --linha-forte: rgba(22, 22, 26, 0.28);
 
   --profundo: #0e3b32;     /* verde de garrafa: painéis e fechamento */
   --esmeralda: #0e5a48;    /* a ação, e nada além dela */
@@ -22,6 +26,15 @@
      banner. A geometria continua sendo da casa, mas agora atrás do
      produto, que é quem tem que ser visto. */
   --estrela: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000'><g fill='none' stroke='%23fff' stroke-width='5'><circle cx='500' cy='500' r='460'/><path d='M500 40 L730 101.63 L898.37 270 L960 500 L898.37 730 L730 898.37 L500 960 L270 898.37 L101.63 730 L40 500 L101.63 270 L270 101.63 Z'/><path d='M577.65 210.22 L712.13 287.87 L789.78 422.35 L789.78 577.65 L712.13 712.13 L577.65 789.78 L422.35 789.78 L287.87 712.13 L210.22 577.65 L210.22 422.35 L287.87 287.87 L422.35 210.22 Z'/><path d='M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z'/></g></svg>");
+
+  /* Editorial não é fonte bonita, é distância. O display sobe e aperta, o
+     rótulo desce e espaça, e é o vão entre os dois extremos que a pessoa lê
+     como revista em vez de catálogo. */
+  --display-1: clamp(36px, 5.6vw, 74px);
+  --display-2: clamp(29px, 3.9vw, 54px);
+  --display-3: clamp(21px, 1.9vw, 27px);
+  --rotulo: 10px;
+  --rotulo-espaco: 0.19em;
 
   --largura: 1400px;
   --gutter: clamp(18px, 3.4vw, 48px);
@@ -68,7 +81,7 @@ html { -webkit-text-size-adjust: 100%; scrollbar-color: var(--linha-forte) var(-
 
 body {
   margin: 0;
-  background: var(--branco);
+  background: var(--papel);
   color: var(--tinta);
   font-family: var(--face-corpo);
   font-size: 16px;
@@ -120,9 +133,9 @@ h1, h2, h3, h4 {
 
 .medida {
   font-family: var(--face-medida);
-  font-size: 10px;
+  font-size: var(--rotulo);
   font-weight: 400;
-  letter-spacing: 0.15em;
+  letter-spacing: var(--rotulo-espaco);
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
   color: var(--tinta-fraca);
@@ -142,7 +155,7 @@ h1, h2, h3, h4 {
 
 /* ---------- amarração ---------- */
 
-.amarracao { position: sticky; top: 0; z-index: 60; background: var(--branco); }
+.amarracao { position: sticky; top: 0; z-index: 60; background: var(--papel); }
 
 /* A tarja recolhe por grid-template-rows, de 1fr para 0fr, e não por altura:
    animar height ou padding repagina a cada quadro justamente enquanto a pessoa
@@ -287,11 +300,11 @@ h1, h2, h3, h4 {
 /* ---------- benefícios ---------- */
 
 .beneficios { display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid var(--linha); }
-.beneficio { display: flex; gap: 13px; align-items: flex-start; padding: 22px clamp(14px, 1.6vw, 26px); }
+.beneficio { display: flex; gap: 11px; align-items: center; padding: 18px clamp(14px, 1.6vw, 24px); }
 .beneficio + .beneficio { border-left: 1px solid var(--linha); }
-.beneficio svg { width: 19px; height: 19px; stroke: var(--esmeralda); stroke-width: 1.4; fill: none; flex: none; margin-top: 2px; }
-.beneficio strong { display: block; font-size: 14px; font-weight: 600; }
-.beneficio span { font-size: 12.5px; color: var(--tinta-fraca); }
+.beneficio svg { width: 17px; height: 17px; stroke: var(--esmeralda); stroke-width: 1.4; fill: none; flex: none; margin-top: 2px; }
+.beneficio strong { display: block; font-size: 13px; font-weight: 600; letter-spacing: -0.005em; }
+.beneficio span { font-size: 12px; color: var(--tinta-fraca); }
 
 /* ---------- seções ---------- */
 
@@ -317,14 +330,16 @@ h1, h2, h3, h4 {
    repouso. Sem cursor, e com movimento reduzido, ele só levanta. */
 .peca {
   position: relative; display: flex; flex-direction: column;
+  /* Sem borda. Num fundo de papel, o cartão branco já se destaca sozinho, e
+     moldura em volta de tudo é o que faz vitrine parecer marketplace. */
   background: var(--branco);
-  border: 1px solid var(--linha);
+  border: 1px solid transparent;
   padding: 11px 11px 15px;
   transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateZ(0);
   transition: border-color 0.45s var(--saida), box-shadow 0.45s var(--saida), transform 0.6s var(--saida);
 }
 .peca:hover {
-  border-color: var(--bronze);
+  border-color: var(--linha);
   box-shadow: 0 26px 48px -28px rgba(22, 22, 26, 0.5);
   transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-4px) translateZ(14px);
   transition-duration: 0.14s;
@@ -607,7 +622,7 @@ h1, h2, h3, h4 {
   padding-block: clamp(40px, 5.5vw, 72px);
 }
 .cena__titulo {
-  font-size: clamp(32px, 4.3vw, 60px); margin: 0 0 20px; max-width: 15ch; color: inherit;
+  font-size: var(--display-1); margin: 0 0 22px; max-width: 14ch; color: inherit;
 }
 .cena__dizer p {
   font-family: var(--face-leitura); font-optical-sizing: auto; line-height: 1.6;
@@ -636,13 +651,21 @@ h1, h2, h3, h4 {
   position: absolute; z-index: 3; left: 50%; translate: -50% 0; bottom: 22px;
   display: flex; gap: 9px;
 }
+/* O botão é a área de toque, 46 por 44. O fio visível é o pseudo-elemento.
+   Foi preciso separar os dois porque o atalho `background` de qualquer regra
+   posterior zera o background-clip, e o fio voltava a ocupar a caixa toda. */
 .palco__ponto {
-  width: 30px; height: 3px; padding: 0; border: 0; cursor: pointer;
+  width: 46px; height: 44px; padding: 0; border: 0; cursor: pointer;
+  background: none; position: relative;
+}
+.palco__ponto::before {
+  content: ''; position: absolute; left: 8px; right: 8px; top: 50%;
+  height: 3px; translate: 0 -50%;
   background: rgba(255, 255, 255, 0.34); transition: background 0.3s ease;
 }
-.palco__ponto[aria-selected='true'] { background: var(--brasa, #fff); }
-.palco:has(.cena--claro.cena--ativa) .palco__ponto { background: rgba(22, 22, 26, 0.2); }
-.palco:has(.cena--claro.cena--ativa) .palco__ponto[aria-selected='true'] { background: var(--bronze); }
+.palco__ponto[aria-selected='true']::before { background: var(--brasa, #fff); }
+.palco:has(.cena--claro.cena--ativa) .palco__ponto::before { background: rgba(22, 22, 26, 0.22); }
+.palco:has(.cena--claro.cena--ativa) .palco__ponto[aria-selected='true']::before { background: var(--bronze); }
 
 @media (prefers-reduced-motion: no-preference) {
   /* O frasco respira. Só o da frente, e só três pixels: banner com produto
@@ -743,7 +766,7 @@ h1, h2, h3, h4 {
   color: var(--areia);
   padding-block: var(--ritmo-forte) var(--ritmo);
 }
-.secao--grife h2 { color: #fff; font-size: clamp(32px, 3.4vw, 48px); }
+.secao--grife h2 { color: #fff; }
 .secao__linha {
   font-family: var(--face-leitura); font-optical-sizing: auto;
   font-size: 16.5px; line-height: 1.6; margin: 14px 0 0; max-width: 54ch;
@@ -973,9 +996,9 @@ h1, h2, h3, h4 {
    cresce e aperta. Mais ar acima do que abaixo, que é o que separa uma seção
    da anterior sem precisar de moldura. */
 .secao__cabeca h2 {
-  font-size: clamp(30px, 3.7vw, 52px);
-  letter-spacing: -0.042em;
-  line-height: 1.02;
+  font-size: var(--display-2);
+  letter-spacing: -0.044em;
+  line-height: 1;
 }
 .secao { padding-block: var(--ritmo-forte) var(--ritmo); }
 
@@ -1047,7 +1070,7 @@ h1, h2, h3, h4 {
      do que grudar com remendo. */
   .secao__cabeca {
     position: sticky; top: 78px; z-index: 6;
-    background: var(--branco); padding-top: 14px;
+    background: var(--papel); padding-top: 14px;
   }
   .secao--areia .secao__cabeca { background: var(--areia); }
   .secao--grife .secao__cabeca { position: static; padding-top: 0; }
@@ -1089,7 +1112,7 @@ h1, h2, h3, h4 {
   gap: clamp(32px, 5vw, 80px); align-items: start;
 }
 .guia__dizer h2 {
-  color: #fff; font-size: clamp(30px, 3.4vw, 46px);
+  color: #fff; font-size: var(--display-2);
   letter-spacing: -0.042em; line-height: 1.04; margin: 0 0 18px; text-wrap: balance;
 }
 .guia__dizer p {
@@ -1102,12 +1125,14 @@ h1, h2, h3, h4 {
 .guia__rotas a {
   display: grid; grid-template-columns: 1fr auto; align-items: center;
   column-gap: 24px; padding: clamp(20px, 2.2vw, 30px) 0;
-  transition: padding-left 0.4s var(--saida);
+  /* translate, não padding: padding repagina a linha inteira a cada quadro,
+     e isso acontece justamente enquanto o cursor está em cima. */
+  transition: translate 0.4s var(--saida);
 }
 .guia__pergunta {
   grid-column: 1; display: block;
   font-family: var(--face-display); font-weight: var(--peso-display);
-  letter-spacing: -0.03em; font-size: clamp(18px, 1.7vw, 23px); line-height: 1.2;
+  letter-spacing: -0.03em; font-size: var(--display-3); line-height: 1.18;
 }
 .guia__resposta {
   grid-column: 1; display: block; margin-top: 8px;
@@ -1124,10 +1149,62 @@ h1, h2, h3, h4 {
 .guia__seta svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.5; fill: none; }
 .guia__rotas a:hover .guia__seta { background: var(--bronze); border-color: var(--bronze); translate: 5px 0; color: #14100a; }
 .guia__rotas a:hover .guia__pergunta { color: var(--bronze-claro); }
-@media (hover: hover) { .guia__rotas a:hover { padding-left: 10px; } }
+@media (hover: hover) { .guia__rotas a:hover { translate: 10px 0; } }
 
 @media (max-width: 860px) {
   .guia__grade { grid-template-columns: 1fr; gap: 28px; }
   .guia__resposta { font-size: 14.5px; }
   .guia__seta { width: 38px; height: 38px; }
+}
+
+/* ---------- área de toque ----------
+   O dedo não tem ponta fina. Toda coisa clicável precisa de 44px de altura
+   real, mesmo quando o desenho dela é um fio de 3px: aumenta a área, não o
+   desenho. Isso se faz com padding mais background-clip, nunca engordando
+   o elemento visível. */
+@media (max-width: 860px) {
+  .palco__pontos { bottom: 0; gap: 0; }
+
+  .ferramenta, .menu-movel__fechar { width: 44px; height: 44px; }
+
+  /* Links de texto ganham altura de toque sem ganhar altura visual: o padding
+     entra e a margem negativa devolve o espaço ao layout. */
+  .secao__cabeca a,
+  .rodape a,
+  .rodape__lista a,
+  .beleza-bloco a,
+  .marca {
+    display: inline-block;
+    padding-block: 14px;
+    margin-block: -14px;
+  }
+  .menu-movel__pe a { padding-block: 12px; }
+  .rodape__lista li + li { margin-top: 4px; }
+}
+
+/* No desktop o alvo pode ser menor, mas o foco de teclado nunca pode sumir
+   atrás de um elemento grudado. */
+:focus-visible { scroll-margin-block: 120px; }
+
+/* ---------- a casa ----------
+   A loja nunca dizia quem era. Uma frase só, grande, em papel, sem ícone e
+   sem caixa: numa página cheia de produto, o silêncio em volta é o que faz
+   a voz da casa ser ouvida. O texto é o diferencial real registrado no
+   PRODUCT.md, não promessa inventada. */
+.casa { padding-block: calc(var(--ritmo-forte) * 1.1); border-top: 1px solid var(--linha); }
+.casa__grade { max-width: 58ch; margin-inline: auto; text-align: center; }
+.casa__marca { display: block; color: var(--bronze); margin: 0 0 22px; }
+.casa h2 {
+  font-size: clamp(25px, 3vw, 40px);
+  letter-spacing: -0.04em; line-height: 1.1; margin: 0 0 22px;
+  text-wrap: balance;
+}
+.casa__texto {
+  font-family: var(--face-leitura); font-optical-sizing: auto;
+  font-size: 17px; line-height: 1.68; margin: 0; color: var(--tinta-fraca);
+  max-width: 52ch; margin-inline: auto;
+}
+@media (max-width: 860px) {
+  .casa { padding-block: var(--ritmo-forte); }
+  .casa__texto { font-size: 15.5px; }
 }

@@ -59,23 +59,6 @@
         }
       }
 
-      // o botão principal se aproxima do cursor quando ele chega perto
-      document.querySelectorAll('.acao').forEach((botao) => {
-        const c = botao.getBoundingClientRect()
-        const cx = c.left + c.width / 2
-        const cy = c.top + c.height / 2
-        const dist = Math.hypot(e.clientX - cx, e.clientY - cy)
-        const alcance = c.width * 0.9
-        if (dist > alcance) {
-          botao.style.removeProperty('--ima-x')
-          botao.style.removeProperty('--ima-y')
-          return
-        }
-        const forca = 1 - dist / alcance
-        botao.style.setProperty('--ima-x', ((e.clientX - cx) * 0.22 * forca).toFixed(1) + 'px')
-        botao.style.setProperty('--ima-y', ((e.clientY - cy) * 0.28 * forca).toFixed(1) + 'px')
-      })
-
       // o cartão sob o cursor inclina e acende
       const cartao = e.target.closest && e.target.closest('.peca')
       if (cartao) {
@@ -291,6 +274,55 @@
       if (e.shiftKey && document.activeElement === primeiro) { e.preventDefault(); ultimo.focus() }
       else if (!e.shiftKey && document.activeElement === ultimo) { e.preventDefault(); primeiro.focus() }
     })
+  }
+
+  /* 1m. passagem para a beleza, caminho de reserva.
+     Quem move a mídia é a linha do tempo de rolagem do CSS, sem ouvinte
+     nenhum. Este bloco só existe para navegador que ainda não tem essa
+     linha do tempo, e nesse caso vale a mesma regra:
+
+     1. A rolagem não é tomada. Nada de preventDefault, nada de scrollTo,
+        nada de prender ninguém. Só se lê onde a seção está.
+     2. Dois ouvintes passivos, registrados uma vez, e um quadro agendado
+        por vez. Nada de ouvinte por atualização.
+     3. Com movimento reduzido nem se apresenta: o CSS já deixa a
+        composição no estado final. */
+  const passagem = document.querySelector('.passagem')
+  const temLinhaDoTempo =
+    window.CSS && CSS.supports && CSS.supports('animation-timeline', 'view()')
+  if (passagem && !quieto && !temLinhaDoTempo) {
+    const trilho = passagem.querySelector('.passagem__trilho')
+    const fixo = passagem.querySelector('.passagem__fixo')
+    const midia = passagem.querySelector('.passagem__midia')
+    const dizer = passagem.querySelector('.passagem__dizer')
+    if (trilho && fixo && midia && dizer) {
+      passagem.dataset.reserva = ''
+
+      let agendado = false
+      let ultimo = -1
+
+      const medir = () => {
+        agendado = false
+        const c = trilho.getBoundingClientRect()
+        const curso = c.height - fixo.offsetHeight
+        // Bloco comum no celular: não há curso, então fica aberto.
+        const p = curso > 40 ? Math.min(1, Math.max(0, -c.top / curso)) : 1
+        const valor = Math.round(p * 500) / 500
+        if (valor === ultimo) return
+        ultimo = valor
+        midia.style.setProperty('--abre', String(valor))
+        dizer.style.setProperty('--abre', String(valor))
+      }
+      const pedir = () => {
+        if (agendado) return
+        agendado = true
+        requestAnimationFrame(medir)
+      }
+
+      addEventListener('scroll', pedir, { passive: true })
+      addEventListener('resize', pedir, { passive: true })
+      medir()
+    }
   }
 
   /* 1i. convite de primeira visita.

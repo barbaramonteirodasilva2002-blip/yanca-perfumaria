@@ -141,11 +141,8 @@
       </div>
 
       <div class="compra__acoes">
-        <button class="acao acao--larga">
-          Adicionar à sacola
-          <svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg>
-        </button>
-        <button class="acao-secundaria">Calcular frete e prazo</button>
+        <button class="acao acao--larga"><span class="acao__texto">Adicionar à sacola</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></button>
+        <button class="acao-secundaria"><span class="acao__texto">Calcular frete e prazo</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></button>
       </div>
 
       <div class="garantias">
@@ -226,9 +223,7 @@
             <span class="preco" style="font-size:14px">R$ 259,00</span>
           </li>
         </ul>
-        <a class="acao" href="#">Ver o kit por R$ 409,90
-          <svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
-        </a>
+        <a class="acao" href="#"><span class="acao__texto">Ver o kit por R$ 409,90</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
       </div>
       <div class="kit__economia">
         <span class="medida">Você economiza</span>
@@ -317,7 +312,7 @@
       <span class="barra-compra__foto"><img src="imagens/web/lattafa-yara-candy.webp" alt=""></span>
       <span class="barra-compra__nome">Lattafa Yara Candy Eau de Parfum 100ml</span>
       <span class="preco barra-compra__preco">R$ 286,00</span>
-      <button class="acao">Adicionar à sacola<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></button>
+      <button class="acao"><span class="acao__texto">Adicionar à sacola</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></button>
     </div>
   </div>
 
@@ -453,7 +448,7 @@ document.querySelectorAll('.quantidade').forEach((caixa) => {
         <label class="medida" for="convite-email">Seu e-mail</label>
         <div class="convite__linha">
           <input id="convite-email" name="email" type="email" required autocomplete="email" placeholder="voce@email.com">
-          <button class="acao" type="submit">Quero receber</button>
+          <button class="acao" type="submit"><span class="acao__texto">Quero receber</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></button>
         </div>
         <p class="convite__erro" role="alert" hidden></p>
       </form>

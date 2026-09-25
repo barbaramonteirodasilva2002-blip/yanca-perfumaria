@@ -33,11 +33,12 @@
   --display-1: clamp(38px, 5.4vw, 76px);   /* hero */
   --display-2: clamp(30px, 3.6vw, 50px);   /* título de seção */
   --display-3: clamp(21px, 1.9vw, 27px);   /* título de bloco */
+  --titulo-loja: clamp(24px, 2.4vw, 33px); /* título de prateleira, em sans */
   --subtitulo: 17px;                       /* linha de apoio */
   --corpo: 16px;                           /* leitura */
   --nome-marca: 10.5px;                    /* marca no cartão */
   --nome-produto: 14.5px;                  /* nome no cartão */
-  --preco: 17px;
+  --preco: 19px;
   --parcela: 12.5px;
   --tecnico: 13px;
   --rotulo: 11px;
@@ -263,13 +264,19 @@ h1, h2, h3, h4 {
 }
 .navegacao a:hover::after, .navegacao a[aria-current]::after { transform: scaleX(1); }
 
-.busca { margin-inline: auto; flex: 1 1 260px; max-width: 420px; position: relative; }
+.busca { margin-inline: auto; flex: 1 1 240px; max-width: 360px; position: relative; }
+/* A caixa de busca era o elemento mais pesado do cabeçalho: retângulo cheio,
+   borda em toda a volta, do tamanho da assinatura. Vira campo de papel, sem
+   contorno, e só ganha traço quando recebe o cursor ou o foco. Menos moldura
+   é a mesma regra que já vale nos cartões. */
 .busca input {
-  width: 100%; border: 1px solid var(--linha-forte); background: var(--branco);
-  padding: 11px 14px 11px 40px; font-family: var(--face-corpo); font-size: 14px; color: var(--tinta);
-  transition: border-color 0.3s ease;
+  width: 100%; border: 0; border-bottom: 1px solid transparent; background: var(--areia);
+  padding: 12px 14px 12px 40px; font-family: var(--face-corpo); font-size: 14px; color: var(--tinta);
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
-.busca input:hover { border-color: var(--tinta); }
+.busca input:hover { background: #efece5; }
+.busca input:focus { background: var(--branco); border-bottom-color: var(--tinta); outline: none; }
+.busca input:focus-visible { outline: 2px solid var(--bronze); outline-offset: 1px; }
 .busca input::placeholder { color: var(--tinta-fraca); }
 .busca svg { position: absolute; left: 13px; top: 50%; translate: 0 -50%; width: 17px; height: 17px; stroke: var(--tinta-fraca); stroke-width: 1.5; fill: none; }
 
@@ -451,10 +458,11 @@ h1, h2, h3, h4 {
 .peca__nome {
   font-family: var(--face-corpo); font-size: var(--nome-produto);
   font-weight: 400; line-height: 1.34; letter-spacing: -0.006em;
+  color: #34333a;
   margin: 0 0 12px; min-height: calc(1.34em * 2);
 }
 .peca__rodape { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--linha); }
-.peca__preco { font-family: var(--face-corpo); font-weight: 500; font-size: var(--preco); letter-spacing: -0.018em; display: block; }
+.peca__preco { font-family: var(--face-corpo); font-weight: 600; font-size: var(--preco); letter-spacing: -0.026em; display: block; }
 .peca__parcela { font-family: var(--face-corpo); font-weight: 400; font-size: var(--parcela); letter-spacing: 0; text-transform: none; color: var(--tinta-fraca); display: block; margin-top: 4px; }
 
 /* ---------- marcas ---------- */
@@ -467,6 +475,15 @@ h1, h2, h3, h4 {
   gap: var(--gap-cartao); overflow-x: auto; padding-bottom: 4px;
 }
 .marcas > * { scroll-snap-align: start; }
+
+/* O divisor é fixo, então a fração fica sempre em 16% em qualquer largura,
+   que é o que se quer. O que não escala é a contagem: 4,16 cartões dentro de
+   375px dá uma marca de 78px, que é tira, não cartão. A fração se mantém, a
+   contagem cai. */
+@media (max-width: 1000px) { .marcas { grid-auto-columns: calc((100% - 3 * var(--gap-cartao)) / 3.16); } }
+@media (max-width: 760px)  { .marcas { grid-auto-columns: calc((100% - 2 * var(--gap-cartao)) / 2.16); } }
+@media (max-width: 520px)  { .marcas { grid-auto-columns: calc((100% - var(--gap-cartao)) / 1.42); } }
+
 .marca-cartao {
   background: var(--branco); border: 1px solid var(--linha);
   padding: 30px 18px; text-align: center;
@@ -523,9 +540,13 @@ h1, h2, h3, h4 {
 
 /* ---------- faixa de kit ---------- */
 
-.faixa-kit { background: var(--profundo); color: var(--areia); padding-block: var(--ritmo); }
+/* A faixa de kit era o terceiro bloco verde da página, e verde a cada duas
+   seções vira listra em vez de ritmo. Em tinta ela fecha a parte de compra
+   antes do bloco institucional, e o bronze do botão ganha o contraste que
+   no verde ele não tinha. */
+.faixa-kit { background: var(--tinta); color: var(--areia); padding-block: var(--ritmo); }
 .faixa-kit__grade { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
-.faixa-kit h2 { font-size: clamp(28px, 3vw, 44px); margin-bottom: 14px; }
+.faixa-kit h2 { margin-bottom: 14px; }
 .faixa-kit p { margin: 0; max-width: 52ch; color: rgba(243, 239, 231, 0.86); }
 .faixa-kit .medida { color: rgba(243, 239, 231, 0.8); }
 .faixa-kit .acao { background: var(--bronze); }
@@ -1042,14 +1063,19 @@ h1, h2, h3, h4 {
   background: currentColor; opacity: 0.34; transform-origin: left center;
 }
 
-/* ---------- escala do título de seção ----------
-   Sem o rótulo por cima, o título precisa carregar sozinho, e para isso ele
-   cresce e aperta. Mais ar acima do que abaixo, que é o que separa uma seção
-   da anterior sem precisar de moldura. */
-.secao__cabeca h2 {
-  font-size: var(--display-2);
-  letter-spacing: -0.044em;
-  line-height: 1;
+/* ---------- duas vozes de título ----------
+   Serifada em nove títulos seguidos não é editorial, é papel de parede: se
+   tudo tem o mesmo peso, nada tem hierarquia. A serifada fica reservada aos
+   quatro momentos em que a loja fala por si (palco, guia, casa e convite) e
+   a prateleira passa a falar em sans, menor e mais apertada. O salto entre
+   as duas é que produz a leitura de revista com preço. */
+.secao__cabeca h2,
+.faixa-kit h2 {
+  font-family: var(--face-corpo);
+  font-weight: 600;
+  font-size: var(--titulo-loja);
+  letter-spacing: -0.028em;
+  line-height: 1.06;
 }
 .secao { padding-block: var(--ritmo-forte) var(--ritmo); }
 
@@ -1421,4 +1447,81 @@ h1, h2, h3, h4 {
 @media (pointer: coarse) {
   .trilho, .marcas { scroll-snap-type: x proximity; }
   .trilho > *, .marcas > * { scroll-snap-align: start; }
+}
+
+/* ==================================================================
+   CAMPANHA
+   A promessa da loja aparecia cinco vezes em texto. Aqui ela acontece
+   uma vez, em tamanho de campanha: um frasco grande, os três andares
+   escritos, e o link para a página onde o resto está.
+
+   É o único bloco da home onde a serifada cresce fora do palco, e é de
+   propósito: campanha é a segunda voz editorial, não uma prateleira. */
+.campanha {
+  background: var(--areia);
+  padding-block: calc(var(--ritmo-forte) * 1.05);
+  overflow: hidden;
+}
+.campanha__grade {
+  display: grid; grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(32px, 5vw, 76px); align-items: center;
+}
+
+/* O frasco flutua sobre a marca de doze pontas, que fica em água: ela dá
+   fundo à foto recortada sem virar moldura nem caixa. */
+/* Altura medida em vez de proporção: com proporção o palco se estica ao
+   conteúdo e o bloco ganha 200px de vazio abaixo do texto. */
+.campanha__palco { position: relative; display: grid; place-items: center;
+  height: clamp(320px, 38vw, 540px); min-height: 0; }
+.campanha__marca {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  fill: var(--tinta); stroke: none; opacity: 0.05;
+  rotate: -8deg;
+}
+/* Teto em medida, não em percentual. Altura percentual depende de o pai ter
+   altura definida no momento em que o navegador resolve a foto, e nem todo
+   renderizador chega lá na mesma ordem: num render de página inteira a foto
+   voltava ao tamanho natural e vazava por baixo da seção. */
+.campanha__frasco {
+  position: relative; width: auto; height: auto;
+  max-width: 76%; max-height: clamp(280px, 33vw, 470px); object-fit: contain;
+  filter: drop-shadow(0 38px 46px rgba(22, 22, 26, 0.24));
+  transition: translate 0.9s var(--saida);
+}
+.campanha:hover .campanha__frasco { translate: 0 -10px; }
+
+.campanha__rotulo { display: block; color: var(--bronze); margin-bottom: 14px; }
+.campanha h2 {
+  font-size: var(--display-2); letter-spacing: -0.038em; line-height: 1.02;
+  margin: 0 0 clamp(24px, 3vw, 36px); max-width: 17ch;
+}
+
+/* Três andares, e o fio entre eles é o que resta de moldura. A medida
+   fica na coluna estreita, para o nome das notas começar sempre no mesmo
+   ponto e a lista ler como ficha, não como parágrafo. */
+.campanha__andares { list-style: none; margin: 0 0 clamp(28px, 3vw, 38px); padding: 0; }
+.campanha__andares li {
+  display: grid; grid-template-columns: 84px minmax(0, 1fr);
+  gap: 4px 18px; align-items: baseline;
+  padding: 16px 0; border-top: 1px solid var(--linha);
+}
+.campanha__andares li:last-child { border-bottom: 1px solid var(--linha); }
+.campanha__andares .medida { color: var(--tinta-fraca); }
+.campanha__andares strong {
+  font-family: var(--face-corpo); font-weight: 500; font-size: 16px;
+  letter-spacing: -0.012em;
+}
+.campanha__nota {
+  grid-column: 2; font-family: var(--face-leitura); font-optical-sizing: auto;
+  font-size: 14px; line-height: 1.55; color: var(--tinta-fraca);
+}
+
+@media (max-width: 900px) {
+  .campanha__grade { grid-template-columns: 1fr; gap: 28px; }
+  .campanha__palco { height: clamp(260px, 56vw, 380px); }
+  .campanha h2 { max-width: none; }
+}
+@media (max-width: 480px) {
+  .campanha__andares li { grid-template-columns: 1fr; gap: 3px; }
+  .campanha__nota { grid-column: 1; }
 }

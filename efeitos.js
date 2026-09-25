@@ -568,6 +568,8 @@
       ['.guia__rotas li', 'sobe', 80, 99],
       ['.casa__grade > *', 'sobe', 90, 99],
       ['.beleza-bloco__painel', 'lado', 0, 99],
+      ['.campanha__palco', 'escala', 0, 99],
+      ['.campanha__andares li', 'sobe', 70, 99],
       ['.area', 'sobe', 50, 99],
       ['.faixa-kit__grade > *', 'sobe', 90, 99],
       ['.rodape__coluna', 'sobe', 60, 99],
@@ -653,6 +655,10 @@
 
     const ajustar = () => {
       const fim = pista.scrollWidth - pista.clientWidth - 2
+      /* Prateleira que cabe inteira na tela não tem para onde ir, e duas
+         setas apagadas ao lado do título são ruído com aparência de defeito.
+         Some o par, não desativa. */
+      grupo.hidden = pista.scrollWidth <= pista.clientWidth + 2
       setas.forEach((s) => {
         const antes = s.dataset.rola === 'antes'
         s.disabled = antes ? pista.scrollLeft <= 2 : pista.scrollLeft >= fim

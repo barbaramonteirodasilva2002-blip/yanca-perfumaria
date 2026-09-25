@@ -21,7 +21,7 @@
       </button>
       <a href="index.html" class="marca"><span class="marca__nome">Yanca</span><span class="marca__linha">Perfumaria</span></a>
     <nav class="navegacao" aria-label="Principal">
-      <a href="#importados" aria-current="page">Importados</a>
+      <a href="#importados">Importados</a>
       <a href="#arabes">Árabes</a>
       <a href="#beleza">Beleza</a>
       <a href="#marcas">Marcas</a>
@@ -73,7 +73,7 @@
         <div class="envoltorio cena__grade">
           <div class="cena__dizer">
             <h1 class="cena__titulo">As grifes que você já conhece pelo nome.</h1>
-            <p>Dior, Carolina Herrera, Lancôme, Paco Rabanne e Yves Saint Laurent. Nota por nota, fixação em horas, antes de você comprar.</p>
+            <p>Cinco casas que dispensam apresentação, reunidas na mesma prateleira. É por elas que a loja abre.</p>
             <a class="acao" href="#importados">Ver os importados
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
             </a>
@@ -285,7 +285,7 @@
       <div class="secao__cabeca secao__cabeca--forte">
       <div>
         <h2>Perfumaria importada</h2>
-        <p class="secao__linha">Os frascos que a pessoa já procura pelo nome. Cada um com a pirâmide olfativa aberta, fixação declarada e o que esperar dele na pele.</p>
+        <p class="secao__linha">Os frascos que a cliente já procura pelo nome, e não pela categoria.</p>
       </div>
       <a class="acao-secundaria" href="#">Ver os 35 de grife</a>
             <div class="secao__setas" data-alvo="trilho-2"><button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div>
@@ -469,6 +469,43 @@
   </section>
 
 
+
+  <!-- A loja repetia cinco vezes que abre a pirâmide olfativa. Aqui ela abre
+       uma, em tamanho de campanha, e para de prometer. As notas são as mesmas
+       já publicadas na página da Yara. -->
+  <section class="campanha" aria-labelledby="campanha-titulo">
+    <div class="envoltorio campanha__grade">
+      <div class="campanha__palco">
+        <svg class="campanha__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg>
+        <img class="campanha__frasco" src="imagens/web/lattafa-yara.webp" alt="Yara Eau de Parfum 100ml, da Lattafa" loading="lazy" width="900" height="900">
+      </div>
+      <div class="campanha__dizer">
+        <p class="medida campanha__rotulo">A pirâmide, aberta</p>
+        <h2 id="campanha-titulo">Yara, dos primeiros cinco minutos até a oitava hora.</h2>
+        <ol class="campanha__andares">
+          <li>
+            <span class="medida">Topo</span>
+            <strong>Tangerina, pera, bergamota</strong>
+            <span class="campanha__nota">A abertura, e o fio cítrico que corta o açúcar antes que ele pese.</span>
+          </li>
+          <li>
+            <span class="medida">Coração</span>
+            <strong>Caramelo, jasmim, heliotrópio</strong>
+            <span class="campanha__nota">Onde ela se entrega, e o que a pessoa ao lado reconhece.</span>
+          </li>
+          <li>
+            <span class="medida">Fundo</span>
+            <strong>Baunilha, almíscar, sândalo</strong>
+            <span class="campanha__nota">O que sobra na roupa depois que o dia acaba.</span>
+          </li>
+        </ol>
+        <a class="acao" href="produto.html">Ver a Yara inteira
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="guia" aria-labelledby="guia-titulo">
     <div class="envoltorio guia__grade">
       <div class="guia__dizer">
@@ -479,7 +516,7 @@
         <li>
           <a href="#arabes">
             <span class="guia__pergunta">Quero um que dure o dia inteiro</span>
-            <span class="guia__resposta">Cada frasco declara a fixação em horas e a projeção. Você filtra por isso, não por adjetivo.</span>
+            <span class="guia__resposta">A ficha de cada frasco traz esse número em horas. Você compara antes de escolher.</span>
             <span class="guia__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
           </a>
         </li>
@@ -586,33 +623,6 @@
         </a>
           <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Yara Rose Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
         </div>
-        <div class="peca-caixa">
-          <a class="peca" href="produto.html">
-          <span class="peca__retrato"><img src="imagens/web/lattafa-khamrah.webp" alt="Khamrah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
-          <span class="peca__marca medida">Lattafa</span>
-          <h3 class="peca__nome">Khamrah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="peca__avisar">Avise-me quando chegar</span></span>
-        </a>
-          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Khamrah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
-        </div>
-        <div class="peca-caixa">
-          <a class="peca" href="produto.html">
-          <span class="peca__retrato"><img src="imagens/web/maison-alhambra-delilah.webp" alt="Delilah Eau de Parfum 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
-          <span class="peca__marca medida">Maison Alhambra</span>
-          <h3 class="peca__nome">Delilah Eau de Parfum 100ml</h3>
-          <span class="peca__rodape"><span class="peca__avisar">Avise-me quando chegar</span></span>
-        </a>
-          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Delilah Eau de Parfum 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
-        </div>
-        <div class="peca-caixa">
-          <a class="peca" href="produto.html">
-          <span class="peca__retrato"><img src="imagens/web/dior-sauvage-eau-de-toilette.webp" alt="Sauvage Eau de Toilette 100ml" loading="lazy"><span class="peca__rapido">Compra rápida<svg viewBox="0 0 24 24"><path d="M5 7.5h14l-1.2 13H6.2z"/><path d="M8.8 10V6.2a3.2 3.2 0 0 1 6.4 0V10"/></svg></span></span>
-          <span class="peca__marca medida">Dior</span>
-          <h3 class="peca__nome">Sauvage Eau de Toilette 100ml</h3>
-          <span class="peca__rodape"><span class="peca__avisar">Avise-me quando chegar</span></span>
-        </a>
-          <button class="favorito" type="button" aria-pressed="false" aria-label="Favoritar Sauvage Eau de Toilette 100ml"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg></button>
-        </div>
         </div>
       </div>
 
@@ -645,7 +655,7 @@
       <div class="frente frente--tinta">
         <span class="medida">Perfumaria</span>
         <h3>Árabes, e a Victoria's Secret inteira</h3>
-        <p>Cada fragrância com página própria: pirâmide olfativa, fixação medida em horas e projeção em metros. Nada de adjetivo solto.</p>
+        <p>Lattafa, Armaf, Maison Alhambra e a Victoria's Secret inteira, do body splash ao creme da mesma fragrância.</p>
         <span class="frente__ir">Entrar na perfumaria
           <svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
         </span>

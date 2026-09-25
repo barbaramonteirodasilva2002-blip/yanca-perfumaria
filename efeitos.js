@@ -334,7 +334,7 @@
   const convite = document.getElementById('convite')
   if (convite) {
     const CHAVE = 'yanca:convite'
-    const DIAS = 30
+    const DIAS = 7
     let devolveFoco = null
 
     const jaViu = () => {
@@ -355,18 +355,33 @@
       } catch (e) {}
     }
 
+    /* Travar a rolagem com overflow hidden no body faz a página saltar para o
+       topo em alguns navegadores, porque o documento deixa de ter altura para
+       rolar. Aqui a posição é guardada, o corpo é fixado onde estava, e na
+       volta a página é devolvida ao mesmo pixel. */
+    let posicao = 0
     const abrirConvite = () => {
-      convite.hidden = false
+      posicao = window.scrollY
       devolveFoco = document.activeElement
-      document.body.style.overflow = 'hidden'
+      convite.hidden = false
+      document.body.style.position = 'fixed'
+      document.body.style.top = -posicao + 'px'
+      document.body.style.left = '0'
+      document.body.style.right = '0'
+      document.body.style.width = '100%'
       const campo = convite.querySelector('input')
       if (campo) campo.focus({ preventScroll: true })
     }
     const fecharConvite = () => {
       convite.hidden = true
-      document.body.style.overflow = ''
+      document.body.style.position = ''
+      document.body.style.top = ''
+      document.body.style.left = ''
+      document.body.style.right = ''
+      document.body.style.width = ''
+      window.scrollTo(0, posicao)
       anotar()
-      if (devolveFoco && devolveFoco.focus) devolveFoco.focus()
+      if (devolveFoco && devolveFoco.focus) devolveFoco.focus({ preventScroll: true })
     }
 
     convite.querySelectorAll('[data-fecha-convite]').forEach((b) =>
@@ -422,57 +437,61 @@
        vinte segundos de permanência, ou o cursor indo embora pelo topo no
        computador. O que vier primeiro, e uma vez só. */
     if (!jaViu()) {
-      /* Rolagem sozinha disparava cedo demais: 25% de uma home longa chega
-         antes de a pessoa ter visto qualquer coisa, e a caixa caía em cima da
-         campanha. Agora são duas condições ao mesmo tempo, permanência e
-         rolagem, e quem já esteve aqui antes pula a espera.
+      /* Onde o convite não pode aparecer, e o motivo de cada um:
 
-         Uma vez por sessão, sempre. */
+         Sobre o palco, porque é a primeira coisa que a pessoa veio ver.
+         Durante a passagem, porque ela é o único momento editorial contínuo
+         da página e uma caixa por cima apaga o efeito inteiro.
+         Antes de a beleza terminar, porque até ali a pessoa ainda está sendo
+         apresentada à loja.
+
+         A régua, então, é uma só e é fácil de conferir: o fim da seção de
+         beleza precisa ter passado acima do topo da tela. Isso já coloca o
+         convite depois do palco, depois da passagem e depois da beleza, sem
+         precisar medir três coisas diferentes.
+
+         Tempo e posição valem juntos, nunca isolados. */
       const CHAVE_SESSAO = 'yanca:convite-sessao'
-      const CHAVE_VISITAS = 'yanca:visitas'
-      let visitas = 1
-      let jaAbriuNaSessao = false
-      try {
-        jaAbriuNaSessao = !!sessionStorage.getItem(CHAVE_SESSAO)
-        visitas = Number(localStorage.getItem(CHAVE_VISITAS) || 0) + 1
-        localStorage.setItem(CHAVE_VISITAS, String(visitas))
-      } catch (e) {}
-
-      const jaVeio = visitas >= 2
-      const ESPERA_MINIMA = jaVeio ? 8000 : 25000
-      const ROLAGEM_MINIMA = jaVeio ? 0.15 : 0.45
+      const ESPERA = 30000
+      const ESPERA_SAIDA = 15000
       const nasceu = Date.now()
       let armado = true
+      try {
+        if (sessionStorage.getItem(CHAVE_SESSAO)) armado = false
+      } catch (e) {}
 
-      const talvezAbrir = () => {
-        if (!armado || jaAbriuNaSessao || !convite.hidden) return
+      const passouDaBeleza = () => {
+        const beleza = document.getElementById('beleza')
+        if (!beleza) return false
+        return beleza.getBoundingClientRect().bottom <= 0
+      }
+
+      const talvezAbrir = (esperaMinima) => {
+        if (!armado || !convite.hidden) return
+        if (Date.now() - nasceu < esperaMinima) return
+        if (!passouDaBeleza()) return
         armado = false
         try { sessionStorage.setItem(CHAVE_SESSAO, '1') } catch (e) {}
         abrirConvite()
       }
-      const cumpriuTempo = () => Date.now() - nasceu >= ESPERA_MINIMA
-      const cumpriuRolagem = () => {
-        const total = document.body.scrollHeight - innerHeight
-        return total > 0 && scrollY / total > ROLAGEM_MINIMA
-      }
-      const conferir = () => {
-        if (cumpriuTempo() && cumpriuRolagem()) talvezAbrir()
-      }
 
+      const conferir = () => talvezAbrir(ESPERA)
       addEventListener('scroll', conferir, { passive: true })
       const relogio = setInterval(() => {
         if (!armado) return clearInterval(relogio)
         conferir()
       }, 2000)
 
-      // Intenção de saída só no computador, e só depois de a pessoa ter tido
-      // tempo de olhar: no celular não existe cursor saindo pelo topo.
-      document.addEventListener('mouseout', (e) => {
-        if (e.relatedTarget || e.clientY >= 12) return
-        if (!matchMedia('(hover: hover)').matches) return
-        if (Date.now() - nasceu < 12000) return
-        talvezAbrir()
-      })
+      /* Intenção de saída só existe onde existe cursor. No celular não há
+         ponteiro saindo pelo topo, e tratar toque como saída abre a caixa na
+         cara de quem só rolou rápido. Mesmo no computador ela não pula a
+         régua de posição: só encurta a espera. */
+      if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        document.addEventListener('mouseout', (e) => {
+          if (e.relatedTarget || e.clientY >= 12) return
+          talvezAbrir(ESPERA_SAIDA)
+        })
+      }
       addEventListener('pagehide', () => clearInterval(relogio))
     }
   }
@@ -659,7 +678,7 @@
       ['.beleza__abertura', 'lado', 0, 99],
       ['.campanha__palco', 'escala', 0, 99],
       ['.campanha__andares li', 'sobe', 70, 99],
-      ['.area', 'sobe', 50, 5],
+      ['.tile', 'sobe', 60, 5],
       ['.portal', 'sobe', 90, 99],
       ['.faixa-kit__grade > *', 'sobe', 90, 99],
       ['.rodape__coluna', 'sobe', 60, 99],

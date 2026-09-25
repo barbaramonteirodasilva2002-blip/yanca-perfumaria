@@ -552,91 +552,176 @@ h1, h2, h3, h4 {
 /* ---------- áreas ---------- */
 
 /* ---------- beleza ----------
-   Era uma caixa verde colada ao lado de cinco linhas com fio entre elas, que
-   é aparência de tabela, não de navegação. Agora a abertura e as categorias
-   dividem a mesma grade e a mesma superfície: a abertura é a primeira célula,
-   em tipografia pura, e as outras cinco são cartões. Sem caixa, sem fio entre
-   opções, sem nome serifado.
+   Eram cinco retangulos brancos iguais, com um icone fino em cima e dois
+   tercos de nada embaixo: aparencia de painel de sistema, nao de vitrine.
 
-   A superfície é taupe porque o verde virou assinatura e já está no guia. */
+   Agora e composicao. Uma celula de abertura em tipografia pura e cinco
+   tiles de tamanhos diferentes, cada um com o proprio campo de cor e a
+   geometria da casa cortada em escala grande. Rosto ocupa duas colunas por
+   duas linhas, Corpo fica abaixo da abertura, e os tres restantes fecham a
+   base.
+
+   So Corpo tem fotografia, e e honesto: das 32 imagens do projeto, as unicas
+   de beleza sao as duas brumas da Victoria's Secret e um composto de
+   marketing da Aura. Rosto, cabelo, maos e labios nao tem foto no catalogo,
+   entao recebem composicao grafica em vez de imagem emprestada. */
 .beleza {
-  background: var(--taupe);
-  padding-block: var(--ritmo-forte) var(--ritmo-forte);
+  background: var(--marfim);
+  padding-block: var(--ritmo-forte);
 }
 .beleza__grade {
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-  /* Linhas iguais: sem isso a abertura estica a primeira linha e os dois
-     cartões de cima ficam altos enquanto os três de baixo ficam baixos, que
-     é o desalinhamento que faz grade parecer sobra de layout. */
-  grid-auto-rows: minmax(190px, 1fr);
-  gap: clamp(14px, 1.6vw, 22px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(12px, 1.3vw, 18px);
+  grid-template-areas:
+    "abre   rosto  rosto"
+    "corpo  rosto  rosto"
+    "cabelo maos   labios";
 }
-/* O embrulho das categorias só existe como caixa no celular, onde ele vira
-   trilho. No desktop ele desaparece da grade e os cartões continuam filhos
-   diretos dela. */
-.beleza__categorias { display: contents; }
-
-.beleza__abertura { display: flex; flex-direction: column; justify-content: center; padding-right: clamp(0px, 2vw, 32px); }
+.beleza__abertura {
+  grid-area: abre;
+  display: flex; flex-direction: column; justify-content: center;
+  padding-right: clamp(0px, 1.6vw, 26px);
+}
 .beleza__rotulo { display: block; color: var(--bronze-texto); margin-bottom: 14px; }
-.beleza__abertura h2 { font-size: var(--t-prateleira); margin: 0 0 16px; max-width: 16ch; }
+.beleza__abertura h2 {
+  font-family: var(--face-display); font-weight: var(--peso-display);
+  font-optical-sizing: auto; letter-spacing: var(--tracking-display);
+  line-height: var(--entrelinha-display);
+  font-size: var(--t-editorial); margin: 0 0 16px;
+}
 .beleza__linha {
   font-size: var(--t-apoio); line-height: 1.6; color: var(--texto-2);
-  margin: 0 0 26px; max-width: 34ch;
+  margin: 0 0 26px; max-width: 30ch;
+}
+/* O embrulho dos tiles some da grade no desktop e so volta a existir como
+   caixa no celular, onde vira trilho. */
+.beleza__tiles { display: contents; }
+
+.tile {
+  position: relative; overflow: hidden; isolation: isolate;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  min-height: 176px; padding: 20px;
+  color: var(--texto);
+  transition: box-shadow 0.3s var(--saida);
+}
+.tile--rosto  { grid-area: rosto;  --campo: var(--rosa);       background: var(--campo); min-height: 368px; padding: 28px; }
+.tile--corpo  { grid-area: corpo;  --campo: var(--taupe);      background: var(--campo); }
+.tile--cabelo { grid-area: cabelo; --campo: var(--garrafa);    background: var(--campo); color: var(--sobre-escuro); }
+.tile--maos   { grid-area: maos;   --campo: var(--taupe-fundo); background: var(--campo); }
+.tile--labios { grid-area: labios; --campo: var(--tinta);      background: var(--campo); color: var(--sobre-escuro); }
+
+/* A linha da geometria passava por cima da legenda e cortava o texto ao
+   meio. O ve da propria cor do tile sobe do pe e devolve campo limpo para a
+   leitura, sem escurecer nem clarear a composicao. */
+.tile__campo::after {
+  content: ''; position: absolute; inset: auto 0 0 0; height: 62%;
+  background: linear-gradient(to top, var(--campo) 22%, transparent 100%);
 }
 
-.area {
-  position: relative; display: grid; grid-template-rows: auto 1fr auto;
-  gap: 18px; padding: 22px 22px 20px;
-  background: var(--branco); color: var(--texto);
-  border: 1px solid transparent;
-  transition: border-color 0.35s var(--saida), transform 0.45s var(--saida), box-shadow 0.45s var(--saida);
+/* A geometria entra cortada e em escala grande, cada tile num enquadramento
+   diferente: e o que da presenca sem depender de foto que nao existe. */
+.tile__campo { position: absolute; inset: 0; z-index: -1; display: block; }
+/* Preenchida, a geometria virava adesivo de estrela. Em traco fino ela e a
+   mesma linha que ja desenha o fundo dos banners, e le como marca d'agua
+   impressa em vez de clip-art. Cada tile pega um pedaco diferente dela. */
+.tile__marca {
+  position: absolute; height: auto; aspect-ratio: 1;
+  fill: none; stroke: currentColor; stroke-width: 3.2;
+  vector-effect: non-scaling-stroke; opacity: 0.3;
+  transition: scale 0.3s var(--saida), rotate 0.3s var(--saida);
 }
-/* Poço redondo em vez de ícone solto: dá massa ao ícone fino e cria a unidade
-   que cinco desenhos diferentes sozinhos não têm. */
-.area__poco {
-  width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center;
-  background: var(--taupe); transition: background 0.35s var(--saida);
-}
-.area__poco svg { width: 25px; height: 25px; stroke: var(--tinta); stroke-width: 1.3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-.area--rosto .area__poco { background: var(--rosa); }
-.area strong { display: block; }
-.area__nota { display: block; margin-top: 6px; font-size: 13.5px; line-height: 1.5; color: var(--texto-2); }
-.area__ir {
-  width: 34px; height: 34px; display: grid; place-items: center; justify-self: start;
-  border: 1px solid var(--fio); color: var(--texto-2);
-  transition: background 0.35s var(--saida), border-color 0.35s var(--saida), color 0.35s var(--saida), translate 0.35s var(--saida);
-}
-.area__ir svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 1.5; fill: none; }
+.tile--rosto  .tile__marca { width: 118%; right: -30%; top: -34%; opacity: 0.34; }
+.tile--corpo  .tile__marca { width: 150%; left: -58%;  bottom: -70%; opacity: 0.26; }
+.tile--cabelo .tile__marca { width: 168%; right: -78%; top: -56%; opacity: 0.34; }
+.tile--maos   .tile__marca { width: 152%; left: -64%;  top: -60%; opacity: 0.28; }
+.tile--labios .tile__marca { width: 176%; right: -70%; bottom: -84%; opacity: 0.34; }
 
-.area:hover { border-color: var(--bronze); transform: translateY(-3px); box-shadow: 0 18px 30px -22px rgba(20, 18, 21, 0.4); }
-.area:hover .area__poco { background: var(--taupe-fundo); }
-.area--rosto:hover .area__poco { background: #cfa8a4; }
-.area:hover .area__ir { background: var(--tinta); border-color: var(--tinta); color: var(--branco); translate: 4px 0; }
-.area:focus-visible { outline: 2px solid var(--bronze); outline-offset: 3px; }
-/* No toque não existe hover, então o retorno vem do próprio toque. */
-.area:active { transform: translateY(0) scale(0.985); }
-
-@media (max-width: 900px) {
-  .beleza__grade { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .beleza__abertura { grid-column: 1 / -1; padding-right: 0; margin-bottom: 6px; }
-  .beleza__abertura h2 { max-width: 22ch; }
-  .beleza__linha { max-width: 52ch; }
+/* Corpo e o unico com produto de verdade: as duas brumas, recortadas, em
+   escalas diferentes para nao virarem um par simetrico. */
+.tile__frascos { position: absolute; inset: 0; }
+.tile__frascos img {
+  position: absolute; bottom: -6%; width: auto; object-fit: contain;
+  filter: drop-shadow(0 16px 20px rgba(20, 18, 21, 0.22));
+  transition: scale 0.3s var(--saida);
+  transform-origin: bottom center;
 }
-@media (max-width: 560px) {
-  /* Trilho no celular: cinco cartões empilhados viram uma coluna sem fim, e
-     a pessoa perde a noção de que a beleza é uma grade de categorias. */
+.tile__frascos img:first-child { height: 82%; right: 30%; }
+.tile__frascos img:last-child  { height: 96%; right: 4%; }
+
+.tile__dizer { position: relative; z-index: 1; max-width: 22ch; }
+.tile__nome {
+  display: block; font-size: var(--t-categoria); font-weight: 600;
+  letter-spacing: -0.018em; line-height: 1.16;
+}
+.tile--rosto .tile__nome { font-size: clamp(20px, 1.9vw, 25px); }
+.tile__nota { display: block; margin-top: 5px; font-size: 13px; line-height: 1.45; opacity: 0.74; }
+.tile__ir {
+  position: absolute; z-index: 1; top: 18px; right: 18px;
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border: 1px solid currentColor; opacity: 0.4;
+  transition: opacity 0.3s var(--saida), translate 0.3s var(--saida);
+}
+.tile__ir svg { width: 15px; height: 15px; stroke: currentColor; stroke-width: 1.6; fill: none; }
+
+@media (hover: hover) {
+  .tile:hover .tile__marca { scale: 1.02; rotate: 2deg; }
+  .tile:hover .tile__frascos img { scale: 1.02; }
+  .tile:hover .tile__ir { opacity: 1; translate: 3px 0; }
+  .tile:hover { box-shadow: inset 0 0 0 1px currentColor; }
+}
+/* Sem ponteiro o estado clicavel precisa estar visivel desde o comeco. */
+@media (hover: none) {
+  .tile__ir { opacity: 0.85; }
+}
+.tile:focus-visible { outline: 2px solid var(--bronze); outline-offset: 3px; }
+.tile--cabelo:focus-visible,
+.tile--labios:focus-visible { outline-color: var(--rosa); }
+.tile:active { scale: 0.995; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tile, .tile__marca, .tile__frascos img, .tile__ir { transition: none; }
+  .tile:hover .tile__marca, .tile:hover .tile__frascos img { scale: 1; rotate: 0deg; }
+  .tile:hover .tile__ir { translate: 0 0; }
+  .tile:active { scale: 1; }
+}
+
+@media (max-width: 1000px) {
+  .beleza__grade {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "abre   rosto"
+      "corpo  rosto"
+      "cabelo maos"
+      "labios labios";
+  }
+  .tile--rosto { min-height: 320px; }
+  .tile--labios { min-height: 150px; }
+}
+
+@media (max-width: 620px) {
+  /* Trilho no celular. A abertura fica acima, os cinco tiles deslizam com
+     encaixe, e a fracao do proximo e medida, nao sobra de calculo. */
   .beleza__grade { display: block; }
-  .beleza__categorias {
+  .beleza__abertura { padding-right: 0; margin-bottom: 22px; }
+  .beleza__linha { max-width: none; }
+  .beleza__tiles {
     display: grid; grid-auto-flow: column;
-    grid-auto-columns: calc((100% - var(--gap-cartao)) / 1.55);
-    gap: var(--gap-cartao); overflow-x: auto; scrollbar-width: none;
-    margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter);
+    grid-auto-columns: calc((100% - var(--gap-cartao)) / 1.28);
+    gap: var(--gap-cartao);
+    overflow-x: auto; scrollbar-width: none;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
     padding-bottom: 4px;
   }
-  .beleza__categorias::-webkit-scrollbar { width: 0; height: 0; display: none; }
-  .area { padding: 18px 18px 16px; gap: 14px; }
-  .area__poco { width: 46px; height: 46px; }
-  .area__poco svg { width: 22px; height: 22px; }
+  .beleza__tiles::-webkit-scrollbar { width: 0; height: 0; display: none; }
+  .tile--rosto, .tile--corpo, .tile--cabelo, .tile--maos, .tile--labios {
+    grid-area: auto; min-height: 210px; padding: 18px;
+    scroll-snap-align: start;
+  }
+  .tile--rosto .tile__nome { font-size: var(--t-categoria); }
 }
 
 /* ---------- marcas ---------- */
@@ -778,7 +863,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 620px) {
   .grade { grid-template-columns: 1fr 1fr; gap: 12px; }
-  .areas { gap: 12px; }
+
   .beneficios { grid-template-columns: 1fr; }
   .beneficio + .beneficio { border-top: 1px solid var(--fio); }
   .rodape__grade { grid-template-columns: 1fr; }
@@ -883,12 +968,26 @@ h1, h2, h3, h4 {
   font-family: var(--face-leitura); font-optical-sizing: auto; line-height: 1.6;
   font-size: 17px; margin: 0 0 32px; max-width: 42ch; opacity: 0.82;
 }
-/* O CTA do palco era bronze com tinta por cima, um terceiro esquema só
-   para o hero. Ele passa a ser o mesmo botão do resto da loja: tinta com
-   marfim, verde-garrafa no ponteiro. Um componente, um comportamento. */
-.cena .acao { background: var(--tinta); color: var(--sobre-escuro); }
+/* O CTA do palco inverte, e so ele. O botao de tinta funciona no resto da
+   loja, que e clara; sobre a arte escura do palco ele some no fundo e passa
+   a parecer link solto. Aqui o marfim e o fundo e a tinta e o texto, o que
+   tambem resolve as cinco campanhas de uma vez, inclusive as duas de arte
+   clara, porque o botao deixa de depender da cor que esta atras.
+
+   Estrutura, cantos, folga da seta e tempo continuam sendo os do componente:
+   muda a cor, nao o gesto. */
+.cena .acao {
+  background: var(--marfim);
+  color: var(--tinta);
+  box-shadow: inset 0 0 0 1px rgba(20, 18, 21, 0.24);
+}
 .cena .acao:hover,
-.cena .acao:focus-visible { background: var(--garrafa); }
+.cena .acao:focus-visible {
+  background: var(--garrafa);
+  color: var(--marfim);
+  box-shadow: none;
+}
+.cena .acao:focus-visible { outline: 2px solid var(--marfim); outline-offset: 2px; }
 
 /* ---------- leme do palco ----------
    Cinco tracinhos não dizem que coleções a loja tem. O leme é uma barra

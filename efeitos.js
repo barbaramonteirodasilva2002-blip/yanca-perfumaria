@@ -129,24 +129,32 @@
   if (pista) {
     const palco = pista.closest('.palco')
     const cenas = [...pista.children]
-    const caixaPontos = palco.querySelector('.palco__pontos')
+    /* Cinco tracinhos não dizem que coleções existem. Cada cena declara o
+       próprio nome no HTML e a aba nasce dele, então acrescentar campanha é
+       acrescentar um article, sem tocar aqui. */
+    const caixaAbas = palco.querySelector('.palco__abas')
+    const marcaAtual = palco.querySelector('.palco__atual')
+    const marcaTotal = palco.querySelector('.palco__total')
     const ESPERA = 7000
     let atual = 0
     let relogio = null
 
+    const doisDigitos = (n) => String(n).padStart(2, '0')
+    if (marcaTotal) marcaTotal.textContent = doisDigitos(cenas.length)
+
     cenas.forEach((cena, i) => {
-      const ponto = document.createElement('button')
-      ponto.className = 'palco__ponto'
-      ponto.type = 'button'
-      ponto.setAttribute('role', 'tab')
-      ponto.setAttribute('aria-label', 'Destaque ' + (i + 1))
-      ponto.addEventListener('click', () => {
+      const aba = document.createElement('button')
+      aba.className = 'palco__aba'
+      aba.type = 'button'
+      aba.setAttribute('role', 'tab')
+      aba.textContent = cena.dataset.colecao || 'Destaque ' + (i + 1)
+      aba.addEventListener('click', () => {
         ir(i)
         segurar()
       })
-      caixaPontos.appendChild(ponto)
+      caixaAbas.appendChild(aba)
     })
-    const pontos = [...caixaPontos.children]
+    const abas = [...caixaAbas.children]
 
     function ir(n) {
       atual = (n + cenas.length) % cenas.length
@@ -157,7 +165,20 @@
         // senão o Tab sai passeando por banner que ninguém está vendo.
         cena.inert = i !== atual
       })
-      pontos.forEach((ponto, i) => ponto.setAttribute('aria-selected', String(i === atual)))
+      abas.forEach((aba, i) => {
+        const ativa = i === atual
+        aba.setAttribute('aria-selected', String(ativa))
+        // A aba fora de vista sai da ordem de Tab, como manda o padrão de
+        // tablist: seta navega entre elas, Tab sai do grupo.
+        aba.tabIndex = ativa ? 0 : -1
+      })
+      if (marcaAtual) marcaAtual.textContent = doisDigitos(atual + 1)
+      // A aba escolhida se traz para dentro da vista no trilho do celular.
+      if (abas[atual] && caixaAbas.scrollWidth > caixaAbas.clientWidth + 2) {
+        const a = abas[atual]
+        const alvo = a.offsetLeft - (caixaAbas.clientWidth - a.offsetWidth) / 2
+        caixaAbas.scrollTo({ left: Math.max(0, alvo), behavior: quieto ? 'auto' : 'smooth' })
+      }
     }
 
     function andar() {
@@ -369,22 +390,58 @@
        vinte segundos de permanência, ou o cursor indo embora pelo topo no
        computador. O que vier primeiro, e uma vez só. */
     if (!jaViu()) {
+      /* Rolagem sozinha disparava cedo demais: 25% de uma home longa chega
+         antes de a pessoa ter visto qualquer coisa, e a caixa caía em cima da
+         campanha. Agora são duas condições ao mesmo tempo, permanência e
+         rolagem, e quem já esteve aqui antes pula a espera.
+
+         Uma vez por sessão, sempre. */
+      const CHAVE_SESSAO = 'yanca:convite-sessao'
+      const CHAVE_VISITAS = 'yanca:visitas'
+      let visitas = 1
+      let jaAbriuNaSessao = false
+      try {
+        jaAbriuNaSessao = !!sessionStorage.getItem(CHAVE_SESSAO)
+        visitas = Number(localStorage.getItem(CHAVE_VISITAS) || 0) + 1
+        localStorage.setItem(CHAVE_VISITAS, String(visitas))
+      } catch (e) {}
+
+      const jaVeio = visitas >= 2
+      const ESPERA_MINIMA = jaVeio ? 8000 : 25000
+      const ROLAGEM_MINIMA = jaVeio ? 0.15 : 0.45
+      const nasceu = Date.now()
       let armado = true
+
       const talvezAbrir = () => {
-        if (!armado || !convite.hidden) return
+        if (!armado || jaAbriuNaSessao || !convite.hidden) return
         armado = false
+        try { sessionStorage.setItem(CHAVE_SESSAO, '1') } catch (e) {}
         abrirConvite()
       }
-      const porRolagem = () => {
+      const cumpriuTempo = () => Date.now() - nasceu >= ESPERA_MINIMA
+      const cumpriuRolagem = () => {
         const total = document.body.scrollHeight - innerHeight
-        if (total > 0 && scrollY / total > 0.25) talvezAbrir()
+        return total > 0 && scrollY / total > ROLAGEM_MINIMA
       }
-      addEventListener('scroll', porRolagem, { passive: true })
-      const relogio = setTimeout(talvezAbrir, 20000)
+      const conferir = () => {
+        if (cumpriuTempo() && cumpriuRolagem()) talvezAbrir()
+      }
+
+      addEventListener('scroll', conferir, { passive: true })
+      const relogio = setInterval(() => {
+        if (!armado) return clearInterval(relogio)
+        conferir()
+      }, 2000)
+
+      // Intenção de saída só no computador, e só depois de a pessoa ter tido
+      // tempo de olhar: no celular não existe cursor saindo pelo topo.
       document.addEventListener('mouseout', (e) => {
-        if (!e.relatedTarget && e.clientY < 12 && matchMedia('(hover: hover)').matches) talvezAbrir()
+        if (e.relatedTarget || e.clientY >= 12) return
+        if (!matchMedia('(hover: hover)').matches) return
+        if (Date.now() - nasceu < 12000) return
+        talvezAbrir()
       })
-      addEventListener('pagehide', () => clearTimeout(relogio))
+      addEventListener('pagehide', () => clearInterval(relogio))
     }
   }
 
@@ -567,10 +624,11 @@
       ['.guia__dizer', 'lado', 0, 99],
       ['.guia__rotas li', 'sobe', 80, 99],
       ['.casa__grade > *', 'sobe', 90, 99],
-      ['.beleza-bloco__painel', 'lado', 0, 99],
+      ['.beleza__abertura', 'lado', 0, 99],
       ['.campanha__palco', 'escala', 0, 99],
       ['.campanha__andares li', 'sobe', 70, 99],
-      ['.area', 'sobe', 50, 99],
+      ['.area', 'sobe', 50, 5],
+      ['.portal', 'sobe', 90, 99],
       ['.faixa-kit__grade > *', 'sobe', 90, 99],
       ['.rodape__coluna', 'sobe', 60, 99],
     ]

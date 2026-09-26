@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A loja · Yanca Perfumaria</title>
+<meta name="description" content="Entrega, trocas, rastreio, conta e contato da Yanca Perfumaria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+  .inst { padding-block: var(--ritmo) var(--ritmo-forte); }
+  .inst__migalha {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 18px;
+    font-size: var(--t-label); font-weight: 500;
+    letter-spacing: var(--label-espaco); text-transform: uppercase; color: var(--texto-2);
+  }
+  .inst__migalha a { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--fio-forte); }
+  .inst__migalha svg { width: 13px; height: 13px; stroke: currentColor; stroke-width: 1.6; fill: none; }
+
+  .inst h1 {
+    font-family: var(--face-display); font-weight: var(--peso-display);
+    font-optical-sizing: auto; font-size: var(--t-editorial);
+    letter-spacing: var(--tracking-display); line-height: var(--entrelinha-display);
+  }
+  .inst__linha { margin: 14px 0 0; max-width: 54ch; font-size: var(--t-apoio); line-height: 1.6; color: var(--texto-2); }
+
+  .inst__grade { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); margin-top: var(--ritmo-forte); }
+  .inst__indice { position: sticky; top: 96px; align-self: start; display: grid; gap: 2px; }
+  .inst__indice a {
+    display: flex; align-items: center; min-height: 44px; padding: 0 14px;
+    font-size: var(--t-label); font-weight: 500; letter-spacing: var(--label-espaco);
+    text-transform: uppercase; color: var(--texto-2);
+    border-left: 2px solid var(--fio);
+    transition: color 0.3s var(--saida), border-color 0.3s var(--saida);
+  }
+  .inst__indice a:hover { color: var(--tinta); border-color: var(--bronze); }
+
+  .inst__bloco { padding-bottom: var(--ritmo); border-bottom: 1px solid var(--fio); margin-bottom: var(--ritmo); scroll-margin-top: 110px; }
+  .inst__bloco:last-child { border-bottom: 0; margin-bottom: 0; }
+  .inst__bloco h2 { font-size: var(--t-bloco); margin-bottom: 14px; }
+  .inst__bloco p { margin: 0 0 12px; max-width: 62ch; line-height: 1.65; }
+  .inst__bloco p:last-child { margin-bottom: 0; }
+
+  .inst__fato { display: grid; gap: 10px; margin: 18px 0; padding: 0; list-style: none; }
+  .inst__fato li { display: flex; gap: 12px; align-items: baseline; font-size: var(--t-apoio); }
+  .inst__fato li::before { content: ''; flex: 0 0 auto; width: 5px; height: 5px; margin-top: 8px; background: var(--bronze); rotate: 45deg; }
+
+  /* O que ainda não está definido fica escrito, não escondido. Página
+     institucional que inventa prazo, endereço ou CNPJ é a pior mentira que
+     uma loja pode publicar, porque é a que o cliente usa para reclamar. */
+  .inst__pendente { margin-top: 20px; padding: 18px 20px; background: var(--taupe); font-size: var(--t-apoio); line-height: 1.6; }
+  .inst__pendente strong { display: block; margin-bottom: 6px; font-size: var(--t-label); letter-spacing: var(--label-espaco); text-transform: uppercase; color: var(--bronze-texto); }
+
+  @media (max-width: 860px) {
+    .inst__grade { grid-template-columns: 1fr; gap: var(--ritmo); }
+    .inst__indice { position: static; grid-auto-flow: column; grid-auto-columns: max-content; overflow-x: auto; scrollbar-width: none; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); }
+    .inst__indice::-webkit-scrollbar { width: 0; height: 0; display: none; }
+    .inst__indice a { border-left: 0; border-bottom: 2px solid var(--fio); white-space: nowrap; }
+  }
+</style>
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<div data-abrigo-cabecalho></div>
+
+<main id="conteudo" tabindex="-1">
+  <section class="envoltorio inst">
+    <p class="inst__migalha">
+      <a href="index.html">Início</a>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>
+      <span>A loja</span>
+    </p>
+    <h1>Como a loja funciona.</h1>
+    <p class="inst__linha">O que já está definido está aqui. O que ainda não está, também: prazo e endereço inventados numa página como esta são exatamente o que o cliente usa para reclamar depois.</p>
+
+    <div class="inst__grade">
+      <nav class="inst__indice" aria-label="Seções desta página">
+        <a href="#entrega">Entrega e prazos</a>
+        <a href="#trocas">Trocas e devoluções</a>
+        <a href="#rastreio">Rastrear pedido</a>
+        <a href="#pagamento">Formas de pagamento</a>
+        <a href="#conta">Minha conta</a>
+        <a href="#contato">Falar com a gente</a>
+      </nav>
+
+      <div>
+        <section class="inst__bloco" id="entrega">
+          <h2>Entrega e prazos</h2>
+          <p>A Yanca envia para todo o Brasil. O frete é calculado no seu CEP, na finalização da compra, antes de você confirmar o pedido.</p>
+          <ul class="inst__fato">
+            <li>Envio para todo o Brasil.</li>
+            <li>Frete calculado no seu CEP.</li>
+            <li>Nota fiscal em todo pedido.</li>
+          </ul>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            Prazo por região, transportadora e política de frete grátis. Nada disso está escrito aqui porque nada disso está fechado, e prazo publicado é promessa.
+          </div>
+        </section>
+
+        <section class="inst__bloco" id="trocas">
+          <h2>Trocas e devoluções</h2>
+          <p>Você tem sete dias corridos, a contar do recebimento, para desistir da compra. É o direito de arrependimento previsto no Código de Defesa do Consumidor para compras feitas fora de loja física.</p>
+          <p>Perfume é produto que se avalia pelo cheiro, então abrir o frasco não tira o seu direito dentro desse prazo.</p>
+          <ul class="inst__fato">
+            <li>Sete dias para trocar de ideia, como manda o CDC.</li>
+            <li>Produto lacrado e original em todo pedido.</li>
+          </ul>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            Endereço de devolução, quem paga o frete de retorno e o prazo de estorno. Assim que estiverem fechados, entram aqui.
+          </div>
+        </section>
+
+        <section class="inst__bloco" id="rastreio">
+          <h2>Rastrear pedido</h2>
+          <p>O código de rastreio é enviado para o e-mail do pedido assim que a encomenda é postada.</p>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            O rastreio dentro do site depende da loja estar no ar com pedidos de verdade. Por enquanto ele acontece pelo e-mail e pelo site da transportadora.
+          </div>
+        </section>
+
+        <section class="inst__bloco" id="pagamento">
+          <h2>Formas de pagamento</h2>
+          <p>Cartão de crédito em até três vezes sem juros, Pix e boleto.</p>
+          <ul class="inst__fato">
+            <li>Até 3x sem juros no cartão.</li>
+            <li>Pix e boleto à vista.</li>
+            <li>Site seguro, com os dados do cartão processados pelo meio de pagamento.</li>
+          </ul>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            Valor mínimo para parcelar e eventual desconto no Pix. Enquanto não houver decisão, a loja não anuncia desconto nenhum.
+          </div>
+        </section>
+
+        <section class="inst__bloco" id="conta">
+          <h2>Minha conta</h2>
+          <p>A área de conta, com histórico de pedidos e endereços salvos, entra junto com a abertura da loja.</p>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            Login e cadastro. Até lá, a compra é feita sem conta e o acompanhamento vai por e-mail.
+          </div>
+        </section>
+
+        <section class="inst__bloco" id="contato">
+          <h2>Falar com a gente</h2>
+          <p>O atendimento vai ser por WhatsApp, no horário comercial.</p>
+          <div class="inst__pendente">
+            <strong>Ainda sendo definido</strong>
+            Número do WhatsApp, horário de atendimento, CNPJ e endereço da empresa. Esses dados não foram inventados aqui de propósito: quando você passar, eles entram nesta página e no rodapé de uma vez.
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-abrigo-rodape></div>
+
+<script src="efeitos.js" defer></script>
+<script>
+/* Cabeçalho e rodapé vêm da home, pelo mesmo motivo da coleção: uma verdade só
+   sobre menu, busca e rodapé, em qualquer página. */
+fetch('index.html')
+  .then(function (r) { return r.text() })
+  .then(function (html) {
+    var casa = new DOMParser().parseFromString(html, 'text/html')
+    var cab = casa.querySelector('header.amarracao')
+    var rod = casa.querySelector('footer.rodape')
+    var gaveta = casa.querySelector('.menu-movel')
+    if (cab) document.querySelector('[data-abrigo-cabecalho]').replaceWith(cab)
+    if (rod) document.querySelector('[data-abrigo-rodape]').replaceWith(rod)
+    if (gaveta) document.body.appendChild(gaveta)
+  })
+</script>
+</body>
+</html>

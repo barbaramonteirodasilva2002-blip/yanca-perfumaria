@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coleção · Yanca Perfumaria</title>
+<meta name="description" content="Prateleira da Yanca Perfumaria, por categoria e por marca.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+  /* A coleção reusa tudo do cartão e da seção. Só o que é próprio da página
+     mora aqui: a abertura, a grade e o estado vazio. */
+  .colecao { padding-block: var(--ritmo) var(--ritmo-forte); }
+
+  .colecao__abertura { margin-bottom: var(--ritmo); }
+  .colecao__migalha {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 18px;
+    font-size: var(--t-label); font-weight: 500;
+    letter-spacing: var(--label-espaco); text-transform: uppercase;
+    color: var(--texto-2);
+  }
+  .colecao__migalha a { text-decoration: underline; text-underline-offset: 3px;
+    text-decoration-color: var(--fio-forte); }
+  .colecao__migalha a:hover { color: var(--bronze-texto); }
+  .colecao__migalha svg { width: 13px; height: 13px; stroke: currentColor;
+    stroke-width: 1.6; fill: none; }
+
+  .colecao h1 {
+    font-family: var(--face-corpo); font-weight: 600;
+    font-size: var(--t-prateleira); letter-spacing: -0.028em; line-height: 1.06;
+  }
+  .colecao__conta {
+    margin-top: 10px; font-size: var(--t-apoio); color: var(--texto-2);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Filtros por marca. São links de verdade: cada um recarrega a página com a
+     marca na barra de endereço, então voltar funciona e o endereço pode ser
+     copiado e mandado para alguém. */
+  .colecao__filtros {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--fio);
+  }
+  .colecao__filtro {
+    display: inline-flex; align-items: center; min-height: 40px;
+    padding: 0 16px; border: 1px solid var(--fio-forte);
+    font-size: var(--t-label); font-weight: 500;
+    letter-spacing: var(--label-espaco); text-transform: uppercase;
+    transition: background 0.3s var(--saida), color 0.3s var(--saida),
+      border-color 0.3s var(--saida);
+  }
+  .colecao__filtro:hover { border-color: var(--tinta); }
+  .colecao__filtro[aria-current='true'] {
+    background: var(--tinta); border-color: var(--tinta); color: var(--marfim);
+  }
+
+  .colecao__grade {
+    display: grid; gap: var(--gap-cartao);
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  }
+
+  /* Prateleira vazia diz que está vazia. Inventar produto para não mostrar
+     lacuna é a única coisa pior do que a lacuna. */
+  .colecao__vazio {
+    grid-column: 1 / -1; padding: var(--ritmo-forte) var(--gutter);
+    background: var(--taupe); text-align: center;
+  }
+  .colecao__vazio svg {
+    width: 84px; height: 84px; margin-inline: auto; fill: none;
+    stroke: var(--tinta); stroke-width: 6; opacity: 0.16;
+  }
+  .colecao__vazio strong {
+    display: block; margin-top: 20px; font-size: var(--t-bloco);
+    font-weight: 600; letter-spacing: -0.026em;
+  }
+  .colecao__vazio p {
+    margin: 10px auto 26px; max-width: 44ch;
+    font-size: var(--t-apoio); line-height: 1.6; color: var(--texto-2);
+  }
+
+  @media (max-width: 560px) {
+    .colecao__grade { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  }
+</style>
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<div data-abrigo-cabecalho></div>
+
+<main id="conteudo" tabindex="-1">
+  <section class="envoltorio colecao">
+    <div class="colecao__abertura">
+      <p class="colecao__migalha">
+        <a href="index.html">Início</a>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>
+        <span data-migalha>Coleção</span>
+      </p>
+      <h1 data-titulo>Coleção</h1>
+      <p class="colecao__conta" data-conta></p>
+
+      <nav class="colecao__filtros" data-filtros aria-label="Filtrar por marca"></nav>
+    </div>
+
+    <div class="colecao__grade" data-grade>
+      <noscript>
+        <div class="colecao__vazio">
+          <strong>Esta página monta a prateleira com JavaScript.</strong>
+          <p>Ative o JavaScript, ou volte ao início, onde as prateleiras já estão prontas.</p>
+          <a class="acao" href="index.html"><span class="acao__texto">Voltar ao início</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+        </div>
+      </noscript>
+    </div>
+  </section>
+</main>
+
+<div data-abrigo-rodape></div>
+
+<script src="efeitos.js" defer></script>
+<script>
+/* Coleção da Yanca.
+
+   Ela não guarda produto nenhum. Busca o index.html, recorta os cartões que já
+   estão lá e mostra os que interessam. Fonte de dado única: produto que entra
+   na home aparece aqui sozinho, e nunca há duas verdades sobre o mesmo preço.
+
+   O cabeçalho e o rodapé vêm do mesmo lugar, pelo mesmo motivo. */
+(function () {
+  'use strict'
+
+  var COLECOES = {
+    importados: { trilho: 'trilho-2', titulo: 'Perfumaria importada',
+      linha: 'As casas de grife que a cliente já procura pelo nome.' },
+    arabes: { trilho: 'trilho-3', titulo: 'Perfumaria árabe',
+      linha: 'Âmbar, oud, baunilha e café, com a descrição completa das notas.' },
+    novidades: { trilho: 'trilho-4', titulo: 'Chegou agora',
+      linha: 'O que entrou na vitrine por último.' },
+    beleza: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Beleza',
+      linha: 'Corpo e banho. Skincare coreano e dermocosmético entram quando o estoque chegar.' },
+    corpo: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Corpo',
+      linha: 'Hidratante e body splash.' },
+    rosto: { marcas: [], titulo: 'Rosto',
+      linha: 'Sérum, toner e máscara.' },
+    cabelo: { marcas: [], titulo: 'Cabelo',
+      linha: 'Limpeza e tratamento.' },
+    maos: { marcas: [], titulo: 'Mãos e pés',
+      linha: 'Creme e esfoliante.' },
+    labios: { marcas: [], titulo: 'Lábios',
+      linha: 'Bálsamo e protetor.' },
+    kits: { marcas: [], titulo: 'Kits',
+      linha: 'O par sai mais barato que as duas peças separadas.' },
+    tudo: { titulo: 'Todos os perfumes', linha: 'A vitrine inteira, numa página só.' }
+  }
+
+  var parametros = new URLSearchParams(location.search)
+  var alvoTipo = parametros.get('c') || 'tudo'
+  var alvoMarca = parametros.get('marca')
+  var busca = (parametros.get('q') || '').trim()
+
+  var grade = document.querySelector('[data-grade]')
+
+  function texto(el, valor) {
+    if (el) el.textContent = valor
+  }
+
+  function vazio(titulo, corpo) {
+    return '<div class="colecao__vazio">' +
+      '<svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 ' +
+      'L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 ' +
+      'L70 500 L872.39 285 L285 872.39 Z"/></svg>' +
+      '<strong>' + titulo + '</strong><p>' + corpo + '</p>' +
+      '<a class="acao" href="index.html"><span class="acao__texto">Voltar ao início</span>' +
+      '<span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24">' +
+      '<path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a></div>'
+  }
+
+  fetch('index.html')
+    .then(function (r) { return r.text() })
+    .then(function (html) {
+      var casa = new DOMParser().parseFromString(html, 'text/html')
+
+      // cabeçalho e rodapé, do mesmo lugar que a home
+      var cab = casa.querySelector('header.amarracao')
+      var rod = casa.querySelector('footer.rodape')
+      if (cab) document.querySelector('[data-abrigo-cabecalho]').replaceWith(cab)
+      if (rod) document.querySelector('[data-abrigo-rodape]').replaceWith(rod)
+
+      // o menu de celular vive fora do header, então vem junto
+      var gaveta = casa.querySelector('.menu-movel')
+      if (gaveta) document.body.appendChild(gaveta)
+
+      var campo = document.getElementById('q')
+      if (campo && busca) campo.value = busca
+
+      var cfg = COLECOES[alvoTipo] || COLECOES.tudo
+      if (busca) cfg = COLECOES.tudo
+      var cartoes = []
+
+      if (cfg.trilho) {
+        var trilho = casa.getElementById(cfg.trilho)
+        if (trilho) cartoes = [].slice.call(trilho.querySelectorAll('.peca-caixa'))
+      } else {
+        cartoes = [].slice.call(casa.querySelectorAll('.trilho .peca-caixa'))
+      }
+
+      if (cfg.marcas) {
+        cartoes = cartoes.filter(function (c) {
+          var m = c.querySelector('.peca__marca')
+          return m && cfg.marcas.indexOf(m.textContent.trim()) > -1
+        })
+      }
+
+      // tira repetido: o mesmo produto pode estar em dois trilhos
+      var vistos = {}
+      cartoes = cartoes.filter(function (c) {
+        var n = c.querySelector('.peca__nome')
+        var chave = n ? n.textContent.trim() : Math.random()
+        if (vistos[chave]) return false
+        vistos[chave] = 1
+        return true
+      })
+
+      // as marcas que existem dentro desta coleção viram filtro
+      var marcas = []
+      cartoes.forEach(function (c) {
+        var m = c.querySelector('.peca__marca')
+        if (m && marcas.indexOf(m.textContent.trim()) === -1) marcas.push(m.textContent.trim())
+      })
+      marcas.sort()
+
+      function limpa(s) {
+        return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+      }
+
+      if (busca) {
+        var termos = limpa(busca).split(/\s+/).filter(Boolean)
+        cartoes = cartoes.filter(function (c) {
+          var nome = c.querySelector('.peca__nome')
+          var marca = c.querySelector('.peca__marca')
+          var alvo = limpa((nome ? nome.textContent : '') + ' ' + (marca ? marca.textContent : ''))
+          return termos.every(function (t) { return alvo.indexOf(t) > -1 })
+        })
+      }
+
+      var deMarca = cartoes
+      if (alvoMarca) {
+        deMarca = cartoes.filter(function (c) {
+          var m = c.querySelector('.peca__marca')
+          return m && m.textContent.trim().toLowerCase() === alvoMarca.toLowerCase()
+        })
+      }
+
+      var titulo = busca ? 'Busca por "' + busca + '"' : (alvoMarca ? alvoMarca : cfg.titulo)
+      document.title = titulo + ' · Yanca Perfumaria'
+      texto(document.querySelector('[data-titulo]'), titulo)
+      texto(document.querySelector('[data-migalha]'), titulo)
+      var conta = deMarca.length === 1 ? '1 frasco' : deMarca.length + ' frascos'
+      texto(document.querySelector('[data-conta]'),
+        busca || alvoMarca || !cfg.linha ? conta
+          : cfg.linha.replace(/\.$/, '') + ' · ' + conta)
+
+      // filtros
+      var caixaFiltros = document.querySelector('[data-filtros]')
+      if (marcas.length > 1) {
+        var base = 'colecao.html?c=' + encodeURIComponent(alvoTipo)
+        var html2 = '<a class="colecao__filtro" href="' + base + '"' +
+          (alvoMarca ? '' : ' aria-current="true"') + '>Todas</a>'
+        marcas.forEach(function (m) {
+          var atual = alvoMarca && alvoMarca.toLowerCase() === m.toLowerCase()
+          html2 += '<a class="colecao__filtro" href="' + base + '&marca=' +
+            encodeURIComponent(m) + '"' + (atual ? ' aria-current="true"' : '') +
+            '>' + m + '</a>'
+        })
+        caixaFiltros.innerHTML = html2
+      } else {
+        caixaFiltros.remove()
+      }
+
+      // a prateleira
+      grade.innerHTML = ''
+      if (!deMarca.length) {
+        grade.innerHTML = busca
+          ? vazio('Nada encontrado para "' + busca + '".',
+              'Tente o nome do frasco ou o nome da marca. A vitrine tem ' +
+              casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos.')
+          : vazio('Esta prateleira ainda está sendo montada.',
+              'Nenhum frasco desta seleção entrou no estoque até agora. Assim que entrar, ele aparece aqui.')
+        return
+      }
+      deMarca.forEach(function (c) {
+        var copia = c.cloneNode(true)
+        // a entrada ao rolar é da home; aqui a prateleira já nasce pronta
+        copia.removeAttribute('data-entra')
+        copia.classList.remove('dentro')
+        grade.appendChild(copia)
+      })
+    })
+    .catch(function () {
+      grade.innerHTML = vazio(
+        'Não consegui carregar a prateleira.',
+        'Abra o início e tente de novo por lá.')
+    })
+})()
+</script>
+</body>
+</html>

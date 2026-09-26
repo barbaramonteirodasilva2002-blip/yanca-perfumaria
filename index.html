@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
 
 <header class="amarracao">
   <div class="aviso-caixa"><div class="aviso"><div class="letreiro"><span class="medida">Envio para todo o Brasil</span><span class="medida">Lattafa</span><span class="medida">Carolina Herrera</span><span class="medida">Dior</span><span class="medida">Anua</span><span class="medida">Até 3x sem juros</span><span class="medida">Victoria's Secret</span><span class="medida">Medicube</span><span class="medida">Lancôme</span><span class="medida">Lacrado e original</span><span class="medida">Paco Rabanne</span><span class="medida">ADCOS</span><span class="medida">Yves Saint Laurent</span></div><div class="letreiro" aria-hidden="true"><span class="medida">Envio para todo o Brasil</span><span class="medida">Lattafa</span><span class="medida">Carolina Herrera</span><span class="medida">Dior</span><span class="medida">Anua</span><span class="medida">Até 3x sem juros</span><span class="medida">Victoria's Secret</span><span class="medida">Medicube</span><span class="medida">Lancôme</span><span class="medida">Lacrado e original</span><span class="medida">Paco Rabanne</span><span class="medida">ADCOS</span><span class="medida">Yves Saint Laurent</span></div></div></div>
@@ -21,17 +23,17 @@
       </button>
       <a href="index.html" class="marca"><span class="marca__nome">Yanca</span><span class="marca__linha">Perfumaria</span></a>
     <nav class="navegacao" aria-label="Principal">
-      <a href="#importados">Importados</a>
-      <a href="#arabes">Árabes</a>
-      <a href="#beleza">Beleza</a>
-      <a href="#marcas">Marcas</a>
-      <a href="#kits">Kits</a>
+      <a href="colecao.html?c=importados">Importados</a>
+      <a href="colecao.html?c=arabes">Árabes</a>
+      <a href="colecao.html?c=beleza">Beleza</a>
+      <a href="colecao.html?c=tudo">Marcas</a>
+      <a href="colecao.html?c=kits">Kits</a>
     </nav>
-    <div class="busca">
+    <form class="busca" action="colecao.html" method="get" role="search">
       <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
       <label class="medida" for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Buscar</label>
-      <input id="q" type="search" placeholder="Buscar por Khamrah, Anua, protetor solar…">
-    </div>
+      <input id="q" type="search" name="q" autocomplete="off" placeholder="Buscar por Khamrah, Anua, protetor solar…">
+    <button class="so-leitor" type="submit">Buscar</button></form>
     <div class="ferramentas">
       <div class="idioma">
         <button class="ferramenta idioma__botao" aria-expanded="false" aria-haspopup="true" aria-label="Idioma do site">
@@ -46,9 +48,9 @@
       <button class="ferramenta busca-movel" aria-label="Buscar" data-abre-gaveta>
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
       </button>
-      <button class="ferramenta" aria-label="Minha conta">
+      <a class="ferramenta" href="institucional.html#conta" aria-label="Minha conta">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>
-      </button>
+      </a>
       <button class="ferramenta" aria-label="Favoritos">
         <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg>
       </button>
@@ -60,7 +62,7 @@
   </div>
 </header>
 
-<main>
+<main id="conteudo" tabindex="-1">
 
   <section class="palco" aria-label="Destaques da loja" aria-roledescription="carrossel">
     <div class="palco__pista" id="palco-pista">
@@ -75,7 +77,7 @@
             <p class="cena__colecao">Grife</p>
             <h1 class="cena__titulo">As grifes que você já conhece pelo nome.</h1>
             <p>Cinco casas que dispensam apresentação, reunidas na mesma prateleira. É por elas que a loja abre.</p>
-            <a class="acao" href="#importados"><span class="acao__texto">Ver os importados</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+            <a class="acao" href="colecao.html?c=importados"><span class="acao__texto">Ver os importados</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
           </div>
         </div>
       </article>
@@ -90,7 +92,7 @@
             <p class="cena__colecao">Linha Yara</p>
             <h2 class="cena__titulo">Yara, Candy, Moi e Tous. A linha inteira.</h2>
             <p>A linha que a cliente já procura pelo nome, com as quatro versões lado a lado e a diferença entre elas explicada.</p>
-            <a class="acao" href="#arabes"><span class="acao__texto">Ver a linha Yara</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+            <a class="acao" href="colecao.html?marca=Lattafa"><span class="acao__texto">Ver a linha Yara</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
           </div>
         </div>
       </article>
@@ -105,7 +107,7 @@
             <p class="cena__colecao">Árabes</p>
             <h2 class="cena__titulo">Khamrah, Asad e a casa inteira da Lattafa.</h2>
             <p>Âmbar, oud, baunilha e café. Cada frasco com a descrição completa das notas e do que esperar dele na pele.</p>
-            <a class="acao" href="#arabes"><span class="acao__texto">Ver os árabes</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+            <a class="acao" href="colecao.html?c=arabes"><span class="acao__texto">Ver os árabes</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
           </div>
         </div>
       </article>
@@ -120,7 +122,7 @@
             <p class="cena__colecao">Victoria's Secret</p>
             <h2 class="cena__titulo">Body splash e creme, na mesma página.</h2>
             <p>O kit tem página própria e mostra, logo na abertura, quanto você economiza em relação a comprar os dois avulsos.</p>
-            <a class="acao" href="#kits"><span class="acao__texto">Ver os kits</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+            <a class="acao" href="colecao.html?c=kits"><span class="acao__texto">Ver os kits</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
           </div>
         </div>
       </article>
@@ -135,7 +137,7 @@
             <p class="cena__colecao">A casa</p>
             <h2 class="cena__titulo">Nenhum frasco entra aqui sem ser explicado.</h2>
             <p>Pirâmide olfativa aberta, fixação declarada em horas e para que ocasião serve. Você decide antes de comprar, não depois.</p>
-            <a class="acao" href="#marcas"><span class="acao__texto">Ver as marcas</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+            <a class="acao" href="colecao.html?c=tudo"><span class="acao__texto">Ver as marcas</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
           </div>
         </div>
       </article>
@@ -182,12 +184,12 @@
   <section class="envoltorio secao" id="marcas">
     <div class="secao__cabeca">
       <h2>As marcas</h2>
-      <a class="medida" href="#">Ver todas</a>
+      <a class="medida" href="colecao.html?c=tudo">Ver todas as marcas</a>
           <div class="secao__setas" data-alvo="trilho-1"><button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div>
     </div>
     <div class="trilho-caixa">
     <div id="trilho-1" class="marcas">
-      <a class="vitrola vitrola--dior" href="#importados">
+      <a class="vitrola vitrola--dior" href="colecao.html?marca=Dior">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/dior-sauvage-eau-de-toilette.webp" alt="Perfume da Dior" loading="lazy">
         <span class="vitrola__dizer">
@@ -195,7 +197,7 @@
           <span class="vitrola__frente medida">Importados</span>
         </span>
       </a>
-      <a class="vitrola vitrola--herrera" href="#importados">
+      <a class="vitrola vitrola--herrera" href="colecao.html?marca=Carolina%20Herrera">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/carolina-herrera-good-girl.webp" alt="Perfume da Carolina Herrera" loading="lazy">
         <span class="vitrola__dizer">
@@ -203,7 +205,7 @@
           <span class="vitrola__frente medida">Importados</span>
         </span>
       </a>
-      <a class="vitrola vitrola--lancome" href="#importados">
+      <a class="vitrola vitrola--lancome" href="colecao.html?marca=Lanc%C3%B4me">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/lancome-la-vie-est-belle.webp" alt="Perfume da Lancôme" loading="lazy">
         <span class="vitrola__dizer">
@@ -211,21 +213,21 @@
           <span class="vitrola__frente medida">Importados</span>
         </span>
       </a>
-      <a data-marca="Paco Rabanne" class="vitrola vitrola--rabanne vitrola--sem-foto" href="#importados">
+      <a data-marca="Paco Rabanne" class="vitrola vitrola--rabanne vitrola--sem-foto" href="colecao.html?marca=Paco%20Rabanne">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <span class="vitrola__dizer">
           <span class="vitrola__nome">Paco Rabanne</span>
           <span class="vitrola__frente medida">Importados</span>
         </span>
       </a>
-      <a data-marca="Yves Saint Laurent" class="vitrola vitrola--ysl vitrola--sem-foto" href="#importados">
+      <a data-marca="Yves Saint Laurent" class="vitrola vitrola--ysl vitrola--sem-foto" href="colecao.html?marca=Yves%20Saint%20Laurent">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <span class="vitrola__dizer">
           <span class="vitrola__nome">Yves Saint Laurent</span>
           <span class="vitrola__frente medida">Importados</span>
         </span>
       </a>
-      <a class="vitrola vitrola--lattafa" href="#arabes">
+      <a class="vitrola vitrola--lattafa" href="colecao.html?marca=Lattafa">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/lattafa-khamrah.webp" alt="Perfume da Lattafa" loading="lazy">
         <span class="vitrola__dizer">
@@ -233,7 +235,7 @@
           <span class="vitrola__frente medida">Árabes</span>
         </span>
       </a>
-      <a class="vitrola vitrola--armaf" href="#arabes">
+      <a class="vitrola vitrola--armaf" href="colecao.html?marca=Armaf">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/armaf-club-de-nuit-woman.webp" alt="Perfume da Armaf" loading="lazy">
         <span class="vitrola__dizer">
@@ -241,7 +243,7 @@
           <span class="vitrola__frente medida">Árabes</span>
         </span>
       </a>
-      <a class="vitrola vitrola--alhambra" href="#arabes">
+      <a class="vitrola vitrola--alhambra" href="colecao.html?marca=Maison%20Alhambra">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/maison-alhambra-delilah.webp" alt="Perfume da Maison Alhambra" loading="lazy">
         <span class="vitrola__dizer">
@@ -249,7 +251,7 @@
           <span class="vitrola__frente medida">Árabes</span>
         </span>
       </a>
-      <a class="vitrola vitrola--vs" href="#arabes">
+      <a class="vitrola vitrola--vs" href="colecao.html?marca=Victoria%27s%20Secret">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <img class="vitrola__frasco" src="imagens/web/victorias-secret-aqua-kiss.webp" alt="Perfume da Victoria&#39;s Secret" loading="lazy">
         <span class="vitrola__dizer">
@@ -257,21 +259,21 @@
           <span class="vitrola__frente medida">Banho e corpo</span>
         </span>
       </a>
-      <a data-marca="Anua" class="vitrola vitrola--anua vitrola--sem-foto" href="#beleza">
+      <a data-marca="Anua" class="vitrola vitrola--anua vitrola--sem-foto" href="colecao.html?marca=Anua">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <span class="vitrola__dizer">
           <span class="vitrola__nome">Anua</span>
           <span class="vitrola__frente medida">Beleza</span>
         </span>
       </a>
-      <a data-marca="Medicube" class="vitrola vitrola--medicube vitrola--sem-foto" href="#beleza">
+      <a data-marca="Medicube" class="vitrola vitrola--medicube vitrola--sem-foto" href="colecao.html?marca=Medicube">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <span class="vitrola__dizer">
           <span class="vitrola__nome">Medicube</span>
           <span class="vitrola__frente medida">Beleza</span>
         </span>
       </a>
-      <a data-marca="ADCOS" class="vitrola vitrola--adcos vitrola--sem-foto" href="#beleza">
+      <a data-marca="ADCOS" class="vitrola vitrola--adcos vitrola--sem-foto" href="colecao.html?marca=ADCOS">
         <span class="vitrola__selo" aria-hidden="true"></span>
         <span class="vitrola__dizer">
           <span class="vitrola__nome">ADCOS</span>
@@ -289,7 +291,7 @@
         <h2>Perfumaria importada</h2>
         <p class="secao__linha">Os frascos que a cliente já procura pelo nome, e não pela categoria.</p>
       </div>
-      <a class="acao-secundaria" href="#"><span class="acao__texto">Ver a prateleira inteira</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+      <a class="acao-secundaria" href="colecao.html?c=importados"><span class="acao__texto">Ver a prateleira inteira</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
             <div class="secao__setas" data-alvo="trilho-2"><button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div>
     </div>
       <div class="trilho-caixa">
@@ -341,7 +343,7 @@
   <section class="envoltorio secao" id="arabes">
     <div class="secao__cabeca">
       <h2>Perfumaria árabe</h2>
-      <a class="medida" href="#">Ver todos os árabes</a>
+      <a class="medida" href="colecao.html?c=arabes">Ver todos os árabes</a>
           <div class="secao__setas" data-alvo="trilho-3"><button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div>
     </div>
       <div class="trilho-caixa">
@@ -514,21 +516,21 @@
       </div>
       <ul class="guia__rotas">
         <li>
-          <a href="#arabes">
+          <a href="colecao.html?c=arabes">
             <span class="guia__pergunta">Quero um que dure o dia inteiro</span>
             <span class="guia__resposta">A ficha de cada frasco traz esse número em horas. Você compara antes de escolher.</span>
             <span class="guia__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
           </a>
         </li>
         <li>
-          <a href="#importados">
+          <a href="colecao.html?c=importados">
             <span class="guia__pergunta">Quero um que as pessoas reconheçam</span>
             <span class="guia__resposta">A prateleira de grife. Dior, Carolina Herrera, Lancôme, Paco Rabanne e Yves Saint Laurent.</span>
             <span class="guia__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
           </a>
         </li>
         <li>
-          <a href="#kits">
+          <a href="colecao.html?c=kits">
             <span class="guia__pergunta">Quero presentear sem errar</span>
             <span class="guia__resposta">Os kits mostram, na abertura, quanto você economiza em relação a comprar os dois avulsos.</span>
             <span class="guia__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
@@ -563,10 +565,10 @@
         <p class="medida beleza__rotulo">Beleza</p>
         <h2 id="beleza-titulo">Cada cuidado no seu lugar.</h2>
         <p class="beleza__linha">Coreanos e dermocosmético separados por área do corpo, tipo de pele e ativo. Dá para chegar pela niacinamida, e não pela promessa da embalagem.</p>
-        <a class="acao" href="#"><span class="acao__texto">Explorar toda a beleza</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+        <a class="acao" href="colecao.html?c=beleza"><span class="acao__texto">Explorar toda a beleza</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
       </div>
       <div class="beleza__tiles">
-        <a class="tile tile--rosto" href="#">
+        <a class="tile tile--rosto" href="colecao.html?c=rosto">
           <span class="tile__campo" aria-hidden="true"><svg class="tile__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg></span>
           <span class="tile__dizer">
             <strong class="tile__nome">Rosto</strong>
@@ -574,7 +576,7 @@
           </span>
           <span class="tile__ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
         </a>
-        <a class="tile tile--corpo" href="#">
+        <a class="tile tile--corpo" href="colecao.html?c=corpo">
           <span class="tile__campo" aria-hidden="true"><svg class="tile__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg><span class="tile__frascos"><img src="imagens/web/victorias-secret-love-spell.webp" alt="" width="390" height="1100" loading="lazy" decoding="async"><img src="imagens/web/victorias-secret-aqua-kiss.webp" alt="" width="387" height="1100" loading="lazy" decoding="async"></span></span>
           <span class="tile__dizer">
             <strong class="tile__nome">Corpo</strong>
@@ -582,7 +584,7 @@
           </span>
           <span class="tile__ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
         </a>
-        <a class="tile tile--cabelo" href="#">
+        <a class="tile tile--cabelo" href="colecao.html?c=cabelo">
           <span class="tile__campo" aria-hidden="true"><svg class="tile__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg></span>
           <span class="tile__dizer">
             <strong class="tile__nome">Cabelo</strong>
@@ -590,7 +592,7 @@
           </span>
           <span class="tile__ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
         </a>
-        <a class="tile tile--maos" href="#">
+        <a class="tile tile--maos" href="colecao.html?c=maos">
           <span class="tile__campo" aria-hidden="true"><svg class="tile__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg></span>
           <span class="tile__dizer">
             <strong class="tile__nome">Mãos e pés</strong>
@@ -598,7 +600,7 @@
           </span>
           <span class="tile__ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span>
         </a>
-        <a class="tile tile--labios" href="#">
+        <a class="tile tile--labios" href="colecao.html?c=labios">
           <span class="tile__campo" aria-hidden="true"><svg class="tile__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg></span>
           <span class="tile__dizer">
             <strong class="tile__nome">Lábios</strong>
@@ -614,7 +616,7 @@
     <div class="envoltorio">
       <div class="secao__cabeca">
         <h2>Chegou agora</h2>
-        <a class="medida" href="#">Ver as novidades</a>
+        <a class="medida" href="colecao.html?c=novidades">Ver as novidades</a>
             <div class="secao__setas" data-alvo="trilho-4"><button class="seta seta--esq" data-rola="antes" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></svg></button><button class="seta seta--dir" data-rola="depois" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></svg></button></div>
     </div>
       <div class="trilho-caixa">
@@ -682,7 +684,7 @@
 
   <section class="envoltorio secao">
     <div class="portais">
-      <a class="portal portal--perfumaria" href="#arabes">
+      <a class="portal portal--perfumaria" href="colecao.html?c=arabes">
         <svg class="portal__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg>
         <span class="portal__dizer">
           <span class="medida portal__rotulo">Perfumaria</span>
@@ -693,7 +695,7 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
         </span>
       </a>
-      <a class="portal portal--beleza" href="#beleza">
+      <a class="portal portal--beleza" href="colecao.html?c=beleza">
         <svg class="portal__marca" viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 L70 500 L872.39 285 L285 872.39 Z"/></svg>
         <span class="portal__dizer">
           <span class="medida portal__rotulo">Beleza</span>
@@ -723,15 +725,15 @@
       </div>
       <div>
         <h4>Perfumaria</h4>
-        <ul><li><a href="#arabes">Árabes</a></li><li><a href="#arabes">Victoria's Secret</a></li><li><a href="#arabes">Body splash</a></li><li><a href="#kits">Kits</a></li></ul>
+        <ul><li><a href="colecao.html?c=arabes">Árabes</a></li><li><a href="colecao.html?marca=Victoria%27s%20Secret">Victoria's Secret</a></li><li><a href="colecao.html?c=corpo">Body splash</a></li><li><a href="colecao.html?c=kits">Kits</a></li></ul>
       </div>
       <div>
         <h4>Beleza</h4>
-        <ul><li><a href="#beleza">Rosto</a></li><li><a href="#beleza">Corpo</a></li><li><a href="#beleza">Protetor solar</a></li><li><a href="#beleza">Aparelhos</a></li></ul>
+        <ul><li><a href="colecao.html?c=rosto">Rosto</a></li><li><a href="colecao.html?c=corpo">Corpo</a></li><li><a href="colecao.html?c=rosto">Protetor solar</a></li><li><a href="colecao.html?c=beleza">Aparelhos</a></li></ul>
       </div>
       <div>
         <h4>A loja</h4>
-        <ul><li><a href="#">Entrega e prazos</a></li><li><a href="#">Trocas e devoluções</a></li><li><a href="#">Fale no WhatsApp</a></li><li><a href="#">Rastrear pedido</a></li></ul>
+        <ul><li><a href="institucional.html#entrega">Entrega e prazos</a></li><li><a href="institucional.html#trocas">Trocas e devoluções</a></li><li><a href="institucional.html#contato">Fale no WhatsApp</a></li><li><a href="institucional.html#rastreio">Rastrear pedido</a></li></ul>
       </div>
     </div>
     <div class="pagamentos" aria-label="Formas de pagamento">
@@ -764,11 +766,11 @@
   </div>
 
   <ul class="menu-movel__lista">
-    <li><a href="index.html#importados">Importados <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#arabes">Árabes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#beleza">Beleza <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#marcas">Marcas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#kits">Kits <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=importados">Importados <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=arabes">Árabes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=beleza">Beleza <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=tudo">Marcas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=kits">Kits <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
   </ul>
 
   <div class="menu-movel__idioma">
@@ -779,9 +781,9 @@
     </div>
   </div>
   <div class="menu-movel__pe">
-    <a href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>Minha conta</a>
-    <a href="#"><svg viewBox="0 0 24 24"><path d="M3 7.5h11v9H3z"/><path d="M14 10.5h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Rastrear pedido</a>
-    <a href="#"><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-4.2-7.3"/><path d="M3.5 20.5l1.3-3.8"/></svg>Falar no WhatsApp</a>
+    <a href="institucional.html#conta"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>Minha conta</a>
+    <a href="institucional.html#rastreio"><svg viewBox="0 0 24 24"><path d="M3 7.5h11v9H3z"/><path d="M14 10.5h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Rastrear pedido</a>
+    <a href="institucional.html#contato"><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-4.2-7.3"/><path d="M3.5 20.5l1.3-3.8"/></svg>Falar no WhatsApp</a>
   </div>
 </aside>
 

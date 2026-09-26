@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
 
 <header class="amarracao">
   <div class="aviso-caixa"><div class="aviso"><div class="letreiro"><span class="medida">Envio para todo o Brasil</span><span class="medida">Lattafa</span><span class="medida">Carolina Herrera</span><span class="medida">Dior</span><span class="medida">Anua</span><span class="medida">Até 3x sem juros</span><span class="medida">Victoria's Secret</span><span class="medida">Medicube</span><span class="medida">Lancôme</span><span class="medida">Lacrado e original</span><span class="medida">Paco Rabanne</span><span class="medida">ADCOS</span><span class="medida">Yves Saint Laurent</span></div><div class="letreiro" aria-hidden="true"><span class="medida">Envio para todo o Brasil</span><span class="medida">Lattafa</span><span class="medida">Carolina Herrera</span><span class="medida">Dior</span><span class="medida">Anua</span><span class="medida">Até 3x sem juros</span><span class="medida">Victoria's Secret</span><span class="medida">Medicube</span><span class="medida">Lancôme</span><span class="medida">Lacrado e original</span><span class="medida">Paco Rabanne</span><span class="medida">ADCOS</span><span class="medida">Yves Saint Laurent</span></div></div></div>
@@ -22,17 +24,17 @@
       </button>
       <a href="index.html" class="marca"><span class="marca__nome">Yanca</span><span class="marca__linha">Perfumaria</span></a>
     <nav class="navegacao" aria-label="Principal">
-      <a href="index.html#importados">Importados</a>
+      <a href="colecao.html?c=importados">Importados</a>
       <a href="index.html" aria-current="page">Árabes</a>
-      <a href="index.html#beleza">Beleza</a>
-      <a href="index.html#marcas">Marcas</a>
-      <a href="index.html#kits">Kits</a>
+      <a href="colecao.html?c=beleza">Beleza</a>
+      <a href="colecao.html?c=tudo">Marcas</a>
+      <a href="colecao.html?c=kits">Kits</a>
     </nav>
-    <div class="busca">
+    <form class="busca" action="colecao.html" method="get" role="search">
       <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
       <label class="medida" for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Buscar</label>
-      <input id="q" type="search" placeholder="Buscar por Khamrah, Anua, protetor solar…">
-    </div>
+      <input id="q" type="search" name="q" autocomplete="off" placeholder="Buscar por Khamrah, Anua, protetor solar…">
+    <button class="so-leitor" type="submit">Buscar</button></form>
     <div class="ferramentas">
       <div class="idioma">
         <button class="ferramenta idioma__botao" aria-expanded="false" aria-haspopup="true" aria-label="Idioma do site">
@@ -47,9 +49,9 @@
       <button class="ferramenta busca-movel" aria-label="Buscar" data-abre-gaveta>
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
       </button>
-      <button class="ferramenta" aria-label="Minha conta">
+      <a class="ferramenta" href="institucional.html#conta" aria-label="Minha conta">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>
-      </button>
+      </a>
       <button class="ferramenta" aria-label="Favoritos">
         <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.8c0 4.8-7 9.2-7 9.2z"/></svg>
       </button>
@@ -62,10 +64,10 @@
 </header>
 
 <nav class="envoltorio trilha medida" aria-label="Trilha">
-  <a href="index.html">Início</a> · <a href="#">Perfumaria</a> · <a href="#">Lattafa</a> · <a href="#">Linha Yara</a> · <span>Yara Candy</span>
+  <a href="index.html">Início</a> · <a href="colecao.html?c=tudo">Perfumaria</a> · <a href="colecao.html?marca=Lattafa">Lattafa</a> · <a href="colecao.html?marca=Lattafa">Linha Yara</a> · <span>Yara Candy</span>
 </nav>
 
-<main>
+<main id="conteudo" tabindex="-1">
 
   <section class="envoltorio produto">
     <div>
@@ -80,15 +82,15 @@
             <span class="irmao__foto"><img src="imagens/web/lattafa-yara-candy.webp" alt="Yara Candy" loading="lazy"></span>
             <span class="irmao__nome">Candy</span>
           </a>
-          <a class="irmao" href="#">
+          <a class="irmao" href="colecao.html?marca=Lattafa">
             <span class="irmao__foto"><img src="imagens/web/lattafa-yara.webp" alt="Yara" loading="lazy"></span>
             <span class="irmao__nome">Yara</span>
           </a>
-          <a class="irmao" href="#">
+          <a class="irmao" href="colecao.html?marca=Lattafa">
             <span class="irmao__foto"><img src="imagens/web/lattafa-yara-moi.webp" alt="Yara Moi" loading="lazy"></span>
             <span class="irmao__nome">Moi</span>
           </a>
-          <a class="irmao" href="#">
+          <a class="irmao" href="colecao.html?marca=Lattafa">
             <span class="irmao__foto"><img src="imagens/web/lattafa-yara-rose.webp" alt="Yara Rose" loading="lazy"></span>
             <span class="irmao__nome">Rose</span>
           </a>
@@ -215,15 +217,15 @@
         <h2>Esta fragrância também vem em kit</h2>
         <ul class="kit__pecas">
           <li class="kit__peca">
-            <a href="#">Lattafa Yara Candy Eau de Parfum 100ml</a>
+            <a href="colecao.html?marca=Lattafa">Lattafa Yara Candy Eau de Parfum 100ml</a>
             <span class="preco" style="font-size:14px">R$ 286,00</span>
           </li>
           <li class="kit__peca">
-            <a href="#">Lattafa Yara Rose Eau de Parfum 100ml</a>
+            <a href="colecao.html?marca=Lattafa">Lattafa Yara Rose Eau de Parfum 100ml</a>
             <span class="preco" style="font-size:14px">R$ 259,00</span>
           </li>
         </ul>
-        <a class="acao" href="#"><span class="acao__texto">Ver o kit por R$ 409,90</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
+        <a class="acao" href="colecao.html?c=kits"><span class="acao__texto">Ver o kit por R$ 409,90</span><span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a>
       </div>
       <div class="kit__economia">
         <span class="medida">Você economiza</span>
@@ -327,15 +329,15 @@
       </div>
       <div>
         <h4>Perfumaria</h4>
-        <ul><li><a href="#">Árabes</a></li><li><a href="#">Victoria's Secret</a></li><li><a href="#">Body splash</a></li><li><a href="#">Kits</a></li></ul>
+        <ul><li><a href="colecao.html?c=arabes">Árabes</a></li><li><a href="colecao.html?marca=Victoria%27s%20Secret">Victoria's Secret</a></li><li><a href="colecao.html?c=corpo">Body splash</a></li><li><a href="colecao.html?c=kits">Kits</a></li></ul>
       </div>
       <div>
         <h4>Beleza</h4>
-        <ul><li><a href="#">Rosto</a></li><li><a href="#">Corpo</a></li><li><a href="#">Protetor solar</a></li><li><a href="#">Aparelhos</a></li></ul>
+        <ul><li><a href="colecao.html?c=rosto">Rosto</a></li><li><a href="colecao.html?c=corpo">Corpo</a></li><li><a href="colecao.html?c=rosto">Protetor solar</a></li><li><a href="colecao.html?c=beleza">Aparelhos</a></li></ul>
       </div>
       <div>
         <h4>A loja</h4>
-        <ul><li><a href="#">Entrega e prazos</a></li><li><a href="#">Trocas e devoluções</a></li><li><a href="#">Fale no WhatsApp</a></li><li><a href="#">Rastrear pedido</a></li></ul>
+        <ul><li><a href="institucional.html#entrega">Entrega e prazos</a></li><li><a href="institucional.html#trocas">Trocas e devoluções</a></li><li><a href="institucional.html#contato">Fale no WhatsApp</a></li><li><a href="institucional.html#rastreio">Rastrear pedido</a></li></ul>
       </div>
     </div>
     <div class="rodape__fim">
@@ -408,11 +410,11 @@ document.querySelectorAll('.quantidade').forEach((caixa) => {
   </div>
 
   <ul class="menu-movel__lista">
-    <li><a href="index.html#importados">Importados <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#arabes">Árabes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#beleza">Beleza <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#marcas">Marcas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
-    <li><a href="index.html#kits">Kits <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=importados">Importados <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=arabes">Árabes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=beleza">Beleza <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=tudo">Marcas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
+    <li><a href="colecao.html?c=kits">Kits <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></a></li>
   </ul>
 
 
@@ -424,9 +426,9 @@ document.querySelectorAll('.quantidade').forEach((caixa) => {
     </div>
   </div>
   <div class="menu-movel__pe">
-    <a href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>Minha conta</a>
-    <a href="#"><svg viewBox="0 0 24 24"><path d="M3 7.5h11v9H3z"/><path d="M14 10.5h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Rastrear pedido</a>
-    <a href="#"><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-4.2-7.3"/><path d="M3.5 20.5l1.3-3.8"/></svg>Falar no WhatsApp</a>
+    <a href="institucional.html#conta"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></svg>Minha conta</a>
+    <a href="institucional.html#rastreio"><svg viewBox="0 0 24 24"><path d="M3 7.5h11v9H3z"/><path d="M14 10.5h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Rastrear pedido</a>
+    <a href="institucional.html#contato"><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-4.2-7.3"/><path d="M3.5 20.5l1.3-3.8"/></svg>Falar no WhatsApp</a>
   </div>
 </aside>
 

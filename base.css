@@ -444,6 +444,10 @@ h1, h2, h3, h4 {
   transition: background 0.35s var(--saida), color 0.35s var(--saida);
 }
 .acao-secundaria:hover { background: var(--tinta); color: var(--taupe); }
+/* Ícone sem medida é ícone que ocupa o que sobrar. Aqui ele tem medida
+   própria, e não depende de o pai continuar sendo flex. */
+.acao-secundaria svg { width: 16px; height: 16px; flex: none; stroke: currentColor; stroke-width: 1.7; fill: none; }
+.acao-secundaria .acao__seta { width: 16px; height: 16px; flex: none; }
 
 /* ---------- benefícios ---------- */
 
@@ -462,8 +466,10 @@ h1, h2, h3, h4 {
 .secao { padding-block: var(--ritmo); }
 .secao--taupe { background: var(--taupe); }
 .secao__cabeca { display: flex; align-items: center; justify-content: flex-start; gap: 16px; margin-bottom: 32px; }
-.secao__cabeca a { border-bottom: 1px solid var(--fio-forte); padding-bottom: 3px; transition: border-color 0.3s ease, color 0.3s ease; }
-.secao__cabeca a:hover { border-color: var(--bronze); color: var(--bronze-texto); }
+/* Só o link de texto do cabeçalho. O botão de ação tem desenho próprio, e
+   herdar sublinhado e padding daqui quebrava a caixa dele. */
+.secao__cabeca a:not(.acao):not(.acao-secundaria) { border-bottom: 1px solid var(--fio-forte); padding-bottom: 3px; transition: border-color 0.3s ease, color 0.3s ease; }
+.secao__cabeca a:not(.acao):not(.acao-secundaria):hover { border-color: var(--bronze); color: var(--bronze-texto); }
 
 /* ---------- cartão de produto: moldura própria ---------- */
 
@@ -521,6 +527,12 @@ h1, h2, h3, h4 {
   .peca { transform: none; }
   .peca:hover { transform: translateY(-3px); }
 }
+
+/* Embalagem branca sobre fundo branco nao tem como ser recortada sem comer
+   pedaco do produto, e o recorte recusa por isso. Sem recorte, o retangulo
+   branco da foto aparece colado no meio do poco bege e parece defeito. Entao
+   o poco inteiro fica branco nesses casos: sem emenda, e sem mentir a foto. */
+.peca__retrato.peca__retrato--branco { background: var(--branco); }
 
 .peca__retrato {
   position: relative; overflow: hidden;
@@ -586,6 +598,31 @@ h1, h2, h3, h4 {
 .peca__rodape { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--fio); }
 .peca__preco { font-family: var(--face-corpo); font-weight: 600; font-size: var(--t-preco); letter-spacing: -0.026em; display: block; }
 .peca__parcela { font-family: var(--face-corpo); font-weight: 400; font-size: var(--t-parcela); letter-spacing: 0; text-transform: none; color: var(--texto-2); display: block; margin-top: 4px; }
+
+/* A linha de tamanho, no pe do cartao. Enquanto o preco nao existe, o que a
+   cliente precisa saber para comparar dois frascos e o volume, e e ele que
+   ocupa esse lugar. Quando o preco chegar, ele entra acima e o tamanho desce
+   para uma linha de apoio. */
+.peca__medidas {
+  display: block; min-height: calc(var(--t-preco) * 1.1);
+  font-family: var(--face-corpo); font-size: 13px; font-weight: 500;
+  letter-spacing: -0.004em; line-height: 1.35; color: var(--texto-2);
+}
+
+/* Cartao sem foto nao e cartao vazio: o poco continua ocupando o lugar que a
+   foto vai ocupar, com a roseta da casa apagada no meio. */
+.peca__sem-foto {
+  display: block; width: 100%; height: 100%;
+  background: var(--tinta);
+  -webkit-mask: var(--estrela) center / 52% no-repeat;
+  mask: var(--estrela) center / 52% no-repeat;
+  opacity: 0.12;
+}
+
+/* A prateleira grande entra por levas. O botao fecha a grade e separa uma
+   leva da outra. */
+.colecao__mais { display: flex; justify-content: center; margin-top: var(--ritmo); }
+.colecao__mais button { min-width: min(320px, 100%); }
 
 /* ---------- marcas ---------- */
 
@@ -1658,10 +1695,17 @@ h1, h2, h3, h4 {
      pixel abaixo do mínimo, que reprova igual a quarenta. */
   .ferramenta, .hamburguer, .busca-movel, .menu-movel__fechar { width: 44px; height: 44px; min-width: 44px; }
 
-  /* Links de texto ganham altura de toque sem ganhar altura visual: o padding
-     entra e a margem negativa devolve o espaço ao layout. */
-  .secao__cabeca a,
-  .rodape a,
+  /* Links de TEXTO ganham altura de toque sem ganhar altura visual: o padding
+     entra e a margem negativa devolve o espaço ao layout.
+
+     O botão de ação fica de fora. Ele já tem 17px de padding em cima e em
+     baixo, então o alvo dele nunca foi o problema; o que a regra fazia era
+     trocar o display dele para inline-block, e aí a seta, que é um span sem
+     tamanho próprio dentro de um flex, deixava de ser item de flex e crescia
+     até 168px. O botão "Ver a prateleira inteira" virava um quadrado vazio
+     de 230 por 214 em toda tela abaixo de 860px. */
+  .secao__cabeca a:not(.acao):not(.acao-secundaria),
+  .rodape a:not(.acao):not(.acao-secundaria),
   .rodape__lista a,
   .marca {
     display: inline-block;
@@ -1809,13 +1853,13 @@ h1, h2, h3, h4 {
 .seta:active, .palco__seta:active { scale: 0.94; }
 
 /* Link de seção: o traço cresce da esquerda em vez de acender inteiro. */
-.secao__cabeca a {
+.secao__cabeca a:not(.acao):not(.acao-secundaria) {
   border-bottom: 0;
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat; background-position: 0 100%; background-size: 100% 1px;
   transition: background-size 0.4s var(--saida), color 0.3s ease;
 }
-.secao__cabeca a:hover { background-size: 0 1px; color: var(--bronze-texto); }
+.secao__cabeca a:not(.acao):not(.acao-secundaria):hover { background-size: 0 1px; color: var(--bronze-texto); }
 
 /* A ação principal responde ao toque antes de responder ao clique. */
 .acao:active { scale: 0.985; }

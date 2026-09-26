@@ -222,6 +222,18 @@
   .compra h1 { font-size: 27px; }
 }
 
+
+/* Produto sem preco apurado. A frase ocupa o lugar do preco em vez de
+   herdar o preco de outro frasco, que e o erro que a cliente so descobre
+   no fechamento do pedido. */
+.compra__sem-preco {
+  display: block; margin-bottom: 6px; max-width: 42ch;
+  font-family: var(--face-corpo); font-size: 15px; line-height: 1.5; color: var(--texto-2);
+}
+
+/* Foto que nao pode ser recortada entra sobre branco, igual ao cartao. */
+.retrato--branco { background: var(--branco); }
+
 /* O que a loja ainda não sabe fica escrito ao lado do controle, e não
    escondido: volume sem preço definido é o tipo de lacuna que a cliente
    descobre no carrinho, e aí é tarde. */

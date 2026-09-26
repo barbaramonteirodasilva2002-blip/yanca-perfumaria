@@ -143,73 +143,114 @@ function ligarEfeitos() {
   document.body.appendChild(s)
 }
 </script>
+<script src="catalogo.js"></script>
 <script>
-/* Coleção da Yanca.
-
-   Ela não guarda produto nenhum. Busca o index.html, recorta os cartões que já
-   estão lá e mostra os que interessam. Fonte de dado única: produto que entra
-   na home aparece aqui sozinho, e nunca há duas verdades sobre o mesmo preço.
-
-   O cabeçalho e o rodapé vêm do mesmo lugar, pelo mesmo motivo. */
+/* A prateleira desta pagina sai de dados/catalogo.json, pelo catalogo.js.
+   O cabecalho e o rodape continuam vindo da home, porque menu e rodape tem
+   que ter uma verdade so em todas as paginas. */
 (function () {
   'use strict'
 
-  /* Saída comum das sub prateleiras de beleza: enquanto o estoque não chega,
-     a cliente é levada ao que já existe de beleza, não à porta da frente. */
-  var BELEZA = {
+  /* A prateleira agora sai do catalogo, nao da home.
+     Antes esta pagina clonava os cartoes do index.html: a home era o banco de
+     dados. Com 191 produtos isso significaria baixar a home inteira para
+     poder filtrar, e a home nao tem os 191. O cabecalho e o rodape continuam
+     vindo da home, porque menu e rodape tem que ter uma verdade so. */
+
+  var TODAS_AS_MARCAS = 'Todas'
+
+  /* Cada prateleira e um recorte do catalogo, e nada mais. */
+  var BELEZA_SAIDA = {
     titulo: 'Esta prateleira ainda está sendo montada.',
     corpo: 'Nenhum item desta seleção entrou no estoque até agora. Assim que entrar, ele aparece aqui.',
     destino: 'colecao.html?c=beleza', rotulo: 'Ver o que já chegou de beleza'
   }
 
   var COLECOES = {
-    importados: { trilho: 'trilho-2', titulo: 'Perfumaria importada',
-      linha: 'As casas de grife que a cliente já procura pelo nome.' },
-    arabes: { trilho: 'trilho-3', titulo: 'Perfumaria árabe',
-      linha: 'Âmbar, oud, baunilha e café, com a descrição completa das notas.' },
-    novidades: { trilho: 'trilho-4', titulo: 'Chegou agora',
-      linha: 'O que entrou na vitrine por último.' },
-    beleza: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Beleza',
-      unidade: ['item', 'itens'],
-      linha: 'Corpo e banho. Skincare coreano e dermocosmético entram quando o estoque chegar.' },
-    corpo: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Corpo',
-      unidade: ['item', 'itens'],
-      linha: 'Hidratante e body splash.' },
-    rosto: { marcas: [], titulo: 'Rosto', unidade: ['item', 'itens'],
-      linha: 'Sérum, toner e máscara.', saida: BELEZA },
-    cabelo: { marcas: [], titulo: 'Cabelo', unidade: ['item', 'itens'], saida: BELEZA,
-      linha: 'Limpeza e tratamento.' },
-    maos: { marcas: [], titulo: 'Mãos e pés', unidade: ['item', 'itens'], saida: BELEZA,
-      linha: 'Creme e esfoliante.' },
-    labios: { marcas: [], titulo: 'Lábios', unidade: ['item', 'itens'], saida: BELEZA,
-      linha: 'Bálsamo e protetor.' },
-    kits: { marcas: [], titulo: 'Kits', unidade: ['kit', 'kits'],
+    importados: {
+      filtro: { categoria: 'importados' }, titulo: 'Perfumaria importada',
+      linha: 'As casas de grife que a cliente já procura pelo nome.'
+    },
+    arabes: {
+      filtro: { categoria: 'arabes' }, titulo: 'Perfumaria árabe',
+      linha: 'Âmbar, oud, baunilha e café, das casas que fizeram a fama da perfumaria do Golfo.'
+    },
+    beleza: {
+      filtro: { categoria: 'beleza' }, titulo: 'Beleza', unidade: ['item', 'itens'],
+      linha: 'Skincare coreano, dermocosmético e corpo.'
+    },
+    rosto: {
+      filtro: { categoria: 'beleza', subcategoria: 'rosto' }, titulo: 'Rosto',
+      unidade: ['item', 'itens'], saida: BELEZA_SAIDA,
+      linha: 'Sérum, toner, limpeza e protetor.'
+    },
+    corpo: {
+      filtro: { categoria: 'beleza', subcategoria: 'corpo' }, titulo: 'Corpo',
+      unidade: ['item', 'itens'], saida: BELEZA_SAIDA,
+      linha: 'Hidratante, body splash e bruma.'
+    },
+    cabelo: {
+      filtro: { categoria: 'beleza', subcategoria: 'cabelo' }, titulo: 'Cabelo',
+      unidade: ['item', 'itens'], saida: BELEZA_SAIDA,
+      linha: 'Limpeza e tratamento.'
+    },
+    maos: {
+      filtro: { categoria: 'beleza', subcategoria: 'maos' }, titulo: 'Mãos e pés',
+      unidade: ['item', 'itens'], saida: BELEZA_SAIDA,
+      linha: 'Creme e esfoliante.'
+    },
+    labios: {
+      filtro: { categoria: 'beleza', subcategoria: 'labios' }, titulo: 'Lábios',
+      unidade: ['item', 'itens'], saida: BELEZA_SAIDA,
+      linha: 'Bálsamo e proteção.'
+    },
+    masculinos: {
+      filtro: { genero: 'masculino' }, titulo: 'Perfumaria masculina',
+      linha: 'O que a casa tem de amadeirado, aromático e especiado.'
+    },
+    femininos: {
+      filtro: { genero: 'feminino' }, titulo: 'Perfumaria feminina',
+      linha: 'Floral, doce e âmbar, de grife e do Golfo.'
+    },
+    kits: {
+      filtro: { categoria: 'kits' }, titulo: 'Kits', unidade: ['kit', 'kits'],
       linha: 'O par sai mais barato que as duas peças separadas.',
-      /* O kit não existe como peça solta no estoque: ele aparece dentro da
-         página da fragrância, com as peças avulsas e a conta da economia.
-         Então a prateleira vazia manda para lá, e não para o início. */
-      saida: { titulo: 'Os kits ficam na página de cada fragrância.',
+      /* O kit nao existe como peca solta no estoque: ele aparece dentro da
+         pagina da fragrancia, com as pecas avulsas e a conta da economia. */
+      saida: {
+        titulo: 'Os kits ficam na página de cada fragrância.',
         corpo: 'Cada kit aparece junto do frasco que o compõe, com o preço das peças avulsas e quanto o par economiza.',
-        destino: 'produto.html#kit', rotulo: 'Ver a fragrância com kit' } },
-    tudo: { titulo: 'Todos os perfumes', linha: 'A vitrine inteira, numa página só.' }
+        destino: 'produto.html#kit', rotulo: 'Ver a fragrância com kit'
+      }
+    },
+    novidades: {
+      filtro: { categoria: '_nenhuma_' }, titulo: 'Chegou agora',
+      /* Novidade precisa de data de entrada no estoque, e essa data nao
+         existe em lugar nenhum ainda. Derivar de data de publicacao da marca
+         seria chamar de novo o que talvez esteja parado ha um ano. */
+      saida: {
+        titulo: 'Ainda não dá para dizer o que chegou agora.',
+        corpo: 'Isso depende da data de entrada de cada frasco no estoque, e essa data passa a existir quando a loja abrir. Até lá, a vitrine inteira está aqui.',
+        destino: 'colecao.html?c=tudo', rotulo: 'Ver a vitrine inteira'
+      }
+    },
+    tudo: {
+      filtro: {}, titulo: 'Toda a vitrine', unidade: ['item', 'itens'],
+      linha: 'Perfumaria de grife, perfumaria árabe e beleza, numa página só.'
+    }
   }
 
   var parametros = new URLSearchParams(location.search)
   var alvoTipo = parametros.get('c') || 'tudo'
   var alvoMarca = parametros.get('marca')
+  var alvoGenero = parametros.get('g')
   var busca = (parametros.get('q') || '').trim()
 
   var grade = document.querySelector('[data-grade]')
+  var esc = window.Catalogo.esc
 
   function texto(el, valor) {
     if (el) el.textContent = valor
-  }
-
-  /* O que vem da barra de endereço nunca entra cru no innerHTML: busca e marca
-     são texto de terceiro, e texto de terceiro que virou marcação é falha. */
-  function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;').replace(/"/g, '&quot;')
   }
 
   function vazio(titulo, corpo, destino, rotulo) {
@@ -224,130 +265,79 @@ function ligarEfeitos() {
       '<path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a></div>'
   }
 
-  fetch('index.html')
+  // cabecalho, rodape e gaveta continuam vindo da home
+  var casaPronta = fetch('index.html')
     .then(function (r) { return r.text() })
     .then(function (html) {
       var casa = new DOMParser().parseFromString(html, 'text/html')
-
-      // cabeçalho e rodapé, do mesmo lugar que a home
       var cab = casa.querySelector('header.amarracao')
       var rod = casa.querySelector('footer.rodape')
       if (cab) document.querySelector('[data-abrigo-cabecalho]').replaceWith(cab)
       if (rod) document.querySelector('[data-abrigo-rodape]').replaceWith(rod)
-
-      // o menu de celular vive fora do header, então vem junto. O véu vem com
-      // ele: sem o véu, efeitos.js não liga a gaveta e o botão abria nada.
       var gaveta = casa.querySelector('.menu-movel')
       if (gaveta) document.body.appendChild(gaveta)
       var veu = casa.querySelector('.veu')
       if (veu) document.body.appendChild(veu)
-
       var campo = document.getElementById('q')
       if (campo && busca) campo.value = busca
+    })
+    .catch(function () {})
 
+  Promise.all([window.Catalogo.carregar(), casaPronta])
+    .then(function (r) {
+      var todos = r[0]
       var cfg = COLECOES[alvoTipo] || COLECOES.tudo
       if (busca) cfg = COLECOES.tudo
-      var cartoes = []
 
-      if (cfg.trilho) {
-        var trilho = casa.getElementById(cfg.trilho)
-        if (trilho) cartoes = [].slice.call(trilho.querySelectorAll('.peca-caixa'))
-      } else {
-        cartoes = [].slice.call(casa.querySelectorAll('.trilho .peca-caixa'))
-      }
-
-      if (cfg.marcas) {
-        cartoes = cartoes.filter(function (c) {
-          var m = c.querySelector('.peca__marca')
-          return m && cfg.marcas.indexOf(m.textContent.trim()) > -1
-        })
-      }
-
-      // tira repetido: o mesmo produto pode estar em dois trilhos
-      var vistos = {}
-      cartoes = cartoes.filter(function (c) {
-        var n = c.querySelector('.peca__nome')
-        var chave = n ? n.textContent.trim() : Math.random()
-        if (vistos[chave]) return false
-        vistos[chave] = 1
-        return true
+      var daPrateleira = window.Catalogo.filtrar(todos, cfg.filtro)
+      var comBusca = window.Catalogo.filtrar(daPrateleira, { busca: busca })
+      var marcas = window.Catalogo.marcasDe(comBusca)
+      var mostrar = window.Catalogo.filtrar(comBusca, {
+        marca: alvoMarca, genero: alvoGenero
       })
 
-      // as marcas que existem dentro desta coleção viram filtro
-      var marcas = []
-      cartoes.forEach(function (c) {
-        var m = c.querySelector('.peca__marca')
-        if (m && marcas.indexOf(m.textContent.trim()) === -1) marcas.push(m.textContent.trim())
-      })
-      marcas.sort()
-
-      function limpa(s) {
-        return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
-      }
-
-      if (busca) {
-        var termos = limpa(busca).split(/\s+/).filter(Boolean)
-        cartoes = cartoes.filter(function (c) {
-          var nome = c.querySelector('.peca__nome')
-          var marca = c.querySelector('.peca__marca')
-          var alvo = limpa((nome ? nome.textContent : '') + ' ' + (marca ? marca.textContent : ''))
-          return termos.every(function (t) { return alvo.indexOf(t) > -1 })
-        })
-      }
-
-      var deMarca = cartoes
-      if (alvoMarca) {
-        deMarca = cartoes.filter(function (c) {
-          var m = c.querySelector('.peca__marca')
-          return m && m.textContent.trim().toLowerCase() === alvoMarca.toLowerCase()
-        })
-      }
-
-      var titulo = busca ? 'Busca por "' + busca + '"' : (alvoMarca ? alvoMarca : cfg.titulo)
+      var titulo = busca ? 'Busca por "' + busca + '"' : (alvoMarca || cfg.titulo)
       document.title = titulo + ' · Yanca Perfumaria'
       texto(document.querySelector('[data-titulo]'), titulo)
       texto(document.querySelector('[data-migalha]'), titulo)
+
       var un = cfg.unidade || ['frasco', 'frascos']
-      var conta = deMarca.length === 1 ? '1 ' + un[0] : deMarca.length + ' ' + un[1]
+      var conta = mostrar.length === 1 ? '1 ' + un[0] : mostrar.length + ' ' + un[1]
       texto(document.querySelector('[data-conta]'),
         busca || alvoMarca ? conta
-          : !cfg.linha ? (deMarca.length ? conta : '')
-          : deMarca.length ? cfg.linha.replace(/\.$/, '') + ' · ' + conta
+          : !cfg.linha ? (mostrar.length ? conta : '')
+          : mostrar.length ? cfg.linha.replace(/\.$/, '') + ' · ' + conta
           : cfg.linha)
 
-      // filtros
+      // filtros por marca, com a contagem de cada uma
       var caixaFiltros = document.querySelector('[data-filtros]')
       if (marcas.length > 1) {
-        var base = 'colecao.html?c=' + encodeURIComponent(alvoTipo)
+        var base = 'colecao.html?c=' + encodeURIComponent(alvoTipo) +
+          (busca ? '&q=' + encodeURIComponent(busca) : '')
         var html2 = '<a class="colecao__filtro" href="' + base + '"' +
-          (alvoMarca ? '' : ' aria-current="true"') + '>Todas</a>'
+          (alvoMarca ? '' : ' aria-current="true"') + '>' + TODAS_AS_MARCAS + '</a>'
         marcas.forEach(function (m) {
-          var atual = alvoMarca && alvoMarca.toLowerCase() === m.toLowerCase()
+          var atual = alvoMarca && window.Catalogo.limpar(alvoMarca) === window.Catalogo.limpar(m)
           html2 += '<a class="colecao__filtro" href="' + base + '&marca=' +
             encodeURIComponent(m) + '"' + (atual ? ' aria-current="true"' : '') +
             '>' + esc(m) + '</a>'
         })
         caixaFiltros.innerHTML = html2
-      } else {
+      } else if (caixaFiltros) {
         caixaFiltros.remove()
       }
 
-      // a prateleira
       grade.innerHTML = ''
-      if (!deMarca.length) {
+      if (!mostrar.length) {
         if (busca) {
           grade.innerHTML = vazio('Nada encontrado para "' + esc(busca) + '".',
             'Tente o nome do frasco ou o nome da marca. A vitrine tem ' +
-            casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos.',
+            todos.length + ' produtos.',
             'colecao.html?c=tudo', 'Ver a vitrine inteira')
         } else if (alvoMarca) {
-          /* A marca está na vitrine mas o produto dela ainda não entrou. Dizer
-             isso é melhor que esconder a marca: a cliente clicou nela de
-             propósito e merece saber que ela vem, não achar que o site quebrou. */
           grade.innerHTML = vazio('Os produtos da ' + esc(alvoMarca) + ' ainda não entraram.',
-            'A marca faz parte da seleção, mas nenhum item dela está no estoque agora. ' +
-            'Enquanto isso, a vitrine tem ' +
-            casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos de outras marcas.',
+            'A marca faz parte da seleção, mas nenhum item dela está nesta prateleira agora. ' +
+            'A vitrine tem ' + todos.length + ' produtos de outras marcas.',
             'colecao.html?c=tudo', 'Ver a vitrine inteira')
         } else {
           var s = cfg.saida || {
@@ -359,13 +349,33 @@ function ligarEfeitos() {
         }
         return
       }
-      deMarca.forEach(function (c) {
-        var copia = c.cloneNode(true)
-        // a entrada ao rolar é da home; aqui a prateleira já nasce pronta
-        copia.removeAttribute('data-entra')
-        copia.classList.remove('dentro')
-        grade.appendChild(copia)
-      })
+
+      /* Prateleira grande nao entra de uma vez. Cento e noventa cartoes de
+         uma tacada travam o aparelho da cliente e ela nem viu os doze
+         primeiros. Entra uma leva, e o resto entra quando ela pedir. */
+      var LEVA = 24
+      var postos = 0
+
+      function servir() {
+        var pedaco = mostrar.slice(postos, postos + LEVA)
+        if (!pedaco.length) return
+        var html = pedaco.map(function (p, i) {
+          return window.Catalogo.cartao(p, { ansioso: postos === 0 && i < 4 })
+        }).join('')
+        var mais = document.querySelector('[data-mais]')
+        if (mais) mais.remove()
+        grade.insertAdjacentHTML('beforeend', html)
+        postos += pedaco.length
+        if (postos < mostrar.length) {
+          grade.insertAdjacentHTML('afterend',
+            '<div class="colecao__mais" data-mais><button class="acao-secundaria" type="button">' +
+            '<span class="acao__texto">Ver mais ' +
+            Math.min(LEVA, mostrar.length - postos) + ' de ' +
+            (mostrar.length - postos) + '</span></button></div>')
+          document.querySelector('[data-mais] button').addEventListener('click', servir)
+        }
+      }
+      servir()
     })
     .catch(function () {
       grade.innerHTML = vazio(

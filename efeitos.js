@@ -668,20 +668,26 @@
        pessoa arrastasse a fileira. Conteúdo que depende de um gesto para
        existir não é animação, é defeito. */
     const roteiro = [
-      ['.beneficio', 'sobe', 35, 4],
-      ['.vitrola', 'sobe', 35, 3],
-      ['.peca-caixa', 'sobe', 30, 3],
+      /* O trilho entra como um bloco so. Antes eram 21 cartoes de produto e 12
+         de marca animando um a um, com escada: uma prateleira inteira
+         cintilando enquanto a pessoa passa por ela. Somados, eram 33 dos 48
+         elementos animados da pagina.
+
+         A peca aparece junto com a prateleira dela, que e como uma vitrine
+         funciona: a estante acende, nao cada frasco. */
+      ['.trilho-caixa', 'sobe', 0, 99],
+      ['.beneficio', 'sobe', 30, 4],
       ['.secao__cabeca', 'sobe', 0, 99],
       ['.guia__dizer', 'sobe', 0, 99],
-      ['.guia__rotas li', 'sobe', 40, 3],
-      ['.casa__grade > *', 'sobe', 40, 3],
+      ['.guia__rotas li', 'sobe', 35, 3],
+      ['.casa__grade > *', 'sobe', 35, 3],
       ['.beleza__abertura', 'sobe', 0, 99],
       ['.campanha__palco', 'sobe', 0, 99],
-      ['.campanha__andares li', 'sobe', 40, 3],
-      ['.tile', 'sobe', 35, 3],
-      ['.portal', 'sobe', 40, 2],
-      ['.faixa-kit__grade > *', 'sobe', 40, 2],
-      ['.rodape__coluna', 'sobe', 35, 3],
+      ['.campanha__andares li', 'sobe', 35, 3],
+      ['.tile', 'sobe', 30, 3],
+      ['.portal', 'sobe', 35, 2],
+      ['.faixa-kit__grade > *', 'sobe', 35, 2],
+      ['.rodape__coluna', 'sobe', 30, 3],
     ]
 
     const observador = new IntersectionObserver(
@@ -692,7 +698,12 @@
           observador.unobserve(entrada.target)
         })
       },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.02 }
+      /* Margem positiva embaixo: o elemento entra na conta 18% antes de
+         encostar na borda da tela. Com 420ms de transicao, a entrada termina
+         enquanto ele ainda esta chegando, entao a pessoa nunca pega o
+         movimento no meio. Era negativa, e por isso dava para ver tudo
+         entrando. */
+      { rootMargin: '0px 0px 18% 0px', threshold: 0 }
     )
 
     roteiro.forEach(([seletor, gesto, passo, quantos]) => {

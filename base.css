@@ -1369,34 +1369,19 @@ h1, h2, h3, h4 {
       animation-range: exit 0% exit 72%;
     }
 
-    /* A régua da seção se desenha quando a seção chega. É estrutura ganhando
-       forma, não um enfeite entrando: por isso cresce a partir da margem, no
-       sentido da leitura, e não aparece por opacidade. */
-    /* A linha do tempo é nomeada no cabeçalho e usada pelo pseudo-elemento.
-       Medir contra o próprio ::after não serve: ele tem 1px de altura, e
-       misturar fases diferentes numa faixa só a inverte, o que trava a
-       animação no estado inicial e deixa a régua invisível para sempre. */
-    .secao__cabeca { view-timeline: --cabeca block; }
-    .secao__cabeca::after {
-      scale: 0 1;
-      animation: tracar linear both;
-      animation-timeline: --cabeca;
-      animation-range: entry 15% entry 95%;
-    }
   }
 }
-/* O rastro era 11% de deriva com 1.07 de escala na arte, contra menos 24% na
-   fala. Duas camadas correndo em velocidades tao diferentes somam com as
-   entradas e viram enjoo. O percurso caiu para menos da metade: ainda ha
-   profundidade, mas o palco para de nadar. */
+/* O rastro agora e so luz. Qualquer deriva, por menor que seja, e uma camada
+   andando em velocidade diferente da pagina, e e disso que vem a sensacao de
+   nadar. A arte escurece e dessatura ao sair, que da a mesma profundidade sem
+   mover um pixel. A fala continua saindo por opacidade, sem subir junto. */
 @keyframes rastro {
-  to { translate: 0 5%; scale: 1.03; filter: brightness(0.5) saturate(0.74); }
+  to { filter: brightness(0.52) saturate(0.76); }
 }
 @keyframes rastro-claro {
-  to { translate: 0 5%; scale: 1.03; filter: brightness(1.08) saturate(0.6) opacity(0.58); }
+  to { filter: brightness(1.06) saturate(0.64) opacity(0.6); }
 }
-@keyframes rastro-fala { to { translate: 0 -11%; opacity: 0; } }
-@keyframes tracar { to { scale: 1 1; } }
+@keyframes rastro-fala { to { opacity: 0; } }
 
 /* A régua existe sempre, mesmo sem linha do tempo de rolagem. */
 .secao__cabeca { position: relative; padding-bottom: 22px; }
@@ -1406,6 +1391,21 @@ h1, h2, h3, h4 {
 .secao__cabeca::after {
   content: ''; position: absolute; left: 0; bottom: 0; width: 72px; height: 1px;
   background: currentColor; opacity: 0.34; transform-origin: left center;
+}
+
+/* A régua era presa à linha do tempo da rolagem: o traço andava a cada pixel
+   rolado. Movimento contínuo ligado ao dedo é o que dá sensação de página viva
+   demais. Agora é gesto único, disparado junto com a entrada do cabeçalho, e
+   quem rola de volta não o vê desfazer.
+
+   Sem JavaScript a régua já nasce inteira, porque o estado escondido só existe
+   quando o script marca o elemento. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-entra].secao__cabeca::after { scale: 0 1; }
+  [data-entra].secao__cabeca.dentro::after {
+    scale: 1 1;
+    transition: scale 0.5s var(--saida) 0.1s;
+  }
 }
 
 /* ---------- duas vozes de título ----------
@@ -1696,6 +1696,14 @@ h1, h2, h3, h4 {
      para ja ter terminado quando o olho chega, e igual para todo mundo, que e
      o que deixa a fileira assentar em vez de balancar. */
   [data-entra] { opacity: 0; translate: 0 9px; will-change: opacity, translate; }
+
+  /* Area grande so aparece, nao anda. Uma prateleira inteira subindo nove
+     pixels e um bloco de meia tela se deslocando, e bloco grande em movimento
+     chama muito mais atencao do que peca pequena. O cabecalho e os itens
+     miudos continuam subindo, que e o que da o sentido de chegada. */
+  [data-entra].trilho-caixa,
+  [data-entra].campanha__palco,
+  [data-entra].portal { translate: none; }
 
   [data-entra].dentro {
     opacity: 1; translate: 0 0; will-change: auto;

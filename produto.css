@@ -124,7 +124,7 @@
 .opcao__botao[disabled] { color: var(--texto-2); border-style: dashed; cursor: not-allowed; text-decoration: line-through; }
 
 .quantidade { display: flex; align-items: center; gap: 0; border: 1px solid var(--fio-forte); width: fit-content; }
-.quantidade button { width: 42px; height: 46px; border: 0; background: none; color: var(--tinta); cursor: pointer; font-size: 18px; }
+.quantidade button { width: 46px; height: 46px; border: 0; background: none; color: var(--tinta); cursor: pointer; font-size: 18px; }
 .quantidade button:hover { background: var(--taupe); }
 .quantidade span { min-width: 44px; text-align: center; font-family: var(--face-corpo); font-variant-numeric: tabular-nums; font-size: 14px; }
 
@@ -177,8 +177,17 @@
 .kit__dizer h2 { font-size: clamp(21px, 2.1vw, 29px); margin-bottom: 16px; }
 .kit__pecas { list-style: none; margin: 0 0 24px; padding: 0; }
 .kit__peca { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding-block: 12px; border-bottom: 1px solid var(--fio); font-size: 15px; }
-.kit__peca a { border-bottom: 1px solid var(--fio-forte); }
-.kit__peca a:hover { border-color: var(--tinta); color: var(--tinta); }
+/* A linha do kit tinha 25px de altura de clique dentro de uma fileira de 49px:
+   o dedo acertava a fileira e não acertava o link. O sublinhado saiu da borda
+   e virou decoração de texto para que o padding possa crescer sem arrastar o
+   traço para longe da palavra. A margem negativa devolve o espaço à fileira. */
+.kit__peca a {
+  display: inline-flex; align-items: center; min-height: 44px; margin-block: -10px;
+  text-decoration: underline; text-underline-offset: 3px;
+  text-decoration-thickness: 1px; text-decoration-color: var(--fio-forte);
+  transition: color 0.3s var(--saida), text-decoration-color 0.3s var(--saida);
+}
+.kit__peca a:hover { text-decoration-color: var(--tinta); color: var(--tinta); }
 .kit__economia { background: var(--tinta); color: var(--branco); padding: clamp(26px, 3.2vw, 42px); display: flex; flex-direction: column; justify-content: center; gap: 4px; }
 .kit__economia .medida { color: rgba(255, 255, 255, 0.78); }
 .kit__economia strong { font-family: var(--face-corpo); font-size: clamp(26px, 3vw, 36px); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
@@ -211,4 +220,36 @@
   .medidas { grid-template-columns: 1fr 1fr; }
   .andar { grid-template-columns: 1fr; gap: 4px; }
   .compra h1 { font-size: 27px; }
+}
+
+/* O que a loja ainda não sabe fica escrito ao lado do controle, e não
+   escondido: volume sem preço definido é o tipo de lacuna que a cliente
+   descobre no carrinho, e aí é tarde. */
+.opcao__nota {
+  margin: 12px 0 0; max-width: 46ch;
+  font-family: var(--face-corpo); font-size: 13px; line-height: 1.55; color: var(--texto-2);
+}
+
+/* Resposta do botão de sacola. Fica em voz de status para o leitor de tela
+   anunciar sem roubar o foco, e desaparece quando não tem nada a dizer. */
+.compra__aviso {
+  margin: -12px 0 0;
+  font-family: var(--face-corpo); font-size: 13.5px; line-height: 1.55; color: var(--texto-2);
+}
+.compra__aviso:empty { display: none; }
+
+/* Migalha de pão no toque. O link de 18px de altura é confortável com o
+   cursor e difícil com o polegar. O padding dá a altura de alvo e a margem
+   negativa devolve o espaço ao layout, então a linha não cresce. */
+@media (max-width: 860px) {
+  .trilha a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
+    margin-block: -13px;
+    padding-inline: 2px;
+    margin-inline: -2px;
+  }
 }

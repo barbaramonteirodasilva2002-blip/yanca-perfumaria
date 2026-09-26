@@ -1,4 +1,4 @@
-/* Yanca Perfumaria — sistema visual "A Roseta".
+/* Yanca Perfumaria, sistema visual "A Roseta".
    A malha girih é a estrutura da página, nunca enfeite sobre ela.
    Fundo branco, tinta quase preta, verde profundo como cor da casa e bronze
    como única brasa. Display em didone de verdade, interface em grotesca. */
@@ -24,7 +24,12 @@
   --garrafa: #123b33;         /* o verde da casa, em dose única */
 
   --texto: #1a1819;
-  --texto-2: #66605c;         /* medido: 5.64 sobre marfim, 4.73 sobre taupe */
+  /* Medido contra a superfície clara mais escura da paleta, que é o taupe
+     fundo da faixa de kits: 6.50 no marfim, 5.44 no taupe, 4.86 no taupe
+     fundo. Estava em #66605c, que passava nos dois primeiros e reprovava no
+     terceiro, com 4.22. Continua a 2.48 de distância do texto principal, que
+     é o bastante para ler como secundário. */
+  --texto-2: #5c5754;
   --sobre-escuro: #f7f4ef;
   --sobre-escuro-2: rgba(247, 244, 239, 0.76);
 
@@ -32,7 +37,11 @@
      fio, foco e detalhe, onde 3:1 basta. Para texto e para botão existe o
      bronze escuro, medido em 4.57 nos dois sentidos. */
   --bronze: #a97a4f;
-  --bronze-texto: #8f6743;
+  /* Estava em #8f6743, medido só contra o marfim, onde dava 4.57. Só que ele
+     também cai em taupe e em taupe fundo, e lá dava 3.83 e 3.42: reprovava nas
+     duas superfícies mais escuras. Agora é medido contra a pior delas: 6.22 no
+     marfim, 5.21 no taupe e 4.65 no taupe fundo. */
+  --bronze-texto: #755436;
   --rosa: #d8b8b5;
   --erro: #9d2b2b;
 
@@ -339,6 +348,41 @@ h1, h2, h3, h4 {
   display: grid; place-items: center; background: var(--tinta); color: var(--branco);
   font-family: var(--face-corpo); font-size: 11px; font-variant-numeric: tabular-nums;
 }
+.sacola__conta[hidden] { display: none; }
+
+/* O painel da sacola segue a mesma construção da lista de idioma: ancorado no
+   botão, fechado por padrão, fora do fluxo. Ele existe para o clique no ícone
+   ter resposta, e para a nota sobre o fechamento do pedido ter onde morar. */
+.sacola__painel {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 30;
+  width: min(300px, calc(100vw - 32px));
+  padding: 16px 18px; text-align: left;
+  background: var(--branco); border: 1px solid var(--fio);
+  box-shadow: 0 22px 40px -22px rgba(20, 18, 21, 0.45);
+}
+.sacola__painel[hidden] { display: none; }
+.sacola__titulo { display: block; margin: 0 0 12px; color: var(--texto-2); }
+.sacola__itens { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
+.sacola__itens li {
+  display: flex; gap: 12px; justify-content: space-between; align-items: baseline;
+  font-family: var(--face-corpo); font-size: 14px; line-height: 1.4; color: var(--tinta);
+}
+.sacola__qtd { flex: none; color: var(--texto-2); font-variant-numeric: tabular-nums; }
+.sacola__vazia { margin: 0; font-family: var(--face-corpo); font-size: 14px; color: var(--texto-2); }
+.sacola__nota {
+  margin: 14px 0 0; padding-top: 13px; border-top: 1px solid var(--fio);
+  font-family: var(--face-corpo); font-size: 12.5px; line-height: 1.5; color: var(--texto-2);
+}
+.sacola__limpar {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 44px; margin-top: 12px;
+  background: none; border: 1px solid var(--fio-forte); cursor: pointer;
+  font-family: var(--face-corpo); font-size: 11px; font-weight: 600;
+  letter-spacing: var(--label-espaco); text-transform: uppercase; color: var(--tinta);
+  transition: background 0.25s ease;
+}
+.sacola__limpar:hover { background: var(--taupe); }
+.sacola__limpar[hidden] { display: none; }
 
 /* ---------- ações ---------- */
 
@@ -829,7 +873,9 @@ h1, h2, h3, h4 {
 .portal--perfumaria:hover { box-shadow: inset 0 0 0 1px rgba(247, 244, 239, 0.18); }
 
 .portal--beleza { background: var(--rosa); color: var(--texto); }
-.portal--beleza .portal__rotulo { color: #7a4f4c; }
+/* #7a4f4c media 3.75 sobre o rosa do portal, e rótulo de 11px precisa de 4.5.
+   O mesmo tom, dois passos mais escuro, chega a 5.36 sem sair da família. */
+.portal--beleza .portal__rotulo { color: #5e3a37; }
 .portal--beleza .portal__texto { color: #4a3d3c; }
 .portal--beleza .portal__ir { background: var(--tinta); color: var(--sobre-escuro); }
 .portal--beleza:hover .portal__ir { background: var(--garrafa); }
@@ -870,6 +916,14 @@ h1, h2, h3, h4 {
 .assina input::placeholder { color: rgba(247, 244, 239, 0.5); }
 .assina button { background: var(--bronze); color: var(--tinta); border: 0; padding-inline: 20px; cursor: pointer; font-family: var(--face-corpo); font-size: 11px; letter-spacing: 0.11em; text-transform: uppercase; transition: background 0.3s ease; }
 .assina button:hover { background: var(--rosa); }
+/* A resposta do formulário fica no rodapé, em voz de status, e diz a verdade:
+   não existe serviço de e-mail ligado, então o endereço não sai do navegador. */
+.assina__aviso {
+  margin: 10px 0 0; max-width: 340px;
+  font-size: 13px; line-height: 1.5; color: rgba(247, 244, 239, 0.78);
+}
+.assina__aviso:empty { display: none; }
+.assina__aviso[data-erro] { color: var(--rosa); }
 
 /* ---------- respiro ---------- */
 
@@ -1077,9 +1131,14 @@ h1, h2, h3, h4 {
 .cena__colecao {
   margin: 0 0 14px; font-size: var(--t-label); font-weight: 500;
   letter-spacing: var(--label-espaco); text-transform: uppercase;
-  color: var(--brasa, var(--bronze));
+  /* O rótulo herdava a brasa de cada cena, e brasa é cor de detalhe, não de
+     texto: sobre a arte de grife media 3.30 e sobre a da Yara 4.38, as duas
+     reprovando. Agora ele usa a mesma cor que o título da cena já usa, única
+     provada contra cada arte, e se diferencia por tamanho e espacejamento em
+     vez de cor. O pior caso passou de 3.30 para 11.1. */
+  color: var(--sobre);
+  opacity: 0.8;
 }
-.cena--claro .cena__colecao { color: var(--bronze-texto); }
 
 @media (prefers-reduced-motion: no-preference) {
   /* O frasco respira. Só o da frente, e só três pixels: banner com produto
@@ -1155,7 +1214,13 @@ h1, h2, h3, h4 {
   display: block; font-family: var(--face-corpo); font-weight: 600;
   letter-spacing: -0.026em; font-size: 20px; line-height: 1.12;
 }
-.vitrola__frente { display: block; margin-top: 7px; opacity: 0.82; }
+.vitrola__frente {
+  display: block; margin-top: 7px; opacity: 0.82;
+  /* A classe .medida pinta o rótulo com --texto-2, que é cinza de papel claro.
+     Sobre o chão escuro da casa isso media 2.03 de contraste: rótulo que existe
+     e não se lê. Aqui ele volta para a cor de cima do próprio cartão. */
+  color: var(--sobre);
+}
 
 /* Cada casa com o chão dela. Duas variáveis por marca e nada mais. */
 .vitrola--dior      { --chao: linear-gradient(165deg, #1d2733, #0c1119); --sobre: #f2f0ec; --brasa: #8fa4bd; }
@@ -1860,13 +1925,15 @@ h1, h2, h3, h4 {
   fill: var(--tinta); stroke: none; opacity: 0.05;
   rotate: -8deg;
 }
-/* Teto em medida, não em percentual. Altura percentual depende de o pai ter
-   altura definida no momento em que o navegador resolve a foto, e nem todo
+/* Altura em medida, não em percentual nem em auto. Percentual depende de o pai
+   ter altura resolvida na hora em que o navegador mede a foto, e nem todo
    renderizador chega lá na mesma ordem: num render de página inteira a foto
-   voltava ao tamanho natural e vazava por baixo da seção. */
+   voltava ao tamanho natural e vazava por baixo da seção. Auto era pior: antes
+   de a foto carregar a caixa media 0x0 e a imagem aparecia estourando de nada.
+   Com altura fixa e a proporção vinda dos atributos, o lugar já está guardado. */
 .campanha__frasco {
-  position: relative; width: auto; height: auto;
-  max-width: 76%; max-height: clamp(280px, 33vw, 470px); object-fit: contain;
+  position: relative; width: auto; height: clamp(280px, 33vw, 470px);
+  max-width: 76%; object-fit: contain;
   filter: drop-shadow(0 38px 46px rgba(20, 18, 21, 0.24));
   transition: translate 0.9s var(--saida);
 }

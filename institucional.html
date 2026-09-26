@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A loja · Yanca Perfumaria</title>
 <meta name="description" content="Entrega, trocas, rastreio, conta e contato da Yanca Perfumaria.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f7f4ef">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
@@ -58,6 +60,14 @@
     .inst__indice { position: static; grid-auto-flow: column; grid-auto-columns: max-content; overflow-x: auto; scrollbar-width: none; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); }
     .inst__indice::-webkit-scrollbar { width: 0; height: 0; display: none; }
     .inst__indice a { border-left: 0; border-bottom: 2px solid var(--fio); white-space: nowrap; }
+  }
+
+  /* O link da migalha tem 18px de altura: confortável com cursor, difícil com
+     polegar. O padding dá o alvo e a margem negativa devolve o espaço. */
+  @media (max-width: 860px) {
+    .inst__migalha a { display: inline-flex; align-items: center; justify-content: center;
+      min-height: 44px; min-width: 44px; margin-block: -13px;
+      padding-inline: 2px; margin-inline: -2px; }
   }
 </style>
 </head>
@@ -163,7 +173,20 @@
 
 <div data-abrigo-rodape></div>
 
-<script src="efeitos.js" defer></script>
+<script>
+/* efeitos.js precisa do cabeçalho na mão quando roda: é dele que saem a
+   gaveta do celular, o seletor de idioma e a sacola. Nesta página o cabeçalho
+   chega por fetch, depois do HTML, então o script entra depois da montagem, e
+   não com defer no topo. Com defer, o menu do celular e a sacola não existiam
+   aqui: o botão abria nada. */
+function ligarEfeitos() {
+  if (document.querySelector('script[data-efeitos]')) return
+  var s = document.createElement('script')
+  s.src = 'efeitos.js'
+  s.setAttribute('data-efeitos', '')
+  document.body.appendChild(s)
+}
+</script>
 <script>
 /* Cabeçalho e rodapé vêm da home, pelo mesmo motivo da coleção: uma verdade só
    sobre menu, busca e rodapé, em qualquer página. */
@@ -177,7 +200,11 @@ fetch('index.html')
     if (cab) document.querySelector('[data-abrigo-cabecalho]').replaceWith(cab)
     if (rod) document.querySelector('[data-abrigo-rodape]').replaceWith(rod)
     if (gaveta) document.body.appendChild(gaveta)
+    // O véu vem com a gaveta: sem ele efeitos.js não liga o menu do celular.
+    var veu = casa.querySelector('.veu')
+    if (veu) document.body.appendChild(veu)
   })
+  .then(ligarEfeitos, ligarEfeitos)
 </script>
 </body>
 </html>

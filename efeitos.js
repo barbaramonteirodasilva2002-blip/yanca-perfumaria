@@ -21,18 +21,189 @@
     ).observe(gatilho)
   }
 
-  /* 1e. a sacola pula quando um item entra por compra rápida */
-  const conta = document.querySelector('.sacola__conta')
-  document.querySelectorAll('.peca__rapido').forEach((botao) => {
-    botao.addEventListener('click', (e) => {
-      e.preventDefault()
-      if (!conta) return
-      conta.textContent = String(+conta.textContent + 1)
-      conta.classList.remove('pulando')
-      void conta.offsetWidth
-      conta.classList.add('pulando')
+  /* 1e. a sacola.
+     Antes o cabeçalho trazia o número 2 escrito à mão e o botão de adicionar
+     não fazia nada: a loja mentia o estoque da cliente e engolia o clique mais
+     importante da página. Aqui a sacola é de verdade dentro do que um
+     protótipo pode ser: guarda a escolha no navegador dela, conta certo,
+     responde ao clique e diz sem rodeio que o fechamento do pedido entra no ar
+     com a loja. Nada é enviado para servidor nenhum, porque não existe
+     servidor. */
+  const CHAVE_SACOLA = 'yanca:sacola'
+
+  const lerSacola = () => {
+    try {
+      const bruto = JSON.parse(localStorage.getItem(CHAVE_SACOLA) || '[]')
+      return Array.isArray(bruto) ? bruto.filter((i) => i && i.nome) : []
+    } catch (e) {
+      return []
+    }
+  }
+  const gravarSacola = (itens) => {
+    try {
+      localStorage.setItem(CHAVE_SACOLA, JSON.stringify(itens))
+    } catch (e) {}
+  }
+  const somaSacola = (itens) => itens.reduce((t, i) => t + (Number(i.qtd) || 1), 0)
+
+  const botoesSacola = [...document.querySelectorAll('.sacola')]
+  if (botoesSacola.length) {
+    const painelDe = new Map()
+
+    const nomeDaVez = (n) =>
+      n === 0 ? 'Sacola, vazia' : n === 1 ? 'Sacola, 1 item' : 'Sacola, ' + n + ' itens'
+
+    const desenhar = (pular) => {
+      const itens = lerSacola()
+      const n = somaSacola(itens)
+      botoesSacola.forEach((botao) => {
+        botao.setAttribute('aria-label', nomeDaVez(n))
+        let marca = botao.querySelector('.sacola__conta')
+        if (!marca) {
+          marca = document.createElement('span')
+          marca.className = 'sacola__conta'
+          botao.appendChild(marca)
+        }
+        marca.textContent = n ? String(n) : ''
+        marca.hidden = !n
+        if (pular && n) {
+          marca.classList.remove('pulando')
+          void marca.offsetWidth
+          marca.classList.add('pulando')
+        }
+        const painel = painelDe.get(botao)
+        if (painel) preencher(painel, itens, n)
+      })
+    }
+
+    const preencher = (painel, itens, n) => {
+      const lista = painel.querySelector('.sacola__itens')
+      lista.innerHTML = ''
+      if (!n) {
+        const vazio = document.createElement('p')
+        vazio.className = 'sacola__vazia'
+        vazio.textContent = 'Nada aqui ainda.'
+        lista.appendChild(vazio)
+      } else {
+        itens.forEach((i) => {
+          const li = document.createElement('li')
+          const nome = document.createElement('span')
+          nome.textContent = i.nome
+          const qtd = document.createElement('span')
+          qtd.className = 'sacola__qtd'
+          qtd.textContent = (Number(i.qtd) || 1) + 'x'
+          li.append(nome, qtd)
+          lista.appendChild(li)
+        })
+      }
+      painel.querySelector('.sacola__limpar').hidden = !n
+    }
+
+    const montarPainel = (botao) => {
+      const painel = document.createElement('div')
+      painel.className = 'sacola__painel'
+      painel.id = 'sacola-painel-' + painelDe.size
+      painel.hidden = true
+      painel.innerHTML =
+        '<p class="sacola__titulo medida">Sua sacola</p>' +
+        '<ul class="sacola__itens"></ul>' +
+        '<p class="sacola__nota">Sua escolha fica guardada neste navegador. ' +
+        'O fechamento do pedido entra no ar junto com a loja.</p>' +
+        '<button type="button" class="sacola__limpar" hidden>Esvaziar a sacola</button>'
+      botao.after(painel)
+      botao.setAttribute('aria-expanded', 'false')
+      botao.setAttribute('aria-controls', painel.id)
+      painelDe.set(botao, painel)
+
+      painel.querySelector('.sacola__limpar').addEventListener('click', () => {
+        gravarSacola([])
+        desenhar(false)
+        botao.focus()
+      })
+      return painel
+    }
+
+    const fecharPaineis = (devolverPara) => {
+      painelDe.forEach((painel, botao) => {
+        painel.hidden = true
+        botao.setAttribute('aria-expanded', 'false')
+      })
+      if (devolverPara) devolverPara.focus()
+    }
+
+    botoesSacola.forEach((botao) => {
+      botao.setAttribute('type', 'button')
+      const painel = montarPainel(botao)
+      botao.addEventListener('click', () => {
+        const abrindo = painel.hidden
+        fecharPaineis(null)
+        if (!abrindo) return
+        painel.hidden = false
+        botao.setAttribute('aria-expanded', 'true')
+      })
     })
-  })
+
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.sacola, .sacola__painel')) return
+      fecharPaineis(null)
+    })
+    addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return
+      const aberto = [...painelDe.entries()].find(([, p]) => !p.hidden)
+      if (aberto) fecharPaineis(aberto[0])
+    })
+
+    const guardar = (nome, qtd) => {
+      if (!nome) return
+      const itens = lerSacola()
+      const achado = itens.find((i) => i.nome === nome)
+      if (achado) achado.qtd = (Number(achado.qtd) || 1) + qtd
+      else itens.push({ nome: nome, qtd: qtd })
+      gravarSacola(itens)
+      desenhar(true)
+    }
+
+    // compra rápida do cartão: o nome vem do próprio cartão
+    document.addEventListener('click', (e) => {
+      const rapido = e.target.closest('.peca__rapido')
+      if (!rapido) return
+      e.preventDefault()
+      const peca = rapido.closest('.peca')
+      const nome = peca && peca.querySelector('.peca__nome')
+      const marca = peca && peca.querySelector('.peca__marca')
+      guardar(((marca ? marca.textContent.trim() + ' ' : '') +
+        (nome ? nome.textContent.trim() : '')).trim(), 1)
+    })
+
+    // página de produto: o botão grande e o da barra fixa
+    const compra = document.querySelector('.compra')
+    if (compra) {
+      const titulo = document.querySelector('.compra h1')
+      const marca = document.querySelector('.compra__marca, .compra .medida')
+      const nomeProduto = document.querySelector('.barra-compra__nome')
+      const nome = nomeProduto
+        ? nomeProduto.textContent.trim()
+        : ((marca ? marca.textContent.trim() + ' ' : '') + (titulo ? titulo.textContent.trim() : '')).trim()
+
+      document.querySelectorAll('.compra__acoes .acao, .barra-compra .acao').forEach((botao) => {
+        if (botao.tagName !== 'BUTTON') return
+        botao.setAttribute('type', 'button')
+        botao.addEventListener('click', () => {
+          const campo = document.querySelector('.quantidade span')
+          const qtd = Math.max(1, Number(campo ? campo.textContent.trim() : 1) || 1)
+          guardar(nome, qtd)
+          const aviso = document.querySelector('.compra__aviso')
+          if (aviso) {
+            const total = somaSacola(lerSacola())
+            aviso.textContent = 'Na sacola: ' + total + (total === 1 ? ' item' : ' itens') +
+              '. O fechamento do pedido entra no ar junto com a loja.'
+          }
+        })
+      })
+    }
+
+    desenhar(false)
+  }
 
   /* 1f. profundidade.
      Um listener só de pointermove no documento serve os cartões e o retrato
@@ -425,10 +596,15 @@
         erro.hidden = true
         const pronto = document.createElement('p')
         pronto.className = 'convite__pronto'
-        pronto.textContent = 'Pronto. Você entrou na lista com ' + valor + '.'
+        /* Dizer "você entrou na lista" seria a única mentira da página: não há
+           serviço de e-mail ligado aqui, nada é enviado e nada é guardado num
+           servidor. A confirmação conta o que de fato aconteceu. */
+        pronto.textContent = 'Recebido. A lista ainda não está ligada a um ' +
+          'serviço de e-mail, então este endereço não saiu do seu navegador. ' +
+          'Quando a loja abrir, a inscrição passa a valer.'
         forma.replaceChildren(pronto)
         anotar()
-        setTimeout(fecharConvite, 2600)
+        setTimeout(fecharConvite, 5200)
       })
     }
 
@@ -519,35 +695,29 @@
       Marcas: 'Brands',
       Kits: 'Bundles',
       Buscar: 'Search',
+      'Buscar por Khamrah, Yara, Delilah…': 'Search Khamrah, Yara, Delilah…',
+      'O mais procurado': 'Most asked for',
+      'Ver um kit montado': 'See a bundle',
+      'Pular para o conteúdo': 'Skip to content',
+      Assinar: 'Sign up',
       'Minha conta': 'My account',
       Favoritos: 'Wishlist',
       'Abrir menu': 'Open menu',
       'Fechar menu': 'Close menu',
-      'Buscar por Khamrah, Anua, protetor solar…': 'Search Khamrah, Anua, sunscreen…',
       'Perfumaria importada': 'Designer perfumery',
       'As grifes que você já conhece pelo nome.': 'The houses you already know by name.',
       'Ver os importados': 'Shop designer',
       'Perfumaria árabe': 'Arabic perfumery',
-      'Khamrah, Asad, Yara e a linha inteira.': 'Khamrah, Asad, Yara and the whole line.',
       'Ver os árabes': 'Shop Arabic',
       'Body splash e creme, na mesma página.': 'Body splash and cream, on one page.',
-      'Ver os kits': 'Shop bundles',
       'A prateleira de grife': 'The designer shelf',
-      'Ver os 35 de grife': 'See all 35 designer',
-      'Ver os 60 perfumes': 'See all 60 perfumes',
-      'O mais procurado da prateleira': 'Most asked for on this shelf',
       'Compra rápida': 'Quick add',
-      'Preço a definir': 'Price to be set',
-      'Foto oficial pendente': 'Official photo pending',
       'As marcas': 'The brands',
       'Ver todas': 'See all',
       'Banho e corpo': 'Bath and body',
       Corpo: 'Body',
       Rosto: 'Face',
-      Solar: 'Sun care',
       Novo: 'New',
-      'Ver a beleza inteira': 'Shop all beauty',
-      'Primeira visita': 'First visit',
       'Entre na lista da Yanca.': 'Join the Yanca list.',
       'Seu e-mail': 'Your email',
       'Quero receber': 'Sign me up',
@@ -606,14 +776,25 @@
     document.querySelectorAll('[data-idioma]').forEach((b) =>
       b.addEventListener('click', () => {
         trocarIdioma(b.dataset.idioma)
-        listaIdioma.hidden = true
-        botaoIdioma.setAttribute('aria-expanded', 'false')
+        fecharIdioma(true)
       })
     )
-    document.addEventListener('click', (e) => {
-      if (seletor.contains(e.target) || listaIdioma.hidden) return
+    const fecharIdioma = (devolver) => {
+      if (listaIdioma.hidden) return
       listaIdioma.hidden = true
       botaoIdioma.setAttribute('aria-expanded', 'false')
+      if (devolver) botaoIdioma.focus()
+    }
+
+    document.addEventListener('click', (e) => {
+      if (seletor.contains(e.target)) return
+      fecharIdioma(false)
+    })
+
+    /* Esc fechava a gaveta e o convite, mas não esta lista: quem abre no
+       teclado ficava preso tendo que sair de Tab em Tab. */
+    seletor.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') fecharIdioma(true)
     })
 
     try {
@@ -625,6 +806,40 @@
   /* 1k. favoritos.
      Guarda no navegador, porque favorito que some ao recarregar é pior do que
      não ter favorito. Um ouvinte só, delegado no documento. */
+  /* ---------- 1k. a lista do rodape ----------
+     O formulario antes devolvia false no submit: a pessoa clicava em Assinar,
+     nada acontecia e nada era dito. Agora ele valida em portugues e responde
+     a verdade, igual ao convite: sem servico de e-mail ligado, o endereco nao
+     sai do navegador. Delegado no documento porque em colecao.html e
+     institucional.html o rodape e injetado depois deste script rodar. */
+  const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
+
+  document.addEventListener('submit', (e) => {
+    const forma = e.target.closest('.assina')
+    if (!forma) return
+    e.preventDefault()
+    const campo = forma.querySelector('input')
+    let aviso = forma.parentElement.querySelector('.assina__aviso')
+    if (!aviso) {
+      aviso = document.createElement('p')
+      aviso.className = 'assina__aviso'
+      aviso.setAttribute('role', 'status')
+      forma.after(aviso)
+    }
+    const valor = campo.value.trim()
+    if (!EMAIL.test(valor)) {
+      aviso.dataset.erro = '1'
+      aviso.textContent = 'Confira o e-mail: está faltando alguma coisa nele.'
+      campo.focus()
+      return
+    }
+    delete aviso.dataset.erro
+    aviso.textContent = 'Recebido. A lista ainda não está ligada a um serviço ' +
+      'de e-mail, então este endereço não saiu do seu navegador. Quando a loja ' +
+      'abrir, a inscrição passa a valer.'
+    campo.value = ''
+  })
+
   const CHAVE_FAV = 'yanca:favoritos'
   const lerFavoritos = () => {
     try {

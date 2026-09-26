@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Coleção · Yanca Perfumaria</title>
 <meta name="description" content="Prateleira da Yanca Perfumaria, por categoria e por marca.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f7f4ef">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
@@ -83,6 +85,14 @@
   @media (max-width: 560px) {
     .colecao__grade { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
   }
+
+  /* O link da migalha tem 18px de altura: confortável com cursor, difícil com
+     polegar. O padding dá o alvo e a margem negativa devolve o espaço. */
+  @media (max-width: 860px) {
+    .colecao__migalha a { display: inline-flex; align-items: center; justify-content: center;
+      min-height: 44px; min-width: 44px; margin-block: -13px;
+      padding-inline: 2px; margin-inline: -2px; }
+  }
 </style>
 </head>
 <body>
@@ -119,7 +129,20 @@
 
 <div data-abrigo-rodape></div>
 
-<script src="efeitos.js" defer></script>
+<script>
+/* efeitos.js precisa do cabeçalho na mão quando roda: é dele que saem a
+   gaveta do celular, o seletor de idioma e a sacola. Nesta página o cabeçalho
+   chega por fetch, depois do HTML, então o script entra depois da montagem, e
+   não com defer no topo. Com defer, o menu do celular e a sacola não existiam
+   aqui: o botão abria nada. */
+function ligarEfeitos() {
+  if (document.querySelector('script[data-efeitos]')) return
+  var s = document.createElement('script')
+  s.src = 'efeitos.js'
+  s.setAttribute('data-efeitos', '')
+  document.body.appendChild(s)
+}
+</script>
 <script>
 /* Coleção da Yanca.
 
@@ -131,6 +154,14 @@
 (function () {
   'use strict'
 
+  /* Saída comum das sub prateleiras de beleza: enquanto o estoque não chega,
+     a cliente é levada ao que já existe de beleza, não à porta da frente. */
+  var BELEZA = {
+    titulo: 'Esta prateleira ainda está sendo montada.',
+    corpo: 'Nenhum item desta seleção entrou no estoque até agora. Assim que entrar, ele aparece aqui.',
+    destino: 'colecao.html?c=beleza', rotulo: 'Ver o que já chegou de beleza'
+  }
+
   var COLECOES = {
     importados: { trilho: 'trilho-2', titulo: 'Perfumaria importada',
       linha: 'As casas de grife que a cliente já procura pelo nome.' },
@@ -139,19 +170,27 @@
     novidades: { trilho: 'trilho-4', titulo: 'Chegou agora',
       linha: 'O que entrou na vitrine por último.' },
     beleza: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Beleza',
+      unidade: ['item', 'itens'],
       linha: 'Corpo e banho. Skincare coreano e dermocosmético entram quando o estoque chegar.' },
     corpo: { marcas: ['Aura Beauty', "Victoria's Secret"], titulo: 'Corpo',
+      unidade: ['item', 'itens'],
       linha: 'Hidratante e body splash.' },
-    rosto: { marcas: [], titulo: 'Rosto',
-      linha: 'Sérum, toner e máscara.' },
-    cabelo: { marcas: [], titulo: 'Cabelo',
+    rosto: { marcas: [], titulo: 'Rosto', unidade: ['item', 'itens'],
+      linha: 'Sérum, toner e máscara.', saida: BELEZA },
+    cabelo: { marcas: [], titulo: 'Cabelo', unidade: ['item', 'itens'], saida: BELEZA,
       linha: 'Limpeza e tratamento.' },
-    maos: { marcas: [], titulo: 'Mãos e pés',
+    maos: { marcas: [], titulo: 'Mãos e pés', unidade: ['item', 'itens'], saida: BELEZA,
       linha: 'Creme e esfoliante.' },
-    labios: { marcas: [], titulo: 'Lábios',
+    labios: { marcas: [], titulo: 'Lábios', unidade: ['item', 'itens'], saida: BELEZA,
       linha: 'Bálsamo e protetor.' },
-    kits: { marcas: [], titulo: 'Kits',
-      linha: 'O par sai mais barato que as duas peças separadas.' },
+    kits: { marcas: [], titulo: 'Kits', unidade: ['kit', 'kits'],
+      linha: 'O par sai mais barato que as duas peças separadas.',
+      /* O kit não existe como peça solta no estoque: ele aparece dentro da
+         página da fragrância, com as peças avulsas e a conta da economia.
+         Então a prateleira vazia manda para lá, e não para o início. */
+      saida: { titulo: 'Os kits ficam na página de cada fragrância.',
+        corpo: 'Cada kit aparece junto do frasco que o compõe, com o preço das peças avulsas e quanto o par economiza.',
+        destino: 'produto.html#kit', rotulo: 'Ver a fragrância com kit' } },
     tudo: { titulo: 'Todos os perfumes', linha: 'A vitrine inteira, numa página só.' }
   }
 
@@ -166,13 +205,21 @@
     if (el) el.textContent = valor
   }
 
-  function vazio(titulo, corpo) {
+  /* O que vem da barra de endereço nunca entra cru no innerHTML: busca e marca
+     são texto de terceiro, e texto de terceiro que virou marcação é falha. */
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+  }
+
+  function vazio(titulo, corpo, destino, rotulo) {
     return '<div class="colecao__vazio">' +
       '<svg viewBox="0 0 1000 1000" aria-hidden="true"><path d="M500 70 L715 872.39 ' +
       'L127.61 285 L930 500 L127.61 715 L715 127.61 L500 930 L285 127.61 L872.39 715 ' +
       'L70 500 L872.39 285 L285 872.39 Z"/></svg>' +
       '<strong>' + titulo + '</strong><p>' + corpo + '</p>' +
-      '<a class="acao" href="index.html"><span class="acao__texto">Voltar ao início</span>' +
+      '<a class="acao" href="' + (destino || 'index.html') + '">' +
+      '<span class="acao__texto">' + (rotulo || 'Voltar ao início') + '</span>' +
       '<span class="acao__seta" aria-hidden="true"><svg viewBox="0 0 24 24">' +
       '<path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></span></a></div>'
   }
@@ -188,9 +235,12 @@
       if (cab) document.querySelector('[data-abrigo-cabecalho]').replaceWith(cab)
       if (rod) document.querySelector('[data-abrigo-rodape]').replaceWith(rod)
 
-      // o menu de celular vive fora do header, então vem junto
+      // o menu de celular vive fora do header, então vem junto. O véu vem com
+      // ele: sem o véu, efeitos.js não liga a gaveta e o botão abria nada.
       var gaveta = casa.querySelector('.menu-movel')
       if (gaveta) document.body.appendChild(gaveta)
+      var veu = casa.querySelector('.veu')
+      if (veu) document.body.appendChild(veu)
 
       var campo = document.getElementById('q')
       if (campo && busca) campo.value = busca
@@ -257,10 +307,13 @@
       document.title = titulo + ' · Yanca Perfumaria'
       texto(document.querySelector('[data-titulo]'), titulo)
       texto(document.querySelector('[data-migalha]'), titulo)
-      var conta = deMarca.length === 1 ? '1 frasco' : deMarca.length + ' frascos'
+      var un = cfg.unidade || ['frasco', 'frascos']
+      var conta = deMarca.length === 1 ? '1 ' + un[0] : deMarca.length + ' ' + un[1]
       texto(document.querySelector('[data-conta]'),
-        busca || alvoMarca || !cfg.linha ? conta
-          : cfg.linha.replace(/\.$/, '') + ' · ' + conta)
+        busca || alvoMarca ? conta
+          : !cfg.linha ? (deMarca.length ? conta : '')
+          : deMarca.length ? cfg.linha.replace(/\.$/, '') + ' · ' + conta
+          : cfg.linha)
 
       // filtros
       var caixaFiltros = document.querySelector('[data-filtros]')
@@ -272,7 +325,7 @@
           var atual = alvoMarca && alvoMarca.toLowerCase() === m.toLowerCase()
           html2 += '<a class="colecao__filtro" href="' + base + '&marca=' +
             encodeURIComponent(m) + '"' + (atual ? ' aria-current="true"' : '') +
-            '>' + m + '</a>'
+            '>' + esc(m) + '</a>'
         })
         caixaFiltros.innerHTML = html2
       } else {
@@ -282,12 +335,28 @@
       // a prateleira
       grade.innerHTML = ''
       if (!deMarca.length) {
-        grade.innerHTML = busca
-          ? vazio('Nada encontrado para "' + busca + '".',
-              'Tente o nome do frasco ou o nome da marca. A vitrine tem ' +
-              casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos.')
-          : vazio('Esta prateleira ainda está sendo montada.',
-              'Nenhum frasco desta seleção entrou no estoque até agora. Assim que entrar, ele aparece aqui.')
+        if (busca) {
+          grade.innerHTML = vazio('Nada encontrado para "' + esc(busca) + '".',
+            'Tente o nome do frasco ou o nome da marca. A vitrine tem ' +
+            casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos.',
+            'colecao.html?c=tudo', 'Ver a vitrine inteira')
+        } else if (alvoMarca) {
+          /* A marca está na vitrine mas o produto dela ainda não entrou. Dizer
+             isso é melhor que esconder a marca: a cliente clicou nela de
+             propósito e merece saber que ela vem, não achar que o site quebrou. */
+          grade.innerHTML = vazio('Os produtos da ' + esc(alvoMarca) + ' ainda não entraram.',
+            'A marca faz parte da seleção, mas nenhum item dela está no estoque agora. ' +
+            'Enquanto isso, a vitrine tem ' +
+            casa.querySelectorAll('.trilho .peca-caixa').length + ' produtos de outras marcas.',
+            'colecao.html?c=tudo', 'Ver a vitrine inteira')
+        } else {
+          var s = cfg.saida || {
+            titulo: 'Esta prateleira ainda está sendo montada.',
+            corpo: 'Nenhum item desta seleção entrou no estoque até agora. Assim que entrar, ele aparece aqui.',
+            destino: 'colecao.html?c=tudo', rotulo: 'Ver a vitrine inteira'
+          }
+          grade.innerHTML = vazio(s.titulo, s.corpo, s.destino, s.rotulo)
+        }
         return
       }
       deMarca.forEach(function (c) {
@@ -303,6 +372,7 @@
         'Não consegui carregar a prateleira.',
         'Abra o início e tente de novo por lá.')
     })
+    .then(ligarEfeitos, ligarEfeitos)
 })()
 </script>
 </body>

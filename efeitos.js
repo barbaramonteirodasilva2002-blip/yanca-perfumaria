@@ -668,20 +668,20 @@
        pessoa arrastasse a fileira. Conteúdo que depende de um gesto para
        existir não é animação, é defeito. */
     const roteiro = [
-      ['.beneficio', 'sobe', 60, 99],
-      ['.vitrola', 'lado', 55, 5],
-      ['.peca-caixa', 'escala', 45, 5],
+      ['.beneficio', 'sobe', 35, 4],
+      ['.vitrola', 'sobe', 35, 3],
+      ['.peca-caixa', 'sobe', 30, 3],
       ['.secao__cabeca', 'sobe', 0, 99],
-      ['.guia__dizer', 'lado', 0, 99],
-      ['.guia__rotas li', 'sobe', 80, 99],
-      ['.casa__grade > *', 'sobe', 90, 99],
-      ['.beleza__abertura', 'lado', 0, 99],
-      ['.campanha__palco', 'escala', 0, 99],
-      ['.campanha__andares li', 'sobe', 70, 99],
-      ['.tile', 'sobe', 60, 5],
-      ['.portal', 'sobe', 90, 99],
-      ['.faixa-kit__grade > *', 'sobe', 90, 99],
-      ['.rodape__coluna', 'sobe', 60, 99],
+      ['.guia__dizer', 'sobe', 0, 99],
+      ['.guia__rotas li', 'sobe', 40, 3],
+      ['.casa__grade > *', 'sobe', 40, 3],
+      ['.beleza__abertura', 'sobe', 0, 99],
+      ['.campanha__palco', 'sobe', 0, 99],
+      ['.campanha__andares li', 'sobe', 40, 3],
+      ['.tile', 'sobe', 35, 3],
+      ['.portal', 'sobe', 40, 2],
+      ['.faixa-kit__grade > *', 'sobe', 40, 2],
+      ['.rodape__coluna', 'sobe', 35, 3],
     ]
 
     const observador = new IntersectionObserver(

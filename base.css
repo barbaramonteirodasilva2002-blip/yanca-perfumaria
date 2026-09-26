@@ -1385,13 +1385,17 @@ h1, h2, h3, h4 {
     }
   }
 }
+/* O rastro era 11% de deriva com 1.07 de escala na arte, contra menos 24% na
+   fala. Duas camadas correndo em velocidades tao diferentes somam com as
+   entradas e viram enjoo. O percurso caiu para menos da metade: ainda ha
+   profundidade, mas o palco para de nadar. */
 @keyframes rastro {
-  to { translate: 0 11%; scale: 1.07; filter: brightness(0.46) saturate(0.7); }
+  to { translate: 0 5%; scale: 1.03; filter: brightness(0.5) saturate(0.74); }
 }
 @keyframes rastro-claro {
-  to { translate: 0 11%; scale: 1.07; filter: brightness(1.1) saturate(0.55) opacity(0.5); }
+  to { translate: 0 5%; scale: 1.03; filter: brightness(1.08) saturate(0.6) opacity(0.58); }
 }
-@keyframes rastro-fala { to { translate: 0 -24%; opacity: 0; } }
+@keyframes rastro-fala { to { translate: 0 -11%; opacity: 0; } }
 @keyframes tracar { to { scale: 1 1; } }
 
 /* A régua existe sempre, mesmo sem linha do tempo de rolagem. */
@@ -1680,17 +1684,24 @@ h1, h2, h3, h4 {
    sem JavaScript nasce inteira visível. Vitrine escondida por animação que não
    rodou é venda perdida. */
 @media (prefers-reduced-motion: no-preference) {
-  [data-entra] { opacity: 0; will-change: opacity, translate; }
-  [data-entra='sobe'] { translate: 0 22px; }
-  [data-entra='lado'] { translate: -20px 0; }
-  [data-entra='escala'] { scale: 0.985; translate: 0 12px; }
+  /* Um gesto so, e curto.
+
+     Antes eram tres: subir, vir de lado e escalar. Com onze elementos visiveis
+     de uma vez, cada um chegando de uma direcao diferente ao longo de 850ms
+     mais ate 540ms de escada, a pagina nunca ficava parada. Lido de perto isso
+     e exatamente uma onda, e o movimento lateral e o que faz tudo parecer
+     desenquadrado, porque um vizinho chega pela esquerda enquanto o outro sobe.
+
+     Agora e sempre a mesma subida de nove pixels, em 420ms. Curto o bastante
+     para ja ter terminado quando o olho chega, e igual para todo mundo, que e
+     o que deixa a fileira assentar em vez de balancar. */
+  [data-entra] { opacity: 0; translate: 0 9px; will-change: opacity, translate; }
 
   [data-entra].dentro {
-    opacity: 1; translate: 0 0; scale: 1; will-change: auto;
+    opacity: 1; translate: 0 0; will-change: auto;
     transition:
-      opacity 0.85s var(--saida),
-      translate 0.85s var(--saida),
-      scale 0.85s var(--saida);
+      opacity 0.42s var(--saida),
+      translate 0.42s var(--saida);
     transition-delay: calc(var(--i, 0) * var(--passo, 0ms));
   }
 }

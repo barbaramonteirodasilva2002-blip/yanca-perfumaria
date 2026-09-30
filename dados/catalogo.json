@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-09-26",
+ "gerado_em": "2026-09-29",
  "aviso": "Preco e estoque NAO vem das origens. O preco da Yanca entra a mao. Foto com fonte.tipo \"terceiro\" e de loja de terceiro e deve ser trocada pela do fornecedor quando houver.",
  "produtos": [
   {
@@ -6801,6 +6801,1290 @@
    "descricao": null
   },
   {
+   "slug": "fino-premium-touch-condicionador",
+   "marca": "Fino",
+   "nome": "Premium Touch Condicionador",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "550 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-premium-touch-condicionador.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979071/17854848473760.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979076/17854848478727.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979075/17854848483854.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979114/17854848421309.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979082/17854848445755.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2979074/17854848467753.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "fino-premium-touch---condicionador-550ml-275293",
+    "marca_dagua": false,
+    "nome_na_origem": "Fino Premium Touch - Condicionador 550ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (43% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "fino-premium-touch-hair-mask",
+   "marca": "Fino",
+   "nome": "Premium Touch Hair Mask",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "230 g",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-premium-touch-hair-mask.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166795/17884305722319.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166780/17884305782571.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166787/17884305832505.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166801/17884305898755.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166791/17884305959808.jpg"
+   ],
+   "foto_tamanho": [
+    876,
+    786
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "fino-premium-touch-hair-mask-230g-287855",
+    "marca_dagua": false,
+    "nome_na_origem": "Fino Premium Touch Hair Mask 230g"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "fino-premium-touch-hair-mask-made-in-japan",
+   "marca": "Fino",
+   "nome": "Premium Touch Hair Mask (Made in Japan)",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "40 g",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-premium-touch-hair-mask-made-in-japan.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664452/17781573700687.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664453/17781573726362.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664454/17781573751920.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664455/17781573780024.jpg"
+   ],
+   "foto_tamanho": [
+    679,
+    654
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "fino-premium-touch-hair-mask-40g--made-in-japan--256219",
+    "marca_dagua": false,
+    "nome_na_origem": "Fino Premium Touch Hair Mask 40G (Made in Japan)"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "fino-premium-touch-hair-oil-oleo-capilar",
+   "marca": "Fino",
+   "nome": "Premium Touch Hair Oil Oleo Capilar",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "70 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-premium-touch-hair-oil-oleo-capilar.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892190/17509645417085.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892187/17509645441483.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892188/17509645464609.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892189/17509645487471.jpg"
+   ],
+   "foto_tamanho": [
+    317,
+    1013
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "fino-premium-touch-hair-oil---oleo-capilar-70ml-117552",
+    "marca_dagua": false,
+    "nome_na_origem": "Fino Premium Touch Hair Oil - Oleo Capilar 70ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "fino-premium-touch-hair-oil-serum-airy-smooth-serum-capilar",
+   "marca": "Fino",
+   "nome": "Premium Touch Hair Oil Serum Airy Smooth Sérum Capilar",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "70 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-premium-touch-hair-oil-serum-airy-smooth-serum-capilar.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988827/17563877352075.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988826/17563877353579.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988829/17563877354795.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988840/17563877341720.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988833/17563877343401.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/988839/17563877344810.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "fino-premium-touch-hair-oil-serum-airy-smooth---serum-capilar-129891",
+    "marca_dagua": false,
+    "nome_na_origem": "Fino Premium Touch Hair Oil Serum Airy Smooth - Sérum Capilar"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (17% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "fino-oleo-capilar-premium-touch-hair-oil",
+   "marca": "Fino",
+   "nome": "Óleo Capilar Premium Touch Hair Oil",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "70 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/fino-oleo-capilar-premium-touch-hair-oil.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805612/finetoday-fino-premium-touch-hair-oil-oleo-capilar--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805613/finetoday-fino-premium-touch-hair-oil-oleo-capilar--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805614/finetoday-fino-premium-touch-hair-oil-oleo-capilar--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805615/finetoday-fino-premium-touch-hair-oil-oleo-capilar--4-.jpg"
+   ],
+   "foto_tamanho": [
+    323,
+    1022
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "finetoday-fino-premium-touch-hair-oil-oleo-capilar",
+    "marca_dagua": false,
+    "nome_na_origem": "Óleo Capilar Fino Premium Touch Hair Oil"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-blond-absolu-bain-ultra-violet",
+   "marca": "Kérastase",
+   "nome": "Blond Absolu Bain Ultra Violet",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-blond-absolu-bain-ultra-violet.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180739/17541711308591.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180743/17541711402890.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180740/17541711496276.jpg"
+   ],
+   "foto_tamanho": [
+    656,
+    1100
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-blond-absolu-bain-ultra-violet-250ml-161781",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Blond Absolu Bain Ultra Violet 250ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-blond-absolu-cicaplasme-serum-capilar",
+   "marca": "Kérastase",
+   "nome": "Blond Absolu Cicaplasme Sérum Capilar",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-blond-absolu-cicaplasme-serum-capilar.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495532/kerastase-blond-absolu-cicaplasme-serum-capilar--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511756/kerastase-blond-absolu-cicaplasme-serum-capilar--1---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511757/kerastase-blond-absolu-cicaplasme-serum-capilar--1---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511758/kerastase-blond-absolu-cicaplasme-serum-capilar--1---4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511759/kerastase-blond-absolu-cicaplasme-serum-capilar--1---5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511761/kerastase-blond-absolu-cicaplasme-serum-capilar--1---7-.jpg"
+   ],
+   "foto_tamanho": [
+    265,
+    973
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-blond-absolu-cicaplasme-serum-capilar",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Blond Absolu Cicaplasme - Sérum Capilar"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-chronologiste-thermique-regenerant-leave-in",
+   "marca": "Kérastase",
+   "nome": "Chronologiste Thermique Regenerant Leave In",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-chronologiste-thermique-regenerant-leave-in.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494459/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511808/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511809/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511810/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511811/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511812/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---6-.jpg"
+   ],
+   "foto_tamanho": [
+    266,
+    957
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-chronologiste-thermique-regenerant-leave-in-150ml",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Chronologiste Thermique Regenerant Leave-In"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-condicionador-extensioniste-resistance",
+   "marca": "Kérastase",
+   "nome": "Condicionador Extensioniste Résistance",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-condicionador-extensioniste-resistance.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237587/17872593701927.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237584/17872593737181.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237586/17872593776875.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237583/17872593818796.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237585/17872593878871.jpg"
+   ],
+   "foto_tamanho": [
+    373,
+    827
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-condicionador-extensioniste-resistance---200ml-292945",
+    "marca_dagua": false,
+    "nome_na_origem": "Kerastase Condicionador Extensioniste Resistance - 200ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso",
+   "marca": "Kérastase",
+   "nome": "Curl Manifesto Huile Subime Repair Óleo Multiuso",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494582/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494583/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494584/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494585/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494587/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494588/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--7-.jpg"
+   ],
+   "foto_tamanho": [
+    331,
+    875
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Curl Manifesto Huile Subime Repair Óleo Multiuso"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-curl-manifesto-refresh-absolu-leave-in",
+   "marca": "Kérastase",
+   "nome": "Curl Manifesto Refresh Absolu Leave in",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "190 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-curl-manifesto-refresh-absolu-leave-in.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494822/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494823/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494824/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494825/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494827/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494828/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--7-.jpg"
+   ],
+   "foto_tamanho": [
+    346,
+    995
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "keratase-curl-manifesto-refresh-absolu-leave-in-190ml",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Curl Manifesto Refresh Absolu Leave-in"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-densifique-activateur-de-densite-ampola-de-tratamento",
+   "marca": "Kérastase",
+   "nome": "Densifique Activateur de Densité Ampola de Tratamento",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "6 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-densifique-activateur-de-densite-ampola-de-tratamento.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/709308/3474636356003.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/709309/25312-2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/709310/Selo.jpg"
+   ],
+   "foto_tamanho": [
+    582,
+    999
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-densifique-activateur-de-densite-ampola-de-tratamento",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Densifique Activateur de Densité - Ampola de Tratamento"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-densifique-bain-densite-shampoo",
+   "marca": "Kérastase",
+   "nome": "Densifique Bain Densité Shampoo",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "500 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-densifique-bain-densite-shampoo.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/341840/shampoo-densite.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/341841/shampoo-densite-1.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/341842/9298.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/341843/fondant-densite-2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/342309/Selo.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3072522/3474636612475_EN_01.jpg"
+   ],
+   "foto_tamanho": [
+    240,
+    470
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-densifique-bain-densite-shampoo",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Densifique Bain Densité - Shampoo"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-discipline-bain-fluidealiste-shampoo",
+   "marca": "Kérastase",
+   "nome": "Discipline Bain Fluidealiste Shampoo",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-discipline-bain-fluidealiste-shampoo.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/367973/kerastase-discipline-bain-fluidealiste-shampoo.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/368047/kerastase-discipline-bain-fluidealiste-shampoo-1.jpg"
+   ],
+   "foto_tamanho": [
+    434,
+    834
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-discipline-bain-fluidealiste-shampoo",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Discipline Bain Fluidealiste - Shampoo"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-elixir-ultime-l-huile-originale-oleo-capilar",
+   "marca": "Kérastase",
+   "nome": "Elixir Ultime L'Huile Originale Óleo Capilar",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-elixir-ultime-l-huile-originale-oleo-capilar.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140566/17541731744579.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140565/17541731759783.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140564/17541731774708.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140567/17541731791134.jpg"
+   ],
+   "foto_tamanho": [
+    348,
+    793
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-elixir-ultime-l-huile-originale-oleo-capilar-30ml-151669",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Elixir Ultime L'Huile Originale Óleo Capilar 30ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-fusio-dose-concentre-oleo-fusion-nutritive-ampolas-3x12ml",
+   "marca": "Kérastase",
+   "nome": "Fusio Dose Concentré Oléo Fusion Nutritive Ampolas 3x12ml",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "12 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-fusio-dose-concentre-oleo-fusion-nutritive-ampolas-3x12ml.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168509/17882012487804.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168420/17882012499922.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168426/17882012510727.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168469/17882012522820.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168430/17882012535351.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168497/17882012547098.jpg"
+   ],
+   "foto_tamanho": [
+    538,
+    553
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-fusio-dose-concentre-oleo-fusion-nutritive-ampolas-3x12ml-288264",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Fusio-Dose Concentré Oléo-Fusion Nutritive Ampolas 3x12ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-gel-em-creme-curl-manifesto-gelee-curl-contour",
+   "marca": "Kérastase",
+   "nome": "Gel em Creme Curl Manifesto Gelée Curl Contour",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-gel-em-creme-curl-manifesto-gelee-curl-contour.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494766/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494767/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494768/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494769/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494771/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494772/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--7-.jpg"
+   ],
+   "foto_tamanho": [
+    266,
+    984
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "gel-em-creme-kerastase-curl-manifesto-gelee-curl-contour-150ml",
+    "marca_dagua": false,
+    "nome_na_origem": "Gel em Creme Kérastase Curl Manifesto Gelée Curl Contour"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-genesis-anti-chute-fortifiant-serum-finalizador",
+   "marca": "Kérastase",
+   "nome": "Genesis Anti Chute Fortifiant Sérum Finalizador",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-genesis-anti-chute-fortifiant-serum-finalizador.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508171/kerastase-anti-chute-fortifiant-serum-finalizador--1---1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508172/kerastase-anti-chute-fortifiant-serum-finalizador--1---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508173/kerastase-anti-chute-fortifiant-serum-finalizador--1---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508174/kerastase-anti-chute-fortifiant-serum-finalizador--1---4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508175/kerastase-anti-chute-fortifiant-serum-finalizador--1---5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508177/kerastase-anti-chute-fortifiant-serum-finalizador--1---7-.jpg"
+   ],
+   "foto_tamanho": [
+    363,
+    1036
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-genesis-anti-chute-fortifiant-serum-finalizador",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Genesis Anti-Chute Fortifiant – Sérum Finalizador"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-locao-nutritive-thermique",
+   "marca": "Kérastase",
+   "nome": "Locao Nutritive Thermique",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-locao-nutritive-thermique.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3239430/17901856758128.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3239426/17901856777741.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3239427/17901856800785.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "locao-nutritive-thermique-kerastase-150ml-293359",
+    "marca_dagua": false,
+    "nome_na_origem": "Locao Nutritive Thermique Kerastase 150ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (26% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-nutritive-bain-satin-riche",
+   "marca": "Kérastase",
+   "nome": "Nutritive Bain Satin Riche",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-nutritive-bain-satin-riche.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180748/17541751041075.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    800,
+    1069
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-nutritive-bain-satin-riche-250ml-161782",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Nutritive Bain Satin Riche 250ML"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (19% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-nutritive-masquintense-mascara",
+   "marca": "Kérastase",
+   "nome": "Nutritive Masquintense Máscara",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-nutritive-masquintense-mascara.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559259/kerastase-nutritive-masquintense-mascara--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559260/kerastase-nutritive-masquintense-mascara--7-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559261/kerastase-nutritive-masquintense-mascara--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559264/kerastase-nutritive-masquintense-mascara--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559266/kerastase-nutritive-masquintense-mascara--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559268/kerastase-nutritive-masquintense-mascara--5-.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-nutritive-masquintense-mascara",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Nutritive Masquintense Máscara"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (25% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-perfume-em-oleo-capilar-chronologiste",
+   "marca": "Kérastase",
+   "nome": "Perfume em Óleo Capilar Chronologiste",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-perfume-em-oleo-capilar-chronologiste.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495559/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495560/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495561/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495562/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495563/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495564/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--6-.jpg"
+   ],
+   "foto_tamanho": [
+    397,
+    972
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume em Óleo Capilar Kérastase Chronologiste"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-premiere-bain-decalcifiant-renovateur",
+   "marca": "Kérastase",
+   "nome": "Premiere Bain Decalcifiant Renovateur",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-premiere-bain-decalcifiant-renovateur.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180742/17541755091952.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    800,
+    800
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-premiere-bain-decalcifiant-renovateur-250ml-161780",
+    "marca_dagua": false,
+    "nome_na_origem": "Kerastase Premiere Bain Decalcifiant Renovateur 250ml"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (19% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-protetor-termico-nutritive-lotion-thermique",
+   "marca": "Kérastase",
+   "nome": "Protetor Térmico Nutritive Lotion Thermique",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-protetor-termico-nutritive-lotion-thermique.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559316/protetor-termico-kerastase-nutritive-lotion-thermique--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559318/protetor-termico-kerastase-nutritive-lotion-thermique--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559319/protetor-termico-kerastase-nutritive-lotion-thermique--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559320/protetor-termico-kerastase-nutritive-lotion-thermique--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559322/protetor-termico-kerastase-nutritive-lotion-thermique--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559325/protetor-termico-kerastase-nutritive-lotion-thermique--8-.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "protetor-termico-kerastase-nutritive-lotion-thermique",
+    "marca_dagua": false,
+    "nome_na_origem": "Protetor Térmico Kérastase Nutritive Lotion Thermique"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (86% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-shampoo-bain-nutritive-satin-riche",
+   "marca": "Kérastase",
+   "nome": "Shampoo Bain Nutritive Satin Riche",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "500 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-shampoo-bain-nutritive-satin-riche.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036780/3474637154950_EN_01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036781/3474637231828_EN_06-3474637154950_EN_06.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036782/3474637079208_EN_03-3474637154950_EN_03-3474637231828_EN_03-3474636980291_EN_03-3474637231279_EN_03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036783/3474637231828_EN_04-3474637154950_EN_04.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036784/3474637154950_EN_05-3474637231828_EN_05.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036785/3474637154950_EN_02.jpg"
+   ],
+   "foto_tamanho": [
+    437,
+    1010
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "shampoo-bain-nutritive-kerastase-satin-riche",
+    "marca_dagua": false,
+    "nome_na_origem": "Shampoo Bain Nutritive Kérastase Satin Riche"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-symbiose-fondant-apaisant-condicionador",
+   "marca": "Kérastase",
+   "nome": "Symbiose Fondant Apaisant Condicionador",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "300 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-symbiose-fondant-apaisant-condicionador.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542101/kerastase-symbiose-fondant-apaisant-condicionador--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542102/kerastase-symbiose-fondant-apaisant-condicionador--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542103/kerastase-symbiose-fondant-apaisant-condicionador--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542104/kerastase-symbiose-fondant-apaisant-condicionador--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542105/kerastase-symbiose-fondant-apaisant-condicionador--5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/542106/kerastase-symbiose-fondant-apaisant-condicionador--6-.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-symbiose-fondant-apaisant-condicionador",
+    "marca_dagua": false,
+    "nome_na_origem": "Kérastase Symbiose Fondant Apaisant Condicionador"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (8% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "kerastase-serum-reconstrutor-resistance-therapiste",
+   "marca": "Kérastase",
+   "nome": "Sérum Reconstrutor Résistance Thérapiste",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-serum-reconstrutor-resistance-therapiste.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495835/Kerastase-Resistance-Therapiste---Leave-In-2--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511935/Kerastase-Resistance-Therapiste---Leave-In-2--1---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511936/Kerastase-Resistance-Therapiste---Leave-In-2--1---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511937/Kerastase-Resistance-Therapiste---Leave-In-2--1---4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511938/Kerastase-Resistance-Therapiste---Leave-In-2--1---5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511939/Kerastase-Resistance-Therapiste---Leave-In-2--1---6-.jpg"
+   ],
+   "foto_tamanho": [
+    410,
+    1055
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-resistance-therapiste-leave-in",
+    "marca_dagua": false,
+    "nome_na_origem": "Sérum Reconstrutor Kérastase Résistance Thérapiste"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-tratamento-fortalecedor-blond-absolu-cicaflash-condicionador",
+   "marca": "Kérastase",
+   "nome": "Tratamento Fortalecedor Blond Absolu Cicaflash Condicionador",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-tratamento-fortalecedor-blond-absolu-cicaflash-condicionador.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508155/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508156/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508157/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508158/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508159/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508161/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---7-.jpg"
+   ],
+   "foto_tamanho": [
+    421,
+    1041
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "tratamento-fortalecedor-kerastase-blond-absolu-cicaflash",
+    "marca_dagua": false,
+    "nome_na_origem": "Tratamento Fortalecedor Kérastase - Blond Absolu Cicaflash Condicionador"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-oleo-capilar-chronologiste-l-huile-de-parfum",
+   "marca": "Kérastase",
+   "nome": "Óleo Capilar Chronologiste L'Huile de Parfum",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-oleo-capilar-chronologiste-l-huile-de-parfum.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761184/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761185/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -5-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761186/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -6-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761187/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -8-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761188/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -4-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761189/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -3-.jpg.jpg"
+   ],
+   "foto_tamanho": [
+    333,
+    1006
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "kerastase-lhuile-de-parfum-revitalizador-oleo-capilar",
+    "marca_dagua": false,
+    "nome_na_origem": "Óleo Capilar Kérastase Chronologiste L'Huile de Parfum"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-oleo-capilar-elixir-ultime-l-huile-originale",
+   "marca": "Kérastase",
+   "nome": "Óleo Capilar Elixir Ultime L'Huile Originale",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-oleo-capilar-elixir-ultime-l-huile-originale.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608247/L-Huile-Originale-Elixir-Ultime-Kerastase---Oleo-Multi-uso-3--1---2---1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608251/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608252/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608254/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---4---1---1---1---1-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608257/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608258/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---7-.jpg"
+   ],
+   "foto_tamanho": [
+    437,
+    1100
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "l-huile-originale-elixir-ultime-kerastase-oleo-multi-uso",
+    "marca_dagua": false,
+    "nome_na_origem": "Óleo Capilar Kérastase Elixir Ultime L'Huile Originale"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "kerastase-oleo-capilar-nutritive-serum-de-pontas-duplas",
+   "marca": "Kérastase",
+   "nome": "Óleo Capilar Nutritive Sérum de Pontas Duplas",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/kerastase-oleo-capilar-nutritive-serum-de-pontas-duplas.webp",
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559298/oleo-kerastase-nutritive-serum-de-pontas-duplas--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559304/oleo-kerastase-nutritive-serum-de-pontas-duplas--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559305/oleo-kerastase-nutritive-serum-de-pontas-duplas--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559307/oleo-kerastase-nutritive-serum-de-pontas-duplas--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559309/oleo-kerastase-nutritive-serum-de-pontas-duplas--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/559311/oleo-kerastase-nutritive-serum-de-pontas-duplas--8-.jpg"
+   ],
+   "foto_tamanho": [
+    1000,
+    1000
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "oleo-kerastase-nutritive-serum-de-pontas-duplas",
+    "marca_dagua": false,
+    "nome_na_origem": "Óleo Capilar Kérastase Nutritive Sérum de Pontas Duplas"
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (9% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
    "slug": "lattafa-badee-al-oud-noble-blush-perfume-mist",
    "marca": "Lattafa",
    "nome": "Badee Al Oud Noble Blush Perfume Mist",
@@ -9042,6 +10326,827 @@
    "descricao": null,
    "foto_recortada": false,
    "foto_motivo": null
+  },
+  {
+   "slug": "tangle-teezer-everyday-detangling-spray-kids",
+   "marca": "Tangle Teezer",
+   "nome": "Everyday Detangling Spray Kids",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": null,
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-everyday-detangling-spray-kids.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_1.png?v=1756819581",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_3.png?v=1758809996",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_4.png?v=1758809996",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_2.png?v=1758809996",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_5.png?v=1756819581",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_6.png?v=1756819581"
+   ],
+   "foto_tamanho": [
+    274,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "everyday-detangling-spray-kids",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "tangle-teezer-everyday-detangling-spray-shea-butter",
+   "marca": "Tangle Teezer",
+   "nome": "Everyday Detangling Spray Shea Butter",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": null,
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-everyday-detangling-spray-shea-butter.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_1_154c9ede-84d4-4c56-9bb0-b9a81c4746e1.png?v=1756819732",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_3_585a207d-5eda-476e-933b-7c11c3de46da.png?v=1758809967",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_4_2be99512-34fe-4eb6-bf0e-db9ca3abc99f.png?v=1758809967",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_2_084decbb-9062-414d-a548-32682f0a36a4.png?v=1758809967",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_5_a4764b46-9212-4761-9c99-373eacf72dd2.png?v=1756819732",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Shea_DS_PDP_6_c7f7ba4b-9771-4648-8ace-990761ee2ba0.png?v=1756819732"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "everyday-detangling-shea-butter",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-everyday-detangling-spray-wheat-protein",
+   "marca": "Tangle Teezer",
+   "nome": "Everyday Detangling Spray Wheat Protein",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": null,
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-everyday-detangling-spray-wheat-protein.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_1.png?v=1756819775",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_3.png?v=1758809981",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_4.png?v=1758809981",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_2.png?v=1758809981",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_5.png?v=1756819775",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_6.png?v=1756819775"
+   ],
+   "foto_tamanho": [
+    275,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "everyday-detangling-wheat-protein",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": null
+  },
+  {
+   "slug": "tangle-teezer-hair-pick",
+   "marca": "Tangle Teezer",
+   "nome": "Hair Pick",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Purple Passion",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-hair-pick.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_HP_PDP_1.png?v=1762115162",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_HP_PDP_4.png?v=1762115162",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_HP_PDP_3.png?v=1762115162",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_HP_PDP_2.png?v=1762115162",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_HP_PDP_5.png?v=1762115162"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "hair-pick",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (59% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-complete-carebrush-curly-to-coily",
+   "marca": "Tangle Teezer",
+   "nome": "The Complete Carebrush Curly To Coily",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Silken Slate",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Velvet Purple",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-complete-carebrush-curly-to-coily.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_1.jpg?v=1786015479",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_2.jpg?v=1786015480",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_3.jpg?v=1786015480",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_5.jpg?v=1786015479",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_6.jpg?v=1786015480",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/SilkenSlate_TCC_PDP_4_n.jpg?v=1787305737"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-complete-carebrush-curly-to-coily",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-complete-carebrush-fine",
+   "marca": "Tangle Teezer",
+   "nome": "The Complete Carebrush Fine",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Glazed Mocha",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Radiant Teal",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-complete-carebrush-fine.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_1.jpg?v=1786014781",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_2.jpg?v=1786014781",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_3.jpg?v=1786014781",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_5.jpg?v=1786014780",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_4_n.jpg?v=1787305737",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/GlazedMocha_TCC_PDP_6.jpg?v=1786014781"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-complete-carebrush-fine",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (6% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-complete-carebrush-straight-to-wavy",
+   "marca": "Tangle Teezer",
+   "nome": "The Complete Carebrush Straight To Wavy",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Halo White",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Satin Rose",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Glistening Jade",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Glossed Raspberry",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-complete-carebrush-straight-to-wavy.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_1.jpg?v=1786014131",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_2.jpg?v=1786014132",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_3.jpg?v=1786014132",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_5.jpg?v=1786014130",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_6.jpg?v=1786014132",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/HaloWhite_TCC_PDP_7.jpg?v=1786014133"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-complete-carebrush-straight-to-wavy",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (8% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-devil-wears-prada-and-tangle-teezer-the-ultimate-det",
+   "marca": "Tangle Teezer",
+   "nome": "The Devil Wears Prada and Tangle Teezer The Ultimate Detangler",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Devil Wears Prada Red",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Mini · Mini Devil Wears Prada Red",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-devil-wears-prada-and-tangle-teezer-the-ultimate-det.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global1.png?v=1774275272",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global6.png?v=1774275622",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global5.png?v=1774275622",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global4.png?v=1774275622",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global7.png?v=1774275622",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PDP_TUDChrome_DWP_2000x2000_Global2.png?v=1774275622"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-devil-wears-prada-and-tangle-teezer-the-ultimate-detangler",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-scalp-exfoliator-massager",
+   "marca": "Tangle Teezer",
+   "nome": "The Scalp Exfoliator & Massager",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Pretty Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Lavender Life",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Onyx Black",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-scalp-exfoliator-massager.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_1.png?v=1756820810",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_4.png?v=1758809315",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_3.png?v=1758809315",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_2.png?v=1758809315",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_5.png?v=1758809315",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_6.png?v=1758809315"
+   ],
+   "foto_tamanho": [
+    1099,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-scalp-exfoliator-and-massager",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": "recorte mordido (6% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-blow-dry",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Blow Dry",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Tickled Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Jet Black",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Sweet Pea",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Large · Jet Black Large",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Large · Tickled Pink Large",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Large · Lilac Cloud Large",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-blow-dry.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_1.png?v=1758810910",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_4.png?v=1758810910",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_3.png?v=1758810910",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_2.png?v=1758810910",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_5.png?v=1758810910",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/TickledPink_TUB_PDP_7_cm.png?v=1758810910"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "ultimate-blow-dry",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (8% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-detangler-chrome",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Detangler Chrome",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Midnight Silver",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Champagne Gold",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Chocolate Bronze",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Mauve Copper",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · After Party Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-detangler-chrome.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_1.png?v=1771148684",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_4.png?v=1771148684",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_3.png?v=1771148684",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_2.png?v=1771148684",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_5_v1.png?v=1771148684",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_6.png?v=1771148684"
+   ],
+   "foto_tamanho": [
+    1099,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-detangler-chrome",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": "recorte mordido (33% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-detangler-extra-gentle",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Detangler Extra Gentle",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Eucalyptus",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Chamomile",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Saffron",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-detangler-extra-gentle.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Eucalyptus_TUD_EG_PDP_1.png?v=1768764124",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Eucalyptus_TUD_EG_PDP_4.png?v=1768764124",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Eucalyptus_TUD_EG_PDP_3.png?v=1768764124",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Eucalyptus_TUD_EG_PDP_2.png?v=1768764124",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/US_Eucalyptus_Extra_Gentle_PDP_Alt_Image_5.png?v=1768764124",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Eucalyptus_TUD_EG_PDP_6.png?v=1768764124"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-detangler-extra-gentle",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (15% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-detangler-matte",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Detangler Matte",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Regular · Porcelain Cream",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Olive Green",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Regular · Pumice Gray",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-detangler-matte.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_1_dcdd4962-3533-4603-b0b3-99408c49c319.png?v=1759492019",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_4_2eab47ef-3c1b-4f7a-a908-ee7b49ad2dbb.png?v=1759492019",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_3_77f7d801-fd65-4dcc-a7fc-868b20147841.png?v=1759492019",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_2_a5e522e8-8549-4a81-a5fd-b604c5f5f5d9.png?v=1759492019",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_4-1_b92888e4-580e-43fe-af01-c50d0fc8dd5e.png?v=1759492019",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PorcelainCream_TUDMatte_PDP_6_1b4e5220-c633-41df-8c3f-67516c580afe.png?v=1759492019"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-detangler-matte",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (43% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-detangler-plant-brush",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Detangler Plant Brush",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Straight & Wavy · Marshmallow Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Fine or Fragile · Cool Matcha",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Tight Curls & Coils · Pastel Lemon",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-detangler-plant-brush.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_1.jpg?v=1781610747",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_4.png?v=1758809205",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_3.png?v=1758809205",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_2.png?v=1758809205",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_5.png?v=1758809205",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MarshmallowPink_TUDPlant_PDP_6.png?v=1758809205"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-detangler-plant-brush",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-styler",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Styler",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Millennial Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Sweet Pink",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Jet Black",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "Lilac Cloud",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-styler.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_1.png?v=1756735127",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_4.png?v=1758809651",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_3.png?v=1758809651",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_2.png?v=1758809651",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_5.png?v=1758809651",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_6.png?v=1758809651"
+   ],
+   "foto_tamanho": [
+    1100,
+    1099
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-styler",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": true,
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+  },
+  {
+   "slug": "tangle-teezer-the-ultimate-volumizer",
+   "marca": "Tangle Teezer",
+   "nome": "The Ultimate Volumizer",
+   "categoria": "beleza",
+   "subcategoria": "cabelo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "Lilac Cloud",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/tangle-teezer-the-ultimate-volumizer.webp",
+   "foto_origem": "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_1.png?v=1756819934",
+   "foto_alternativas": [
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_4.png?v=1756819934",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_3.png?v=1758809398",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_2.png?v=1758809398",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_5.png?v=1756819934",
+    "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Lilac_TUV_PDP_6.png?v=1756819934"
+   ],
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "fonte": {
+    "tipo": "oficial",
+    "loja": "tangleteezer.com",
+    "handle": "the-ultimate-volumizer",
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null,
+   "foto_recortada": false,
+   "foto_motivo": "recorte mordido (23% da silhueta), produto claro demais contra fundo branco"
   },
   {
    "slug": "victorias-secret-aqua-kiss-fragrance-mist",

@@ -1067,6 +1067,9 @@ h1, h2, h3, h4 {
 .cena--yara   { --chao: radial-gradient(118% 104% at 70% 36%, #fdf1f0 0%, #f6dcdc 46%, #e7bec2 100%); --sobre: #2a1218; --brasa: #a8465c; --sombra: rgba(120, 60, 72, 0.3); }
 .cena--arabe  { --chao: radial-gradient(118% 104% at 68% 42%, #4d2c10 0%, #251509 52%, #0e0703 100%); --sobre: #f7eee2; --brasa: #dcab63; --sombra: rgba(0, 0, 0, 0.55); }
 .cena--splash { --chao: radial-gradient(118% 104% at 72% 36%, #fffdfd 0%, #fae6ec 48%, #efcad8 100%); --sobre: #2b0f1c; --brasa: #b32f5e; --sombra: rgba(120, 45, 80, 0.26); }
+/* A arte do cabelo é clara e o produto fica à direita, então o texto entra
+   sobre papel claro e precisa de tinta escura. O véu claro cuida do resto. */
+.cena--cabelo { --chao: radial-gradient(118% 104% at 70% 40%, #f8f6f3 0%, #ece7e1 50%, #dcd4ca 100%); --sobre: #201c19; --brasa: var(--bronze-texto); --sombra: rgba(90, 74, 58, 0.22); }
 .cena--casa   { --chao: radial-gradient(118% 104% at 70% 38%, #2b2a26 0%, #17160f 52%, #090804 100%); --sobre: #f7f3e9; --brasa: var(--bronze); --sombra: rgba(0, 0, 0, 0.6); }
 
 .cena__grade {

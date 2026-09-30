@@ -1049,7 +1049,25 @@ h1, h2, h3, h4 {
    O produto vem recortado, sem fundo, então ele flutua sobre o chão da cena
    em vez de aparecer dentro de um quadradinho brigando com o banner. O
    recorte é feito uma vez, no imagens/recortar.py, nunca no navegador. */
-.palco { position: relative; isolation: isolate; overflow: hidden; background: var(--tinta); }
+.palco {
+  position: relative; isolation: isolate; overflow: hidden;
+  background: var(--tinta);
+}
+/* As artes não têm todas a mesma proporção. Num carrossel de flex a altura
+   seria a da cena mais alta, e a mais baixa ficaria com faixa embaixo. Aqui
+   a altura é a da cena ativa, medida no JavaScript, e muda junto com a
+   troca de slide. Sem isso não tem como cumprir as duas coisas ao mesmo
+   tempo: preencher tudo e não cortar. */
+/* A altura vai na PISTA, não no palco: o leme com as abas e as setas é irmão
+   da pista dentro do palco, e altura no palco engolia ele. */
+.palco[style*="--altura-palco"] .palco__pista {
+  height: var(--altura-palco);
+  overflow: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .palco[style*="--altura-palco"] .palco__pista { transition: height 0.5s var(--saida), translate 0.85s var(--saida); }
+}
+.palco__pista { align-items: flex-start; }
 .palco__pista {
   display: flex;
   translate: calc(var(--i, 0) * -100%) 0;
@@ -1074,11 +1092,19 @@ h1, h2, h3, h4 {
    a proporção do banner recebe a cor da borda dele. */
 .cena--banner {
   min-height: 0;
-  aspect-ratio: 3 / 1;
+  /* A proporção é a da própria arte, e não uma medida da página. Assim o
+     banner preenche a cena inteira sem sobrar faixa e sem ser cortado: o
+     "cover" abaixo passa a não ter nada para cortar. */
+  aspect-ratio: var(--razao, 3 / 1);
   background: var(--fundo-banner, var(--marfim));
 }
+/* O banner preenche a cena inteira, sem sobra de nenhum lado, no celular e
+   no computador. Antes ele entrava em "contain" e a faixa que sobrava quando
+   a tela nao batia com a proporcao ficava na cor da borda: some, mas e sobra.
+   Em "cover" nao ha sobra em lugar nenhum, e o preco e o corte quando as
+   proporcoes nao batem. No deitado elas batem, entao nada e cortado. */
 .cena--banner .cena__arte img {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   filter: none;
   animation: none;
@@ -1096,8 +1122,9 @@ h1, h2, h3, h4 {
      pular de tamanho ao trocar de slide. Os dois que são mais estreitos que
      os outros ganham faixa lateral na cor da própria borda. */
   .cena--banner {
-    aspect-ratio: 1036 / 1519;
-    /* a borda da versão em pé nem sempre é a mesma da deitada */
+    aspect-ratio: var(--razao-pe, 1036 / 1519);
+    /* O fundo ainda existe por baixo, para o instante antes de a foto
+       carregar. Com "cover" ele não aparece depois disso. */
     background: var(--fundo-banner-pe, var(--fundo-banner, var(--marfim)));
   }
 }

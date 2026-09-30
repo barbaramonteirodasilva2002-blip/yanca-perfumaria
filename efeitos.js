@@ -310,6 +310,14 @@
     })
     const abas = [...caixaAbas.children]
 
+    // Girar o aparelho troca a arte deitada pela em pé, e com ela a
+    // proporção. Sem remedir, o palco fica com a altura da orientação antiga.
+    let remedir = null
+    addEventListener('resize', () => {
+      clearTimeout(remedir)
+      remedir = setTimeout(() => ir(atual), 120)
+    }, { passive: true })
+
     function ir(n) {
       atual = (n + cenas.length) % cenas.length
       pista.style.setProperty('--i', atual)
@@ -326,6 +334,24 @@
         // tablist: seta navega entre elas, Tab sai do grupo.
         aba.tabIndex = ativa ? 0 : -1
       })
+      /* A altura do palco é a da cena ativa.
+
+         As artes não têm todas a mesma proporção, e num carrossel de flex a
+         altura seria sempre a da cena mais alta: a mais baixa ficaria com uma
+         faixa vazia embaixo. Medindo a cena ativa, cada banner preenche a
+         cena inteira sem sobrar faixa e sem precisar ser cortado. */
+      const ativa = cenas[atual]
+      if (ativa) {
+        const medir = () => {
+          const alto = ativa.getBoundingClientRect().height
+          if (alto > 0) palco.style.setProperty('--altura-palco', alto + 'px')
+        }
+        medir()
+        // a foto pode chegar depois; quando chegar, a medida se refaz
+        const foto = ativa.querySelector('img')
+        if (foto && !foto.complete) foto.addEventListener('load', medir, { once: true })
+      }
+
       if (marcaAtual) marcaAtual.textContent = doisDigitos(atual + 1)
       // A aba escolhida se traz para dentro da vista no trilho do celular.
       if (abas[atual] && caixaAbas.scrollWidth > caixaAbas.clientWidth + 2) {

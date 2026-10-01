@@ -1062,7 +1062,11 @@ h1, h2, h3, h4 {
    da pista dentro do palco, e altura no palco engolia ele. */
 .palco[style*="--altura-palco"] .palco__pista {
   height: var(--altura-palco);
-  overflow: hidden;
+  /* Sem overflow aqui. A pista tem a largura de UMA cena e as outras vivem
+     fora dela, à direita, esperando a vez: recortar na pista apaga tudo a
+     partir da segunda e deixa só o fundo escuro do palco aparecendo. Quem
+     recorta é o palco, que já tem overflow hidden e corta nos dois eixos,
+     inclusive a cena mais alta que a ativa. */
 }
 @media (prefers-reduced-motion: no-preference) {
   .palco[style*="--altura-palco"] .palco__pista { transition: height 0.5s var(--saida), translate 0.85s var(--saida); }

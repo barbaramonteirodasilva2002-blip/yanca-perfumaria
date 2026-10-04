@@ -241,8 +241,14 @@
         const foto = cartao.querySelector('.peca__retrato')
         if (foto) {
           const f = foto.getBoundingClientRect()
-          foto.style.setProperty('--luzx', (((e.clientX - f.left) / f.width) * 100).toFixed(1) + '%')
+          const lx = (e.clientX - f.left) / f.width
+          foto.style.setProperty('--luzx', (lx * 100).toFixed(1) + '%')
           foto.style.setProperty('--luzy', (((e.clientY - f.top) / f.height) * 100).toFixed(1) + '%')
+          /* A sombra anda para o lado OPOSTO ao da luz, e pouco: seis pixels
+             no extremo. É esse desencontro entre a luz e a sombra que informa
+             que existe uma fonte de luz, e portanto um volume. Sombra que
+             acompanha o cursor é um borrão seguindo o mouse. */
+          foto.style.setProperty('--sombra-x', ((0.5 - lx) * 12).toFixed(1) + 'px')
         }
       }
     }

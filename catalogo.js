@@ -76,7 +76,10 @@
       '<a class="peca" href="' + destino + '">' +
       (p.selo ? '<span class="peca__selo">' + esc(p.selo) + '</span>' : '') +
       '<span class="peca__retrato' +
-      (p.foto && p.foto_recortada === false ? ' peca__retrato--branco' : '') + '">' + foto +
+      (p.foto && p.foto_recortada === false ? ' peca__retrato--branco' : '') +
+      (p.foto_base ? ' peca__retrato--apoiado"' +
+        ' style="--base-largura: ' + (p.foto_base.largura * 100).toFixed(1) + '%;' +
+        ' --base-altura: ' + (p.foto_base.altura * 100).toFixed(1) + '%"' : '"') + '>' + foto +
       '<span class="peca__rapido">Compra rápida' + SACOLA_SVG + '</span></span>' +
       '<span class="peca__marca medida">' + marca + '</span>' +
       '<h3 class="peca__nome">' + nome + '</h3>' +

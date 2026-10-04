@@ -35,8 +35,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186560/3614273638852.06-3614273638869.06.jpg"
    ],
    "foto_tamanho": [
-    667,
-    1016
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -48,7 +48,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5091,
+    "altura": 0.855
+   }
   },
   {
    "slug": "azzaro-wanted-eau-de-toilette",
@@ -90,8 +95,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186530/3351500016617.06-3351500016600.06.jpg"
    ],
    "foto_tamanho": [
-    600,
-    1008
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -103,7 +108,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4564,
+    "altura": 0.855
+   }
   },
   {
    "slug": "burberry-her-eau-de-parfum",
@@ -145,8 +155,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666714/1.-3616305947321.jpg"
    ],
    "foto_tamanho": [
-    561,
-    984
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -158,7 +168,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4355,
+    "altura": 0.855
+   }
   },
   {
    "slug": "burberry-my-burberry-eau-de-parfum",
@@ -246,8 +261,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132856/17882627398799.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    985,
-    971
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -259,7 +274,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "carolina-herrera-212-vip-rose-eau-de-parfum",
@@ -302,8 +322,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3182042/17882628585855.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    676,
-    845
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -315,7 +335,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.63,
+    "altura": 0.855
+   }
   },
   {
    "slug": "carolina-herrera-bad-boy-eau-de-toilette",
@@ -351,8 +376,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116988/17882696519533.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    966,
-    918
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -364,7 +389,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "carolina-herrera-ch-eau-de-parfum",
@@ -386,8 +416,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116859/17882736366973.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1027,
-    970
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -399,7 +429,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "carolina-herrera-good-girl-eau-de-parfum",
@@ -455,8 +490,8 @@
    "foto": "imagens/web/carolina-herrera-good-girl-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    819,
-    798
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -468,7 +503,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7791,
+    "altura": 0.855
+   }
   },
   {
    "slug": "carolina-herrera-very-good-girl-eau-de-parfum",
@@ -645,8 +685,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931467/6.3348901738224.jpg"
    ],
    "foto_tamanho": [
-    399,
-    997
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -658,7 +698,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2909,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dior-miss-dior-eau-de-parfum",
@@ -767,8 +812,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716156/2.-3348901293846.jpg.jpg"
    ],
    "foto_tamanho": [
-    772,
-    1002
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -780,7 +825,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6055,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dior-sauvage-eau-de-parfum",
@@ -829,8 +879,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961575/sauvage-parfum-dior-perfume-masculino-20-5-.jpg.jpg"
    ],
    "foto_tamanho": [
-    338,
-    926
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -842,7 +892,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2609,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dior-sauvage-eau-de-toilette",
@@ -884,8 +939,8 @@
    "foto": "imagens/web/dior-sauvage-eau-de-toilette.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    423,
-    838
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -897,7 +952,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.38,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dior-sauvage-elixir",
@@ -938,8 +998,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1159174/sauvage-elixir-dior-perfume-masculino-edp--1-.jpg"
    ],
    "foto_tamanho": [
-    572,
-    990
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -951,7 +1011,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4418,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dolce-gabbana-devotion-eau-de-parfum",
@@ -998,8 +1063,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199354/37797354854840.jpg"
    ],
    "foto_tamanho": [
-    465,
-    1051
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1011,7 +1076,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3273,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dolce-gabbana-k-eau-de-toilette",
@@ -1060,8 +1130,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/482825/DG-K-EDT-150ML--1-.jpg"
    ],
    "foto_tamanho": [
-    406,
-    949
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1073,7 +1143,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3155,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dolce-gabbana-light-blue-eau-de-toilette",
@@ -1143,8 +1218,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891085/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino.jpg"
    ],
    "foto_tamanho": [
-    494,
-    947
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1156,7 +1231,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3945,
+    "altura": 0.855
+   }
   },
   {
    "slug": "dolce-gabbana-the-one-eau-de-parfum",
@@ -1211,7 +1291,7 @@
    ],
    "foto_tamanho": [
     1100,
-    1006
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1223,7 +1303,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "giorgio-armani-acqua-di-gio-eau-de-toilette",
@@ -1275,8 +1360,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555457/17788805361639.jpg"
    ],
    "foto_tamanho": [
-    552,
-    998
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1288,7 +1373,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4209,
+    "altura": 0.855
+   }
   },
   {
    "slug": "giorgio-armani-acqua-di-gio-profondo-eau-de-parfum",
@@ -1331,8 +1421,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3208011/17900054591827.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    790,
-    802
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1344,7 +1434,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "giorgio-armani-si-eau-de-parfum",
@@ -1386,8 +1481,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361392/si-eau-de-parfum-giorgio-armani-perfume-feminino--7-.jpg"
    ],
    "foto_tamanho": [
-    425,
-    1000
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1399,7 +1494,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3118,
+    "altura": 0.855
+   }
   },
   {
    "slug": "giorgio-armani-stronger-with-you-eau-de-toilette",
@@ -1441,8 +1541,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361426/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--2-.jpg"
    ],
    "foto_tamanho": [
-    605,
-    992
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1454,7 +1554,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4691,
+    "altura": 0.855
+   }
   },
   {
    "slug": "givenchy-l-interdit-eau-de-parfum",
@@ -1496,8 +1601,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132286/3274872495487--1-.jpg"
    ],
    "foto_tamanho": [
-    575,
-    993
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1509,7 +1614,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4427,
+    "altura": 0.855
+   }
   },
   {
    "slug": "hugo-boss-boss-bottled-eau-de-toilette",
@@ -1540,8 +1650,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249581/17799916101977.jpg"
    ],
    "foto_tamanho": [
-    465,
-    997
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1553,7 +1663,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3473,
+    "altura": 0.855
+   }
   },
   {
    "slug": "hugo-boss-boss-the-scent-eau-de-toilette",
@@ -1585,8 +1700,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2735624/17443166330997.jpg"
    ],
    "foto_tamanho": [
-    814,
-    767
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1598,7 +1713,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "jean-paul-gaultier-la-belle-eau-de-parfum",
@@ -1640,8 +1760,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195248/17619502750278.jpg"
    ],
    "foto_tamanho": [
-    662,
-    912
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1653,7 +1773,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5673,
+    "altura": 0.855
+   }
   },
   {
    "slug": "jean-paul-gaultier-le-male-eau-de-toilette",
@@ -1698,8 +1823,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249646/17799914698280.jpg"
    ],
    "foto_tamanho": [
-    485,
-    1026
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1711,7 +1836,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3527,
+    "altura": 0.855
+   }
   },
   {
    "slug": "jean-paul-gaultier-le-male-le-parfum",
@@ -1752,8 +1882,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080708/17876078273745.jpg"
    ],
    "foto_tamanho": [
-    398,
-    836
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1765,7 +1895,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3564,
+    "altura": 0.855
+   }
   },
   {
    "slug": "jean-paul-gaultier-scandal-eau-de-parfum",
@@ -1803,8 +1938,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249971/17799012232943.jpg"
    ],
    "foto_tamanho": [
-    528,
-    992
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1816,7 +1951,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4027,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lancome-idole-eau-de-parfum",
@@ -1859,8 +1999,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3184270/17882810941402.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    542,
-    667
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1872,7 +2012,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6409,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lancome-la-vie-est-belle-eau-de-parfum",
@@ -1921,8 +2066,8 @@
    "foto": "imagens/web/lancome-la-vie-est-belle-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    750,
-    945
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -1934,7 +2079,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6245,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lancome-tresor-eau-de-parfum",
@@ -1972,8 +2122,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2566815/17816029443035.jpg"
    ],
    "foto_tamanho": [
-    1060,
-    946
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1985,7 +2135,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "montblanc-explorer-eau-de-parfum",
@@ -2034,8 +2189,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737412/Explorer-Montblanc-Perfume-Masculino---Eau-de-Parfum-2.jpg"
    ],
    "foto_tamanho": [
-    508,
-    1010
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2047,7 +2202,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3782,
+    "altura": 0.855
+   }
   },
   {
    "slug": "montblanc-legend-eau-de-toilette",
@@ -2096,8 +2256,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737339/03.jpg"
    ],
    "foto_tamanho": [
-    723,
-    1011
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2109,7 +2269,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5582,
+    "altura": 0.855
+   }
   },
   {
    "slug": "narciso-rodriguez-for-her-eau-de-parfum",
@@ -2221,8 +2386,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116843/17882579689878.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    738,
-    492
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2234,7 +2399,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "paco-rabanne-invictus-eau-de-toilette",
@@ -2276,8 +2446,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/192160/invictus-eau-de-toilette-50ml-paco-rabanne-perfume-masculino.jpg"
    ],
    "foto_tamanho": [
-    679,
-    983
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2289,7 +2459,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5382,
+    "altura": 0.855
+   }
   },
   {
    "slug": "paco-rabanne-lady-million-eau-de-parfum",
@@ -2325,8 +2500,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116867/17882898048129.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    800,
-    481
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2338,7 +2513,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "paco-rabanne-olympea-eau-de-parfum",
@@ -2373,8 +2553,8 @@
    "foto": "imagens/web/paco-rabanne-olympea-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    734,
-    499
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -2386,7 +2566,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "paco-rabanne-phantom-eau-de-toilette",
@@ -2422,8 +2607,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3249504/17882956992554.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    735,
-    593
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2435,7 +2620,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "prada-luna-rossa-ocean-eau-de-toilette",
@@ -2477,8 +2667,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724051/luna-rosa-prada-perfume-masculino-eau-de-toilette--6-.jpg.jpg"
    ],
    "foto_tamanho": [
-    703,
-    1004
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2490,7 +2680,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5455,
+    "altura": 0.855
+   }
   },
   {
    "slug": "prada-paradoxe-eau-de-parfum",
@@ -2539,8 +2734,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060665/3614273760164-3614273760201-3614273760652-3614273760713.06.jpg"
    ],
    "foto_tamanho": [
-    968,
-    944
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2552,7 +2747,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "valentino-born-in-roma-donna-eau-de-parfum",
@@ -2594,8 +2794,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186838/6.-3614272761445-3614272761421-3614272761438.06-3614273261333-3614273261357-3614273261401.jpg"
    ],
    "foto_tamanho": [
-    688,
-    977
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2607,7 +2807,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5491,
+    "altura": 0.855
+   }
   },
   {
    "slug": "valentino-born-in-roma-uomo-eau-de-toilette",
@@ -2649,8 +2854,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189693/3614272761469.06-3614273790826.06-3614273582612.06.jpg"
    ],
    "foto_tamanho": [
-    599,
-    957
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2662,7 +2867,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4827,
+    "altura": 0.855
+   }
   },
   {
    "slug": "versace-bright-crystal-eau-de-toilette",
@@ -2707,8 +2917,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1052841/17581936093012.jpg"
    ],
    "foto_tamanho": [
-    898,
-    976
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2720,7 +2930,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7318,
+    "altura": 0.855
+   }
   },
   {
    "slug": "versace-dylan-blue-eau-de-toilette",
@@ -2765,8 +2980,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2500033/17818045087751.jpg"
    ],
    "foto_tamanho": [
-    525,
-    823
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2778,7 +2993,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4927,
+    "altura": 0.855
+   }
   },
   {
    "slug": "versace-eros-eau-de-toilette",
@@ -2823,8 +3043,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2250192/17799943464091.jpg"
    ],
    "foto_tamanho": [
-    695,
-    998
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2836,7 +3056,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5418,
+    "altura": 0.855
+   }
   },
   {
    "slug": "versace-eros-flame-eau-de-parfum",
@@ -2885,8 +3110,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/464127/ak31VZF.jpg"
    ],
    "foto_tamanho": [
-    650,
-    983
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2898,7 +3123,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5127,
+    "altura": 0.855
+   }
   },
   {
    "slug": "yves-saint-laurent-black-opium-eau-de-parfum",
@@ -2934,8 +3164,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2826101/17853578604561.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    814,
-    659
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2947,7 +3177,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "yves-saint-laurent-libre-eau-de-parfum",
@@ -2985,8 +3220,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2556496/17774421307304.jpg"
    ],
    "foto_tamanho": [
-    441,
-    959
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2998,7 +3233,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3418,
+    "altura": 0.855
+   }
   },
   {
    "slug": "yves-saint-laurent-myslf-eau-de-parfum",
@@ -3036,8 +3276,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555547/17799009873186.jpg"
    ],
    "foto_tamanho": [
-    278,
-    838
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3049,7 +3289,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2336,
+    "altura": 0.855
+   }
   },
   {
    "slug": "yves-saint-laurent-y-eau-de-parfum",
@@ -3094,8 +3339,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555597/17799920732804.jpg"
    ],
    "foto_tamanho": [
-    514,
-    985
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3107,7 +3352,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3945,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-iconic",
@@ -3155,8 +3405,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/35718_d28f10a7-11ea-418f-be31-56c058b8b818.png?v=1767893878"
    ],
    "foto_tamanho": [
-    700,
-    1051
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3167,7 +3417,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5164,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-imperiale",
@@ -3207,7 +3462,7 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/edit-12_2.png?v=1759963541"
    ],
    "foto_tamanho": [
-    726,
+    1100,
     1100
    ],
    "fonte": {
@@ -3219,7 +3474,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5127,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-intense-man",
@@ -3258,8 +3518,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2025-10-03T113440.046_900x_136bfb72-80d4-49f5-9fa4-e7ee448abb43.webp?v=1762289707"
    ],
    "foto_tamanho": [
-    381,
-    591
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3270,7 +3530,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4991,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-intense-man-limited-edition-with-cufflinks",
@@ -3301,8 +3566,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitleddesign_4_d16fd25b-7056-4852-baf4-c63b8e25773a.png?v=1761332564"
    ],
    "foto_tamanho": [
-    829,
-    577
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3313,7 +3578,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7791,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-intense-man-pure-parfum",
@@ -3335,8 +3605,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Q-106DCLUBDENUITINTENSE_M_FIF_35eb8c44-1c07-4d2a-8164-6e4f1b2b8b41.jpg?v=1739111440",
    "foto_alternativas": [],
    "foto_tamanho": [
-    678,
-    1052
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3347,7 +3617,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4982,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-intense-overdose",
@@ -3374,7 +3649,7 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CDN-Overdose-john-Abraham-Edition-group.jpg?v=1783017359"
    ],
    "foto_tamanho": [
-    674,
+    1100,
     1100
    ],
    "fonte": {
@@ -3386,7 +3661,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4727,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-intense-woman",
@@ -3408,8 +3688,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITINTENSEWOMAN011.png?v=1765209641",
    "foto_alternativas": [],
    "foto_tamanho": [
-    292,
-    742
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3420,7 +3700,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2855,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-man",
@@ -3451,7 +3736,7 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/35721_2.png?v=1752062975"
    ],
    "foto_tamanho": [
-    671,
+    1100,
     1100
    ],
    "fonte": {
@@ -3463,7 +3748,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4709,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-milestone",
@@ -3485,7 +3775,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/67.png?v=1758576374",
    "foto_alternativas": [],
    "foto_tamanho": [
-    715,
+    1100,
     1100
    ],
    "fonte": {
@@ -3497,7 +3787,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5045,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-oud",
@@ -3519,8 +3814,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitleddesign-2025-10-24T235342.652.png?v=1761332116",
    "foto_alternativas": [],
    "foto_tamanho": [
-    494,
-    783
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3531,7 +3826,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4864,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-precieux-1-extrait-de-parfum",
@@ -3553,7 +3853,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/55.png?v=1758574164",
    "foto_alternativas": [],
    "foto_tamanho": [
-    572,
+    1100,
     1100
    ],
    "fonte": {
@@ -3565,7 +3865,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3945,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-private-key-to-my-dreams",
@@ -3587,8 +3892,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2023-10-02T104400.330.jpg?v=1739111609",
    "foto_alternativas": [],
    "foto_tamanho": [
-    569,
-    1040
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3599,7 +3904,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4155,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-private-key-to-my-life",
@@ -3621,7 +3931,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/59.png?v=1758575714",
    "foto_alternativas": [],
    "foto_tamanho": [
-    612,
+    1100,
     1100
    ],
    "fonte": {
@@ -3633,7 +3943,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4255,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-private-key-to-my-love",
@@ -3655,7 +3970,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/60.png?v=1758575805",
    "foto_alternativas": [],
    "foto_tamanho": [
-    611,
+    1100,
     1100
    ],
    "fonte": {
@@ -3667,7 +3982,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4245,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-private-key-to-my-soul",
@@ -3689,8 +4009,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image_15.webp?v=1758575927",
    "foto_alternativas": [],
    "foto_tamanho": [
-    572,
-    1044
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3701,7 +4021,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4164,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-private-key-to-my-success",
@@ -3723,7 +4048,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/61.png?v=1758575864",
    "foto_alternativas": [],
    "foto_tamanho": [
-    613,
+    1100,
     1100
    ],
    "fonte": {
@@ -3735,7 +4060,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4264,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-sillage",
@@ -3757,8 +4087,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CDN_Milestone_8.4_oz_1.png?v=1775849644",
    "foto_alternativas": [],
    "foto_tamanho": [
-    373,
-    465
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3769,7 +4099,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6318,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-untold",
@@ -3817,7 +4152,7 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2022-12-05T152232.929_76c8d1c7-16b6-4e7c-b70f-e8b6e35ab5f3.jpg?v=1752061921"
    ],
    "foto_tamanho": [
-    729,
+    1100,
     1100
    ],
    "fonte": {
@@ -3829,7 +4164,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5155,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-urban-man",
@@ -3851,8 +4191,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITURBANMAN01.png?v=1765209493",
    "foto_alternativas": [],
    "foto_tamanho": [
-    408,
-    661
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3863,7 +4203,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4755,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-urban-man-elixir",
@@ -3910,7 +4255,7 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/GS-Odyssey_Limoni_PhotoGrid.png_Displaying_GS-Odyssey_Limoni_PhotoGrid.png._4.png?v=1757026517"
    ],
    "foto_tamanho": [
-    728,
+    1100,
     1100
    ],
    "fonte": {
@@ -3922,7 +4267,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5145,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-woman",
@@ -3977,8 +4327,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitled_design_-_2025-09-26T224020.469.png?v=1774468835"
    ],
    "foto_tamanho": [
-    415,
-    650
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3989,7 +4339,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4936,
+    "altura": 0.855
+   }
   },
   {
    "slug": "armaf-club-de-nuit-woman-eau-de-parfum",
@@ -4010,8 +4365,8 @@
    "foto": "imagens/web/armaf-club-de-nuit-woman.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    415,
-    650
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4023,7 +4378,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4218,
+    "altura": 0.855
+   }
   },
   {
    "slug": "badee-al-oud-oud-for-glory-eau-de-parfum",
@@ -4044,8 +4404,8 @@
    "foto": "imagens/web/badee-al-oud-for-glory.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    577,
-    1048
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4057,7 +4417,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4191,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-ana-abiyedh-coral",
@@ -4082,8 +4447,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Ana-Abiyedh-Coral-3_1789baaf-8204-4b3d-b22d-7642ffe39e8e.png?v=1747416667"
    ],
    "foto_tamanho": [
-    426,
-    998
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4094,7 +4459,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3136,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-ana-abiyedh-leather",
@@ -4119,7 +4489,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_c8937e6f-de06-4fc5-a985-794fc53fe171.png?v=1756361411"
    ],
    "foto_tamanho": [
-    437,
+    1100,
     1100
    ],
    "fonte": {
@@ -4131,7 +4501,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2918,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-ana-abiyedh-passion",
@@ -4155,7 +4530,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/29.png?v=1777559401"
    ],
    "foto_tamanho": [
-    478,
+    1100,
     1100
    ],
    "fonte": {
@@ -4167,7 +4542,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3227,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-ana-abiyedh-scarlet",
@@ -4192,7 +4572,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/ANA_ABIYEDH_SCARLET_BOX.png?v=1756142969"
    ],
    "foto_tamanho": [
-    434,
+    1100,
     1100
    ],
    "fonte": {
@@ -4204,7 +4584,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2891,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-asad",
@@ -4235,8 +4620,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Asad-2_5648df5a-3865-4d87-b7f7-b89f81aab2af.png?v=1747421311"
    ],
    "foto_tamanho": [
-    470,
-    1005
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4247,7 +4632,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3482,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-asad-eau-de-parfum",
@@ -4268,8 +4658,8 @@
    "foto": "imagens/web/lattafa-asad.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    470,
-    1005
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4281,7 +4671,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2973,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-asad-elixir",
@@ -4306,7 +4701,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/AsadElixirBox.png?v=1760805808"
    ],
    "foto_tamanho": [
-    506,
+    1100,
     1100
    ],
    "fonte": {
@@ -4318,7 +4713,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3436,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-asad-zanzibar",
@@ -4343,8 +4743,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Asad-Zanzibar-3_0075fe25-60b5-42e7-8faa-98ceb8c81645.png?v=1747415448"
    ],
    "foto_tamanho": [
-    441,
-    978
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4355,7 +4755,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3345,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-amethyst",
@@ -4380,8 +4785,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Amethyst-3.png?v=1747422428"
    ],
    "foto_tamanho": [
-    617,
-    977
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4392,7 +4797,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4873,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-amethyst-fusion",
@@ -4461,8 +4871,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/6_f5ddf780-2cd3-4804-aaa0-2e6bcf11383e.png?v=1747556985"
    ],
    "foto_tamanho": [
-    577,
-    1048
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4473,7 +4883,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4191,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-honor-and-glory",
@@ -4498,8 +4913,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Honor-_-Glory-3_3f6059c6-1cc0-4ca3-91d1-5ffe9e4c3afe.png?v=1747415524"
    ],
    "foto_tamanho": [
-    633,
-    996
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4510,7 +4925,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4909,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-noble-blush",
@@ -4535,8 +4955,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Noble-Blush-3_613fad09-045e-486c-bcc0-5f964888c94b.png?v=1747415567"
    ],
    "foto_tamanho": [
-    615,
-    986
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4547,7 +4967,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4809,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-sublime",
@@ -4572,8 +4997,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Sublime-3.png?v=1747421363"
    ],
    "foto_tamanho": [
-    612,
-    980
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4584,7 +5009,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4818,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-emaan",
@@ -4609,8 +5039,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Emaan-3.png?v=1747421403"
    ],
    "foto_tamanho": [
-    482,
-    1000
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4621,7 +5051,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3609,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-emaan-eau-de-parfum",
@@ -4642,8 +5077,8 @@
    "foto": "imagens/web/lattafa-emaan.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    482,
-    1000
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4655,7 +5090,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3082,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-black",
@@ -4681,8 +5121,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_7de3e2e3-0160-46af-bf80-c5a56f56422b.png?v=1747500779"
    ],
    "foto_tamanho": [
-    624,
-    1001
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4693,7 +5133,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.48,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-extrait",
@@ -4718,7 +5163,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3-66.jpg?v=1747745106"
    ],
    "foto_tamanho": [
-    718,
+    1100,
     1100
    ],
    "fonte": {
@@ -4730,7 +5175,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5073,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-platin",
@@ -4756,8 +5206,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_59f1f36b-5798-41e3-b0f2-d74813d5f2bc.png?v=1749465623"
    ],
    "foto_tamanho": [
-    637,
-    1022
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4768,7 +5218,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4809,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-women",
@@ -4793,8 +5248,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_2ee5e79f-3b16-4f12-b703-16227e5bd651.png?v=1750614271"
    ],
    "foto_tamanho": [
-    635,
-    1037
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4805,7 +5260,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4709,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-women-eau-de-parfum",
@@ -4826,8 +5286,8 @@
    "foto": "imagens/web/lattafa-fakhar-women.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    635,
-    1037
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4839,7 +5299,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4018,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-haya",
@@ -4864,8 +5329,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Haya-3.png?v=1747421438"
    ],
    "foto_tamanho": [
-    471,
-    981
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4876,7 +5341,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3591,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-haya-eau-de-parfum",
@@ -4897,8 +5367,8 @@
    "foto": "imagens/web/lattafa-haya.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    471,
-    981
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4910,7 +5380,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3064,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-hayaati-al-maleky",
@@ -4935,8 +5410,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Hayaati-Al-Maleky-3_9d6fce99-044f-4eec-91db-3f9d5e88a87a.png?v=1747415751"
    ],
    "foto_tamanho": [
-    479,
-    998
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4947,7 +5422,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3591,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-hayaati-gold-elixir",
@@ -4973,8 +5453,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_76d46c8f-a41a-47d8-86b3-892dacae2268.png?v=1747499445"
    ],
    "foto_tamanho": [
-    458,
-    998
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4985,7 +5465,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3409,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-khamrah",
@@ -5010,8 +5495,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-3_955c3269-4a1d-4c5a-ac88-b2be98b8fc55.png?v=1747421472"
    ],
    "foto_tamanho": [
-    762,
-    979
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5022,7 +5507,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6118,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-khamrah-dukhan",
@@ -5047,8 +5537,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-Dukhan-3_989712d8-d18c-4ad6-8579-4fdae7ba40a3.png?v=1747416848"
    ],
    "foto_tamanho": [
-    764,
-    1001
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5059,7 +5549,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5991,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-khamrah-eau-de-parfum",
@@ -5080,8 +5575,8 @@
    "foto": "imagens/web/lattafa-khamrah.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    762,
-    979
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5093,7 +5588,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5227,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-khamrah-qahwa",
@@ -5118,8 +5618,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-Qahwa-3_fc8954fb-9ed2-4bcc-974a-d87f75101383.png?v=1747416095"
    ],
    "foto_tamanho": [
-    751,
-    992
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5130,7 +5630,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5936,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-khamrah-waha",
@@ -5192,8 +5697,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Teriaq-3_8fc84099-f6f2-4be8-badd-665aeae0baf1.png?v=1747416456"
    ],
    "foto_tamanho": [
-    372,
-    995
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5204,7 +5709,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2691,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-teriaq-intense",
@@ -5229,8 +5739,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Teriaq-Intense-3_bd446110-92a1-4501-b132-7de36afaceb9.png?v=1747416499"
    ],
    "foto_tamanho": [
-    368,
-    1002
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5241,7 +5751,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2636,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-teriaq-intense-eau-de-parfum",
@@ -5262,8 +5777,8 @@
    "foto": "imagens/web/lattafa-teriaq-intense.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    368,
-    1002
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5275,7 +5790,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2255,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara",
@@ -5338,8 +5858,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Yara12ML-min_1024x1024_d4615f63-d2fb-4db6-8b79-4dfc97423dba.webp?v=1754614094"
    ],
    "foto_tamanho": [
-    472,
-    1007
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5350,7 +5870,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3491,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-candy",
@@ -5382,8 +5907,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Yara-Candy-3_3fcc3bb7-6512-4efd-89e6-99ec36565e9c.png?v=1747416617"
    ],
    "foto_tamanho": [
-    477,
-    1006
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5394,7 +5919,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3536,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-candy-eau-de-parfum",
@@ -5415,8 +5945,8 @@
    "foto": "imagens/web/lattafa-yara-candy.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    477,
-    1006
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5428,7 +5958,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3018,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-eau-de-parfum",
@@ -5449,8 +5984,8 @@
    "foto": "imagens/web/lattafa-yara.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    472,
-    1007
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5462,7 +5997,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2982,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-elixir",
@@ -5487,7 +6027,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/YaraElixirBox.png?v=1760805808"
    ],
    "foto_tamanho": [
-    522,
+    1100,
     1100
    ],
    "fonte": {
@@ -5499,7 +6039,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3564,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-moi",
@@ -5598,8 +6143,8 @@
    "foto": "imagens/web/lattafa-yara-rose.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    694,
-    519
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5611,7 +6156,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-tous",
@@ -5643,8 +6193,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_fc032ecc-f474-4fc1-bb84-285c5b001b32.png?v=1749487600"
    ],
    "foto_tamanho": [
-    474,
-    1010
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5655,7 +6205,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.35,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-tous-eau-de-parfum",
@@ -5676,8 +6231,8 @@
    "foto": "imagens/web/lattafa-yara-tous.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    474,
-    1010
+    1100,
+    1100
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5689,7 +6244,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2991,
+    "altura": 0.855
+   }
   },
   {
    "slug": "maison-alhambra-delilah-eau-de-parfum",
@@ -5710,7 +6270,7 @@
    "foto": "imagens/web/maison-alhambra-delilah.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    687,
+    1100,
     1100
    ],
    "foto_recortada": true,
@@ -5723,7 +6283,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4827,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-azelaic-10-hyaluron-redness-soothing-pad",
@@ -5752,7 +6317,7 @@
    ],
    "foto_tamanho": [
     1100,
-    1033
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5763,7 +6328,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-azelaic-3-cica-skin-clarifying-toner",
@@ -5791,7 +6361,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-azelaic-3-cica-skin-clarifying-toner-1189970123.png?v=1757563094"
    ],
    "foto_tamanho": [
-    351,
+    1100,
     1100
    ],
    "fonte": {
@@ -5803,7 +6373,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2255,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-azelaic-acid-10-hyaluron-redness-soothing-serum",
@@ -5825,7 +6400,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-azelaic-acid-10-hyaluron-redness-soothing-serum-10ml-1245700569.jpg?v=1782191112",
    "foto_alternativas": [],
    "foto_tamanho": [
-    501,
+    1100,
     1100
    ],
    "fonte": {
@@ -5837,7 +6412,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3409,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-azelaic-acid-cica-skin-soothing-moisturizer",
@@ -5865,7 +6445,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-moisturizer-azelaic-acid-cica-skin-soothing-moisturizer-1223720409.png?v=1771996448"
    ],
    "foto_tamanho": [
-    342,
+    1100,
     1100
    ],
    "fonte": {
@@ -5877,7 +6457,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2191,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-heartleaf-77-soothing-toner",
@@ -5991,7 +6576,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-cleanser-heartleaf-quercetinol-pore-deep-cleansing-foam-1239362116.png?v=1779269413"
    ],
    "foto_tamanho": [
-    479,
+    1100,
     1100
    ],
    "fonte": {
@@ -6003,7 +6588,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3236,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-niacinamide-10-txa-4-serum-for-brightening-and-dark-spots",
@@ -6025,7 +6615,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-niacinamide-10-txa-4-serum-for-brightening-and-dark-spots-10ml-1245700570.jpg?v=1782191170",
    "foto_alternativas": [],
    "foto_tamanho": [
-    502,
+    1100,
     1100
    ],
    "fonte": {
@@ -6037,7 +6627,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3409,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-niacinamide-5-txa-brightening-pad",
@@ -6066,7 +6661,7 @@
    ],
    "foto_tamanho": [
     1100,
-    1040
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6077,7 +6672,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-niacinamide-5-txa-brightening-pad-10ea",
@@ -6139,7 +6739,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-niacinamide-tranexamic-acid-brightening-booster-toner-niacinamide-tranexamic-acid-brightening-booster-toner-1224903077.png?v=1772607969"
    ],
    "foto_tamanho": [
-    388,
+    1100,
     1100
    ],
    "fonte": {
@@ -6151,7 +6751,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2536,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-100-hyaluronic-acid-booster-toner",
@@ -6173,7 +6778,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-pdrn-100-hyaluronic-acid-booster-toner-40ml-1245700566.jpg?v=1782190994",
    "foto_alternativas": [],
    "foto_tamanho": [
-    388,
+    1100,
     1100
    ],
    "fonte": {
@@ -6185,7 +6790,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2536,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-100-hyaluronic-acid-glow-pad",
@@ -6214,7 +6824,7 @@
    ],
    "foto_tamanho": [
     1100,
-    1033
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6225,7 +6835,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-100-hyaluronic-acid-glow-pad-10ea",
@@ -6247,7 +6862,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-pdrn-100-hyaluronic-acid-glow-pad-10ea-1245700563.jpg?v=1782190813",
    "foto_alternativas": [],
    "foto_tamanho": [
-    807,
+    1100,
     1100
    ],
    "fonte": {
@@ -6259,7 +6874,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5755,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-collagen-glow-facial-serum-spray",
@@ -6287,7 +6907,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-pdrn-100-hyaluronic-acid-hydrating-capsule-mist-100ml-pdrn-100-hyaluronic-acid-hydrating-capsule-mist-100ml-1210548672.jpg?v=1774502245"
    ],
    "foto_tamanho": [
-    1048,
+    1100,
     1100
    ],
    "fonte": {
@@ -6299,7 +6919,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.76,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-collagen-glow-facial-serum-spray-mini",
@@ -6367,7 +6992,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-spot-patches-pdrn-collagen-melting-patch-for-glass-skin-4ea-1211228841.jpg?v=1765782449"
    ],
    "foto_tamanho": [
-    714,
+    1100,
     1100
    ],
    "fonte": {
@@ -6379,7 +7004,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5036,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-collagen-melting-patch-for-neck-4ea",
@@ -6407,7 +7037,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-spot-patches-pdrn-collagen-melting-patch-for-neck-4ea-1210980624.png?v=1773995046"
    ],
    "foto_tamanho": [
-    623,
+    1100,
     1100
    ],
    "fonte": {
@@ -6419,7 +7049,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4336,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-pdrn-hyaluronic-acid-100-moisturizing-cream",
@@ -6481,7 +7116,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-ampoule-serum-30ml-peach-70-niacinamide-serum-1161189372.jpg?v=1748544326"
    ],
    "foto_tamanho": [
-    490,
+    1100,
     1100
    ],
    "fonte": {
@@ -6493,7 +7128,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3309,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-peach-77-niacin-conditioning-milk",
@@ -6520,7 +7160,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-moisturizer-peach-77-niacin-conditioning-milk-1253848056.png?v=1786445830"
    ],
    "foto_tamanho": [
-    373,
+    1100,
     1100
    ],
    "fonte": {
@@ -6532,7 +7172,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2418,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-peach-77-niacin-enriched-cream",
@@ -6598,7 +7243,7 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-toner-peach-77-niacin-essence-toner-1238497285.jpg?v=1778835608"
    ],
    "foto_tamanho": [
-    384,
+    1100,
     1100
    ],
    "fonte": {
@@ -6610,7 +7255,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2509,
+    "altura": 0.855
+   }
   },
   {
    "slug": "anua-rice-70-glow-collagen-mask",
@@ -6752,8 +7402,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/36174.jpg?v=1744178727",
    "foto_alternativas": [],
    "foto_tamanho": [
-    528,
-    808
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6764,7 +7414,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5064,
+    "altura": 0.855
+   }
   },
   {
    "slug": "aura-beauty-aurora-shine-manteiga-corporal",
@@ -6866,8 +7521,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166791/17884305959808.jpg"
    ],
    "foto_tamanho": [
-    876,
-    786
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -6879,7 +7534,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "fino-premium-touch-hair-mask-made-in-japan",
@@ -6905,8 +7565,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664455/17781573780024.jpg"
    ],
    "foto_tamanho": [
-    679,
-    654
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -6918,7 +7578,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "fino-premium-touch-hair-oil-oleo-capilar",
@@ -6944,8 +7609,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892189/17509645487471.jpg"
    ],
    "foto_tamanho": [
-    317,
-    1013
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -6957,7 +7622,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2173,
+    "altura": 0.855
+   }
   },
   {
    "slug": "fino-premium-touch-hair-oil-serum-airy-smooth-serum-capilar",
@@ -7024,8 +7694,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805615/finetoday-fino-premium-touch-hair-oil-oleo-capilar--4-.jpg"
    ],
    "foto_tamanho": [
-    323,
-    1022
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7037,7 +7707,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2209,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-blond-absolu-bain-ultra-violet",
@@ -7062,7 +7737,7 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180740/17541711496276.jpg"
    ],
    "foto_tamanho": [
-    656,
+    1100,
     1100
    ],
    "fonte": {
@@ -7075,7 +7750,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4591,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-blond-absolu-cicaplasme-serum-capilar",
@@ -7103,8 +7783,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511761/kerastase-blond-absolu-cicaplasme-serum-capilar--1---7-.jpg"
    ],
    "foto_tamanho": [
-    265,
-    973
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7116,7 +7796,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1836,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-chronologiste-thermique-regenerant-leave-in",
@@ -7144,8 +7829,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511812/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---6-.jpg"
    ],
    "foto_tamanho": [
-    266,
-    957
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7157,7 +7842,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1873,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-condicionador-extensioniste-resistance",
@@ -7184,8 +7874,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237585/17872593878871.jpg"
    ],
    "foto_tamanho": [
-    373,
-    827
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7197,7 +7887,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3345,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso",
@@ -7225,8 +7920,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494588/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--7-.jpg"
    ],
    "foto_tamanho": [
-    331,
-    875
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7238,7 +7933,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2736,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-curl-manifesto-refresh-absolu-leave-in",
@@ -7266,8 +7966,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494828/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--7-.jpg"
    ],
    "foto_tamanho": [
-    346,
-    995
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7279,7 +7979,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2464,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-densifique-activateur-de-densite-ampola-de-tratamento",
@@ -7304,8 +8009,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/709310/Selo.jpg"
    ],
    "foto_tamanho": [
-    582,
-    999
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7317,7 +8022,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4455,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-densifique-bain-densite-shampoo",
@@ -7352,8 +8062,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3072522/3474636612475_EN_01.jpg"
    ],
    "foto_tamanho": [
-    240,
-    470
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7365,7 +8075,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3855,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-discipline-bain-fluidealiste-shampoo",
@@ -7389,8 +8104,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/368047/kerastase-discipline-bain-fluidealiste-shampoo-1.jpg"
    ],
    "foto_tamanho": [
-    434,
-    834
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7402,7 +8117,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3936,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-elixir-ultime-l-huile-originale-oleo-capilar",
@@ -7428,8 +8148,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140567/17541731791134.jpg"
    ],
    "foto_tamanho": [
-    348,
-    793
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7441,7 +8161,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3245,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-fusio-dose-concentre-oleo-fusion-nutritive-ampolas-3x12ml",
@@ -7469,8 +8194,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168497/17882012547098.jpg"
    ],
    "foto_tamanho": [
-    538,
-    553
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7482,7 +8207,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7764,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-gel-em-creme-curl-manifesto-gelee-curl-contour",
@@ -7510,8 +8240,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494772/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--7-.jpg"
    ],
    "foto_tamanho": [
-    266,
-    984
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7523,7 +8253,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1818,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-genesis-anti-chute-fortifiant-serum-finalizador",
@@ -7551,8 +8286,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508177/kerastase-anti-chute-fortifiant-serum-finalizador--1---7-.jpg"
    ],
    "foto_tamanho": [
-    363,
-    1036
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7564,7 +8299,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2491,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-locao-nutritive-thermique",
@@ -7706,8 +8446,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495564/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--6-.jpg"
    ],
    "foto_tamanho": [
-    397,
-    972
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7719,7 +8459,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2982,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-premiere-bain-decalcifiant-renovateur",
@@ -7823,8 +8568,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036785/3474637154950_EN_02.jpg"
    ],
    "foto_tamanho": [
-    437,
-    1010
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7836,7 +8581,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3191,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-symbiose-fondant-apaisant-condicionador",
@@ -7905,8 +8655,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511939/Kerastase-Resistance-Therapiste---Leave-In-2--1---6-.jpg"
    ],
    "foto_tamanho": [
-    410,
-    1055
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7918,7 +8668,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2818,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-tratamento-fortalecedor-blond-absolu-cicaflash-condicionador",
@@ -7946,8 +8701,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508161/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---7-.jpg"
    ],
    "foto_tamanho": [
-    421,
-    1041
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7959,7 +8714,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2945,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-oleo-capilar-chronologiste-l-huile-de-parfum",
@@ -7987,8 +8747,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761189/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -3-.jpg.jpg"
    ],
    "foto_tamanho": [
-    333,
-    1006
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8000,7 +8760,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2327,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-oleo-capilar-elixir-ultime-l-huile-originale",
@@ -8028,7 +8793,7 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608258/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---7-.jpg"
    ],
    "foto_tamanho": [
-    437,
+    1100,
     1100
    ],
    "fonte": {
@@ -8041,7 +8806,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2918,
+    "altura": 0.855
+   }
   },
   {
    "slug": "kerastase-oleo-capilar-nutritive-serum-de-pontas-duplas",
@@ -8104,7 +8874,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_67e46dfd-d36b-4469-8eba-772ce9defa69.png?v=1756361525",
    "foto_alternativas": [],
    "foto_tamanho": [
-    333,
+    1100,
     1100
    ],
    "fonte": {
@@ -8116,7 +8886,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2118,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-badee-al-oud-sublime-all-over-spray",
@@ -8140,7 +8915,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_676c4101-c737-4d3e-97f4-749848f6d8da.png?v=1750619971"
    ],
    "foto_tamanho": [
-    314,
+    1100,
     1100
    ],
    "fonte": {
@@ -8152,7 +8927,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1973,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-fakhar-all-over-spray",
@@ -8210,7 +8990,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_af32bb0d-d475-465a-a525-5eda47c548d3.png?v=1756361633",
    "foto_alternativas": [],
    "foto_tamanho": [
-    336,
+    1100,
     1100
    ],
    "fonte": {
@@ -8222,7 +9002,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2145,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-haya-all-over-spray",
@@ -8246,7 +9031,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/haya_all_over_spray_1.png?v=1750619338"
    ],
    "foto_tamanho": [
-    321,
+    1100,
     1100
    ],
    "fonte": {
@@ -8258,7 +9043,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2027,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-haya-perfume-mist",
@@ -8280,7 +9070,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_8cd4cfe9-d5fc-4fe9-ad9d-a994b798957f.png?v=1756361835",
    "foto_alternativas": [],
    "foto_tamanho": [
-    332,
+    1100,
     1100
    ],
    "fonte": {
@@ -8292,7 +9082,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2082,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-teriaq-perfume-mist",
@@ -8314,7 +9109,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_7f519c42-06c4-4642-9595-bc9488459e2b.png?v=1756362184",
    "foto_alternativas": [],
    "foto_tamanho": [
-    333,
+    1100,
     1100
    ],
    "fonte": {
@@ -8326,7 +9121,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2118,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-all-over-spray",
@@ -8351,7 +9151,7 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/yara_all_over_spray_2.png?v=1750616047"
    ],
    "foto_tamanho": [
-    322,
+    1100,
     1100
    ],
    "fonte": {
@@ -8363,7 +9163,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2036,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-perfume-mist",
@@ -8385,7 +9190,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_548f71cc-cc8a-4751-b95f-d36658abf071.png?v=1756362233",
    "foto_alternativas": [],
    "foto_tamanho": [
-    332,
+    1100,
     1100
    ],
    "fonte": {
@@ -8397,7 +9202,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2109,
+    "altura": 0.855
+   }
   },
   {
    "slug": "lattafa-yara-tous-perfume-mist",
@@ -8419,7 +9229,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_0c708117-8cec-4504-9834-ed6e083e1624.png?v=1756362263",
    "foto_alternativas": [],
    "foto_tamanho": [
-    330,
+    1100,
     1100
    ],
    "fonte": {
@@ -8431,7 +9241,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2091,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-amazons-1-beauty-brand-collagen-night-wrapping-mask",
@@ -8459,7 +9274,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/03_870b4175-779e-4b15-823a-df0b1d50b618_1.jpg?v=1788913963"
    ],
    "foto_tamanho": [
-    959,
+    1100,
     1100
    ],
    "fonte": {
@@ -8471,7 +9286,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6918,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-amazons-1-beauty-brand-pdrn-pink-collagen-capsule-cream",
@@ -8500,7 +9320,7 @@
    ],
    "foto_tamanho": [
     1100,
-    980
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -8511,7 +9331,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-collagen-glow-booster-milk-serum",
@@ -8539,8 +9364,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/14_1f46bb16-2b6c-4e55-9338-fe2edc820a40.jpg?v=1713858787"
    ],
    "foto_tamanho": [
-    204,
-    1018
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -8551,7 +9376,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1227,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-collagen-glow-bubble-serum",
@@ -8577,8 +9407,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/products/MicrosoftTeams-image_4.jpg?v=1719903895"
    ],
    "foto_tamanho": [
-    579,
-    1017
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -8589,7 +9419,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.4345,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-collagen-glow-sunscreen",
@@ -8611,7 +9446,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/20251118_ME_suncreamkeyring_160068copy.jpg?v=1784161330",
    "foto_alternativas": [],
    "foto_tamanho": [
-    391,
+    1100,
     1100
    ],
    "fonte": {
@@ -8623,7 +9458,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2564,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-collagen-milky-glow-daytime-wrapping-mask",
@@ -8651,7 +9491,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/01_1_907aa553-262e-4852-b402-42efcc3d2587.jpg?v=1760949029"
    ],
    "foto_tamanho": [
-    790,
+    1100,
     1100
    ],
    "fonte": {
@@ -8663,7 +9503,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5609,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-collagen-niacinamide-jelly-cream",
@@ -8691,7 +9536,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_bfc149e6-44fe-4c80-8bc5-713b56389791.jpg?v=1766563811"
    ],
    "foto_tamanho": [
-    868,
+    1100,
     1100
    ],
    "fonte": {
@@ -8703,7 +9548,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6218,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-blackhead-deep-cleansing-oil",
@@ -8731,7 +9581,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/06_50c752f9-8681-497e-8e24-029c26191b47.jpg?v=1769579087"
    ],
    "foto_tamanho": [
-    870,
+    1100,
     1100
    ],
    "fonte": {
@@ -8743,7 +9593,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6245,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-blackhead-mud-mask",
@@ -8771,7 +9626,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/06_bfe1ffad-ad7d-4b7f-9da9-7f35394c84d3.jpg?v=1766555245"
    ],
    "foto_tamanho": [
-    1067,
+    1100,
     1100
    ],
    "fonte": {
@@ -8783,7 +9638,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7736,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-capsule-cleansing-foam",
@@ -8811,7 +9671,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_e3cac513-b20b-475c-9f2d-2fe80949cc6f.jpg?v=1748325840"
    ],
    "foto_tamanho": [
-    1072,
+    1100,
     1100
    ],
    "fonte": {
@@ -8823,7 +9683,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7782,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-cooling-mask",
@@ -8959,8 +9824,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/1_04039b0e-fa91-461f-bd9d-4f438f38e61b.jpg?v=1752806801",
    "foto_alternativas": [],
    "foto_tamanho": [
-    374,
-    903
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -8971,7 +9836,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.3036,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-madecassoside-pads-mild",
@@ -9033,7 +9903,7 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/20211103_all_set18573.png?v=1781082114",
    "foto_alternativas": [],
    "foto_tamanho": [
-    349,
+    1100,
     1100
    ],
    "fonte": {
@@ -9045,7 +9915,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2236,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-one-day-cream",
@@ -9071,7 +9946,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/04_3616addc-f184-4deb-a5d7-e3a782e4713d.jpg?v=1768375377"
    ],
    "foto_tamanho": [
-    1042,
+    1100,
     1100
    ],
    "fonte": {
@@ -9083,7 +9958,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7564,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-one-day-peptide-serum",
@@ -9111,7 +9991,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/03_448eab9e-dc60-4dcb-9e4e-e863aabb61b0.jpg?v=1779348862"
    ],
    "foto_tamanho": [
-    937,
+    1100,
     1100
    ],
    "fonte": {
@@ -9123,7 +10003,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.6773,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-pads",
@@ -9232,7 +10117,7 @@
    ],
    "foto_tamanho": [
     1100,
-    877
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9243,7 +10128,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "medicube-zero-pore-toner",
@@ -9271,7 +10161,7 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_bc9251ae-3daa-4df5-975f-b35c154c7c0a.jpg?v=1736820611"
    ],
    "foto_tamanho": [
-    972,
+    1100,
     1100
    ],
    "fonte": {
@@ -9283,7 +10173,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.7018,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-centella-air-fit-suncream-light",
@@ -9310,8 +10205,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-sun-madagascar-centella-air-fit-suncream-light-spf30-pa-37102167884022.png?v=1764146418"
    ],
    "foto_tamanho": [
-    1060,
-    1060
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9322,7 +10217,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-centella-air-fit-suncream-plus",
@@ -9399,7 +10299,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-centella-ampoule-foam",
@@ -9434,7 +10339,7 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-cleanser-centella-ampoule-foam-38409123397878.jpg?v=1717738201"
    ],
    "foto_tamanho": [
-    1084,
+    1100,
     1100
    ],
    "fonte": {
@@ -9446,7 +10351,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-centella-cream",
@@ -9532,7 +10442,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-centella-soothing-cream",
@@ -9613,8 +10528,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-toner-madagascar-centella-toning-toner-36440507875574.jpg?v=1766754953"
    ],
    "foto_tamanho": [
-    946,
-    954
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9625,7 +10540,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-hyalu-cica-blue-serum",
@@ -9792,8 +10712,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-50ml-hyalu-cica-first-ampoule-40739535487222.png?v=1717742640"
    ],
    "foto_tamanho": [
-    986,
-    781
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9804,7 +10724,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-hyalu-cica-gentle-cleansing-milk",
@@ -9843,7 +10768,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-hyalu-cica-hydrating-mask",
@@ -9871,8 +10801,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-hyalu-cica-hydrating-mask-1215677848.jpg?v=1767869947"
    ],
    "foto_tamanho": [
-    518,
-    778
+    1100,
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9883,7 +10813,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.5164,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-hyalu-cica-jelly-fit-ampoule-pad",
@@ -10014,7 +10949,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "skin1004-hyalu-cica-sleeping-pack",
@@ -10353,7 +11293,7 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_6.png?v=1756819581"
    ],
    "foto_tamanho": [
-    274,
+    1100,
     1100
    ],
    "fonte": {
@@ -10365,7 +11305,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1664,
+    "altura": 0.855
+   }
   },
   {
    "slug": "tangle-teezer-everyday-detangling-spray-shea-butter",
@@ -10433,7 +11378,7 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_6.png?v=1756819775"
    ],
    "foto_tamanho": [
-    275,
+    1100,
     1100
    ],
    "fonte": {
@@ -10445,7 +11390,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": null
+   "foto_motivo": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.1673,
+    "altura": 0.855
+   }
   },
   {
    "slug": "tangle-teezer-hair-pick",
@@ -10728,7 +11678,7 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_6.png?v=1758809315"
    ],
    "foto_tamanho": [
-    1099,
+    1100,
     1100
    ],
    "fonte": {
@@ -10740,7 +11690,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": "recorte mordido (6% da silhueta), produto claro demais contra fundo branco"
+   "foto_motivo": "recorte mordido (6% da silhueta), produto claro demais contra fundo branco",
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "tangle-teezer-the-ultimate-blow-dry",
@@ -10871,7 +11826,7 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_6.png?v=1771148684"
    ],
    "foto_tamanho": [
-    1099,
+    1100,
     1100
    ],
    "fonte": {
@@ -10883,7 +11838,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": "recorte mordido (33% da silhueta), produto claro demais contra fundo branco"
+   "foto_motivo": "recorte mordido (33% da silhueta), produto claro demais contra fundo branco",
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "tangle-teezer-the-ultimate-detangler-extra-gentle",
@@ -11095,7 +12055,7 @@
    ],
    "foto_tamanho": [
     1100,
-    1099
+    1100
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11106,7 +12066,12 @@
    "notas": null,
    "descricao": null,
    "foto_recortada": true,
-   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco"
+   "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco",
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.78,
+    "altura": 0.855
+   }
   },
   {
    "slug": "tangle-teezer-the-ultimate-volumizer",
@@ -11167,7 +12132,7 @@
    "foto": "imagens/web/victorias-secret-aqua-kiss.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    387,
+    1100,
     1100
    ],
    "foto_recortada": true,
@@ -11180,7 +12145,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2536,
+    "altura": 0.855
+   }
   },
   {
    "slug": "victorias-secret-love-spell-fragrance-mist",
@@ -11201,7 +12171,7 @@
    "foto": "imagens/web/victorias-secret-love-spell.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    390,
+    1100,
     1100
    ],
    "foto_recortada": true,
@@ -11214,7 +12184,12 @@
     "marca_dagua": false
    },
    "notas": null,
-   "descricao": null
+   "descricao": null,
+   "foto_composta": true,
+   "foto_base": {
+    "largura": 0.2555,
+    "altura": 0.855
+   }
   }
  ]
 }

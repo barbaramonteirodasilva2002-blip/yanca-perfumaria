@@ -536,7 +536,11 @@ h1, h2, h3, h4 {
 
 .peca__retrato {
   position: relative; overflow: hidden;
-  background: var(--taupe); aspect-ratio: 1;
+  /* 3 por 4, em pé, e não quadrado. Numa moldura quadrada o frasco fica com
+     metade da altura do cartão e a vitrine parece catálogo de atacado. Em pé
+     ele ocupa quase três quartos, que é a proporção que as lojas de
+     perfumaria usam porque é a forma do próprio produto. */
+  background: var(--taupe); aspect-ratio: 3 / 4;
   display: grid; place-items: center; padding: 12px; margin-bottom: 12px;
 }
 /* A foto é posicionada, e não dimensionada por porcentagem. Altura em
@@ -548,8 +552,8 @@ h1, h2, h3, h4 {
    antigo com o cartão. Com a foto recortada, ele só sujava as partes claras
    do frasco com a cor do fundo. */
 .peca__retrato img {
-  position: absolute; inset: 13px;
-  width: calc(100% - 26px); height: calc(100% - 26px);
+  position: absolute; inset: 4px;
+  width: calc(100% - 8px); height: calc(100% - 8px);
   object-fit: contain; object-position: center;
   transition: transform 0.9s var(--saida);
 }
@@ -670,7 +674,21 @@ h1, h2, h3, h4 {
 .peca__rapido svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 1.7; fill: none; }
 .peca__rapido:hover { background: var(--tinta); }
 .peca:hover .peca__rapido, .peca:focus-within .peca__rapido { transform: translateY(0); }
-@media (hover: none) { .peca__rapido { display: none; } }
+/* No toque o botão não some: ele fica. Escondido atrás do cursor, ele
+   simplesmente não existia no celular, que é onde a cliente está, e o cartão
+   ficava sem nenhuma ação de compra. A referência que o dono da loja apontou
+   mostra o botão sempre, e nisso ela está certa.
+
+   Aqui ele fica parado no pé da foto, sem deslizar, e com altura de toque. */
+@media (hover: none) {
+  .peca__rapido {
+    position: static; transform: none;
+    min-height: 44px; padding: 12px 10px;
+    background: var(--tinta); color: var(--taupe);
+  }
+  .peca__retrato { margin-bottom: 0; }
+  .peca__marca { margin-top: 12px; }
+}
 
 .peca__selo {
   position: absolute; top: 22px; left: 22px; z-index: 2;

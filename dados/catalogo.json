@@ -35,8 +35,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186560/3614273638852.06-3614273638869.06.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -51,9 +51,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5091,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.721,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -96,8 +96,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186530/3351500016617.06-3351500016600.06.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -112,9 +112,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4564,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.647,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -157,8 +157,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666714/1.-3616305947321.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -173,9 +173,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4355,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.617,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -264,8 +264,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132856/17882627398799.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -280,9 +280,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7686,
-    "topo": 0.0864
+    "largura": 0.89,
+    "altura": 0.6577,
+    "topo": 0.2273
    }
   },
   {
@@ -326,8 +326,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3182042/17882628585855.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -342,9 +342,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.63,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.846,
+    "topo": 0.039
    }
   },
   {
@@ -381,8 +381,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116988/17882696519533.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -397,9 +397,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7386,
-    "topo": 0.1164
+    "largura": 0.89,
+    "altura": 0.6329,
+    "topo": 0.2521
    }
   },
   {
@@ -422,8 +422,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116859/17882736366973.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -438,9 +438,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7341,
-    "topo": 0.1209
+    "largura": 0.89,
+    "altura": 0.6284,
+    "topo": 0.2566
    }
   },
   {
@@ -497,8 +497,8 @@
    "foto": "imagens/web/carolina-herrera-good-girl-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -513,9 +513,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7791,
-    "altura": 0.7586,
-    "topo": 0.0964
+    "largura": 0.89,
+    "altura": 0.6494,
+    "topo": 0.2356
    }
   },
   {
@@ -693,8 +693,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931467/6.3348901738224.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -709,9 +709,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2909,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.413,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -821,8 +821,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716156/2.-3348901293846.jpg.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -837,9 +837,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6055,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.857,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -889,8 +889,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961575/sauvage-parfum-dior-perfume-masculino-20-5-.jpg.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -905,9 +905,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2609,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.37,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -950,8 +950,8 @@
    "foto": "imagens/web/dior-sauvage-eau-de-toilette.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -966,9 +966,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.38,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.539,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1010,8 +1010,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1159174/sauvage-elixir-dior-perfume-masculino-edp--1-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1026,9 +1026,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4418,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.625,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1076,8 +1076,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199354/37797354854840.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1092,9 +1092,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3273,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.464,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1144,8 +1144,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/482825/DG-K-EDT-150ML--1-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1160,9 +1160,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3155,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.447,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1233,8 +1233,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891085/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1249,9 +1249,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3945,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.559,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1306,8 +1306,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2121861/37787894307031.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1322,9 +1322,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7095,
-    "topo": 0.1455
+    "largura": 0.89,
+    "altura": 0.6074,
+    "topo": 0.2776
    }
   },
   {
@@ -1377,8 +1377,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555457/17788805361639.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1393,9 +1393,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4209,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.596,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1439,8 +1439,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3208011/17900054591827.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1455,9 +1455,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7923,
-    "topo": 0.0627
+    "largura": 0.889,
+    "altura": 0.6787,
+    "topo": 0.2063
    }
   },
   {
@@ -1500,8 +1500,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361392/si-eau-de-parfum-giorgio-armani-perfume-feminino--7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1516,9 +1516,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3118,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.442,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1561,8 +1561,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361426/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--2-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1577,9 +1577,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4691,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.664,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1622,8 +1622,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132286/3274872495487--1-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1638,9 +1638,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4427,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.627,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1672,8 +1672,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249581/17799916101977.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1688,9 +1688,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3473,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.492,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1723,8 +1723,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2735624/17443166330997.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1739,9 +1739,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7323,
-    "topo": 0.1227
+    "largura": 0.89,
+    "altura": 0.6269,
+    "topo": 0.2581
    }
   },
   {
@@ -1784,8 +1784,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195248/17619502750278.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1800,9 +1800,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5673,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.804,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1848,8 +1848,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249646/17799914698280.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1864,9 +1864,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3527,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.499,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1908,8 +1908,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080708/17876078273745.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1924,9 +1924,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3564,
-    "altura": 0.8005,
-    "topo": 0.0545
+    "largura": 0.504,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -1965,8 +1965,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249971/17799012232943.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -1981,9 +1981,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4027,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.571,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2027,8 +2027,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3184270/17882810941402.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2043,9 +2043,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6409,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.8325,
+    "topo": 0.0525
    }
   },
   {
@@ -2095,8 +2095,8 @@
    "foto": "imagens/web/lancome-la-vie-est-belle-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -2111,9 +2111,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6245,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.885,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2152,8 +2152,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2566815/17816029443035.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2168,9 +2168,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6914,
-    "topo": 0.1636
+    "largura": 0.89,
+    "altura": 0.5917,
+    "topo": 0.2933
    }
   },
   {
@@ -2220,8 +2220,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737412/Explorer-Montblanc-Perfume-Masculino---Eau-de-Parfum-2.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2236,9 +2236,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3782,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.536,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2288,8 +2288,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737339/03.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2304,9 +2304,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5582,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.791,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2419,8 +2419,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116843/17882579689878.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2435,9 +2435,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.505,
-    "topo": 0.35
+    "largura": 0.889,
+    "altura": 0.4326,
+    "topo": 0.4524
    }
   },
   {
@@ -2480,8 +2480,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/192160/invictus-eau-de-toilette-50ml-paco-rabanne-perfume-masculino.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2496,9 +2496,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5382,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.762,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2535,8 +2535,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116867/17882898048129.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2551,9 +2551,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.4505,
-    "topo": 0.4045
+    "largura": 0.89,
+    "altura": 0.3861,
+    "topo": 0.4989
    }
   },
   {
@@ -2589,8 +2589,8 @@
    "foto": "imagens/web/paco-rabanne-olympea-eau-de-parfum.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -2605,9 +2605,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.5159,
-    "topo": 0.3391
+    "largura": 0.89,
+    "altura": 0.4416,
+    "topo": 0.4434
    }
   },
   {
@@ -2644,8 +2644,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3249504/17882956992554.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2660,9 +2660,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6205,
-    "topo": 0.2345
+    "largura": 0.89,
+    "altura": 0.5317,
+    "topo": 0.3533
    }
   },
   {
@@ -2705,8 +2705,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724051/luna-rosa-prada-perfume-masculino-eau-de-toilette--6-.jpg.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2721,9 +2721,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5455,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.773,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2773,8 +2773,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060665/3614273760164-3614273760201-3614273760652-3614273760713.06.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2789,9 +2789,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7595,
-    "topo": 0.0955
+    "largura": 0.89,
+    "altura": 0.6502,
+    "topo": 0.2348
    }
   },
   {
@@ -2834,8 +2834,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186838/6.-3614272761445-3614272761421-3614272761438.06-3614273261333-3614273261357-3614273261401.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2850,9 +2850,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5491,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.778,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2895,8 +2895,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189693/3614272761469.06-3614273790826.06-3614273582612.06.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2911,9 +2911,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4827,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.683,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -2959,8 +2959,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1052841/17581936093012.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -2975,9 +2975,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7318,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7297,
+    "topo": 0.1553
    }
   },
   {
@@ -3023,8 +3023,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2500033/17818045087751.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3039,9 +3039,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4927,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.698,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3087,8 +3087,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2250192/17799943464091.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3103,9 +3103,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5418,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.768,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3155,8 +3155,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/464127/ak31VZF.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3171,9 +3171,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5127,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.726,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3210,8 +3210,8 @@
    "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2826101/17853578604561.jpg",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3226,9 +3226,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6223,
-    "topo": 0.2327
+    "largura": 0.89,
+    "altura": 0.5332,
+    "topo": 0.3518
    }
   },
   {
@@ -3267,8 +3267,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2556496/17774421307304.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3283,9 +3283,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3418,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.484,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3324,8 +3324,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555547/17799009873186.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3340,9 +3340,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2336,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.331,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3388,8 +3388,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555597/17799920732804.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -3404,9 +3404,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3945,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.559,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3455,8 +3455,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/35718_d28f10a7-11ea-418f-be31-56c058b8b818.png?v=1767893878"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3470,9 +3470,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5164,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.732,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3513,8 +3513,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/edit-12_2.png?v=1759963541"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3528,9 +3528,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5127,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.727,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3570,8 +3570,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2025-10-03T113440.046_900x_136bfb72-80d4-49f5-9fa4-e7ee448abb43.webp?v=1762289707"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3585,9 +3585,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4991,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.707,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3619,8 +3619,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitleddesign_4_d16fd25b-7056-4852-baf4-c63b8e25773a.png?v=1761332564"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3634,9 +3634,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7791,
-    "altura": 0.5286,
-    "topo": 0.3264
+    "largura": 0.889,
+    "altura": 0.4529,
+    "topo": 0.4321
    }
   },
   {
@@ -3659,8 +3659,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Q-106DCLUBDENUITINTENSE_M_FIF_35eb8c44-1c07-4d2a-8164-6e4f1b2b8b41.jpg?v=1739111440",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3674,9 +3674,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4982,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.706,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3704,8 +3704,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CDN-Overdose-john-Abraham-Edition-group.jpg?v=1783017359"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3719,9 +3719,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4727,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.67,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3744,8 +3744,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITINTENSEWOMAN011.png?v=1765209641",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3759,9 +3759,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2855,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.404,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3793,8 +3793,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/35721_2.png?v=1752062975"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3808,9 +3808,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4709,
-    "altura": 0.7986,
-    "topo": 0.0564
+    "largura": 0.667,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3833,8 +3833,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/67.png?v=1758576374",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3848,9 +3848,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5045,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.715,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3873,8 +3873,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitleddesign-2025-10-24T235342.652.png?v=1761332116",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3888,9 +3888,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4864,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.689,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3913,8 +3913,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/55.png?v=1758574164",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3928,9 +3928,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3945,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.56,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3953,8 +3953,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2023-10-02T104400.330.jpg?v=1739111609",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -3968,9 +3968,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4155,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.589,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -3993,8 +3993,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/59.png?v=1758575714",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4008,9 +4008,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4255,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.603,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4033,8 +4033,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/60.png?v=1758575805",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4048,9 +4048,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4245,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.602,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4073,8 +4073,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image_15.webp?v=1758575927",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4088,9 +4088,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4164,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.59,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4113,8 +4113,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/61.png?v=1758575864",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4128,9 +4128,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4264,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.604,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4153,8 +4153,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CDN_Milestone_8.4_oz_1.png?v=1775849644",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4168,9 +4168,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6318,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.8445,
+    "topo": 0.0405
    }
   },
   {
@@ -4219,8 +4219,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/image-2022-12-05T152232.929_76c8d1c7-16b6-4e7c-b70f-e8b6e35ab5f3.jpg?v=1752061921"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4234,9 +4234,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5155,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.73,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4259,8 +4259,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITURBANMAN01.png?v=1765209493",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4274,9 +4274,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4755,
-    "altura": 0.8005,
-    "topo": 0.0545
+    "largura": 0.674,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4324,8 +4324,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/GS-Odyssey_Limoni_PhotoGrid.png_Displaying_GS-Odyssey_Limoni_PhotoGrid.png._4.png?v=1757026517"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4339,9 +4339,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5145,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.729,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4397,8 +4397,8 @@
     "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitled_design_-_2025-09-26T224020.469.png?v=1774468835"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4412,9 +4412,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4936,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.699,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4436,8 +4436,8 @@
    "foto": "imagens/web/armaf-club-de-nuit-woman.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4452,9 +4452,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4218,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.615,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4476,8 +4476,8 @@
    "foto": "imagens/web/badee-al-oud-for-glory.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4492,9 +4492,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4191,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.593,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4520,8 +4520,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Ana-Abiyedh-Coral-3_1789baaf-8204-4b3d-b22d-7642ffe39e8e.png?v=1747416667"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4535,9 +4535,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3136,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.445,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4563,8 +4563,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_c8937e6f-de06-4fc5-a985-794fc53fe171.png?v=1756361411"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4578,9 +4578,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2918,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.413,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4605,8 +4605,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/29.png?v=1777559401"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4620,9 +4620,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3227,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.457,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4648,8 +4648,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/ANA_ABIYEDH_SCARLET_BOX.png?v=1756142969"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4663,9 +4663,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2891,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.41,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4697,8 +4697,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Asad-2_5648df5a-3865-4d87-b7f7-b89f81aab2af.png?v=1747421311"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4712,9 +4712,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3482,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.494,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4736,8 +4736,8 @@
    "foto": "imagens/web/lattafa-asad.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -4752,9 +4752,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2973,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.434,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4780,8 +4780,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/AsadElixirBox.png?v=1760805808"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4795,9 +4795,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3436,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.487,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4823,8 +4823,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Asad-Zanzibar-3_0075fe25-60b5-42e7-8faa-98ceb8c81645.png?v=1747415448"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4838,9 +4838,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3345,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.474,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4866,8 +4866,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Amethyst-3.png?v=1747422428"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4881,9 +4881,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4873,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.691,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4953,8 +4953,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/6_f5ddf780-2cd3-4804-aaa0-2e6bcf11383e.png?v=1747556985"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -4968,9 +4968,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4191,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.593,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -4996,8 +4996,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Honor-_-Glory-3_3f6059c6-1cc0-4ca3-91d1-5ffe9e4c3afe.png?v=1747415524"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5011,9 +5011,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4909,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.695,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5039,8 +5039,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Noble-Blush-3_613fad09-045e-486c-bcc0-5f964888c94b.png?v=1747415567"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5054,9 +5054,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4809,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.682,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5082,8 +5082,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Badee-Al-Oud-Sublime-3.png?v=1747421363"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5097,9 +5097,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4818,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.682,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5125,8 +5125,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Emaan-3.png?v=1747421403"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5140,9 +5140,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3609,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.511,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5164,8 +5164,8 @@
    "foto": "imagens/web/lattafa-emaan.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5180,9 +5180,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3082,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.449,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5209,8 +5209,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_7de3e2e3-0160-46af-bf80-c5a56f56422b.png?v=1747500779"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5224,9 +5224,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.48,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.681,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5252,8 +5252,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3-66.jpg?v=1747745106"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5267,9 +5267,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5073,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.718,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5296,8 +5296,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_59f1f36b-5798-41e3-b0f2-d74813d5f2bc.png?v=1749465623"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5311,9 +5311,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4809,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.681,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5339,8 +5339,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_2ee5e79f-3b16-4f12-b703-16227e5bd651.png?v=1750614271"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5354,9 +5354,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4709,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.667,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5378,8 +5378,8 @@
    "foto": "imagens/web/lattafa-fakhar-women.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5394,9 +5394,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4018,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.587,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5422,8 +5422,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Haya-3.png?v=1747421438"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5437,9 +5437,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3591,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.509,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5461,8 +5461,8 @@
    "foto": "imagens/web/lattafa-haya.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5477,9 +5477,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3064,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.448,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5505,8 +5505,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Hayaati-Al-Maleky-3_9d6fce99-044f-4eec-91db-3f9d5e88a87a.png?v=1747415751"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5520,9 +5520,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3591,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.508,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5549,8 +5549,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/4_76d46c8f-a41a-47d8-86b3-892dacae2268.png?v=1747499445"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5564,9 +5564,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3409,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.483,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5592,8 +5592,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-3_955c3269-4a1d-4c5a-ac88-b2be98b8fc55.png?v=1747421472"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5607,9 +5607,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6118,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.867,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5635,8 +5635,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-Dukhan-3_989712d8-d18c-4ad6-8579-4fdae7ba40a3.png?v=1747416848"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5650,9 +5650,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5991,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.848,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5674,8 +5674,8 @@
    "foto": "imagens/web/lattafa-khamrah.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5690,9 +5690,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5227,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.763,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5718,8 +5718,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Khamrah-Qahwa-3_fc8954fb-9ed2-4bcc-974a-d87f75101383.png?v=1747416095"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5733,9 +5733,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5936,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.841,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5798,8 +5798,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Teriaq-3_8fc84099-f6f2-4be8-badd-665aeae0baf1.png?v=1747416456"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5813,9 +5813,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2691,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.381,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5841,8 +5841,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Teriaq-Intense-3_bd446110-92a1-4501-b132-7de36afaceb9.png?v=1747416499"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5856,9 +5856,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2636,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.373,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5880,8 +5880,8 @@
    "foto": "imagens/web/lattafa-teriaq-intense.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -5896,9 +5896,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2255,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.328,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -5962,8 +5962,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Yara12ML-min_1024x1024_d4615f63-d2fb-4db6-8b79-4dfc97423dba.webp?v=1754614094"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -5977,9 +5977,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3491,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.495,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6012,8 +6012,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/Yara-Candy-3_3fcc3bb7-6512-4efd-89e6-99ec36565e9c.png?v=1747416617"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6027,9 +6027,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3536,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.502,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6051,8 +6051,8 @@
    "foto": "imagens/web/lattafa-yara-candy.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -6067,9 +6067,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3018,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.441,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6091,8 +6091,8 @@
    "foto": "imagens/web/lattafa-yara.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -6107,9 +6107,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2982,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.435,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6135,8 +6135,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/YaraElixirBox.png?v=1760805808"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6150,9 +6150,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3564,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.505,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6252,8 +6252,8 @@
    "foto": "imagens/web/lattafa-yara-rose.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -6268,9 +6268,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.5723,
-    "topo": 0.2827
+    "largura": 0.89,
+    "altura": 0.4897,
+    "topo": 0.3953
    }
   },
   {
@@ -6303,8 +6303,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/3_fc032ecc-f474-4fc1-bb84-285c5b001b32.png?v=1749487600"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6318,9 +6318,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.35,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.496,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6342,8 +6342,8 @@
    "foto": "imagens/web/lattafa-yara-tous.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -6358,9 +6358,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2991,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.436,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6382,8 +6382,8 @@
    "foto": "imagens/web/maison-alhambra-delilah.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -6398,9 +6398,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4827,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.684,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6429,8 +6429,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-90-ea-azelaic-10-hyaluron-redness-soothing-pad-1170826122.png?v=1757398003"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6444,9 +6444,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7295,
-    "topo": 0.1255
+    "largura": 0.89,
+    "altura": 0.6247,
+    "topo": 0.2603
    }
   },
   {
@@ -6475,8 +6475,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-azelaic-3-cica-skin-clarifying-toner-1189970123.png?v=1757563094"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6490,9 +6490,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2255,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.319,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6515,8 +6515,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-azelaic-acid-10-hyaluron-redness-soothing-serum-10ml-1245700569.jpg?v=1782191112",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6530,9 +6530,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3409,
-    "altura": 0.7986,
-    "topo": 0.0564
+    "largura": 0.482,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6561,8 +6561,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-moisturizer-azelaic-acid-cica-skin-soothing-moisturizer-1223720409.png?v=1771996448"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6576,9 +6576,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2191,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.31,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6693,8 +6693,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-cleanser-heartleaf-quercetinol-pore-deep-cleansing-foam-1239362116.png?v=1779269413"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6708,9 +6708,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3236,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.459,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6733,8 +6733,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-niacinamide-10-txa-4-serum-for-brightening-and-dark-spots-10ml-1245700570.jpg?v=1782191170",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6748,9 +6748,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3409,
-    "altura": 0.7986,
-    "topo": 0.0564
+    "largura": 0.484,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6779,8 +6779,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-60-ea-niacinamide-5-txa-brightening-pad-1170826112.png?v=1760941908"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6794,9 +6794,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.735,
-    "topo": 0.12
+    "largura": 0.89,
+    "altura": 0.6292,
+    "topo": 0.2558
    }
   },
   {
@@ -6859,8 +6859,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-niacinamide-tranexamic-acid-brightening-booster-toner-niacinamide-tranexamic-acid-brightening-booster-toner-1224903077.png?v=1772607969"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6874,9 +6874,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2536,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.36,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6899,8 +6899,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-pdrn-100-hyaluronic-acid-booster-toner-40ml-1245700566.jpg?v=1782190994",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6914,9 +6914,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2536,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.36,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -6945,8 +6945,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-60-ea-pdrn-100-hyaluronic-acid-glow-pad-1170826106.png?v=1757400043"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -6960,9 +6960,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7295,
-    "topo": 0.1255
+    "largura": 0.89,
+    "altura": 0.6247,
+    "topo": 0.2603
    }
   },
   {
@@ -6985,8 +6985,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/gwp-2-pdrn-100-hyaluronic-acid-glow-pad-10ea-1245700563.jpg?v=1782190813",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7000,9 +7000,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5755,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.815,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7031,8 +7031,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-pdrn-100-hyaluronic-acid-hydrating-capsule-mist-100ml-pdrn-100-hyaluronic-acid-hydrating-capsule-mist-100ml-1210548672.jpg?v=1774502245"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7046,9 +7046,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.76,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7027,
+    "topo": 0.1823
    }
   },
   {
@@ -7117,8 +7117,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-spot-patches-pdrn-collagen-melting-patch-for-glass-skin-4ea-1211228841.jpg?v=1765782449"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7132,9 +7132,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5036,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.714,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7163,8 +7163,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-spot-patches-pdrn-collagen-melting-patch-for-neck-4ea-1210980624.png?v=1773995046"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7178,9 +7178,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4336,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.615,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7243,8 +7243,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-ampoule-serum-30ml-peach-70-niacinamide-serum-1161189372.jpg?v=1748544326"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7258,9 +7258,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3309,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.469,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7288,8 +7288,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-moisturizer-peach-77-niacin-conditioning-milk-1253848056.png?v=1786445830"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7303,9 +7303,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2418,
-    "altura": 0.7986,
-    "topo": 0.0564
+    "largura": 0.342,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7372,8 +7372,8 @@
     "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-toner-peach-77-niacin-essence-toner-1238497285.jpg?v=1778835608"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7387,9 +7387,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2509,
-    "altura": 0.7986,
-    "topo": 0.0564
+    "largura": 0.355,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7532,8 +7532,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/36174.jpg?v=1744178727",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -7547,9 +7547,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5064,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.717,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7652,8 +7652,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3166791/17884305959808.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7668,9 +7668,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.695,
-    "topo": 0.16
+    "largura": 0.89,
+    "altura": 0.5954,
+    "topo": 0.2896
    }
   },
   {
@@ -7697,8 +7697,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2664455/17781573780024.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7713,9 +7713,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7495,
-    "topo": 0.1055
+    "largura": 0.89,
+    "altura": 0.6419,
+    "topo": 0.2431
    }
   },
   {
@@ -7742,8 +7742,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/892189/17509645487471.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7758,9 +7758,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2173,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.309,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7828,8 +7828,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/805615/finetoday-fino-premium-touch-hair-oil-oleo-capilar--4-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7844,9 +7844,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2209,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.313,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7872,8 +7872,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1180740/17541711496276.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7888,9 +7888,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4591,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.651,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7919,8 +7919,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511761/kerastase-blond-absolu-cicaplasme-serum-capilar--1---7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7935,9 +7935,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1836,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.26,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -7966,8 +7966,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511812/kerastase-chronologiste-thermique-regenerant-leave-in-150ml--1---6-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -7982,9 +7982,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1873,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.266,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8012,8 +8012,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3237585/17872593878871.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8028,9 +8028,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3345,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.474,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8059,8 +8059,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494588/kerastase-curl-manifesto-huile-subime-repair-oleo-multiuso-50ml--7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8075,9 +8075,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2736,
-    "altura": 0.8005,
-    "topo": 0.0545
+    "largura": 0.387,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8106,8 +8106,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494828/keratase-curl-manifesto-refresh-absolu-leave-in-190ml--7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8122,9 +8122,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2464,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.349,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8150,8 +8150,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/709310/Selo.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8166,9 +8166,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4455,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.632,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8204,8 +8204,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3072522/3474636612475_EN_01.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8220,9 +8220,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3855,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.546,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8247,8 +8247,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/368047/kerastase-discipline-bain-fluidealiste-shampoo-1.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8263,9 +8263,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3936,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.557,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8292,8 +8292,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1140567/17541731791134.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8308,9 +8308,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3245,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.459,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8339,8 +8339,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3168497/17882012547098.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8355,9 +8355,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7764,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.6877,
+    "topo": 0.1973
    }
   },
   {
@@ -8386,8 +8386,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/494772/gel-em-creme-keratase-curl-manifesto-gelee-curl-contour-150ml--7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8402,9 +8402,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1818,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.258,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8433,8 +8433,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508177/kerastase-anti-chute-fortifiant-serum-finalizador--1---7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8449,9 +8449,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2491,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.353,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8594,8 +8594,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/495564/kerastase-chronologiste-huile-de-parfum-perfume-em-oleo-100ml--6-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8610,9 +8610,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2982,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.423,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8717,8 +8717,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3036785/3474637154950_EN_02.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8733,9 +8733,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3191,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.452,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8805,8 +8805,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/511939/Kerastase-Resistance-Therapiste---Leave-In-2--1---6-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8821,9 +8821,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2818,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.4,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8852,8 +8852,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/508161/tratamento-fortalecedor-kerastase-blond-absolu-cicaflash--1---7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8868,9 +8868,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2945,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.418,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8899,8 +8899,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/761189/kerastase-lhuile-de-parfum-revitalizador-oleo-capilar -3-.jpg.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8915,9 +8915,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2327,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.33,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -8946,8 +8946,8 @@
     "https://epocacosmeticos.vteximg.com.br/arquivos/ids/608258/L-Huile-Originale-Elixir-Ultime-Kerastase----Oleo-Multi-uso-3---1----2---7-.jpg"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "terceiro",
@@ -8962,9 +8962,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2918,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.413,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9028,8 +9028,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_67e46dfd-d36b-4469-8eba-772ce9defa69.png?v=1756361525",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9043,9 +9043,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2118,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.3,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9070,8 +9070,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_676c4101-c737-4d3e-97f4-749848f6d8da.png?v=1750619971"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9085,9 +9085,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1973,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.28,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9146,8 +9146,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_af32bb0d-d475-465a-a525-5eda47c548d3.png?v=1756361633",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9161,9 +9161,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2145,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.303,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9188,8 +9188,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/haya_all_over_spray_1.png?v=1750619338"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9203,9 +9203,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2027,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.287,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9228,8 +9228,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_8cd4cfe9-d5fc-4fe9-ad9d-a994b798957f.png?v=1756361835",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9243,9 +9243,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2082,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.295,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9268,8 +9268,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_7f519c42-06c4-4642-9595-bc9488459e2b.png?v=1756362184",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9283,9 +9283,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2118,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.3,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9311,8 +9311,8 @@
     "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/yara_all_over_spray_2.png?v=1750616047"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9326,9 +9326,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2036,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.288,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9351,8 +9351,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_548f71cc-cc8a-4751-b95f-d36658abf071.png?v=1756362233",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9366,9 +9366,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2109,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.299,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9391,8 +9391,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_0c708117-8cec-4504-9834-ed6e083e1624.png?v=1756362263",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9406,9 +9406,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2091,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.297,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9437,8 +9437,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/03_870b4175-779e-4b15-823a-df0b1d50b618_1.jpg?v=1788913963"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9452,9 +9452,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6918,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7717,
+    "topo": 0.1133
    }
   },
   {
@@ -9483,8 +9483,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/PDRN-CuapsuleCream_thumb05_e1507f16-c06b-49b1-b6d9-baa0b16f58cc.jpg?v=1789540645"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9498,9 +9498,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6905,
-    "topo": 0.1645
+    "largura": 0.89,
+    "altura": 0.5909,
+    "topo": 0.2941
    }
   },
   {
@@ -9529,8 +9529,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/14_1f46bb16-2b6c-4e55-9338-fe2edc820a40.jpg?v=1713858787"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9544,9 +9544,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1227,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.174,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9573,8 +9573,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/products/MicrosoftTeams-image_4.jpg?v=1719903895"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9588,9 +9588,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.4345,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.616,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9613,8 +9613,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/20251118_ME_suncreamkeyring_160068copy.jpg?v=1784161330",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9628,9 +9628,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2564,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.363,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9659,8 +9659,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/01_1_907aa553-262e-4852-b402-42efcc3d2587.jpg?v=1760949029"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9674,9 +9674,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5609,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.794,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9705,8 +9705,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_bfc149e6-44fe-4c80-8bc5-713b56389791.jpg?v=1766563811"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9720,9 +9720,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6218,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.881,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9751,8 +9751,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/06_50c752f9-8681-497e-8e24-029c26191b47.jpg?v=1769579087"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9766,9 +9766,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6245,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.885,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -9797,8 +9797,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/06_bfe1ffad-ad7d-4b7f-9da9-7f35394c84d3.jpg?v=1766555245"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9812,9 +9812,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7736,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.69,
+    "topo": 0.195
    }
   },
   {
@@ -9843,8 +9843,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_e3cac513-b20b-475c-9f2d-2fe80949cc6f.jpg?v=1748325840"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -9858,9 +9858,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7782,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.6862,
+    "topo": 0.1988
    }
   },
   {
@@ -9997,8 +9997,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/1_04039b0e-fa91-461f-bd9d-4f438f38e61b.jpg?v=1752806801",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10012,9 +10012,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.3036,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.43,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -10077,8 +10077,8 @@
    "foto_origem": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/20211103_all_set18573.png?v=1781082114",
    "foto_alternativas": [],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10092,9 +10092,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2236,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.317,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -10121,8 +10121,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/04_3616addc-f184-4deb-a5d7-e3a782e4713d.jpg?v=1768375377"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10136,9 +10136,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7564,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7057,
+    "topo": 0.1793
    }
   },
   {
@@ -10167,8 +10167,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/03_448eab9e-dc60-4dcb-9e4e-e863aabb61b0.jpg?v=1779348862"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10182,9 +10182,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.6773,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7882,
+    "topo": 0.0968
    }
   },
   {
@@ -10293,8 +10293,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_89919f8c-a991-4230-9dd3-0e1d20f33269.jpg?v=1783650385"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10308,9 +10308,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6132,
-    "topo": 0.2418
+    "largura": 0.89,
+    "altura": 0.5249,
+    "topo": 0.3601
    }
   },
   {
@@ -10339,8 +10339,8 @@
     "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/05_bc9251ae-3daa-4df5-975f-b35c154c7c0a.jpg?v=1736820611"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10354,9 +10354,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.7018,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.89,
+    "altura": 0.7612,
+    "topo": 0.1238
    }
   },
   {
@@ -10384,8 +10384,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-sun-madagascar-centella-air-fit-suncream-light-spf30-pa-37102167884022.png?v=1764146418"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10399,9 +10399,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -10467,8 +10467,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-ampoule-serum-centella-ampoule-38642800132342.png?v=1677148695"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10482,9 +10482,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -10520,8 +10520,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-cleanser-centella-ampoule-foam-38409123397878.jpg?v=1717738201"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10535,9 +10535,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7923,
-    "topo": 0.0627
+    "largura": 0.89,
+    "altura": 0.6779,
+    "topo": 0.2071
    }
   },
   {
@@ -10612,8 +10612,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-cleanser-30ml-centella-light-cleansing-oil-40739321282806.png?v=1717738317"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10627,9 +10627,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -10711,8 +10711,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-toner-madagascar-centella-toning-toner-36440507875574.jpg?v=1766754953"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10726,9 +10726,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7868,
-    "topo": 0.0682
+    "largura": 0.89,
+    "altura": 0.6734,
+    "topo": 0.2116
    }
   },
   {
@@ -10896,8 +10896,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-50ml-hyalu-cica-first-ampoule-40739535487222.png?v=1717742640"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10911,9 +10911,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.6086,
-    "topo": 0.2464
+    "largura": 0.89,
+    "altura": 0.5212,
+    "topo": 0.3638
    }
   },
   {
@@ -10941,8 +10941,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-200ml-hyalu-cica-gentle-cleansing-milk-1183173361.png?v=1754369826"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -10956,9 +10956,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -10987,8 +10987,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-hyalu-cica-hydrating-mask-1215677848.jpg?v=1767869947"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11002,9 +11002,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.5164,
-    "altura": 0.8005,
-    "topo": 0.0545
+    "largura": 0.731,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -11124,8 +11124,8 @@
     "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-sun-7g-hyalu-cica-silky-fit-sun-stick-40739545219318.png?v=1717742631"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11139,9 +11139,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -11481,8 +11481,8 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Kids_DS_PDP_6.png?v=1756819581"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11496,9 +11496,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1664,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.236,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -11567,8 +11567,8 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/Wheat_DS_PDP_6.png?v=1756819775"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11582,9 +11582,9 @@
    "foto_motivo": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.1673,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.237,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -11868,8 +11868,8 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/PrettyPink_Scalp_PDP_6.png?v=1758809315"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -11883,9 +11883,9 @@
    "foto_motivo": "recorte mordido (6% da silhueta), produto claro demais contra fundo branco",
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -12017,8 +12017,8 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MidnightSilver_TUDChrome_PDP_6.png?v=1771148684"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -12032,9 +12032,9 @@
    "foto_motivo": "recorte mordido (33% da silhueta), produto claro demais contra fundo branco",
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7805,
-    "topo": 0.0745
+    "largura": 0.89,
+    "altura": 0.6682,
+    "topo": 0.2168
    }
   },
   {
@@ -12246,8 +12246,8 @@
     "https://cdn.shopify.com/s/files/1/0781/0514/9772/files/MillennialPink_TUS_PDP_6.png?v=1758809651"
    ],
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "fonte": {
     "tipo": "oficial",
@@ -12261,9 +12261,9 @@
    "foto_motivo": "recorte mordido (4% da silhueta), produto claro demais contra fundo branco",
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.78,
-    "altura": 0.7795,
-    "topo": 0.0755
+    "largura": 0.89,
+    "altura": 0.6674,
+    "topo": 0.2176
    }
   },
   {
@@ -12325,8 +12325,8 @@
    "foto": "imagens/web/victorias-secret-aqua-kiss.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -12341,9 +12341,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2536,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.359,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   },
   {
@@ -12365,8 +12365,8 @@
    "foto": "imagens/web/victorias-secret-love-spell.webp",
    "foto_origem": null,
    "foto_tamanho": [
-    1100,
-    1100
+    1000,
+    1333
    ],
    "foto_recortada": true,
    "foto_motivo": null,
@@ -12381,9 +12381,9 @@
    "descricao": null,
    "foto_composta": true,
    "foto_base": {
-    "largura": 0.2555,
-    "altura": 0.7995,
-    "topo": 0.0555
+    "largura": 0.362,
+    "altura": 0.8505,
+    "topo": 0.0345
    }
   }
  ]

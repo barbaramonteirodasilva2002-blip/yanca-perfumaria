@@ -1,0 +1,88 @@
+{
+ "banners": [
+  {
+   "nome": "banner-marcas",
+   "deitado": [
+    1800,
+    600
+   ],
+   "deitado_origem": [
+    1800,
+    600
+   ],
+   "cor": "#f8f8f8",
+   "em_pe": [
+    1036,
+    1519
+   ],
+   "em_pe_origem": [
+    1036,
+    1519
+   ],
+   "cor_em_pe": "#f8f8f8"
+  },
+  {
+   "nome": "banner-kerastase",
+   "deitado": [
+    1800,
+    600
+   ],
+   "deitado_origem": [
+    1800,
+    600
+   ],
+   "cor": "#e8e8e8",
+   "em_pe": [
+    1036,
+    1518
+   ],
+   "em_pe_origem": [
+    1036,
+    1518
+   ],
+   "cor_em_pe": "#e8e8e8"
+  },
+  {
+   "nome": "banner-rotina",
+   "deitado": [
+    1800,
+    600
+   ],
+   "deitado_origem": [
+    1800,
+    600
+   ],
+   "cor": "#f8f0f0",
+   "em_pe": [
+    853,
+    1844
+   ],
+   "em_pe_origem": [
+    853,
+    1844
+   ],
+   "cor_em_pe": "#f8f8f8"
+  },
+  {
+   "nome": "banner-cuidar",
+   "deitado": [
+    2000,
+    667
+   ],
+   "deitado_origem": [
+    2172,
+    724
+   ],
+   "cor": "#f8f0e8",
+   "em_pe": [
+    1036,
+    1519
+   ],
+   "em_pe_origem": [
+    1036,
+    1519
+   ],
+   "cor_em_pe": "#f0e0d8"
+  }
+ ]
+}

@@ -1,0 +1,3015 @@
+{
+ "produtos": [
+  {
+   "slug": "dior-sauvage-eau-de-toilette",
+   "marca": "Dior",
+   "nome": "Sauvage Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716237/1.-3348900627499.jpg.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "eau-sauvage-eau-de-toilette-dior-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Eau Sauvage Dior - Perfume Masculino - Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-sauvage-eau-de-parfum",
+   "marca": "Dior",
+   "nome": "Sauvage Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961562/sauvage-parfum-dior-perfume-masculino-20-6-.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961563/sauvage-parfum-dior-perfume-masculino-20-5-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961568/sauvage-parfum-dior-perfume-masculino-20-5-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961569/sauvage-parfum-dior-perfume-masculino-20-6-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961574/sauvage-parfum-dior-perfume-masculino-20-6-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961575/sauvage-parfum-dior-perfume-masculino-20-5-.jpg.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "sauvage-parfum-dior-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Sauvage Parfum Dior Masculino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-sauvage-elixir",
+   "marca": "Dior",
+   "nome": "Sauvage Elixir",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961905/sauvage-elixir-dior-perfume-masculino-edp-20-5-.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961906/sauvage-elixir-dior-perfume-masculino-edp-20-6-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961911/sauvage-elixir-dior-perfume-masculino-edp-20-6-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/961912/sauvage-elixir-dior-perfume-masculino-edp-20-5-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1159174/sauvage-elixir-dior-perfume-masculino-edp--1-.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "sauvage-elixir-dior-perfume-masculino-edp",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Sauvage Elixir Dior Masculino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-miss-dior-eau-de-parfum",
+   "marca": "Dior",
+   "nome": "Miss Dior Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "20 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "35 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131926/3348901708944_1.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131927/3348901708944_2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131928/3348901708920 -3348901708937_3.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131929/3348901627351 3348901627368 -3348901627375334890170892 -33489017089373348901708944_4.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131930/3348901627351 -3348901627368 -3348901627375 _53348901708920 -3348901708937_5.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3131931/Subir-em-todos-3348901500821.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "miss-dior-perfume-feminino-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Miss Dior Parfum Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-j-adore-eau-de-parfum",
+   "marca": "Dior",
+   "nome": "J'adore Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "20 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931462/1.3348901738200.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931463/2.3348901738200.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931464/3.3348901738224.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931465/4.3348901664653-4.3348901597715-4.3348901700931-4.3348901738224-4.3348901773355-4.3348901773362.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931466/5.3348901597715-5.3348901664653-5.3348901700931-5.3348901738224-5.3348901773355-5.3348901773362-4.3348901296632.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2931467/6.3348901738224.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "j-adore-eau-de-parfum-dior-perfume-feminino",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume J'adore Dior Eau de Parfum Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-dior-homme-eau-de-toilette",
+   "marca": "Dior",
+   "nome": "Dior Homme Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "125 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767231/1.-3348901419147.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767232/2.-3348901419147.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767234/33489014191303348901419147--1-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767235/33489014191303348901419147.3348900838178.3348900838185.3348901580069.3348901580076.3348901126359.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767226/1.-3348901419130.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767227/2.-3348901419130.jpg.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "dior-homme-dior-perfume-masculino-edt",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Dior Homme Dior Eau de Toilette Masculino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dior-poison-girl-eau-de-parfum",
+   "marca": "Dior",
+   "nome": "Poison Girl Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716153/1.-3348901293839.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716154/2.-3348901293839.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716155/1.-3348901293846.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/716156/2.-3348901293846.jpg.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "poison-girl-eau-de-parfum-dior-perfume-feminino",
+    "marca_dagua": false,
+    "nome_na_origem": "Poison Girl Dior - Perfume Feminino - Eau de Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-good-girl-eau-de-parfum",
+   "marca": "Carolina Herrera",
+   "nome": "Good Girl Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078364/17786946985175.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078404/17786946995571.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078343/17786947006422.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078378/17786947018397.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078379/17786947030113.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "good-girl-carolina-herrera-eau-de-parfum-80ml-230459",
+    "marca_dagua": false,
+    "nome_na_origem": "Good Girl Carolina Herrera Eau De Parfum 80Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-very-good-girl-eau-de-parfum",
+   "marca": "Carolina Herrera",
+   "nome": "Very Good Girl Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2282742/17799917359762.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2282741/17799917399685.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2282747/17799917418015.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "very-good-girl-carolina-herrera-eau-de-parfum-feminino-80ml-239004",
+    "marca_dagua": false,
+    "nome_na_origem": "Very Good Girl Carolina Herrera Eau de Parfum Feminino 80ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-212-vip-men-eau-de-toilette",
+   "marca": "Carolina Herrera",
+   "nome": "212 VIP Men Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132856/17882627398799.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "212-vip-men-carolina-herrera-masculino-eau-de-toilette-200ml-284782",
+    "marca_dagua": false,
+    "nome_na_origem": "212 Vip Men Carolina Herrera Masculino Eau de Toilette 200Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-212-vip-rose-eau-de-parfum",
+   "marca": "Carolina Herrera",
+   "nome": "212 VIP Rosé Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "125 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3182042/17882628585855.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "212-vip-rose-carolina-herrera-feminino-eau-de-parfum-30ml-288625",
+    "marca_dagua": false,
+    "nome_na_origem": "212 Vip Rosé Carolina Herrera Feminino Eau De Parfum 30Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-bad-boy-eau-de-toilette",
+   "marca": "Carolina Herrera",
+   "nome": "Bad Boy Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116988/17882696519533.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "bad-boy-carolina-herrera-masculino-eau-de-toilette-100ml-283140",
+    "marca_dagua": false,
+    "nome_na_origem": "Bad Boy Carolina Herrera Masculino Eau de Toilette 100Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-ch-eau-de-parfum",
+   "marca": "Carolina Herrera",
+   "nome": "CH Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116859/17882736366973.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "ch-men-pasion-carolina-herrera-masculino-eau-de-parfum-100ml-283033",
+    "marca_dagua": false,
+    "nome_na_origem": "CH Men Pasión Carolina Herrera Masculino Eau de Parfum 100Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-1-million-eau-de-toilette",
+   "marca": "Paco Rabanne",
+   "nome": "1 Million Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "10 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116843/17882579689878.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "1-million-rabanne-masculino-eau-de-toilette-30ml-283021",
+    "marca_dagua": false,
+    "nome_na_origem": "1 Million Rabanne Masculino Eau de Toilette 30Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-invictus-eau-de-toilette",
+   "marca": "Paco Rabanne",
+   "nome": "Invictus Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/192156/invictus-eau-de-toilette-paco-rabanne-perfume-masculino.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/355989/invictus-eau-de-toilette-paco-rabanne-100ml-perfume-masculino-2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/360875/paco-rabanne-invictus.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/182843/invictus-eau-de-toilette-paco-rabanne-100ml-perfume-masculino-2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/192157/invictus-eau-de-toilette-paco-rabanne-perfume-masculino.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/192160/invictus-eau-de-toilette-50ml-paco-rabanne-perfume-masculino.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "invictus-eau-de-toilette-paco-rabanne-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Invictus Rabanne Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-olympea-eau-de-parfum",
+   "marca": "Paco Rabanne",
+   "nome": "Olympéa Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116929/17882952439682.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "olympea-rabanne-feminino-parfum-80ml-283093",
+    "marca_dagua": false,
+    "nome_na_origem": "Olympéa Rabanne Feminino Parfum 80Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-lady-million-eau-de-parfum",
+   "marca": "Paco Rabanne",
+   "nome": "Lady Million Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3116867/17882898048129.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "lady-million-rabanne-feminino-eau-de-parfum-30ml-283041",
+    "marca_dagua": false,
+    "nome_na_origem": "Lady Million Rabanne Feminino Eau de Parfum 30Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-phantom-eau-de-toilette",
+   "marca": "Paco Rabanne",
+   "nome": "Phantom Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3249504/17882956992554.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "phantom-rabanne-masculino-eau-de-toilette-100ml-294104",
+    "marca_dagua": false,
+    "nome_na_origem": "Phantom Rabanne Masculino Eau de Toilette 100Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lancome-la-vie-est-belle-eau-de-parfum",
+   "marca": "Lancôme",
+   "nome": "La Vie Est Belle Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1141014/17604551002272.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1141013/17604551019851.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1141010/17604551040312.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1141012/17604551056330.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1141011/17604551072388.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "la-vie-est-belle-lancome-eau-de-parfum-100ml-151794",
+    "marca_dagua": false,
+    "nome_na_origem": "La Vie Est Belle Lancôme Eau de Parfum 100ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lancome-idole-eau-de-parfum",
+   "marca": "Lancôme",
+   "nome": "Idôle Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "25 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3184270/17882810941402.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "idole-lancome-feminino-eau-de-parfum-100ml-288781",
+    "marca_dagua": false,
+    "nome_na_origem": "Idôle Lancôme Feminino Eau De Parfum 100Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lancome-tresor-eau-de-parfum",
+   "marca": "Lancôme",
+   "nome": "Trésor Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2566814/17816029425821.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2566815/17816029443035.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "tresor-lancome--eau-de-parfum-feminino-30-ml-250466",
+    "marca_dagua": false,
+    "nome_na_origem": "Trésor Lancôme  Eau De Parfum Feminino-30 Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "yves-saint-laurent-libre-eau-de-parfum",
+   "marca": "Yves Saint Laurent",
+   "nome": "Libre Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2556492/17774421285072.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2556496/17774421307304.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "libre-yves-saint-laurent-eau-de-parfum-feminino-50-ml-249746",
+    "marca_dagua": false,
+    "nome_na_origem": "Libre Yves Saint Laurent Eau De Parfum Feminino-50 Ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "yves-saint-laurent-black-opium-eau-de-parfum",
+   "marca": "Yves Saint Laurent",
+   "nome": "Black Opium Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2826101/17853578604561.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-black-opium-glitter-90-ml-eau-de-parfum-spray-feminino-263937",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Black Opium Glitter 90 ML Eau De Parfum Spray Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "yves-saint-laurent-y-eau-de-parfum",
+   "marca": "Yves Saint Laurent",
+   "nome": "Y Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555602/17799920704350.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555597/17799920732804.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "y-yves-saint-laurent-eau-de-parfum-masculino-60-ml-249510",
+    "marca_dagua": false,
+    "nome_na_origem": "Y Yves Saint Laurent Eau de Parfum Masculino-60 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "yves-saint-laurent-myslf-eau-de-parfum",
+   "marca": "Yves Saint Laurent",
+   "nome": "MYSLF Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555486/17799009860241.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555547/17799009873186.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "myslf-yves-saint-laurent-eau-de-parfum-masculino-60-ml-249492",
+    "marca_dagua": false,
+    "nome_na_origem": "MYSLF Yves Saint Laurent Eau de Parfum Masculino-60 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "versace-eros-eau-de-toilette",
+   "marca": "Versace",
+   "nome": "Eros Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2250185/17799943445126.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2250192/17799943464091.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "eros-versace--masculino-eau-de-toilette-200-ml-238055",
+    "marca_dagua": false,
+    "nome_na_origem": "Eros Versace  Masculino Eau de Toilette-200 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "versace-eros-flame-eau-de-parfum",
+   "marca": "Versace",
+   "nome": "Eros Flame Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/345551/5330-2.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/345552/5330.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/464177/ak31VZF.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/345555/5347-2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/345556/5347.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/464127/ak31VZF.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "eros-falme-eau-de-parfum-versace-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Eros Flame Versace - Perfume Masculino - Eau de Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "versace-bright-crystal-eau-de-toilette",
+   "marca": "Versace",
+   "nome": "Bright Crystal Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1052840/17581936082384.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1052841/17581936093012.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "bright-crystal-versace-eau-de-toilette-feminino-98686",
+    "marca_dagua": false,
+    "nome_na_origem": "Bright Crystal Versace Eau de Toilette Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "versace-dylan-blue-eau-de-toilette",
+   "marca": "Versace",
+   "nome": "Dylan Blue Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2500032/17818045054740.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2500033/17818045087751.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "versace-dylan-blue-masculino-eau-de-toilette-100ml-248088",
+    "marca_dagua": false,
+    "nome_na_origem": "Versace Dylan Blue Masculino Eau de Toilette 100ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "giorgio-armani-acqua-di-gio-eau-de-toilette",
+   "marca": "Giorgio Armani",
+   "nome": "Acqua di Giò Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555451/17788805352991.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2555457/17788805361639.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "acqua-di-gio-profondo-eau-de-toilette-masculino-100-ml-249474",
+    "marca_dagua": false,
+    "nome_na_origem": "Acqua di Giò Profondo Eau de Toilette Masculino-100 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "giorgio-armani-acqua-di-gio-profondo-eau-de-parfum",
+   "marca": "Giorgio Armani",
+   "nome": "Acqua di Giò Profondo Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "125 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3208011/17900054591827.jpg",
+   "foto_alternativas": [],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-acqua-di-gio-profondo-100-ml-parfum-spray-masculino-289615",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Acqua Di Gio Profondo 100 ML Parfum Spray Masculino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "giorgio-armani-si-eau-de-parfum",
+   "marca": "Giorgio Armani",
+   "nome": "Si Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361387/si-eau-de-parfum-giorgio-armani-perfume-feminino--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361388/si-eau-de-parfum-giorgio-armani-perfume-feminino--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361389/si-eau-de-parfum-giorgio-armani-perfume-feminino--8-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361390/si-eau-de-parfum-giorgio-armani-perfume-feminino--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361391/si-eau-de-parfum-giorgio-armani-perfume-feminino--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361392/si-eau-de-parfum-giorgio-armani-perfume-feminino--7-.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "si-eau-de-parfum-giorgio-armani-perfume-feminino",
+    "marca_dagua": false,
+    "nome_na_origem": "Si Giorgio Armani - Perfume Feminino - Eau de Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "giorgio-armani-stronger-with-you-eau-de-toilette",
+   "marca": "Giorgio Armani",
+   "nome": "Stronger With You Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361421/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361422/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361423/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--7-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361424/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361425/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1361426/stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette--2-.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "stronger-with-you-he-giorgio-armani-perfume-masculino-eau-de-toilette",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Stronger with You Giorgio Armani Masculino Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "jean-paul-gaultier-le-male-eau-de-toilette",
+   "marca": "Jean Paul Gaultier",
+   "nome": "Le Male Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "40 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "125 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249539/17799914642388.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249646/17799914698280.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "le-male-jean-paul-gaultier-eau-de-toilette-masculino-75-ml-237818",
+    "marca_dagua": false,
+    "nome_na_origem": "Le Male Jean Paul Gaultier Eau de Toilette Masculino-75 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "jean-paul-gaultier-le-male-le-parfum",
+   "marca": "Jean Paul Gaultier",
+   "nome": "Le Male Le Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "125 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080705/17876078038078.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080722/17876078077826.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080710/17876078109492.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080713/17876078194581.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3080708/17876078273745.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "jean-paul-gaultier-le-male-le-parfum-125ml-280257",
+    "marca_dagua": false,
+    "nome_na_origem": "Jean Paul Gaultier Le Male Le Parfum 125ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "jean-paul-gaultier-scandal-eau-de-parfum",
+   "marca": "Jean Paul Gaultier",
+   "nome": "Scandal Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249989/17799012211550.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249971/17799012232943.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "scandal-jean-paul-gaultier-eau-de-parfum-feminino-50-ml-237953",
+    "marca_dagua": false,
+    "nome_na_origem": "Scandal Jean Paul Gaultier Eau de Parfum Feminino-50 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "jean-paul-gaultier-la-belle-eau-de-parfum",
+   "marca": "Jean Paul Gaultier",
+   "nome": "La Belle Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1194263/17619502752730.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1194262/17619502750278.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195201/17619502754332.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195208/17619502750278.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195242/17619502756137.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1195248/17619502750278.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "la-belle-jean-paul-gaultier-eau-de-parfum-feminino-164456",
+    "marca_dagua": false,
+    "nome_na_origem": "La Belle Jean Paul Gaultier Eau De Parfum Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dolce-gabbana-light-blue-eau-de-toilette",
+   "marca": "Dolce & Gabbana",
+   "nome": "Light Blue Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "25 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "40 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891080/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891081/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino--8-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891082/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891083/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891084/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino--6-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/891085/light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "light-blue-eau-de-toilette-dolce-gabbana-perfume-feminino",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Light Blue Dolce&Gabbana Eau de Toilette Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dolce-gabbana-the-one-eau-de-parfum",
+   "marca": "Dolce & Gabbana",
+   "nome": "The One Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2121846/07787894279656.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2121849/27787894268939.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2121873/27787894293196.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2121861/37787894307031.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "the-one-dolce-amp-gabbana--eau-de-parfum-75ml-231446",
+    "marca_dagua": false,
+    "nome_na_origem": "The One Dolce&Gabbana  Eau de Parfum 75ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dolce-gabbana-k-eau-de-toilette",
+   "marca": "Dolce & Gabbana",
+   "nome": "K Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/719160/DG-K-EDT-100ML--2---1-.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/719161/DG-K-EDT-100ML--2---4-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/469560/DG-K-EDT-50ML--2-.gif",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/469561/DG-K-EDT-50ML--1-.gif",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/471031/SELO-ADIPEC-1.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/482825/DG-K-EDT-150ML--1-.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "k-dolce-e-gabanna-perfume-masculino-eau-de-toilette",
+    "marca_dagua": false,
+    "nome_na_origem": "K Dolce&Gabanna - Perfume Masculino - Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "dolce-gabbana-devotion-eau-de-parfum",
+   "marca": "Dolce & Gabbana",
+   "nome": "Devotion Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "20 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199343/07797354864460.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199348/17797354875124.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199355/27797354842385.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2199354/37797354854840.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "devotion-dolce-amp-gabbana-eau-de-parfum--50ml-233366",
+    "marca_dagua": false,
+    "nome_na_origem": "Devotion Dolce&Gabbana Eau De Parfum  50ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "burberry-her-eau-de-parfum",
+   "marca": "Burberry",
+   "nome": "Her Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666646/1.-3616305947277.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666647/2.-3616305947277.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666648/3.-3616305947277.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666649/4.-3616305947277-3616305947321-3616305947291.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666650/5.-3616305947277-3616305947321-3616305947291.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1666714/1.-3616305947321.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-her-burberry-feminino-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Her Burberry Feminino Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "burberry-my-burberry-eau-de-parfum",
+   "marca": "Burberry",
+   "nome": "My Burberry Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/787640/17399191383734.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/787641/17399191392134.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/787643/17399191399364.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "my-burberry-feminino-eau-de-parfum--90-ml-98160",
+    "marca_dagua": false,
+    "nome_na_origem": "My BURBERRY Feminino Eau de Parfum -90 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "montblanc-legend-eau-de-toilette",
+   "marca": "Montblanc",
+   "nome": "Legend Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737334/3386460032681---Legend-100.-2.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737335/3386460032681---Legend-100.-3.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737336/3386460032681---Legend-100.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737337/01.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737338/02.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737339/03.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "legend-eau-de-toilette-montblanc-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Legend Montblanc - Perfume Masculino - Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "montblanc-explorer-eau-de-parfum",
+   "marca": "Montblanc",
+   "nome": "Explorer Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "60 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737407/3386460101035.1.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737408/3386460101035.2.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737409/3386460101035.3.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737410/Explorer-Montblanc-Perfume-Masculino---Eau-de-Parfum.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737411/Explorer-Montblanc-Perfume-Masculino---Eau-de-Parfum-4.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/737412/Explorer-Montblanc-Perfume-Masculino---Eau-de-Parfum-2.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "explorer-montblanc-perfume-masculino-eau-de-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Explorer Montblanc Perfume Masculino - Eau de Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "azzaro-wanted-eau-de-toilette",
+   "marca": "Azzaro",
+   "nome": "Wanted Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186525/3351500016617.01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186526/3351500016617.02.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186527/3351500016617.03-3351500016600.03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186528/3351500016617.04-3351500016600.04.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186529/3351500016617.05-3351500016600.05.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186530/3351500016617.06-3351500016600.06.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "wanted-eau-de-toillete-azzaro-perfume-masculino",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Wanted Azzaro Masculino Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "azzaro-the-most-wanted-eau-de-parfum",
+   "marca": "Azzaro",
+   "nome": "The Most Wanted Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186555/3614273638869.01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186556/3614273638869.02.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186557/3614273638852.03-3614273638869.03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186558/3614273638852.04-3614273638869.04.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186559/3614273638852.05-3614273638869.05.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186560/3614273638852.06-3614273638869.06.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-the-most-azzaro-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Masculino Fougère Azzaro The Most Wanted Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "hugo-boss-boss-bottled-eau-de-toilette",
+   "marca": "Hugo Boss",
+   "nome": "Boss Bottled Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "200 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249567/17799916082684.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2249581/17799916101977.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "boss-bottled-hugo-boss-eau-de-toilette-masculino-100-ml-237783",
+    "marca_dagua": false,
+    "nome_na_origem": "Boss Bottled Hugo Boss Eau de Toilette Masculino-100 ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "hugo-boss-boss-the-scent-eau-de-toilette",
+   "marca": "Hugo Boss",
+   "nome": "Boss The Scent Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2735626/17443166201363.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2735625/17443166267907.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2735624/17443166330997.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "hugo-boss-the-scent-eau-de-toilette-100ml-260383",
+    "marca_dagua": false,
+    "nome_na_origem": "Hugo Boss The Scent Eau de Toilette 100ml"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "prada-luna-rossa-ocean-eau-de-toilette",
+   "marca": "Prada",
+   "nome": "Luna Rossa Ocean Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724046/luna-rosa-prada-perfume-masculino-eau-de-toilette--1-.jpg.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724047/luna-rosa-prada-perfume-masculino-eau-de-toilette--2-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724048/luna-rosa-prada-perfume-masculino-eau-de-toilette--3-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724049/luna-rosa-prada-perfume-masculino-eau-de-toilette--4-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724050/luna-rosa-prada-perfume-masculino-eau-de-toilette--5-.jpg.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/724051/luna-rosa-prada-perfume-masculino-eau-de-toilette--6-.jpg.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "luna-rosa-prada-perfume-masculino-eau-de-toilette",
+    "marca_dagua": false,
+    "nome_na_origem": "Luna Rossa Ocean Prada – Perfume Masculino – Eau de Toilette"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "prada-paradoxe-eau-de-parfum",
+   "marca": "Prada",
+   "nome": "Paradoxe Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "90 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060660/3614273760713.01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060661/3614273760713.2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060662/3614273760164-3614273760201-3614273760652-3614273760713.03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060663/3614273760164-3614273760201-3614273760652-3614273760713.04.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060664/3614273760164-3614273760201-3614273760652-361427376071305.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3060665/3614273760164-3614273760201-3614273760652-3614273760713.06.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "prada-paradoxe-perfume-feminino-eau-de-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Prada Paradoxe Feminino Eau de Parfum Refilável"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "valentino-born-in-roma-donna-eau-de-parfum",
+   "marca": "Valentino",
+   "nome": "Born in Roma Donna Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186833/3614272761421.01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186834/3614272761421.02.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186835/3614272761445-3614272761421-3614272761438.03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186836/3614272761445-3614272761421-3614272761438.04.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186837/3614272761445-3614272761421-3614272761438.05.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3186838/6.-3614272761445-3614272761421-3614272761438.06-3614273261333-3614273261357-3614273261401.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-valentino-born-in-roma-donna-feminino-eau-de-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Donna Valentino Born In Roma Eau de Parfum Feminino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "valentino-born-in-roma-uomo-eau-de-toilette",
+   "marca": "Valentino",
+   "nome": "Born in Roma Uomo Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "masculino",
+   "variantes": [
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189688/3614272761469.01.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189689/3614272761469.02.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189690/3614272761469.03-3614273582612.03-3614272761452.03.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189691/3614272761452.04-3614272761469.04-3614273582612.014.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189692/3614272761452.05-3614272761469.05-3614273582612.05.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3189693/3614272761469.06-3614273790826.06-3614273582612.06.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-valentino-born-in-roma-uomo-masculino-eau-de-tolitte",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume Uomo Valentino Born In Roma Eau de Toilette Masculino"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "givenchy-l-interdit-eau-de-parfum",
+   "marca": "Givenchy",
+   "nome": "L'Interdit Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "35 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132281/3274872495470--1-.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132282/3274872495470--5-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132283/3274872495470-3274872495487-3274872495494--2-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132284/3274872495470-3274872495487-3274872495494--3-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132285/3274872495470-3274872495487-3274872495494--4-.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/3132286/3274872495487--1-.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "perfume-linterdit-givenchy-feminino-parfum",
+    "marca_dagua": false,
+    "nome_na_origem": "Perfume L'Interdit Givenchy Feminino Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "narciso-rodriguez-for-her-eau-de-parfum",
+   "marca": "Narciso Rodriguez",
+   "nome": "For Her Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": "feminino",
+   "variantes": [
+    {
+     "medida": "30 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "50 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    },
+    {
+     "medida": "150 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": null,
+   "foto_origem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/582330/narciso-rodriguez-for-her-eau-de-parfum-narciso-rodriguez-perfume-feminino.jpg",
+   "foto_alternativas": [
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1608227/3423470890129-3423470890136---3423478925656.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1608228/3423470890129-3423470890136---3423478925656_2.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1608229/3423470890129-3423470890136---3423478925656_3.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1608236/narciso-rodriguez-for-her-edp-1.jpg",
+    "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1608237/3423470890129-3423470890136---3423478925656.jpg"
+   ],
+   "foto_tamanho": [
+    null,
+    null
+   ],
+   "fonte": {
+    "tipo": "terceiro",
+    "loja": "www.epocacosmeticos.com.br",
+    "handle": "narciso-rodriguez-for-her-eau-de-parfum-narciso-rodriguez-perfume-feminino",
+    "marca_dagua": false,
+    "nome_na_origem": "Narciso Rodriguez For Her Narciso Rodriguez - Perfume Feminino - Eau de Parfum"
+   },
+   "notas": null,
+   "descricao": null
+  }
+ ]
+}

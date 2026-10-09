@@ -562,6 +562,36 @@ h1, h2, h3, h4 {
    substitui é o levantar, logo abaixo, que é menor e diz mais. */
 .peca:hover .peca__retrato:not(.peca__retrato--apoiado) img { transform: scale(1.055); }
 
+/* ---------- faixa de campanha ----------
+
+   A imagem de campanha deixa de morar só no carrossel do topo. Medindo a
+   página contra a referência, a nossa estava mais pálida e mais chapada:
+   luminância 185 contra 156, variação de tom 65 contra 84, e metade das
+   faixas escuras. A causa era estrutural, não de cor: um único momento de
+   imagem forte e depois só prateleira sobre papel claro.
+
+   A faixa é de largura total, usa a proporção da própria arte, e por isso
+   não corta nem sobra, do mesmo jeito que o palco. */
+.faixa-campanha {
+  display: block; position: relative;
+  width: 100%; overflow: hidden;
+  aspect-ratio: var(--razao, 3 / 1);
+  background: var(--fundo-faixa, var(--marfim));
+}
+.faixa-campanha__arte,
+.faixa-campanha__arte img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+}
+.faixa-campanha:focus-visible { outline: 3px solid var(--bronze); outline-offset: -6px; }
+
+@media (max-width: 860px) {
+  .faixa-campanha {
+    aspect-ratio: var(--razao-pe, 1036 / 1519);
+    background: var(--fundo-faixa-pe, var(--fundo-faixa, var(--marfim)));
+  }
+}
+
 /* ---------- o produto apoiado ----------
 
    O recorte resolveu o fundo e criou outro problema: o frasco ficava
@@ -2401,4 +2431,45 @@ h1, h2, h3, h4 {
     animation: none; translate: none; opacity: 1; margin-top: 26px;
   }
   .passagem__dizer::before { display: none; }
+}
+
+/* ---------- o frasco ganha o cartão ----------
+   Medindo a referência que o dono da loja apontou contra a nossa prateleira,
+   lado a lado e no tamanho real, a diferença não era cor nem efeito: era
+   tamanho de produto. O frasco dela ocupa a largura inteira do cartão. O
+   nosso estava afundado três vezes: 11px de padding do cartão, mais 12px do
+   poço, mais 17px de recuo da imagem. Quarenta pixels de margem em volta de
+   um frasco de duzentos, com cinco colunas em vez de quatro. O resultado é
+   miniatura dentro de moldura, que lê como catálogo.
+
+   Aqui a foto encosta na borda do cartão e o texto é que recebe o respiro.
+   Quatro colunas e um naco da quinta, para a fileira continuar dizendo que
+   tem mais produto do lado. */
+.trilho {
+  grid-auto-columns: calc((100% - 4 * var(--gap-cartao)) / 4.2);
+}
+.grade { grid-template-columns: repeat(auto-fill, minmax(264px, 1fr)); }
+@media (max-width: 1080px) { .trilho { grid-auto-columns: calc((100% - 3 * var(--gap-cartao)) / 3.2); } }
+@media (max-width: 820px)  { .trilho { grid-auto-columns: calc((100% - 2 * var(--gap-cartao)) / 2.3); }
+                             .grade  { grid-template-columns: repeat(auto-fill, minmax(208px, 1fr)); } }
+@media (max-width: 540px)  { .trilho { grid-auto-columns: calc((100% - var(--gap-cartao)) / 1.42); } }
+
+.peca { padding: 0 0 16px; }
+.peca__retrato { padding: 0; margin-bottom: 14px; }
+.peca__retrato img { inset: 10px; width: calc(100% - 20px); height: calc(100% - 20px); }
+/* O texto fica com o recuo que a foto devolveu, e não encostado na borda. */
+.peca__marca, .peca__nome, .peca__rodape, .peca__avisar { padding-left: 14px; padding-right: 14px; }
+.peca__selo { top: 12px; left: 12px; }
+/* No toque o botão fica sempre visível, e no PÉ da foto.
+   Ele estava `position: static` dentro de um poço `place-items: center`, ou
+   seja: um botão de 149px parado no meio do frasco, tapando o produto que o
+   cartão existe para mostrar. Continuar absoluto e só desligar o deslize
+   devolve a barra inteira rente à base, que é onde a referência põe a dela. */
+@media (hover: none) {
+  .peca__rapido {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    transform: none; min-height: 44px; padding: 12px 10px;
+  }
+  .peca__retrato { margin-bottom: 14px; }
+  .peca__marca { margin-top: 0; }
 }

@@ -1,0 +1,718 @@
+{
+ "produtos": [
+  {
+   "slug": "dior-sauvage-eau-de-toilette",
+   "marca": "Dior",
+   "nome": "Sauvage Eau de Toilette",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/dior-sauvage-eau-de-toilette.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    423,
+    838
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": "O mais procurado",
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "carolina-herrera-good-girl-eau-de-parfum",
+   "marca": "Carolina Herrera",
+   "nome": "Good Girl Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/carolina-herrera-good-girl.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    412,
+    748
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lancome-la-vie-est-belle-eau-de-parfum",
+   "marca": "Lancôme",
+   "nome": "La Vie Est Belle Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "75 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lancome-la-vie-est-belle.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    818,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "paco-rabanne-olympea-eau-de-parfum",
+   "marca": "Paco Rabanne",
+   "nome": "Olympéa Eau de Parfum",
+   "categoria": "importados",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "80 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/rabanne-olympea.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    880,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-yara-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Yara Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": "R$ 280,00",
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-yara.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    472,
+    1007
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": "Linha Yara",
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-yara-candy-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Yara Candy Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-yara-candy.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    477,
+    1006
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-yara-tous-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Yara Tous Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-yara-tous.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    474,
+    1010
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-yara-moi-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Yara Moi Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-yara-moi.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    1100,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-khamrah-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Khamrah Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-khamrah.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    762,
+    979
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-asad-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Asad Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-asad.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    470,
+    1005
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-teriaq-intense-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Teriaq Intense Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": "R$ 285,00",
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-teriaq-intense.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    368,
+    1002
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": "Novo",
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-fakhar-women-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Fakhar Women Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": "R$ 250,00",
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-fakhar-women.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    635,
+    1037
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-emaan-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Emaan Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": "R$ 345,00",
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-emaan.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    482,
+    1000
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-haya-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Haya Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-haya.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    471,
+    981
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "badee-al-oud-oud-for-glory-eau-de-parfum",
+   "marca": "Bade'e Al Oud",
+   "nome": "Oud For Glory Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/badee-al-oud-for-glory.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    577,
+    1048
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "maison-alhambra-delilah-eau-de-parfum",
+   "marca": "Maison Alhambra",
+   "nome": "Delilah Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/maison-alhambra-delilah.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    687,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "armaf-club-de-nuit-woman-eau-de-parfum",
+   "marca": "Armaf",
+   "nome": "Club de Nuit Woman Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "105 ml",
+     "preco": "R$ 209,90",
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/armaf-club-de-nuit-woman.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    415,
+    650
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "victorias-secret-aqua-kiss-fragrance-mist",
+   "marca": "Victoria's Secret",
+   "nome": "Aqua Kiss Fragrance Mist",
+   "categoria": "beleza",
+   "subcategoria": "corpo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/victorias-secret-aqua-kiss.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    387,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "victorias-secret-love-spell-fragrance-mist",
+   "marca": "Victoria's Secret",
+   "nome": "Love Spell Fragrance Mist",
+   "categoria": "beleza",
+   "subcategoria": "corpo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "250 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/victorias-secret-love-spell.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    390,
+    1100
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "aura-beauty-aurora-shine-manteiga-corporal",
+   "marca": "Aura Beauty",
+   "nome": "Aurora Shine Manteiga Corporal",
+   "categoria": "beleza",
+   "subcategoria": "corpo",
+   "genero": null,
+   "variantes": [
+    {
+     "medida": null,
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/aura-beauty-aurora-shine.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    1024,
+    1024
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  },
+  {
+   "slug": "lattafa-yara-rose-eau-de-parfum",
+   "marca": "Lattafa",
+   "nome": "Yara Rose Eau de Parfum",
+   "categoria": "arabes",
+   "subcategoria": null,
+   "genero": null,
+   "variantes": [
+    {
+     "medida": "100 ml",
+     "preco": null,
+     "sku": null,
+     "medida_origem": null,
+     "confirmar": false
+    }
+   ],
+   "foto": "imagens/web/lattafa-yara-rose.webp",
+   "foto_origem": null,
+   "foto_tamanho": [
+    694,
+    519
+   ],
+   "foto_recortada": true,
+   "foto_motivo": null,
+   "selo": null,
+   "fonte": {
+    "tipo": "casa",
+    "loja": null,
+    "handle": null,
+    "marca_dagua": false
+   },
+   "notas": null,
+   "descricao": null
+  }
+ ]
+}

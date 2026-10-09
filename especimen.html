@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Espécime · três direções</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --marfim:#F7F4EF; --taupe:#E7E0D7; --tinta:#141215;
+    --garrafa:#123B33; --bronze:#A97A4F; --bronze-texto:#8F6743;
+    --texto:#1A1819; --texto-2:#66605C; --fio:rgba(20,18,21,.12);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--marfim);color:var(--texto)}
+  .par{display:grid;grid-template-columns:repeat(3,1fr)}
+  .lado{padding:38px 30px 54px}
+  .lado+.lado{border-left:1px solid var(--fio)}
+  .cab{font:500 10.5px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--bronze-texto);margin:0 0 6px}
+  .nome{font:400 13.5px/1.45 'DM Sans',sans-serif;color:var(--texto-2);margin:0 0 34px;min-height:40px}
+
+  /* A — DM Sans + Fraunces */
+  .a .hero{font-family:Fraunces,serif;font-variation-settings:'opsz' 120,'WONK' 0,'SOFT' 0;font-weight:400;font-size:46px;line-height:1;letter-spacing:-.022em;margin:0 0 14px}
+  .a .linha{font:400 15px/1.6 'DM Sans',sans-serif;color:var(--texto-2);margin:0 0 30px}
+  .a .prat{font:600 26px/1.08 'DM Sans',sans-serif;letter-spacing:-.03em;margin:0 0 8px}
+  .a .cat{font:500 16px/1.2 'DM Sans',sans-serif;letter-spacing:-.012em}
+  .a .marca{font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--texto-2)}
+  .a .prod{font:400 15px/1.34 'DM Sans',sans-serif;margin:7px 0 10px}
+  .a .preco{font:600 19px/1 'DM Sans',sans-serif;letter-spacing:-.028em}
+  .a .parc{font:400 12.5px/1 'DM Sans',sans-serif;color:var(--texto-2);margin-top:5px}
+  .a .cta{font:600 12px/1 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase}
+
+  /* B — Manrope + Bodoni Moda */
+  .b .hero{font-family:'Bodoni Moda',serif;font-variation-settings:'opsz' 96;font-weight:400;font-size:46px;line-height:1.02;letter-spacing:-.012em;margin:0 0 14px}
+  .b .linha{font:400 15px/1.6 Manrope,sans-serif;color:var(--texto-2);margin:0 0 30px}
+  .b .prat{font:600 26px/1.08 Manrope,sans-serif;letter-spacing:-.034em;margin:0 0 8px}
+  .b .cat{font:500 16px/1.2 Manrope,sans-serif;letter-spacing:-.014em}
+  .b .marca{font:600 10px/1 Manrope,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--texto-2)}
+  .b .prod{font:400 15px/1.34 Manrope,sans-serif;margin:7px 0 10px}
+  .b .preco{font:700 19px/1 Manrope,sans-serif;letter-spacing:-.032em}
+  .b .parc{font:400 12.5px/1 Manrope,sans-serif;color:var(--texto-2);margin-top:5px}
+  .b .cta{font:700 12px/1 Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+
+  /* C — DM Sans + Newsreader */
+  .c .hero{font-family:Newsreader,serif;font-variation-settings:'opsz' 72;font-weight:400;font-size:47px;line-height:1.02;letter-spacing:-.018em;margin:0 0 14px}
+  .c .linha{font:400 15px/1.6 'DM Sans',sans-serif;color:var(--texto-2);margin:0 0 30px}
+  .c .prat{font:600 26px/1.08 'DM Sans',sans-serif;letter-spacing:-.03em;margin:0 0 8px}
+  .c .cat{font:500 16px/1.2 'DM Sans',sans-serif;letter-spacing:-.012em}
+  .c .marca{font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--texto-2)}
+  .c .prod{font:400 15px/1.34 'DM Sans',sans-serif;margin:7px 0 10px}
+  .c .preco{font:600 19px/1 'DM Sans',sans-serif;letter-spacing:-.028em}
+  .c .parc{font:400 12.5px/1 'DM Sans',sans-serif;color:var(--texto-2);margin-top:5px}
+  .c .cta{font:600 12px/1 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase}
+
+  .faixa{background:var(--garrafa);color:var(--marfim);padding:22px 24px;margin:0 0 30px}
+  .faixa .prat{color:#fff;margin:0 0 6px}
+  .faixa .linha{color:rgba(247,244,239,.8);margin:0;font-size:14px}
+  .grade{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 28px}
+  .cartao{background:#fff;padding:11px 11px 14px}
+  .poco{background:var(--taupe);aspect-ratio:1;display:grid;place-items:center;margin-bottom:11px}
+  .poco img{width:76%;height:76%;object-fit:contain}
+  .rod{border-top:1px solid var(--fio);padding-top:9px;margin-top:9px}
+  .cta{display:inline-block;background:var(--tinta);color:#fff;padding:14px 24px}
+  .cats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 28px}
+  .cats div{background:var(--taupe);padding:14px 14px 16px}
+  .cats .med{display:block;font:400 11.5px/1.4 'DM Sans',sans-serif;color:var(--texto-2);margin-top:4px}
+  .b .cats .med{font-family:Manrope,sans-serif}
+</style>
+</head>
+<body>
+<div class="par">
+
+  <section class="lado a">
+    <p class="cab">Direção A</p>
+    <p class="nome">DM Sans + Fraunces<br>Display contemporânea, variável, sem citação histórica</p>
+    <h1 class="hero">As grifes que você já conhece pelo nome.</h1>
+    <p class="linha">Cinco casas que dispensam apresentação, reunidas na mesma prateleira.</p>
+    <div class="faixa"><h2 class="prat">Perfumaria importada</h2><p class="linha">Os frascos que a cliente já procura pelo nome.</p></div>
+    <h2 class="prat">Perfumaria árabe</h2>
+    <div class="grade">
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-yara.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Yara Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 280,00</div><div class="parc">3x de R$ 93,33 sem juros</div></div></div>
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-khamrah.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Khamrah Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 349,00</div><div class="parc">3x de R$ 116,33 sem juros</div></div></div>
+    </div>
+    <div class="cats"><div><span class="cat">Rosto</span><span class="med">Sérum, toner, máscara</span></div><div><span class="cat">Mãos e pés</span><span class="med">Creme, esfoliante</span></div></div>
+    <span class="cta">Adicionar à sacola</span>
+  </section>
+
+  <section class="lado b">
+    <p class="cab">Direção B</p>
+    <p class="nome">Manrope + Bodoni Moda<br>Alto contraste de revista de moda</p>
+    <h1 class="hero">As grifes que você já conhece pelo nome.</h1>
+    <p class="linha">Cinco casas que dispensam apresentação, reunidas na mesma prateleira.</p>
+    <div class="faixa"><h2 class="prat">Perfumaria importada</h2><p class="linha">Os frascos que a cliente já procura pelo nome.</p></div>
+    <h2 class="prat">Perfumaria árabe</h2>
+    <div class="grade">
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-yara.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Yara Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 280,00</div><div class="parc">3x de R$ 93,33 sem juros</div></div></div>
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-khamrah.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Khamrah Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 349,00</div><div class="parc">3x de R$ 116,33 sem juros</div></div></div>
+    </div>
+    <div class="cats"><div><span class="cat">Rosto</span><span class="med">Sérum, toner, máscara</span></div><div><span class="cat">Mãos e pés</span><span class="med">Creme, esfoliante</span></div></div>
+    <span class="cta">Adicionar à sacola</span>
+  </section>
+
+  <section class="lado c">
+    <p class="cab">Direção C</p>
+    <p class="nome">DM Sans + Newsreader<br>Serifada editorial desenhada para tela</p>
+    <h1 class="hero">As grifes que você já conhece pelo nome.</h1>
+    <p class="linha">Cinco casas que dispensam apresentação, reunidas na mesma prateleira.</p>
+    <div class="faixa"><h2 class="prat">Perfumaria importada</h2><p class="linha">Os frascos que a cliente já procura pelo nome.</p></div>
+    <h2 class="prat">Perfumaria árabe</h2>
+    <div class="grade">
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-yara.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Yara Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 280,00</div><div class="parc">3x de R$ 93,33 sem juros</div></div></div>
+      <div class="cartao"><div class="poco"><img src="imagens/web/lattafa-khamrah.webp" alt=""></div><span class="marca">Lattafa</span><h3 class="prod">Khamrah Eau de Parfum 100ml</h3><div class="rod"><div class="preco">R$ 349,00</div><div class="parc">3x de R$ 116,33 sem juros</div></div></div>
+    </div>
+    <div class="cats"><div><span class="cat">Rosto</span><span class="med">Sérum, toner, máscara</span></div><div><span class="cat">Mãos e pés</span><span class="med">Creme, esfoliante</span></div></div>
+    <span class="cta">Adicionar à sacola</span>
+  </section>
+
+</div>
+</body>
+</html>

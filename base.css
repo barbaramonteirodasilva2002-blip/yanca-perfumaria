@@ -2536,3 +2536,117 @@ h1, h2, h3, h4 {
   ::view-transition-old(root),
   ::view-transition-new(root) { animation-duration: 0.3s; }
 }
+
+/* ---------- cena editorial com frasco ----------
+   O palco de banner mostra arte pronta. Esta variante mostra PRODUTO: um
+   frasco só, grande, sobre chão de cor, com nome, marca e um caminho para
+   comprar. É a forma que a referência usa e que o enfileirado não alcança,
+   porque nove produtos lado a lado em 375px não vendem nenhum.
+
+   O frasco é posicionado, não dimensionado por porcentagem, pela mesma conta
+   que o cartão de marca já usa: `--alvo` é a altura que o PRODUTO deve ter na
+   tela, `--p-alt` é quanto do arquivo o produto ocupa, então a altura do
+   arquivo é a divisão das duas. Sem isso, um frasco com folga no arquivo
+   aparece menor que um sem folga, e a fileira fica desalinhada. */
+/* As duas medidas moram na CENA, e nao no frasco: a sombra e irma do frasco,
+   nao filha, entao declarar nele deixaria a sombra com o valor de reserva e
+   as duas sairiam de lugares diferentes. */
+.cena--frasco {
+  min-height: clamp(520px, 72vh, 720px);
+  --alvo: 58%;          /* altura do produto na cena */
+  --linha: 74%;         /* onde ele apoia */
+}
+.cena--frasco .cena__grade { grid-template-columns: minmax(0, 46%); }
+.cena--frasco .cena__grade::before { display: none; }
+
+.cena__frasco {
+  position: absolute; z-index: 0;
+  right: 9%;
+  width: auto;
+  height: calc(var(--alvo) / var(--p-alt, 0.85));
+  top: calc(var(--linha) - (var(--alvo) / var(--p-alt, 0.85)) * var(--p-base, 0.855));
+  object-fit: contain;
+  filter: drop-shadow(0 28px 34px var(--sombra, rgba(0, 0, 0, 0.5)));
+}
+
+/* A sombra de contato é elíptica e fica no CSS, não assada no pixel, para
+   poder acompanhar o frasco quando ele se mexe. Mesma decisão do cartão. */
+.cena__chao {
+  position: absolute; z-index: 0; left: auto; right: 9%;
+  top: var(--linha, 74%);
+  width: calc(var(--alvo, 58%) * 0.52);
+  height: calc(var(--alvo, 58%) * 0.085);
+  translate: 0 -50%;
+  background: radial-gradient(closest-side ellipse at 50% 50%,
+    var(--sombra, rgba(0, 0, 0, 0.5)) 0%,
+    color-mix(in srgb, var(--sombra, rgba(0,0,0,0.5)) 55%, transparent) 48%,
+    transparent 100%);
+  pointer-events: none;
+}
+
+/* O frasco respira ao entrar, uma vez só e curto: sobe dois por cento e
+   assenta. Não é flutuação contínua, que é o que transforma vitrine em
+   protetor de tela. */
+@media (prefers-reduced-motion: no-preference) {
+  .cena--frasco .cena__frasco {
+    animation: frasco-assenta 0.9s var(--saida) both;
+  }
+}
+@keyframes frasco-assenta {
+  from { opacity: 0; translate: 0 3%; }
+  to   { opacity: 1; translate: 0 0; }
+}
+
+@media (max-width: 860px) {
+  /* Em pé o frasco vai para o centro, na metade de cima, e o texto fica
+     embaixo dele. Lado a lado não cabe: frasco à direita num celular deixa
+     metade da tela vazia e a outra metade apertada.
+
+     A primeira versão punha os dois no meio e o texto caía EM CIMA do
+     frasco, com o pé do frasco ainda passando por baixo da barra de abas.
+     Agora a cena ancora o texto no pé, o frasco apoia aos 60% e a barra de
+     abas tem folga reservada. */
+  .cena--frasco {
+    min-height: clamp(620px, 84vh, 820px);
+    align-items: end;
+    --alvo: 40%; --linha: 60%;
+  }
+  .cena--frasco .cena__grade {
+    grid-template-columns: minmax(0, 100%);
+    padding-block: 0 78px;
+  }
+  .cena__frasco { right: auto; left: 50%; translate: -50% 0; }
+  .cena__chao   { right: auto; left: 50%; translate: -50% -50%; }
+  /* O véu não entra aqui. Ele existe para a palavra ficar legível sobre
+     fotografia qualquer, e a 72% de verde escuro ele apagava o frasco.
+     Pior: a cena clara tem texto ESCURO, e o véu escuro por baixo dele
+     inverteria o contraste em vez de salvar. Aqui o fundo é gradiente
+     nosso, o texto fica abaixo do frasco e cada cena já traz a cor de
+     texto provada contra o próprio chão. Medido adiante. */
+  .cena--frasco .cena__grade::before { display: none; }
+  @media (prefers-reduced-motion: no-preference) {
+    .cena--frasco .cena__frasco { animation-name: frasco-assenta-pe; }
+  }
+  @keyframes frasco-assenta-pe {
+    from { opacity: 0; translate: -50% 3%; }
+    to   { opacity: 1; translate: -50% 0; }
+  }
+}
+
+/* O botão da cena precisa de contorno próprio.
+
+   Ele é marfim, o que funciona sobre chão escuro: 18 de contraste contra a
+   cena árabe e 17 contra a de grife. Sobre a cena clara, porém, marfim sobre
+   rosa pálido mede 1.36, e a regra para contorno de controle é 3. Na prática
+   o botão deixava de ter forma e virava palavra solta no meio do fundo.
+
+   A linha usa a cor de texto da própria cena, que já é provada contra aquele
+   chão. Em cena escura ela é marfim sobre marfim e desaparece, que é o certo,
+   porque lá o botão já se resolve sozinho. Entra como sombra interna para não
+   empurrar o texto um pixel quando aparece. */
+.cena--frasco .acao {
+  /* 38% media 1.76 e continuava reprovando: misturada sobre o marfim do
+     botao a linha clareava demais. A 70% ela da 4.7 contra o rosa palido
+     e continua invisivel sobre chao escuro, que e o que se quer. */
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--sobre) 70%, transparent);
+}

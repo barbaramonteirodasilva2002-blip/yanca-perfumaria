@@ -265,3 +265,13 @@
     margin-inline: -2px;
   }
 }
+
+/* A ponta de chegada do frasco. O cartão da vitrine recebe este mesmo nome no
+   clique, e o navegador entende que é o mesmo objeto: em vez de uma página
+   sumir e outra aparecer, o frasco cresce do cartão para o retrato.
+
+   Fica sob movimento reduzido para que quem pediu menos animação receba a
+   troca simples, sem o objeto voando pela tela. */
+@media (prefers-reduced-motion: no-preference) {
+  .retrato img { view-transition-name: frasco; }
+}

@@ -1083,4 +1083,43 @@
       { passive: false }
     )
   })
+
+  /* 4. o frasco atravessa a troca de página.
+
+     A transição de documento é do navegador (`@view-transition` no CSS). O
+     que o script faz é só dizer QUAL frasco é o mesmo objeto nas duas
+     páginas: o do cartão que a pessoa clicou.
+
+     Duas travas, e as duas vêm de erro conhecido neste tipo de efeito:
+
+     1. o nome tem que ser único na página. Dois elementos com o mesmo nome
+        cancelam a transição inteira, então o nome anterior sai antes do novo
+        entrar. Sem isso, clicar num segundo cartão depois de voltar mataria
+        o efeito em silêncio;
+     2. voltar pelo histórico restaura a página do cache com o nome ainda
+        colado no cartão. Por isso `pageshow` limpa: senão o cartão de onde a
+        pessoa saiu fica marcado para sempre.
+
+     Clique com ctrl, cmd, shift ou botão do meio abre em outra aba e não
+     troca esta página: marcar o frasco ali seria sujar o cartão por nada. */
+  const limparFrasco = () => {
+    document.querySelectorAll('[data-frasco-ativo]').forEach((el) => {
+      el.style.viewTransitionName = ''
+      delete el.dataset.frascoAtivo
+    })
+  }
+  addEventListener('pageshow', limparFrasco)
+
+  if (document.startViewTransition) {
+    document.addEventListener('click', (e) => {
+      if (e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
+      const cartao = e.target.closest('a.peca')
+      if (!cartao || cartao.target === '_blank') return
+      const foto = cartao.querySelector('.peca__retrato img')
+      if (!foto) return
+      limparFrasco()
+      foto.style.viewTransitionName = 'frasco'
+      foto.dataset.frascoAtivo = ''
+    })
+  }
 })()

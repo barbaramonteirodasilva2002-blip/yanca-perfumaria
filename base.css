@@ -2473,3 +2473,66 @@ h1, h2, h3, h4 {
   .peca__retrato { margin-bottom: 14px; }
   .peca__marca { margin-top: 0; }
 }
+
+/* ---------- profundidade na rolagem das faixas ----------
+   A faixa de campanha é a única imagem grande no meio da página, e imagem
+   grande parada no meio de prateleira lê como anúncio colado. Aqui a arte
+   anda mais devagar que a página enquanto passa, e a diferença de velocidade
+   é o que dá profundidade: a faixa vira janela, não adesivo.
+
+   É animação de rolagem do próprio CSS, sem JavaScript e sem ouvinte de
+   scroll, então ela roda na linha de composição e não disputa a thread
+   principal com o resto da loja. Onde o navegador não tem `view()`, a arte
+   fica parada e a faixa continua inteira: o @supports garante que nada é
+   escondido à espera de um efeito que não vai acontecer.
+
+   Dez por cento de curso ao longo da passagem inteira. Pouco o bastante para
+   a pessoa sentir e não ver, que é a diferença entre profundidade e onda. */
+@keyframes faixa-profundidade {
+  from { translate: 0 -5%; }
+  to   { translate: 0 5%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .faixa-campanha__arte img {
+      /* 12% de folga cobre os 5% de curso de cada lado sem nunca descobrir
+         a borda da arte dentro da faixa. */
+      scale: 1.12;
+      animation: faixa-profundidade linear both;
+      animation-timeline: view();
+      animation-range: entry 0% exit 100%;
+      will-change: translate;
+    }
+  }
+}
+
+/* ---------- transição entre páginas ----------
+   Navegar numa loja é trocar de prateleira, não trocar de site. O corte seco
+   entre duas páginas que compartilham cabeçalho, papel e tipografia desfaz
+   essa sensação a cada clique.
+
+   `navigation: auto` é a transição de documento do próprio navegador: ela não
+   atrasa a navegação, não depende de JavaScript e não deixa página em branco
+   se algo falhar, porque quem orquestra é o navegador e não um temporizador
+   nosso. Sem suporte, a troca é a de sempre.
+
+   O cabeçalho ganha nome próprio para ficar parado durante a troca, em vez de
+   piscar junto com o corpo. É ele que diz à pessoa que ela continua na mesma
+   loja. */
+@view-transition { navigation: auto; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .amarracao { view-transition-name: cabecalho; }
+  ::view-transition-group(cabecalho) { animation-duration: 0.01s; }
+
+  /* O frasco é o mesmo objeto nas duas páginas, então ele não deve sumir e
+     renascer: ele cresce do cartão para o retrato. O nome é escrito pelo
+     script no cartão que foi clicado, e só nele, porque dois elementos com o
+     mesmo nome cancelam a transição inteira. */
+  ::view-transition-group(frasco) {
+    animation-duration: 0.42s;
+    animation-timing-function: var(--saida);
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation-duration: 0.3s; }
+}
